@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2005 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % smgMailDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smgMailDTD;
+]>
+
+<wizard id="smaugSetupWizard"
+        title="&smaug.setupWiz.title;"
+        onwizardnext="return onNext();"
+        onwizardback="return onBack();"
+        onload="onLoad();"
+        onwizardcancel="return onCancel();"
+        height="500px"
+        width="600px"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugCommon.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugKeygen.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugSetupWizard.js"/>
+
+  <broadcasterset>
+    <broadcaster id="bcKeyEnabled" properties=""/>
+  </broadcasterset>
+
+
+  <!-- Welcome Page -->
+  <wizardpage id="pgWelcome" pageid="pgWelcome"
+              next="pgInstallGnuPG"
+              onpageshow="wizardSetFocus()">
+    <description>
+      &smaug.setupWiz.pgWelcome.desc;
+    </description>
+    <separator/>
+
+    <label value="&smaug.setupWiz.pgWelcome.startNow;" control="startNow"/>
+    <radiogroup id="startNow" value="1">
+      <radio id="startNow_yes"
+             label="&smaug.setupWiz.pgWelcome.yes;"
+             selected="true"
+             oncommand="onSetStartNow(true)"
+             value="1"/>
+      <radio id="startNow_sel"
+             label="&smaug.setupWiz.pgWelcome.no;"
+             oncommand="onSetStartNow(false)"
+             value="0"/>
+    </radiogroup>
+  </wizardpage>
+
+
+  <!-- Optional Install GnuPG Page -->
+  <wizardpage id="pgInstallGnuPG" pageid="pgInstallGnuPG"
+              next="pgSelectId"
+              label="&smaug.setupWiz.pgInstall.title;"
+              description="&smaug.setupWiz.pgInstall.title;"
+              onpageshow="onShowPgInstallGnuPG()">
+
+    <description>
+      &smaug.setupWiz.pgInstall.desc;
+    </description>
+
+    <vbox id="installBox" collapsed="true">
+      <description>
+        &smaug.setupWiz.pgInstall.installDesc;
+      </description>
+      <hbox>
+        <button id="btnInstallGnupg" label="&smaug.setupWiz.pgInstall.installButton;" oncommand="installGnuPG()"/>
+        <button id="btnLocateGnuPG" label="&smaug.setupWiz.pgInstall.locateButton;" oncommand="wizardLocateGpg()"/>
+      </hbox>
+    </vbox>
+
+    <vbox id="findGpgBox" collapsed="true">
+      <description>
+        &smaug.setupWiz.pgInstall.locateDesc;
+      </description>
+      <hbox>
+        <button label="&smaug.setupWiz.pgInstall.locateButton;" oncommand="wizardLocateGpg()"/>
+      </hbox>
+    </vbox>
+
+    <vbox id="progressBox" collapsed="true">
+      <label id="downloadLabel" value="&smaug.setupWiz.pgInstall.downloadLabel;" control="progressBar"/>
+      <progressmeter id="downloadProgress" mode="determined" value="0"/>
+      <label value=""/>
+      <label id="installLabel" value="&smaug.setupWiz.pgInstall.installLabel;" collapsed="true"/>
+      <progressmeter id="installProgress" mode="undetermined" collapsed="true"/>
+      <label value=""/>
+      <label id="installComplete" value="&smaug.setupWiz.pgInstall.installDone;" collapsed="true"/>
+    </vbox>
+
+    <vbox id="gpgFoundBox" collapsed="true">
+      <label value="&smaug.setupWiz.pgInstall.gnupgFound;"/>
+    </vbox>
+  </wizardpage>
+
+
+  <!-- Select Account IDs Page -->
+  <wizardpage id="pgSelectId" pageid="pgSelectId" next="pgEncConv"
+              label="&smaug.setupWiz.pgSelectId.title;"
+              description="&smaug.setupWiz.pgSelectId.subtitle;">
+    <description>
+      &smaug.setupWiz.pgSelectId.desc;
+    </description>
+
+    <separator/>
+
+    <label value="&smaug.setupWiz.pgSelectId.allIds;" control="activateId"/>
+    <radiogroup id="activateId" value="1">
+      <radio id="activateId_all"
+             label="&smaug.setupWiz.yes;"
+             selected="true"
+             oncommand="disableIdSel(true)"
+             value="1"/>
+      <radio id="activateId_sel"
+             label="&smaug.setupWiz.pgSelectId.selectIds;"
+             oncommand="disableIdSel(false)"
+             value="0"/>
+    </radiogroup>
+    <groupbox height="60px" width="200px">
+      <vbox id="idSelection"/>
+    </groupbox>
+
+    <separator/>
+    <description>
+      &smaug.setupWiz.pgSelectId.note;
+    </description>
+  </wizardpage>
+
+
+  <!-- Encryption Prefs Page -->
+  <wizardpage id="pgEncConv" pageid="pgEncConv" next="pgSign"
+              label="&smaug.setupWiz.pgEncConv.title;"
+              description="&smaug.setupWiz.pgEncConv.subtitle;">
+    <description>
+      &smaug.setupWiz.pgEncConv.desc;
+    </description>
+    <separator/>
+    <label value="&smaug.setupWiz.pgEncConv.convEncMsg;" control="convEncryptMsg"/>
+    <radiogroup id="convEncryptMsg" value="0">
+      <radio id="convEncryptMsg_yes"
+             label="&smaug.setupWiz.pgEncConv.convYes;"
+             selected="true"
+             value="0"/>
+      <radio id="convEncryptMsg_yes"
+             label="&smaug.setupWiz.pgEncConv.convEncYes;"
+             value="1"/>
+      <radio id="convEncryptMsg_no"
+             label="&smaug.setupWiz.pgEncConv.convEncNo;"
+             value="2"/>
+    </radiogroup>
+  </wizardpage>
+
+
+  <!-- Signing Prefs Page -->
+  <wizardpage id="pgSign" pageid="pgSign" next="pgSettings"
+              label="&smaug.setupWiz.pgSign.title;"
+              description="&smaug.setupWiz.pgSign.subtitle;">
+    <description>
+      &smaug.setupWiz.pgSign.desc;
+    </description>
+    <separator/>
+    <label value="&smaug.setupWiz.pgSign.signMsg;" control="signMsg"/>
+    <radiogroup id="signMsg" value="1">
+      <radio id="signMsg_yes"
+             label="&smaug.setupWiz.pgSign.signYes;"
+             selected="true"
+             value="1"/>
+      <radio id="signMsg_no"
+             label="&smaug.setupWiz.pgSign.signNo;"
+             value="0"/>
+    </radiogroup>
+  </wizardpage>
+
+
+  <!-- Other Settings Page -->
+  <wizardpage id="pgSettings" pageid="pgSettings" next="pgKeySel"
+              label="&smaug.setupWiz.pgSettings.title;"
+              description="&smaug.setupWiz.pgSettings.subtitle;"
+              onpageshow="disableNext(false)">
+    <description>
+      &smaug.setupWiz.pgSettings.desc;
+    </description>
+    <separator/>
+    <description id="changeSettingsLabel">
+     &smaug.setupWiz.pgSettings.changePref;
+    </description>
+    <radiogroup id="changeSettings" value="1" aria-labelledby="changeSettingsLabel">
+      <hbox>
+        <radio id="changeSettings_yes"
+               label="&smaug.setupWiz.yes;"
+               selected="true"
+               value="1"/>
+        <button id="detailChanges" label="&smaug.setupWiz.pgSettings.details;"
+                oncommand="showPrefDetails()"/>
+      </hbox>
+      <radio id="changeSettings_no"
+             label="&smaug.setupWiz.no;"
+             value="0"/>
+    </radiogroup>
+  </wizardpage>
+
+
+  <!-- Select Keys Page -->
+  <wizardpage id="pgKeySel" pageid="pgKeySel"
+              next="pgSummary"
+              onpageshow="displayKeySel()"
+              label="&smaug.setupWiz.pgKeySel.title;"
+              description="&smaug.setupWiz.pgKeySel.subtitle;">
+    <description id="createPgpKeyLabel">
+      &smaug.setupWiz.pgKeySel.desc;
+    </description>
+    <radiogroup id="createPgpKey" value="0" aria-labelledby="createPgpKeyLabel">
+      <radio id="createPgpKey_no"
+             label="&smaug.setupWiz.pgKeySel.useExistingKey;"
+             oncommand="setUseKey()"
+             selected="true"
+             value="0"/>
+
+      <tree id="uidSelection"
+        hidecolumnpicker="false"
+        style="height:200px"
+        minwidth="450"
+        seltype="single"
+        onselect="onKeySelected();">
+
+        <treecols>
+          <treecol id="uidCol" primary="true"
+                   flex="1"
+                   ignoreincolumnpicker="true"
+                   label="&smaug.keyUserId.label;"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="keyCol" style="width:90px"
+                   label="&smaug.keyId.label;"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="expCol" style="width:70px"
+                   label="&smaug.created.label;"/>
+        </treecols>
+
+        <treechildren id="uidSelectionChildren"/>
+      </tree>
+
+      <separator/>
+
+      <radio id="createNewPgpKey"
+             label="&smaug.setupWiz.pgKeySel.newKey;"
+             oncommand="setNewKey()"
+             value="1"/>
+
+    </radiogroup>
+
+  </wizardpage>
+
+
+  <!-- Optional NoKeyFound Page -->
+  <wizardpage id="pgNoKeyFound" pageid="pgNoKeyFound"
+              next="pgKeyCreate"
+              onpageshow="disableNext(true)"
+              label="&smaug.setupWiz.pgNoKeyFound.title;"
+              description="&smaug.setupWiz.pgNoKeyFound.subtitle;">
+
+    <description id="noPgpKeyFoundLabel">
+      &smaug.setupWiz.pgNoKeyFound.desc;
+    </description>
+    <radiogroup id="newPgpKey" value="0" aria-labelledby="noPgpKeyFoundLabel">
+
+      <radio id="createNewPgpKey2"
+             label="&smaug.setupWiz.pgKeySel.newKey;"
+             oncommand="setNewKey()"
+             value="1"/>
+
+      <radio id="importPgpKeys"
+             label="&smaug.setupWiz.pgNoKeyFound.importKey;"
+             oncommand="setImportKeys()"
+             value="2"/>
+    </radiogroup>
+  </wizardpage>
+
+
+  <!-- Optional Create Key Page -->
+  <wizardpage id="pgKeyCreate" pageid="pgKeyCreate"
+              next="pgSummary"
+              onpageshow="displayKeyCreate()"
+              label="&smaug.setupWiz.pgKeyCreate.title;"
+              description="&smaug.setupWiz.pgKeyCreate.subtitle;">
+    <description>
+      &smaug.setupWiz.pgKeyCreate.desc1;
+    </description>
+    <separator/>
+    <description id="keyCreateDesc2">
+      &smaug.setupWiz.pgKeyCreate.desc2;
+    </description>
+    <separator/>
+    <vbox>
+      <label class="label" value="&smaug.keyUserId.label;:" control="userIdentity"/>
+      <hbox flex="1">
+        <menulist id="userIdentity" label="...">
+          <menupopup id="userIdentityPopup"/>
+        </menulist>
+      </hbox>
+    </vbox>
+    <label id="userIdentityLabel" value="" collapsed="true"/>
+
+    <vbox id="passphraseBox" align="start">
+      <label control="passphrase" value="&smaug.keyPassphrase.label;" />
+      <textbox id="passphrase" size="20" type="password" />
+      <label control="passphraseRepeat" value="&smaug.setupWiz.pgKeyCreate.passRepeat;" />
+      <textbox id="passphraseRepeat" size="20" type="password" />
+    </vbox>
+  </wizardpage>
+
+
+  <!-- Optional Import Key Page -->
+  <wizardpage id="pgKeyImport" pageid="pgKeyImport"
+              next="pgKeySel"
+              label="&smaug.setupWiz.pgKeyImport.title;"
+              onpageadvanced="return importKeyFiles()"
+              description="&smaug.setupWiz.pgKeyImport.subtitle;">
+    <description>
+      &smaug.setupWiz.pgKeyImport.desc;
+    </description>
+
+    <grid>
+      <columns>
+        <column/>
+        <column flex="1"/>
+      </columns>
+
+      <rows autostretch="never">
+        <row>
+          <hbox align="center">
+            <label class="label" value="&smaug.setupWiz.pgKeyImport.pubkeyFile;" id="publicKeysFileLbl"/>
+          </hbox>
+          <hbox align="center">
+            <textbox id="publicKeysFile" size="30" aria-labelledby="publicKeysFileLbl" readonly="true"/>
+            <button id="browsePubKeyFile"
+                    label="&smaug.browse.label;"
+              oncommand="browseKeyFile('publicKeysFile', gPubkeyFile);"/>
+          </hbox>
+        </row>
+
+        <row>
+          <hbox align="center">
+            <label class="label" value="&smaug.setupWiz.pgKeyImport.seckeyFile;" id="privateKeysFileLbl"/>
+          </hbox>
+          <hbox align="center">
+            <textbox id="privateKeysFile" size="30" aria-labelledby="privateKeysFileLbl" readonly="true"/>
+            <button id="browseSecKeyFile"
+                    label="&smaug.browse.label;"
+              oncommand="browseKeyFile('privateKeysFile', gSeckeyFile);"/>
+          </hbox>
+        </row>
+      </rows>
+    </grid>
+  </wizardpage>
+
+
+  <!-- Summary Page -->
+  <wizardpage id="pgSummary" pageid="pgSummary"
+              onpageshow="displayActions()"
+              next="pgComplete"
+              label="&smaug.setupWiz.pgSummary.title;"
+              description="&smaug.setupWiz.pgSummary.subtitle;">
+    <description>
+      &smaug.setupWiz.pgSummary.desc;
+    </description>
+    <separator/>
+    <vbox>
+      <label id="applyDesc1" collapsed="true"/>
+      <label id="applyDesc2" collapsed="true"/>
+      <label id="applyDesc3" collapsed="true"/>
+      <label id="applyDesc4" collapsed="true"/>
+      <label id="applyDesc5" collapsed="true"/>
+      <label id="applyDesc6" collapsed="true"/>
+      <label id="applyDesc7" collapsed="true"/>
+      <label id="applyDesc8" collapsed="true"/>
+      <label id="applyDesc9" collapsed="true"/>
+      <label id="applyDesc10" collapsed="true"/>
+    </vbox>
+  </wizardpage>
+
+
+  <!-- ??? Page -->
+  <wizardpage id="pgKeygen" pageid="pgKeygen"
+              onpageshow="wizardGenKey()"
+              next="pgComplete"
+              label="&smaug.setupWiz.pgKeygen.title;"
+              description="&smaug.setupWiz.pgKeygen.subtitle;">
+    <groupbox id="keygenConsoleBox" orient="vertical" flex="1">
+
+      <caption label="&smaug.keyGen.console.label;"/>
+
+      <description>&smaug.keygen.desc;</description>
+
+      <groupbox>
+        <progressmeter id="keygenProgress" mode="determined" value="0"/>
+      </groupbox>
+
+    </groupbox>
+  </wizardpage>
+
+
+  <!-- ??? Page -->
+  <wizardpage id="pgComplete" pageid="pgComplete"
+              onpageshow="applyWizardSettings()"
+              label="&smaug.setupWiz.pgComplete.title;">
+    <description>
+      &smaug.setupWiz.pgComplete.desc;
+    </description>
+  </wizardpage>
+
+
+  <!-- ??? Page -->
+  <wizardpage id="pgNoStart" pageid="pgNoStart"
+              label="&smaug.setupWiz.pgNoStart.title;">
+    <description>
+      &smaug.setupWiz.pgNoStart.desc;
+    </description>
+  </wizardpage>
+
+</wizard>

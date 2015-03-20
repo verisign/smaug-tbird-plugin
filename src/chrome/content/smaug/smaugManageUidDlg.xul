@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2004 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % smgMailDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smgMailDTD;
+]>
+
+<dialog id="smaugManageUidDlg"
+        title="&smaug.manageUidDlg.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        buttons="accept"
+        onload="onLoad();">
+
+  <vbox orient="vertical" flex="1">
+    <hbox align="center">
+      <label value="&smaug.manageUidDlg.affectedKey.label;"/>
+      <label id="keyId" value="?"/>
+    </hbox>
+    <separator/>
+    <label value="&smaug.manageUidDlg.availableUid.label;" control="uidList"/>
+    <listbox flex="1" id="uidList" style="height:100px"
+             seltype="single"
+             onselect="uidSelectCb()"
+             ondblclick="handleDblClick()"/>
+    <hbox>
+      <button id="addUid"
+              label="&smaug.manageUidDlg.addUid.label;"
+              oncommand="addUid()"/>
+      <button id="setPrimary"
+              label="&smaug.manageUidDlg.setPrimary.label;"
+              oncommand="setPrimaryUid()"/>
+      <button id="deleteUid"
+              label="&smaug.manageUidDlg.deleteUid.label;"
+              oncommand="deleteUid()"/>
+      <button id="revokeUid"
+              label="&smaug.manageUidDlg.revokeUid.label;"
+              oncommand="revokeUid()"/>
+    </hbox>
+    <vbox align="end">
+      <button dlgtype="accept" label="&smaug.keyMan.close.label;"/>
+    </vbox>
+  </vbox>
+
+  <script type="application/x-javascript">
+  <![CDATA[
+    Components.utils.import("resource://smaug/commonFuncs.jsm");
+    Components.utils.import("resource://smaug/smaugCommon.jsm");
+    Components.utils.import("resource://smaug/keyManagement.jsm");
+
+    const Ec = SmaugCommon;
+
+    function onLoad() {
+      window.arguments[1].refresh = false;
+      reloadUidList();
+      var keyId = window.smaugUid +" - 0x"+ window.arguments[0].keyId.substr(-8,8);
+      document.getElementById("keyId").value = keyId;
+
+      if (! window.arguments[0].ownKey) {
+        document.getElementById("addUid").setAttribute("disabled", "true");
+        document.getElementById("setPrimary").setAttribute("disabled", "true");
+        document.getElementById("revokeUid").setAttribute("disabled", "true");
+      }
+    }
+
+    function reloadUidList() {
+      var uidList=document.getElementById("uidList");
+      while (uidList.getRowCount()>0) {
+        uidList.removeItemAt(0);
+      }
+
+      var smaugSvc = Ec.getService();
+      if (!smaugSvc)
+        return;
+
+      var keyData = smaugSvc.getKeyDetails("0x"+window.arguments[0].keyId, false);
+      var uidTxt = "";
+
+      var keyList=keyData.split(/[\n\r]+/);
+      var uidNum=0;
+      for (var i=0; i < keyList.length; i++) {
+        var uidStr = keyList[i].split(/:/);
+        switch(uidStr[0]) {
+        case "uid":
+        case "uat":
+          ++uidNum;
+          if (uidStr[0]=="uid") {
+            uidTxt=Ec.convertGpgToUnicode(uidStr[9]).replace(/\\e3A/g, ":");
+            if (!window.smaugUid) {
+              window.smaugUid = uidTxt;
+            }
+          }
+          else{
+            if (uidStr[9].indexOf("1 ")==0) {
+              uidTxt=Ec.getString("userAtt.photo");
+            }
+          }
+          if (uidStr[1]=="r") {
+            uidTxt += " - "+Ec.getString("keyValid.revoked");
+            uidStr[0]=uidStr[0].replace(/^./,"r");
+          }
+          item=uidList.appendItem(uidTxt, uidStr[0]+":"+String(uidNum));
+          if (uidStr[1]=="r") {
+            item.setAttribute("class", "smaugUidInactive");
+          }
+          break;
+        }
+      }
+      uidSelectCb();
+    }
+
+    function handleDblClick() {
+      var uidList = document.getElementById("uidList")
+      if (uidList.selectedCount > 0) {
+        var selValue=uidList.selectedItem.value;
+        var uidType = selValue.substr(0,3);
+        if (uidType=="uat" || uidType=="rat") {
+          SmaugFuncs.showPhoto(window, window.arguments[0].keyId, window.smaugUid);
+        }
+      }
+    }
+
+    function uidSelectCb() {
+      var uidList = document.getElementById("uidList")
+      if (uidList.selectedCount > 0) {
+        var selValue=uidList.selectedItem.value;
+      }
+      else {
+        selValue="uid:1";
+      }
+      if (window.arguments[0].ownKey) {
+        var uidType = selValue.substr(0,3);
+        if (uidType=="uat" || uidType=="rat" || uidType=="rid" || selValue.substr(4)=="1") {
+          document.getElementById("setPrimary").setAttribute("disabled", "true");
+        }
+        else {
+          document.getElementById("setPrimary").removeAttribute("disabled");
+        }
+        if (selValue.substr(4)=="1") {
+          document.getElementById("deleteUid").setAttribute("disabled", "true");
+          document.getElementById("revokeUid").setAttribute("disabled", "true");
+        }
+        else {
+          document.getElementById("deleteUid").removeAttribute("disabled");
+          if (uidType=="rid" || uidType=="rat") {
+            document.getElementById("revokeUid").setAttribute("disabled", "true");
+          }
+          else {
+            document.getElementById("revokeUid").removeAttribute("disabled");
+          }
+        }
+      }
+      else {
+        if (selValue.substr(4)=="1") {
+          document.getElementById("deleteUid").setAttribute("disabled", "true");
+        }
+        else {
+          document.getElementById("deleteUid").removeAttribute("disabled");
+        }
+      }
+    }
+
+    function addUid() {
+      var inputObj = {
+        keyId: "0x"+window.arguments[0].keyId,
+        userId: window.smaugUid
+      };
+      var resultObj = { refresh: false };
+      window.openDialog("chrome://smaug/content/smaugAddUidDlg.xul",
+            "", "dialog,modal,centerscreen", inputObj, resultObj);
+      window.arguments[1].refresh = resultObj.refresh;
+      reloadUidList();
+    }
+
+    function setPrimaryUid() {
+      var smaugSvc = Ec.getService();
+      if (!smaugSvc)
+        return;
+      var errorMsgObj = new Object();
+      var uidList = document.getElementById("uidList");
+      if (uidList.selectedItem.value.substr(0,3)=="uid") {
+
+        SmaugKeyMgmt.setPrimaryUid(window,
+          "0x"+window.arguments[0].keyId,
+          uidList.selectedItem.value.substr(4),
+          function _cb(exitCode, errorMsg) {
+            if (exitCode == 0) {
+              Ec.alert(window, Ec.getString("changePrimUidOK"));
+              window.arguments[1].refresh = true;
+              reloadUidList();
+            }
+            else
+              Ec.alert(window, Ec.getString("changePrimUidFailed")+"\n\n"+errorMsg);
+          });
+      }
+    }
+
+    function revokeUid() {
+      var smaugSvc = Ec.getService();
+      if (!smaugSvc)
+        return;
+      var uidList = document.getElementById("uidList");
+      if (! Ec.confirmDlg(window, Ec.getString("revokeUidQuestion", uidList.selectedItem.label))) return;
+      if (uidList.selectedItem.value.substr(4)!="1") {
+        SmaugKeyMgmt.revokeUid(window,
+          "0x"+window.arguments[0].keyId,
+          uidList.selectedItem.value.substr(4),
+          function _cb (exitCode, errorMsg) {
+            if (exitCode == 0) {
+              Ec.alert(window, Ec.getString("revokeUidOK", uidList.selectedItem.label));
+              window.arguments[1].refresh = true;
+              reloadUidList();
+            }
+            else
+              Ec.alert(window, Ec.getString("revokeUidFailed", uidList.selectedItem.label)+"\n\n"+errorMsgObj.value);
+          });
+        if (r != 0) {
+          return;
+        }
+      }
+    }
+
+    function deleteUid() {
+      var smaugSvc = Ec.getService();
+      if (!smaugSvc)
+        return;
+      var uidList = document.getElementById("uidList");
+      if (! Ec.confirmDlg(window, Ec.getString("deleteUidQuestion", uidList.selectedItem.label))) return;
+      if (uidList.selectedItem.value.substr(4) != "1") {
+        SmaugKeyMgmt.deleteUid(window,
+          "0x"+window.arguments[0].keyId,
+          uidList.selectedItem.value.substr(4),
+          function _cb (exitCode, errorMsg) {
+            if (exitCode == 0) {
+              Ec.alert(window, Ec.getString("deleteUidOK", uidList.selectedItem.label));
+              window.arguments[1].refresh = true;
+              reloadUidList();
+            }
+            else
+              Ec.alert(window, Ec.getString("deleteUidFailed", uidList.selectedItem.label)+"\n\n"+errorMsgObj.value);
+          });
+      }
+    }
+  ]]>
+  </script>
+
+</dialog>
+

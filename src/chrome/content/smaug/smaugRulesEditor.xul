@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2004 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % smgMailDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smgMailDTD;
+]>
+
+<dialog id="smaugRulesEditor"
+        title="&smaug.rulesEditor.label;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onload="smaugDlgOnLoad();"
+        minheight="300"
+        buttons="accept,cancel,help"
+        persist="screenX screenY width height"
+        ondialogaccept="return smaugDlgOnAccept();"
+        ondialoghelp="SmgHelpWindow('rulesEditor');">
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugCommon.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugRulesEditor.js"/>
+
+  <groupbox width="700px" flex="1">
+    <vbox flex="1" align="stretch">
+      <hbox flex="0" align="center">
+        <label value="&smaug.searchRule.label;" control="filterEmail"/>
+        <textbox id="filterEmail" type="search" size="30"
+          oncommand="onSearchInput()" />
+      </hbox>
+      <hbox flex="1" >
+        <tree id="rulesTree" flex="1"
+              hidecolumnpicker="false"
+              seltype="single"
+              ondblclick="smgDoEdit()">
+          <treecols>
+            <treecol style="width:40px" id="negateRule" flex="0" label="&smaug.not.label;" persist="width"
+                     hidden="true" ignoreincolumnpicker="true"/>
+            <splitter class="tree-splitter"/>
+            <treecol style="width:150px" id="email" flex="1" label="&smaug.email.label;" persist="width"/>
+            <splitter class="tree-splitter"/>
+            <treecol style="width:140px" id="keys" flex="1" label="&smaug.pgpKeys.label;" persist="width"/>
+            <splitter class="tree-splitter"/>
+            <treecol style="width:70px" id="encrypt" flex="0" label="&smaug.encrypt.label;" persist="width"/>
+            <splitter class="tree-splitter"/>
+            <treecol style="width:70px" id="sign" flex="0" label="&smaug.sign.label;" persist="width"/>
+            <splitter class="tree-splitter"/>
+            <treecol style="width:70px" id="pgpMime" flex="0" label="&smaug.pgpMime.label;" persist="width"/>
+          </treecols>
+          <treechildren id="rulesTreeChildren" properties=""/>
+        </tree>
+        <vbox>
+          <button label="&smaug.add.label;"
+                  accesskey="&smaug.add.accesskey;"
+                  oncommand="smgDoAdd();"/>
+          <button label="&smaug.edit.label;"
+                  accesskey="&smaug.edit.accesskey;"
+                  oncommand="smgDoEdit();"/>
+          <button label="&smaug.delete.label;"
+                  accesskey="&smaug.delete.accesskey;"
+                  oncommand="smgDoDelete();"/>
+          <separator/>
+          <button label="&smaug.moveUp.label;"
+                  accesskey="&smaug.moveUp.accesskey;"
+                  oncommand="smgDoMoveUp();"/>
+          <button label="&smaug.moveDown.label;"
+                  accesskey="&smaug.moveDown.accesskey;"
+                  oncommand="smgDoMoveDown();"/>
+        </vbox>
+      </hbox>
+    </vbox>
+  </groupbox>
+</dialog>

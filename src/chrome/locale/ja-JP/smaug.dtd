@@ -1,0 +1,628 @@
+<!ENTITY smaug.keyMan.calcTrust.label "鍵の有効性">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "署名タイプ">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Smaug がより正確に動作するための電子メールの設定">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "メッセージ全体を署名/暗号化し、PGP/MIMEを使用して送信する">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "はい、ウィザードを使用して設定します。">
+<!ENTITY smaug.keyDetails.ownerTrust.label "所有者による信用">
+<!ENTITY smaug.encryptAttachSkipDlg.label "この選択を今後すべての添付に適用する">
+<!ENTITY smaug.ctxImportKey.label "OpenPGP鍵を読み込む">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "flowed text (RFC 2646) を無効にする">
+<!ENTITY smaug.cardPin.action.label "スマートカードの">
+<!ENTITY smaug.addToRule.title "この鍵を受取人ごとの設定に追加">
+<!ENTITY smaug.reload.accesskey "E">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "鍵サーバへ公開鍵をアップロード">
+<!ENTITY smaug.about.label "Smaug について">
+<!ENTITY smaug.keyGen.months.label "か月間">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "インポートする鍵の選択">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label "署名を検証する">
+<!ENTITY smaug.progress.label "実行中">
+<!ENTITY smaug.adminSmartCard.accesskey "M">
+<!ENTITY smaug.debugMenu.accesskey "g">
+<!ENTITY smaug.sending.label "送信">
+<!ENTITY smaug.clearSearch.accesskey "C">
+<!ENTITY smaug.keyPassphrase.label "パスフレーズ">
+<!ENTITY smaug.finallySignEncrypted.label "暗号化するメッセージに署名する">
+<!ENTITY smaug.cardPin.changePin.label "PIN を変更する">
+<!ENTITY smaug.smgAttachInlineEncrypt.label "添付ファイルは個別に暗号化し、インライン PGP を使用してメッセージを送信する">
+<!ENTITY smaug.keyMan.filter.label "次の文字列を含むユーザーID か鍵ID だけを表示:">
+<!ENTITY smaug.keyMan.importFromFile.label "鍵をファイルから読み込む">
+<!ENTITY smaug.seeAccountSettings.label "それぞれのアカウントに固有の Smaug 設定 (アカウント設定 → OpenPGP セキュリティ) も確認してください">
+<!ENTITY smaug.confirmBeforeSendingAlways.label "必ず確認する">
+<!ENTITY smaug.keyMan.sign.label "鍵に署名">
+<!ENTITY smaug.revealAttachments.button "ファイル名表示">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "はい、すべての送信メールに署名します">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "失効">
+<!ENTITY smaug.cancelKey.tooltip "鍵生成を中止します">
+<!ENTITY smaug.finalEncryptDefault.label "設定に従う">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "ウィザードを使用して今すぐ設定しますか？">
+<!ENTITY smaug.importMissingKeys.tooltip "持ってない鍵を鍵サーバから読み込みます">
+<!ENTITY smaug.keyTrust.dontKnow.label "知らない、または何とも言えない">
+<!ENTITY smaug.cardPin.newAdminPin.label "新しい管理者 PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "フォトID を表示">
+<!ENTITY smaug.keyDetails.expiry.label "有効期限">
+<!ENTITY smaug.keyMan.keyType.label "タイプ">
+<!ENTITY smaug.created.label "作成日">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "MIME パートの個別ダウンロード機能 (IMAP) を無効">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel "GnuPG のインストールを開始します。ウィザードに従ってください。">
+<!ENTITY smaug.keySel.label "鍵の選択">
+<!ENTITY smaug.sendPGPMime.label "PGP/MIME をこのメッセージに使用">
+<!ENTITY smaug.savedecrypted.label "復号したメッセージを保存">
+<!ENTITY smaug.userSelectionList.label "Smaug 鍵の選択">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "一応チェックしました">
+<!ENTITY smaug.edit.label "編集">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "生成">
+<!ENTITY smaug.setupWiz.pgSign.signMsg "送信メールへの署名についてどの設定をデフォルトとしますか？">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "署名が損なわれないように HTML テキストを再整形します">
+<!ENTITY smaug.decryptverify.label "復号/検証">
+<!ENTITY smaug.encDlgEncrypt.accesskey "E">
+<!ENTITY smaug.prefs.label "設定">
+<!ENTITY smaug.keyMan.changePwd.label "パスフレーズの変更">
+<!ENTITY smaug.finalSignNo.label "署名しない">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label "暗号化に関するデフォルトのルールが変更される場合に確認する">
+<!ENTITY smaug.keyGen.expire.label "鍵の有効期限">
+<!ENTITY smaug.encryption.label "暗号化">
+<!ENTITY smaug.keyTrust.fullTrust.label "完全に信用する">
+<!ENTITY smaug.addUidDlg.name.label "名前">
+<!ENTITY smaug.userSelSendSigned.accesskey "S">
+<!ENTITY smaug.matchEnd.label "で終わる">
+<!ENTITY smaug.pgpKeys.label "OpenPGP鍵">
+<!ENTITY smaug.amPrefPgpHeader.id.label "OpenPGP鍵ID ヘッダを追加">
+<!ENTITY smaug.assignKeysByRules.label "受取人ごとの設定">
+<!ENTITY smaug.moveUp.accesskey "U">
+<!ENTITY smaug.keyGen.keySize.label "暗号鍵長 (bit)">
+<!ENTITY smaug.basicUser.tooltip "上級者向けの設定やメニュー項目を隠したい場合にクリックしてください">
+<!ENTITY smaug.setupWiz.pgSettings.desc "このウィザードでは、お使いの PC で署名および暗号化が正しく動作するように、電子メールの設定を変える事ができます。これらの設定は、おそらく注意を払われることのない技術的なことがほとんどですが、一つ重要な設定として、デフォルトで (HTML形式ではなく) テキスト形式でメールを作成する事があげられます。">
+<!ENTITY smaug.cardDetails.male.label "男性">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label "メッセージ本文のみ暗号化および署名する">
+<!ENTITY smaug.encDlgSign.accesskey "S">
+<!ENTITY smaug.assignKeysByRules.tooltip "受取人ごとの設定に従い鍵を選択します。このオプションのみが指定されている場合、新しい設定を作成するためのプロンプトが強制的に開かれます">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(注意: もし矛盾が発生したら「常にしない」が「常にする」より優先されます)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "秘密鍵ファイル">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug セキュリティ情報...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "メッセージを暗号化しないで送信する場合に、署名/暗号化に関する確認ダイアログを表示します">
+<!ENTITY smaug.afterDefaultsAndRules.label "暗号化に応じた署名オプション:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "PGP/MIME メッセージを IMAP フォルダで受信している場合には、無効にしてください">
+<!ENTITY smaug.trustSenderKeyPopup.label "送信者の鍵に所有者の信用を付与...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "次の鍵に対する署名:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - 鍵への署名">
+<!ENTITY smaug.confirmBeforeSendingOption.label "送信前の確認">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>注意: 鍵生成には数分かかることがあります。</a>鍵生成中はアプリケーションを終了しないでください。終了時にはお知らせします。">
+<!ENTITY smaug.keyDetails.additionalUid.label "追加のユーザーID">
+<!ENTITY smaug.cardDetails.cardMenu.label "スマートカード">
+<!ENTITY smaug.finalSignYes.label "署名する">
+<!ENTITY smaug.keyMan.addPhoto.label "フォトID の追加">
+<!ENTITY smaug.cardDetails.female.label "女性">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "クリップボードから鍵を読み込む">
+<!ENTITY smaug.setDefaultsFor.label "各動作のデフォルト設定...">
+<!ENTITY smaug.changePasswd.title "OpenPGP パスフレーズの変更">
+<!ENTITY smaug.keyMan.viewSig.label "署名">
+<!ENTITY smaug.autoKeyRetrieve.label "署名を検証するために自動的に鍵を">
+<!ENTITY smaug.matchBegin.label "から始まる">
+<!ENTITY smaug.selKeysButton.label "鍵の選択...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "'OpenPGP' ヘッダを追加">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "新しい管理者 PIN (もう一度)">
+<!ENTITY smaug.signedsend.label "このメッセージに署名">
+<!ENTITY smaug.cardDetails.lang.label "言語">
+<!ENTITY smaug.messengermenu.accesskey "a">
+<!ENTITY smaug.keyDetails.size.label "鍵長">
+<!ENTITY smaug.userSelSendEncrypted.label "暗号化して送信">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "送信する前に HTML テキストを再整形">
+<!ENTITY smaug.genCardKey.title "OpenPGP鍵の生成">
+<!ENTITY smaug.ctxDecryptSave.accesskey "C">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes "常に暗号化する (プライバシーを重視)">
+<!ENTITY smaug.cardPin.currAdmPin.label "現在の管理者 PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "GnuPG をダウンロード...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP フォトID">
+<!ENTITY smaug.cardPin.newPin.label "新しい PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "添付ファイルは個別に署名/暗号化し、インライン PGP を使用してメッセージを送信する">
+<!ENTITY smaug.moveDown.accesskey "D">
+<!ENTITY smaug.keyservers.sample "例: pool.sks-keyservers.net, keys.gnupg.net">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "R">
+<!ENTITY smaug.userNoPassphrase.tooltip "OpenPGP鍵がパスフレーズで保護されていない場合にチェックしてください">
+<!ENTITY smaug.usePGPMimeAlways.label "デフォルトで PGP/MIME を使用する">
+<!ENTITY smaug.addPhoto.title "フォトID の追加">
+<!ENTITY smaug.resetPrefs.tooltip "Smaug の設定を初期値に戻します">
+<!ENTITY smaug.cardDetails.editData.label "カードデータの編集">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "R">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "署名される鍵:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "すべての ID に対して Smaug を設定します">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle "送信メールの暗号化">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; ElGamal">
+<!ENTITY smaug.keyMan.fingerprint.label "フィンガープリント">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label "暗号化しない場合に確認する">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "選択した公開鍵を更新する">
+<!ENTITY smaug.delete.label "削除">
+<!ENTITY smaug.keyId.label "鍵ID">
+<!ENTITY smaug.moreOptions.label "詳細設定">
+<!ENTITY smaug.keySearch.selectAll.key "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "注意深くチェックしました">
+<!ENTITY smaug.test.label "テスト">
+<!ENTITY smaug.debug.label "デバッグ">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "電子メールを署名/暗号化に使用する鍵の選択">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "を含む">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "検索語を入力してください">
+<!ENTITY smaug.cardDetails.encKey.label "暗号化用の鍵">
+<!ENTITY smaug.noHushMailSupport.tooltip "GnuPG に対して、'&lt;' と '&gt;' をメールアドレスを指定するために使用します。もし、受取人が古い Hushmail 鍵を使用している場合は無効にしください">
+<!ENTITY smaug.keyDetails.selAction.label "操作の選択...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "主に使用">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey "E">
+<!ENTITY smaug.setupWiz.title "Smaug セットアップ ウィザード">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label "鍵が見つからない場合は手動で選択">
+<!ENTITY smaug.keyDetails.userId.label "主に使うユーザーID">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "上級者向け Smaug 設定">
+<!ENTITY smaug.keyMan.genRevoke.label "失効証明書">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "D">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "鍵の生成">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "PIN の最大文字数">
+<!ENTITY smaug.decryptbutton.tip "Smaug で復号/検証を行う">
+<!ENTITY smaug.assignKeysByEmailAddr.label "メールアドレス">
+<!ENTITY smaug.cardDetails.no.label "いいえ">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "D">
+<!ENTITY smaug.keyGen.keyType.label "鍵のタイプ">
+<!ENTITY smaug.autoEncryptDrafts.label "下書きの保存時に暗号化する">
+<!ENTITY smaug.setupWiz.pgSign.title "署名">
+<!ENTITY smaug.encryptionModelManually.label "手動の暗号化設定">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "インストール...">
+<!ENTITY smaug.expertUserMenus.label "上級者向けの設定とメニューを表示">
+<!ENTITY smaug.keyDetails.keyId.label "鍵ID">
+<!ENTITY smaug.keyMan.viewMenu.label "表示">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "PIN の変更">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "OpenPGP鍵が見つかりませんでした。新しい鍵ペアを作成するか、既存の鍵をインポートするか選択してください">
+<!ENTITY smaug.resetRememberedValues.tooltip "過去に非表示にした警告や質問を再度表示するようにします">
+<!ENTITY smaug.msgViewColumn.tooltip "クリックすると OpenPGP ステータスで並べ替えます">
+<!ENTITY smaug.setupWiz.yes "はい">
+<!ENTITY smaug.sign.label "署名">
+<!ENTITY smaug.keyMan.createMail.label "選択した鍵に対してメッセージを作成する">
+<!ENTITY smaug.changePasswd.currPasswd.label "現在のパスフレーズ">
+<!ENTITY smaug.keyManWindow.accesskey "y">
+<!ENTITY smaug.maxIdleMinutes.tooltip "制限時間だけパスフレーズをメモリ上に一時的に保存します">
+<!ENTITY smaug.generateKey.label "鍵の生成">
+<!ENTITY smaug.composeOptionsMenu.accesskey "D">
+<!ENTITY smaug.cardPin.pinRepeat.label "新しい PIN (もう一度)">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc "Smaug は自動的に GnuPG をダウンロードし、インストーラを起動することができます。「インストール」ボタンをクリックして、ダウンロードおよびインストールを開始してください。
+                                                  <html:br/><html:br/>
+                                                  既に GnuPG をインストール済みの場合には「選択」ボタンをクリックして GnuPG の場所を指定してください。">
+<!ENTITY smaug.cardDetails.editData.accesskey "E">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "信用していない鍵を表示する">
+<!ENTITY smaug.generateKey.tooltip "OpenPGP に則った新しい鍵を署名/暗号化するため生成します">
+<!ENTITY smaug.keyserverDlg.label "鍵サーバの選択">
+<!ENTITY smaug.acceptedKeysOption.label "暗号化して送信する際に以下の鍵を受け入れる">
+<!ENTITY smaug.sKeyDlg.createLocal.label "ローカル署名 (エクスポート不可)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "鍵の選択方法の指定">
+<!ENTITY smaug.keyMan.keyserverMenu.label "鍵サーバ">
+<!ENTITY smaug.smgAttachNoneEncrypt.label "メッセージ本文のみ暗号化する">
+<!ENTITY smaug.editRules.label "受取人ごとの設定">
+<!ENTITY smaug.keyDetails.keyPart.label "鍵の種別">
+<!ENTITY smaug.copySecurityInfo.label "Smaug セキュリティ情報をコピー">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "ファイル">
+<!ENTITY smaug.maxIdleMinutesTail.label "分間記憶する">
+<!ENTITY smaug.confirmBeforeSendingNever.label "確認しない">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "下へ移動">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "暗号化も署名もしない">
+<!ENTITY smaug.cardDetails.serial.label "シリアルナンバー">
+<!ENTITY smaug.ctxDecryptSave.label "復号して名前をつけて保存...">
+<!ENTITY smaug.acceptedKeysValid.label "自分が信用できる鍵のみ">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "鍵の管理">
+<!ENTITY smaug.keyTrust.noTrust.label "信用しない">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "電子メール署名/暗号化に使用する鍵ペアを以下から選択します:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip "受取人ごとの設定に該当する場合を除いて、自動的に暗号化して送信しません">
+<!ENTITY smaug.keySelection.label "選択">
+<!ENTITY smaug.help.label "ヘルプ">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>注意：鍵生成には数分かかることがあります。</a>生成途中でアプリケーションを終了しないでください。生成途中でブラウザを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了すると通知します。">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Smaug セキュリティ設定">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "メッセージ作成に HTML 形式を使用しない">
+<!ENTITY smaug.maxIdleMinutesHead.label "パスフレーズを">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label "メッセージ全体を暗号化し、PGP/MIME を使用してメッセージを送信する">
+<!ENTITY smaug.encryptedsend.label "このメッセージを暗号化">
+<!ENTITY smaug.finalEncryptYes.label "暗号化する">
+<!ENTITY smaug.cardPin.currPin.label "現在の PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "ノーコメント">
+<!ENTITY smaug.defineRules.label "受取人ごとの設定...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "M">
+<!ENTITY smaug.keyMan.showAllKeys.label "デフォルトで全ての鍵を表示する">
+<!ENTITY smaug.keyMan.title "Smaug 鍵の管理">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "K">
+<!ENTITY smaug.finalEncryptNo.label "暗号化しない">
+<!ENTITY smaug.add.label "新規">
+<!ENTITY smaug.SendingPrefs.label "送信時の設定">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "GnuPG の場所を設定したい場合は、クリックしてください">
+<!ENTITY smaug.setupWiz.pgSelectId.title "ID の選択">
+<!ENTITY smaug.cardDetails.sigKey.label "署名用の鍵">
+<!ENTITY smaug.cardDetails.sex.label "性別">
+<!ENTITY smaug.cardPin.changeAdmPin.label "管理者 PIN を変更する">
+<!ENTITY smaug.keyserver.label "鍵サーバ">
+<!ENTITY smaug.encDlgEncrypt.label "メッセージの暗号化">
+<!ENTITY smaug.send.label "送信">
+<!ENTITY smaug.setupWiz.pgNoStart.title "ウィザードを中止">
+<!ENTITY smaug.defaultKeySelOpts.label "鍵選択オプション...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "鍵の選択">
+<!ENTITY smaug.amPrefDesc.label "OpenPGP によるメッセージの署名/暗号化のサポートは Smaug により提供されています。この機能を使用するには前もって GnuPG (gpg) をインストールする必要があります。">
+<!ENTITY smaug.smaugAttachDesc.label "このメッセージには添付ファイルがあります。暗号化および署名しますか？">
+<!ENTITY smaug.keyExpiry.expiryKey.label "有効期限を変更する鍵:">
+<!ENTITY smaug.adminSmartCard.label "スマートカードの管理...">
+<!ENTITY smaug.importMissingKeys.accesskey "D">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug が利用可能となりました。<html:br/><html:br/>この度は、Smaug をご利用いただきありがとうございます。">
+<!ENTITY smaug.cardDetails.name.label "名, 姓">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "削除">
+<!ENTITY smaug.usersNotFound.label "鍵が無効、信用していない、もしくは見つからない受取人">
+<!ENTITY smaug.manageUidDlg.addUid.label "追加">
+<!ENTITY smaug.keyMan.reload.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "「選択」ボタンから GnuPG の場所を指定してください。">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label "署名/暗号化しない">
+<!ENTITY smaug.importMissingKeys.label "持っていない鍵のダウンロード">
+<!ENTITY smaug.keyMan.keyDetails.key "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "公開鍵ファイル">
+<!ENTITY smaug.decryptbutton.label "復号">
+<!ENTITY smaug.signing.label "署名">
+<!ENTITY smaug.keygenTitle.label "OpenPGP鍵の生成">
+<!ENTITY smaug.smgEncryptAttachNone.label "メッセージ本文のみ署名/暗号化する">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "新しいパスフレーズ (もう一度)">
+<!ENTITY smaug.keyMan.viewSig.key "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' を署名の境界とする">
+<!ENTITY smaug.cardPin.title "スマートカードの PIN の変更">
+<!ENTITY smaug.keyTrust.title "Smaug - 所有者の信用付与">
+<!ENTITY smaug.viewconsole.label "コンソールを表示">
+<!ENTITY smaug.tempTrustAllKeys.label "すべての受取人の鍵を信頼する">
+<!ENTITY smaug.alwaysTrustSend.tooltip "鍵の有効性を判断するのに「信頼の輪」(Web of Trust) を使いません">
+<!ENTITY smaug.useNonDefaultComment.label "OpenPGP ブロックに Smaug のコメントを追加する">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "すべての送信メールをデフォルトで署名しますか？">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "公開鍵をクリップボードにコピー">
+<!ENTITY smaug.about.accesskey "b">
+<!ENTITY smaug.mime_parts_on_demand.label "開くときに初めて添付ファイルをダウンロード (IMAP 専用)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "一行に二つのハイフンしか無い場合は、署名ブロックとします">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label "暗号化する場合に確認する">
+<!ENTITY smaug.displayNoLonger.label "暗号化できない場合は、このダイアログは次から表示しない">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "インストールが完了しました。次に進んでセットアップを継続してください。">
+<!ENTITY smaug.keyMan.revokeKey.label "鍵を失効させる">
+<!ENTITY smaug.sKeyDlg.checked.label "あなたが署名しようとしている鍵が実際に上記の名前の人のものだとどのくらい注意して確かめましたか？">
+<!ENTITY smaug.keyGen.expiry.title "鍵の有効期限">
+<!ENTITY smaug.undoencryption.accesskey "U">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "無効な鍵を表示する">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "詳細...">
+<!ENTITY smaug.encrypt.label "暗号化">
+<!ENTITY smaug.cardDetails.login.label "ログインデータ">
+<!ENTITY smaug.autoSendEncryptedNever.label "自動的に暗号化しない">
+<!ENTITY smaug.setupWiz.pgSign.noSign "いいえ、署名が必要なメールには受取人ごとの設定を利用して署名します">
+<!ENTITY smaug.about.title "Smaug について">
+<!ENTITY smaug.createRuleFromAddr.label "アドレスから Smaug の受取人ごとの設定を作成...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label "詳細">
+<!ENTITY smaug.keyTrust.trustKey.label "信用する鍵:">
+<!ENTITY smaug.setupWiz.pgInstall.title "GnuPG が必要です">
+<!ENTITY smaug.action.label "動作">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "鍵の生成">
+<!ENTITY smaug.autoKeyRetrieve2.label "以下の鍵サーバからダウンロードする:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip "鍵の管理におけるメールアドレスへの関連付けに従い鍵を選択します">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "公開鍵はすべての電子メールをやりとりする人に公開する必要があります。公開鍵によって、受取人が署名を検証したり、メールを暗号化して送付してもらうことができます。その一方、秘密鍵は非公開にしなければなりません。どこかへやったり、保護されていないところへ放置してはいけません。そのような事をすると、暗号化して送付された電子メールを第三者に読まれてしまいますし、またあなたになりすまして誰かが電子メールを送信する事も可能となってしまいます。秘密鍵は、パスフレーズによって保護されます。">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label "添付ファイルは個別に暗号化および署名し、インライン PGP を使用してメッセージを送信する">
+<!ENTITY smaug.addUidDlg.title "Smaug - ユーザーID の追加">
+<!ENTITY smaug.keyDetails.keyType.label "タイプ">
+<!ENTITY smaug.keyGen.years.label "年間">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title "Smaug - 有効期限の変更">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - 受取人ごとの設定の編集">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug を使用することにより、電子メールにデジタル署名をする事ができます。これは、手紙にする手書きのサインや署名の電子版のようなものであり、第三者が電子メールが送信者本人から送られたことを検証できます。すべての送信メールに署名をすることは良い習慣と言えます。
+                                        <html:br/><html:br/>
+                                        あなたが署名したメールを検証するためには、OpenPGP 対応のメールクライアントが必要です。非対応のメールクライアントでは、メッセージ本文は読めますが、署名は添付ファイルあるいはメッセージ末尾に追加された無意味な文字列として表示されるため、これを嫌う人がいるかもしれません。すべての送信メールに署名するか、署名が必要なメールのみに署名するか選択できます。">
+<!ENTITY smaug.cardDetails.sigcount.label "署名回数">
+<!ENTITY smaug.addToRule.useRuleButton.label "選択した設定に追加">
+<!ENTITY smaug.encDlgSign.label "メッセージの署名">
+<!ENTITY smaug.keyGen.noExpiry.label "無期限">
+<!ENTITY smaug.keyPassphraseRepeat.label "パスフレーズ (確認)">
+<!ENTITY smaug.searchForKey.label "鍵の検索">
+<!ENTITY smaug.setupWiz.details.changingPrefs "この設定ウィザードは以下の設定を変更します:">
+<!ENTITY smaug.revealAttachmentsButton.label "添付ファイルの名前は非表示になっています。「ファイル名表示」をクリックして元の名前を取得できます。">
+<!ENTITY smaug.always.label "常にする">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "鍵をファイルへ書き出す">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "公開鍵をクリップボードにコピー">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "メッセージ全体を暗号化および署名し、PGP/MIME を使用してメッセージを送信する">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label "署名しない">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "鍵の有効性">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip "メッセージを暗号化して送信する場合に、署名/暗号化に関する確認ダイアログを表示します">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP オプション">
+<!ENTITY smaug.progressText.label "実行中:">
+<!ENTITY smaug.sepratationDesc.label "(複数のメールアドレスは、スペースで区切って入力してください)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "次の ID にのみ Smaug を設定します:">
+<!ENTITY smaug.disableSMIMEui.tooltip "S/MIME ボタンをメッセージ作成ウインドウのツールバーから隠します">
+<!ENTITY smaug.keyMan.changeExpiry.label "有効期限の変更">
+<!ENTITY smaug.keyMan.setTrust.label "所有者の信用を付与">
+<!ENTITY smaug.keyMan.showOthersKeys.label "自分以外の鍵を表示する">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "このウィザードは今すぐ Smaug を使い始めるお手伝いをします。以降のいくつかの画面ですべての項目を設定する為にいくつか質問をします。
+                                           <html:br/><html:br/>
+                                           高度なセキュリティを提供するための設定をデフォルトとしていますが、このウィザードの後に変更することができます。Smaug の設定の詳細は <a class='smaugLink'><html:a onclick='SmgOpenURL(event, this)' href='http://www.smaug.net/'>Smaug ウェブサイト</html:a></a> を参照してください。
+                                           <html:br/><html:br/>
+                                           このウィザードについて問題がある場合には <a class='smaugLink'><html:a href='mailto:smaug-users@smaug.net'>E メール</html:a></a> でお知らせください。
+                                           <html:br/><html:br/>
+                                           このウィザードは Smaug のインストール後の初回起動時に自動的に開始されます。Smaug メニューからも起動できます。
+                                           <html:br/><html:br/>
+                                           Smaug をご利用いただきありがとうございます。">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip "メッセージを送信する前に、署名/暗号化に関する確認ダイアログを表示します">
+<!ENTITY smaug.matchDescEnd.label "とき、ルールを適用">
+<!ENTITY smaug.keyMan.reload.label "鍵キャッシュの再読込">
+<!ENTITY smaug.viewconsole.accesskey "c">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "V">
+<!ENTITY smaug.keyNoPassphrase.label "パスフレーズ無し">
+<!ENTITY smaug.amPrefSelectKey.label "鍵の選択...">
+<!ENTITY smaug.moveUp.label "上へ移動">
+<!ENTITY smaug.cardDetails.yes.label "はい">
+<!ENTITY smaug.testemail.label "テストメール">
+<!ENTITY smaug.composeOptionsMenu.label "デフォルト作成オプション">
+<!ENTITY smaug.finallySignNotEncrypted.label "暗号化しないメッセージに署名する">
+<!ENTITY smaug.addToRule.newRuleButton.label "新しい設定の作成">
+<!ENTITY smaug.setupWiz.pgSummary.desc "設定はほとんど終了しました。「次へ」ボタンをクリックすると、ウィザードは以下の事を行います:">
+<!ENTITY smaug.clearSearch.label "クリア">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "鍵を削除">
+<!ENTITY smaug.keyMan.viewPhoto.label "フォトID">
+<!ENTITY smaug.smgAttachInlineSign.label "添付ファイルは個別に署名し、インライン PGP を使用してメッセージを送信する">
+<!ENTITY smaug.keyMan.delKey.accesskey "D">
+<!ENTITY smaug.viewdebuglog.label "ログファイルを表示">
+<!ENTITY smaug.manageUidDlg.title "主に使うユーザーID の変更">
+<!ENTITY smaug.useKeys.label "以下の OpenPGP鍵を使用する:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "送信メッセージを 8 ビットでエンコーディングする">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "S">
+<!ENTITY smaug.trustSenderKey.label "所有者の信用を付与...">
+<!ENTITY smaug.delete.accesskey "E">
+<!ENTITY smaug.encryptedsend.accesskey "E">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "P">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "鍵を読込中です。お待ち下さい...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip "メッセージを送信する前に、署名/暗号化に関する確認ダイアログを表示しません">
+<!ENTITY smaug.autoSendEncryptedOption.label "自動的に暗号化して送信">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "検索語に一致する鍵がありません">
+<!ENTITY smaug.importpublickey.label "公開鍵を読み込む">
+<!ENTITY smaug.matchDescStart.label "受取人が上記アドレス">
+<!ENTITY smaug.setupWiz.pgWelcome.no "いいえ、手動で設定します。">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "上級者向けの設定やメニュー項目を表示したい場合にクリックしてください">
+<!ENTITY smaug.keyMan.ownerTrust.label "所有者による信用度">
+<!ENTITY smaug.cardDetails.closeWindow.label "閉じる">
+<!ENTITY smaug.keyTrust.trustLevel.label "鍵の所有者が、他者の鍵に正しく署名するか否かについてどのくらい信用しますか？">
+<!ENTITY smaug.cardDetails.title "OpenPGP スマートカード詳細設定">
+<!ENTITY smaug.openpgpPrefsButton.label "Smaug 設定...">
+<!ENTITY smaug.keyMan.importFromServer.label "鍵の検索">
+<!ENTITY smaug.amPrefUseFromAddr.label "このアカウントのメールアドレスを OpenPGP鍵 の識別に使用">
+<!ENTITY smaug.agentAdditionalParam.tooltip "GnuPG で使用するオプションを設定します">
+<!ENTITY smaug.keyMan.close.label "ウインドウを閉じる">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "送信メールへのデジタル署名">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "すべての連絡先の鍵を検索する">
+<!ENTITY smaug.amPrefEnablePgp.label "この ID に対して Smaug による OpenPGP サポートを有効にする">
+<!ENTITY smaug.keyMan.exportToFile.label "ファイルへ鍵を書き出す">
+<!ENTITY smaug.cardPin.unblockPin.label "PIN のブロックを解除する">
+<!ENTITY smaug.keyMan.editMenu.label "編集">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Smaug で使用するアカウントもしくは ID の選択">
+<!ENTITY smaug.useGpgAgent.tooltip "すべてのパスフレーズの入力に gpg-agent (GnuPG 2 の機能) を使用します">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "お使いの PC で Smaug がより正確に動作するように、いくつかのデフォルト設定を変更しますか？">
+<!ENTITY smaug.cardDetails.forcepin.label "署名時の PIN 認証を強制">
+<!ENTITY smaug.rulesEditor.label "Smaug - 受取人ごとの設定">
+<!ENTITY smaug.searchKeyDlgSelAll.label "すべての鍵を選択/選択を解除">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "それぞれの受取人に対して 1 つ以上の有効な鍵を所持しており、受取人ごとの設定で暗号化しないことが指定されていない場合に自動的に暗号化して送信します">
+<!ENTITY smaug.searchKeyDlgCapt.label "鍵の検索結果の表示 - 読み込む鍵を選択してください">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "リセット">
+<!ENTITY smaug.valid.label "有効">
+<!ENTITY smaug.keyUserId.label "アカウント/ユーザーID">
+<!ENTITY smaug.cancelKey.label "中止">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label "可能ならば">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "電子メール署名/暗号化に使用する鍵ペアを新規に作成します">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "インストール済みの GnuPG を検出しました。">
+<!ENTITY smaug.finalPGPMimeNo.label "インライン PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc "Smaug を使用することにより、電子メール本文及び添付ファイルを暗号化する事ができます。暗号化は、手紙を封筒の中に入れるようなものです。これにより、メッセージに内容を秘密にすることができます。つまり暗号化は特に秘密のメッセージだけに使用するのではなく、はがきで送りたくないようなすべてのメッセージに対しても利用可能です。
+                                           <html:br/><html:br/>
+                                           メッセージを暗号化するためにはそれぞれの受取人の鍵が必要ですが、OpenPGP はまだ一般的ではないため、すべての受取人ではなく一部の受取人の鍵しか持っていないことがほとんどです。そのため、Smaug では可能な場合に自動的に暗号化を行う「標準の暗号化設定」を用意しています。この設定を利用せず、個々のメールに対して個別に暗号化するか否か決めることもできます。">
+<!ENTITY smaug.disableRules.label "受取人ごとの設定を無視">
+<!ENTITY smaug.basic.label "基本">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label "暗号化しない">
+<!ENTITY smaug.attachkey.accesskey "A">
+<!ENTITY smaug.setupWiz.pgComplete.title "お疲れさまでした">
+<!ENTITY smaug.displayKeyProperties.label "鍵のプロパティを表示">
+<!ENTITY smaug.agentAdditionalParam.label "GnuPG の追加パラメータ">
+<!ENTITY smaug.assignKeysManuallyAlways.label "送信前に必ず確認">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "現在、鍵を生成中です">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip "受取人ごとの設定あるいは自動暗号化の設定によって暗号化の指定が変更される場合に、署名/暗号化に関する確認ダイアログを表示します">
+<!ENTITY smaug.keyMan.addToPRRule.label "受取人ごとの設定の作成">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "詳細">
+<!ENTITY smaug.nextRule.label "該当するアドレスについては、次のルールを続いて適用">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "署名に使う鍵:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "インポートする鍵を持っています">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "確認のため、もう一度パスフレーズを入力してください">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "フィンガープリント:">
+<!ENTITY smaug.keyMan.keyProps.label "鍵のプロパティ">
+<!ENTITY smaug.keyMan.setTrust.accesskey "T">
+<!ENTITY smaug.keyMan.editMenu.accesskey "E">
+<!ENTITY smaug.attachmykey.label "自分の公開鍵の添付">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "作成日">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN 入力試行可能回数">
+<!ENTITY smaug.ctxDecryptOpen.label "復号して開く">
+<!ENTITY smaug.setupWiz.label "設定ウィザード">
+<!ENTITY smaug.genCardKey.backupKey.label "カードの外に鍵をバックアップする">
+<!ENTITY smaug.finalPGPMimeYes.label "PGP/MIME">
+<!ENTITY smaug.useForSigning.label "生成した鍵を選択したアカウントに使用する">
+<!ENTITY smaug.smgAttachNoneSign.label "メッセージ本文のみ署名する">
+<!ENTITY smaug.keyDetails.title "鍵のプロパティ">
+<!ENTITY smaug.amPrefUseKeyId.label "指定した OpenPGP鍵ID (例: 0x1234ABCD) を使用:">
+<!ENTITY smaug.keyMan.sendKeys.label "公開鍵をメールで送る">
+<!ENTITY smaug.smgAttachPgpMimeSign.label "メッセージ全体を署名し、PGP/MIMEを使用して送信する">
+<!ENTITY smaug.basicPrefs.label "基本設定">
+<!ENTITY smaug.acceptedKeysValid.tooltip "信頼の輪 (Web of Trust) に基づいて、偽物の鍵を排除することができます。あなた自身によって、あるいはあなたが信用する鍵によって署名された鍵のみを受け入れます。技術的には「有効な (valid)」鍵のみを受け入れます">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "上級者向け設定...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "絶対的に信用する">
+<!ENTITY smaug.defaultSigning.label "デフォルトで署名する">
+<!ENTITY smaug.keyDetails.fingerprint.label "フィンガープリント">
+<!ENTITY smaug.finalPGPMimeDefault.label "設定に従う">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc "Smaug を利用するためには、暗号処理のためのコンポーネントである GnuPG が必要です。インストール済みの GnuPG を探しましたが見つかりませんでした。">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "標準の暗号化設定">
+<!ENTITY smaug.showPhoto.label "OpenPGPフォトID を表示">
+<!ENTITY smaug.setupWiz.pgEncConv.title "暗号化">
+<!ENTITY smaug.useGpgAgent.label "gpg-agent でパスフレーズを扱う">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg "送信メールの暗号化についてどの設定をデフォルトとしますか？">
+<!ENTITY smaug.perRecipientsOption.label "受取人ごとの設定の作成">
+<!ENTITY smaug.sendOptionsMenu.label "送信オプション...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "OpenPGP鍵が見つかりません">
+<!ENTITY smaug.keyMan.stopTransfer.label "信用するのを止める">
+<!ENTITY smaug.refreshKeys.label "鍵リストの更新">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "選択...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "署名/暗号化されたメッセージに対して署名/暗号化して返信する">
+<!ENTITY smaug.addPhoto.question.label "この写真をフォトID として追加しますか？">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "可能であれば、署名/暗号化されたメッセージに対して署名/暗号化して返信します">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "すべての公開鍵を更新する">
+<!ENTITY smaug.cardDetails.authKey.label "認証用の鍵">
+<!ENTITY smaug.viewKeySigDlg.title "署名リスト">
+<!ENTITY smaug.cardDetails.vendor.label "製造者">
+<!ENTITY smaug.amPrefPgpHeader.url.label "鍵を取得するための URL をヘッダに追加:">
+<!ENTITY smaug.encryptionDlg.label "Smaug 暗号化および署名設定">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "メッセージ作成時に選択されていたらする">
+<!ENTITY smaug.keyTrust.marginalTrust.label "ある程度信用する">
+<!ENTITY smaug.prefs.pathsTitle.label "ディレクトリとファイル">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo "暗号化しない (メールごとの個別指定および受取人ごとの設定に従う)">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>注意:</a> Smaug は、有効無効に関わらずすべてのアカウントもしくは ID 宛のメールの署名を検証します。">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "U">
+<!ENTITY smaug.addUidDlg.comment.label "コメント (省略可能)">
+<!ENTITY smaug.setupWiz.no "いいえ">
+<!ENTITY smaug.alwaysTrustSend.label "常に他人の鍵を信頼する">
+<!ENTITY smaug.keyMan.viewSig.accesskey "S">
+<!ENTITY smaug.changePasswd.newPasswd.label "新しいパスフレーズ">
+<!ENTITY smaug.undoencryption.label "暗号化を元に戻す">
+<!ENTITY smaug.uidValidity.label "鍵の有効性">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "失効証明書を生成および保存">
+<!ENTITY smaug.cardDetails.reset.label "リセット">
+<!ENTITY smaug.keyMan.ctxViewSig.label "署名を表示">
+<!ENTITY smaug.acceptedKeysAll.tooltip "あなたによって無効化された、所有者によって失効された、あるいは有効期限が切れた鍵である場合を除いて自動的に暗号化します。信頼の輪 (Web of Trust) による検証を行わないため、偽物の鍵に対して暗号化を行ってしまい、正規の受取人ではない第三者によって暗号化したメッセージの内容を解読されてしまう可能性があります。しかし、暗号化しない場合と比較すれば安全です。技術的には GPG のオプション '--trust-model always' を用います">
+<!ENTITY smaug.pgpAccountSettings.label "署名/暗号化オプション...">
+<!ENTITY smaug.reload.label "メッセージを再読込">
+<!ENTITY smaug.browse.label "参照...">
+<!ENTITY smaug.passwordSettings.label "パスフレーズの設定">
+<!ENTITY smaug.keyDetails.algorithm.label "アルゴリズム">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "S">
+<!ENTITY smaug.cardDetails.keyCreated.label "作成日">
+<!ENTITY smaug.autoDecrypt.label "メッセージを自動的に復号/検証">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "OpenPGP鍵のインポート">
+<!ENTITY smaug.keyservers.label "鍵サーバを指定する (複数指定可)">
+<!ENTITY smaug.encDlgIgnoreRules.label "受取人ごとの設定を無視">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "利用可能なユーザーID:">
+<!ENTITY smaug.add.accesskey "A">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "鍵に署名...">
+<!ENTITY smaug.searchKeyDlg.label "OpenPGP鍵をダウンロード">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Smaug の設定にウィザードを使用しません。<html:br/><html:br/>この度は、Smaug をご利用いただきありがとうございます。">
+<!ENTITY smaug.signedsend.accesskey "S">
+<!ENTITY smaug.keyGen.console.label "鍵生成コンソール">
+<!ENTITY smaug.signSenderKeyPopup.label "送信者の鍵に署名...">
+<!ENTITY smaug.cardDetails.url.label "公開鍵の URL">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug の設定は、アカウントもしくは ID ごとに設定できます。デフォルトで Smaug はあなたのすべてのアカウントおよび ID で動作するように設定します。もし、それを望まないのであれば、Smaug で使用したい特定のアカウントもしくは ID を以下から選択してください。">
+<!ENTITY smaug.resetRememberedValues.label "警告をリセット">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "OpenPGP鍵が見つかりません">
+<!ENTITY smaug.cardDetails.save.label "保存">
+<!ENTITY smaug.prefs.overrideGpg.label "次の設定で上書き">
+<!ENTITY smaug.logdirectory.label "ログディレクトリ">
+<!ENTITY smaug.setupWiz.pgSummary.title "確認">
+<!ENTITY smaug.ruleEmail.label "対象とするメールアドレス">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "ウィザードは以下の設定を反映しようとしています。確認してください">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "テキストとしてメッセージ本文を表示する">
+<!ENTITY smaug.debugMenu.label "デバッグ">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "鍵サーバから公開鍵を更新">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "電子メールの署名/暗号化に使用する鍵の生成">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "パスフレーズの問い合わせをしない">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "変更する鍵:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "メッセージ作成時のデフォルトオプション">
+<!ENTITY smaug.sendersKeyMenu.label "送信者の鍵">
+<!ENTITY smaug.preferences.label "Smaug 設定">
+<!ENTITY smaug.clearPassphrase.label "パスフレーズのクリア">
+<!ENTITY smaug.setupWiz.pgSign.signYes "常に署名する">
+<!ENTITY smaug.setupWiz.pgSign.signNo "署名しない (メールごとの個別指定および受取人ごとの設定に従う)">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "電子メールの暗号化もしくは、暗号化された電子メールを読むためには、鍵ペアが必要です。鍵ペアとは、公開鍵と秘密鍵の二つです。">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "OpenPGP鍵を既にお持ちのようです。電子メールの署名/暗号化にそれらを利用することも、新規に作成する事もできます。">
+<!ENTITY smaug.noHushMailSupport.label "'&lt;' と '&gt;' をメールアドレスを指定するために使用する">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "インポートする公開鍵と秘密鍵のファイルを指定してください。公開鍵と秘密鍵がセットになっているファイルの場合には秘密鍵の欄を空白にしてください。">
+<!ENTITY smaug.basicUserMenus.label "上級者向けの設定とメニューを隠す">
+<!ENTITY smaug.finalSignDefault.label "設定に従う">
+<!ENTITY smaug.keyMan.refreshKey.key "R">
+<!ENTITY smaug.keyGen.days.label "日間">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "設定">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "R">
+<!ENTITY smaug.keyMan.generate.label "新しい鍵ペア">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "自分の公開鍵をメッセージに添付する">
+<!ENTITY smaug.encDlgPgpMime.label "PGP/MIME を使用">
+<!ENTITY smaug.keyMan.selectAll.label "すべての鍵を選択">
+<!ENTITY smaug.keyComment.label "コメント">
+<!ENTITY smaug.sKeyDlg.notChecked.label "全くチェックしていません">
+<!ENTITY smaug.keyDetails.usage.label "利用法">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "条件に適合する鍵が見つからない場合には手動で鍵を選択します">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "I">
+<!ENTITY smaug.addUidDlg.email.label "メールアドレス">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP セキュリティ">
+<!ENTITY smaug.nextAddress.label "該当するアドレスについては、これ以上のルールを適用しない">
+<!ENTITY smaug.setupWiz.details.subtitle "アプリケーションの設定を変更">
+<!ENTITY smaug.keyMan.uploadToServer.label "公開鍵をアップロード">
+<!ENTITY smaug.userSelSendSigned.label "署名して送信">
+<!ENTITY smaug.ruleEmail.tooltip "メールアドレスだけを入力してください。受取人の名前は含めないでください。 すなわち '日本 太郎 &lt;taro.nippon@address.net&lt;' は無効です。">
+<!ENTITY smaug.setupWiz.details.title "設定">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes "標準の暗号化設定">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip "送信前に鍵の選択ダイアログを必ず表示します">
+<!ENTITY smaug.help.accesskey "H">
+<!ENTITY smaug.email.label "メールアドレス">
+<!ENTITY smaug.attachkey.label "公開鍵の添付...">
+<!ENTITY smaug.not.label "Not">
+<!ENTITY smaug.keyExpiry.label "有効期限">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "ユーザーID">
+<!ENTITY smaug.keyMan.manageUid.label "ユーザーID の設定">
+<!ENTITY smaug.defaultEncryption.label "デフォルトで暗号化する">
+<!ENTITY smaug.never.label "常にしない">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "鍵の生成">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "P">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label "すべての鍵 (無効化、失効、期限切れを除く)">
+<!ENTITY smaug.matchExact.label "と同一の">
+<!ENTITY smaug.searchRule.label "次のメールアドレスを含むルールを表示:">

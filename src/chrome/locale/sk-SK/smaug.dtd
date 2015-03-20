@@ -1,0 +1,624 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Platnosť kľúča">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Typ podpisu">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Zmeniť nastavenie e-mailu pre spoľahlivejšiu funkčnosť Smaug">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Podpísať/šifrovať správu ako celok a odoslať pomocou PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Áno, budem rád, keď mi sprievodca pomôže začať.">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Dôveryhodnosť vlastníka">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Používať ďalej vybranú metódu pre všetky budúce prílohy">
+<!ENTITY smaug.ctxImportKey.label "Nahrať kľúč OpenPGP">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Zakázať pretekajúci text (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Čo chcete urobiť">
+<!ENTITY smaug.addToRule.title "Pridať kľúč k pravidlám pre príjemcu">
+<!ENTITY smaug.reload.accesskey "R">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Odoslať verejné kľúče na keyserver">
+<!ENTITY smaug.about.label "O Smaug">
+<!ENTITY smaug.keyGen.months.label "mesiace/ov">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Zadajte súbory, ktoré chcete importovať">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label "Skontrolovať podpis">
+<!ENTITY smaug.progress.label "Priebeh">
+<!ENTITY smaug.adminSmartCard.accesskey "M">
+<!ENTITY smaug.debugMenu.accesskey "g">
+<!ENTITY smaug.sending.label "Odosielanie">
+<!ENTITY smaug.clearSearch.accesskey "V">
+<!ENTITY smaug.keyPassphrase.label "Heslo">
+<!ENTITY smaug.finallySignEncrypted.label "podpíš zašifrované správy">
+<!ENTITY smaug.cardPin.changePin.label "Zmeniť PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Hľadať">
+<!ENTITY smaug.keyMan.importFromFile.label "Importovať kľúče zo súboru">
+<!ENTITY smaug.seeAccountSettings.label "Pozri taktiež špecifické nastavenia Smaug (vid Nastavenie účtov-&gt; OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Podpísať kľúč">
+<!ENTITY smaug.revealAttachments.button "Odhaliť">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Ano, prajem si podpisovať všetky svoje e-maily">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Zneplatniť">
+<!ENTITY smaug.cancelKey.tooltip "Zrušiť vytváranie kľúča">
+<!ENTITY smaug.finalEncryptDefault.label "Použi štandardy a pravidlá pre dešifrovanie">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Chcete teraz sprievodcu použiť?">
+<!ENTITY smaug.importMissingKeys.tooltip "Skúsiť importovať chýbajúce kľúče z keyservera">
+<!ENTITY smaug.keyTrust.dontKnow.label "Neviem">
+<!ENTITY smaug.cardPin.newAdminPin.label "Nový PIN správcu">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Zobraziť foto ID">
+<!ENTITY smaug.keyDetails.expiry.label "Koniec platnosti">
+<!ENTITY smaug.keyMan.keyType.label "Typ">
+<!ENTITY smaug.created.label "Vytvorený">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Zakázať sťahovanie oddielov IMAP na vyžiadanie">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel "Spúštam inštaláciu. Prosím pokračujte krokmi GnuPG inštalačného pomocníka.">
+<!ENTITY smaug.keySel.label "Výber kľúča">
+<!ENTITY smaug.sendPGPMime.label "Použiť PGP/MIME pre túto správu">
+<!ENTITY smaug.savedecrypted.label "Uložiť dešifrovanú správu">
+<!ENTITY smaug.userSelectionList.label "Výber kľúča Smaug">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Vykonal/a som orientačnú kontrolu">
+<!ENTITY smaug.edit.label "Upraviť">
+<!ENTITY smaug.keyMan.createMail.accesskey "V">
+<!ENTITY smaug.keyMan.generateMenu.label "Vytvoriť">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Znovu usporiadať text, aby bolo zaistené, že podpis zostane nedotknutý.">
+<!ENTITY smaug.decryptverify.label "Dešifrovať/Overiť">
+<!ENTITY smaug.encDlgEncrypt.accesskey "F">
+<!ENTITY smaug.prefs.label "Predvoľby...">
+<!ENTITY smaug.keyMan.changePwd.label "Zmeniť heslo">
+<!ENTITY smaug.finalSignNo.label "Vyžaduj nepodpisovať">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Platnosť kľúča skončí">
+<!ENTITY smaug.encryption.label "Šifrovanie">
+<!ENTITY smaug.keyTrust.fullTrust.label "Plne dôverujem">
+<!ENTITY smaug.addUidDlg.name.label "Meno">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "Končí na">
+<!ENTITY smaug.pgpKeys.label "OpenPGP kľúč(e)">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Poslať ID kľúča OpenPGP">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "H">
+<!ENTITY smaug.keyGen.keySize.label "Veľkosť kľúča">
+<!ENTITY smaug.basicUser.tooltip "Stlačte, ak nechcete vidieť položky menu a nastavenia pre pokročilých užívateľov.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Sprievodca môže zmeniť nastavenie e-mailu, aby zaistil, že podpisovanie a šifrovanie e-mailov na Vašom počítači bude prebiehať bez problémov. Tieto nastavenia sú z veľkej časti technického rázu, ani si ich nevšimnete. Dôležitá vec je, že e-maily budú v základnom nastavení vytvárané ako jednoduchý text.">
+<!ENTITY smaug.cardDetails.male.label "Muž">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "P">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(Upozornenie: 'Nikdy' v prípade konfliktu ruší 'Vždy')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Súbor so súkromným kľúčom">
+<!ENTITY smaug.pgpSecurityInfo.label "Informácia zabezpečenia Smaug ...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label "Po aplikácii štandardných nastavení a pravidiel:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Toto je potrebné vypnúť, ak príjmate PGP/MIME správy v IMAP zložkách.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Nastaviť dôveryhodnosť kľúča odosielateľa...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Podpisy pre kľúč:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - podpísať kľúč">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>Upozornenie: Vytváranie kľúča môže trvať niekoľko minút.</a> Neukončujte aplikáciu, pokiaľ prebieha vytváranie kľúčov. Na to, že je kľúč vytvorený, budete upozornený/a.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Doplnkové ID užívateľa">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label "Vyžaduj podpisovanie">
+<!ENTITY smaug.keyMan.addPhoto.label "Pridaj fotografiu">
+<!ENTITY smaug.cardDetails.female.label "Žena">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Importovať kľúče zo schránky">
+<!ENTITY smaug.setDefaultsFor.label "Predvolené pre ...">
+<!ENTITY smaug.changePasswd.title "Zmeniť heslo pre OpenPGP">
+<!ENTITY smaug.keyMan.viewSig.label "Podpisy">
+<!ENTITY smaug.autoKeyRetrieve.label "Automaticky sťahovať kľúče pre overenie podpisu">
+<!ENTITY smaug.matchBegin.label "Začína na">
+<!ENTITY smaug.selKeysButton.label "Vybrať kľúč(e)...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Poslať hlavičku OpenPGP">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Zopakovať nový PIN">
+<!ENTITY smaug.signedsend.label "Podpísať správu">
+<!ENTITY smaug.cardDetails.lang.label "Jazyk">
+<!ENTITY smaug.messengermenu.accesskey "E">
+<!ENTITY smaug.keyDetails.size.label "Veľkosť">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Znovu zalomiť podpísaný HTML text pred odosielaním">
+<!ENTITY smaug.genCardKey.title "Vytvoriť kľúč OpenPGP">
+<!ENTITY smaug.ctxDecryptSave.accesskey "C">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Súčasný PIN správcu">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "Sťahujem GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey "D">
+<!ENTITY smaug.photoViewer.title "OpenPGP prezerač fotografií">
+<!ENTITY smaug.cardPin.newPin.label "Nový PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Podpísať/šifrovať každú prílohu zvlášť a správu poslať ako vkladaný PGP (inline PGP)">
+<!ENTITY smaug.moveDown.accesskey "D">
+<!ENTITY smaug.keyservers.sample "Príklad: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "R">
+<!ENTITY smaug.userNoPassphrase.tooltip "Aktivovať, ak Váš OpenPGP kľúč nie je chránený heslom.">
+<!ENTITY smaug.usePGPMimeAlways.label "Vždy použiť PGP/MIME">
+<!ENTITY smaug.addPhoto.title "Pridať foto do kľúča">
+<!ENTITY smaug.resetPrefs.tooltip "Nastaviť všetky nastavenia Smaug naspäť na ich predvolené hodnoty.">
+<!ENTITY smaug.cardDetails.editData.label "Upraviť dáta karty">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "R">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "Kľúč k podpisu:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Chcete nastaviť Smaug pre všetky identity?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Odtlačok prstu">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Obnoviť vybrané verejné kľúče">
+<!ENTITY smaug.delete.label "Zmazať">
+<!ENTITY smaug.keyId.label "ID kľúča">
+<!ENTITY smaug.moreOptions.label "Ďalšie nastavenia">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Vykonal/a som dôkladnú kontrolu">
+<!ENTITY smaug.test.label "Test">
+<!ENTITY smaug.debug.label "Ladenie">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Vytvoriť kľúč pre podpisovanie a šifrovanie e-mailov">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "bsahuje">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Zadajte hľadaný výraz do poľa hore">
+<!ENTITY smaug.cardDetails.encKey.label "Kľúč šifrovania">
+<!ENTITY smaug.noHushMailSupport.tooltip "Použiť '&lt;' a '&gt;' znaky pre určenie e-mailovej adresy pre GnuPG. Zakážte, pokiaľ príjemca používa staré kľúče Hushmail.">
+<!ENTITY smaug.keyDetails.selAction.label "Vyberte akciu ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Nastaviť hlavnú">
+<!ENTITY smaug.setupWiz.accesskey "E">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Sprievodca nastavením Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Hlavné ID užívateľa">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Rozšírené nastavenie Smaug pre identitu">
+<!ENTITY smaug.keyMan.genRevoke.label "Revokačný certifikát">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "D">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Vytvoriť kľúč">
+<!ENTITY smaug.savedecrypted.accesskey "U">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Maximálna dĺžka PIN">
+<!ENTITY smaug.decryptbutton.tip "Dešifrovať alebo overiť správu pomocou Smaug">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Nie">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "Z">
+<!ENTITY smaug.keyGen.keyType.label "Typ kľúča">
+<!ENTITY smaug.autoEncryptDrafts.label "Zašifruj koncepty správ pri ukladaní">
+<!ENTITY smaug.setupWiz.pgSign.title "Podpisovanie">
+<!ENTITY smaug.encryptionModelManually.label "Ručné nastavenia šifrovania">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "Nainštalovať ...">
+<!ENTITY smaug.expertUserMenus.label "Zobraz Expertné nastavenia a menu">
+<!ENTITY smaug.keyDetails.keyId.label "ID kľúča">
+<!ENTITY smaug.keyMan.viewMenu.label "Zobraziť">
+<!ENTITY smaug.attachmykey.accesskey "J">
+<!ENTITY smaug.cardDetails.adminPin.label "Zmeniť PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Nenašli sme žiadny OpenPGP kľúč. Prosím, vyberte nižšie, ak chcete vytvoriť nový pár kľúčov, alebo ak chcete importovať existujúci kľúč.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Znovu zobraziť všetky varovné dialógy, správy a otázky, ktoré boli v minulosti skryté.">
+<!ENTITY smaug.msgViewColumn.tooltip "Zoradiť podľa stavu OpenPGP">
+<!ENTITY smaug.setupWiz.yes "Áno">
+<!ENTITY smaug.sign.label "Podpísať">
+<!ENTITY smaug.keyMan.createMail.label "Vytvoriť email na označené kľúče">
+<!ENTITY smaug.changePasswd.currPasswd.label "Súčasné heslo">
+<!ENTITY smaug.keyManWindow.accesskey "S">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Uchovať heslo v pamäti na obmedzenú dobu.">
+<!ENTITY smaug.generateKey.label "Generovať kľúč">
+<!ENTITY smaug.composeOptionsMenu.accesskey "N">
+<!ENTITY smaug.cardPin.pinRepeat.label "Zopakovať nový PIN">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc "Smaug môže stiahnuť GnuPG a spustiť jeho inštaláciu. Ak si to prajete, kliknite na tlačidlo inštalácie na stiahnutie a následnú inštaláciu GnuPG.">
+<!ENTITY smaug.cardDetails.editData.accesskey "E">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Zobraz nedôveryhodné kľúče">
+<!ENTITY smaug.generateKey.tooltip "Vytvára nový OpenPGP kompatibilný kľúč pre šifrovanie a/alebo podpisovanie">
+<!ENTITY smaug.keyserverDlg.label "Vybrať keyserver">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Lokálny podpis (nie je možné exportovať)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "Ako by sa mal zvoliť kľúč?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Keyserver">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Upraviť pravidlá pre príjemcov">
+<!ENTITY smaug.keyDetails.keyPart.label "Podkľúč">
+<!ENTITY smaug.copySecurityInfo.label "Kopírovať informácie zabezpečenia Smaug">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Súbor">
+<!ENTITY smaug.maxIdleMinutesTail.label "minút nečinnosti">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "Posuň dole">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Sériové číslo">
+<!ENTITY smaug.ctxDecryptSave.label "Dešifrovať a uložiť ako...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "Správa kľúčov">
+<!ENTITY smaug.keyTrust.noTrust.label "Nedôverujem">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Prajem si vyberať jeden z nižšie uvedených kľúčov pre podpisovanie a šifrovanie svojich správ:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip "Neposielaj automaticky zašifrované s výnimkou vyslovene špecifikované užívateľským pravidlom">
+<!ENTITY smaug.keySelection.label "Výber">
+<!ENTITY smaug.help.label "Nápoveda">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>Upozornenie: tvorba kľúča môže trvať niekoľko minút.</a> Neukončujte aplikáciu, pokiaľ prebieha vytváranie kľúča. Proces sa urýchli a zlepší, pokiaľ budete aktívne pracovať s prehliadačom a často pristupovať k harddisku. Na to, že je kľúč vytvorený, budete upozornený/á.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "Z">
+<!ENTITY smaug.securitybutton.tip "Smaug Nastavenie zabezpečenia">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Neodosielať správy vo formáte HTML">
+<!ENTITY smaug.maxIdleMinutesHead.label "Pamätať si heslo počas">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Šifrovať správu">
+<!ENTITY smaug.finalEncryptYes.label "Vynútiť šifrovanie">
+<!ENTITY smaug.cardPin.currPin.label "Súčasný PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Nebudem odpovedať">
+<!ENTITY smaug.defineRules.label "Upraviť pravidlá ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "U">
+<!ENTITY smaug.keyMan.showAllKeys.label "Štandardne zobraz všetky kľúče">
+<!ENTITY smaug.keyMan.title "Správa kľúčov Smaug">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "K">
+<!ENTITY smaug.finalEncryptNo.label "Vynútiť nešifrovať">
+<!ENTITY smaug.add.label "Pridať">
+<!ENTITY smaug.SendingPrefs.label "Hlavné nastavenia pre odosielanie">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Kliknite sem pre upresnenie umiestenia GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Vyberať identity">
+<!ENTITY smaug.cardDetails.sigKey.label "Kľúč podpisu">
+<!ENTITY smaug.cardDetails.sex.label "Pohlavie">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Zmeniť PIN správcu">
+<!ENTITY smaug.keyserver.label "Keyserver">
+<!ENTITY smaug.encDlgEncrypt.label "Šifrovať správu">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Zatvoriť sprievodcu">
+<!ENTITY smaug.defaultKeySelOpts.label "Nastavenie výberu kľúča...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Výber kľúča">
+<!ENTITY smaug.amPrefDesc.label "Podporu podpisovania a šifrovania pomocou OpenPGP zaisťuje Smaug. Potrebujete mať nainštalovaný GnuPG (gpg), aby bolo možné túto funkciu použiť.">
+<!ENTITY smaug.smaugAttachDesc.label "Správa obsahuje prílohy. Ako ich chcete podpísať/šifrovať?">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Kľúče na zmenu dátumu expirácie:">
+<!ENTITY smaug.adminSmartCard.label "Spravovať SmartCard ...">
+<!ENTITY smaug.importMissingKeys.accesskey "D">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Teraz je Smaug pripravené k použitiu.<html:br></html:br><html:br></html:br>Vďaka Vám za používanie Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Meno, priezvisko">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Zmazať">
+<!ENTITY smaug.usersNotFound.label "Príjemca nie je platný, je nedôveryhodný alebo nie je možné ho nájsť">
+<!ENTITY smaug.manageUidDlg.addUid.label "Pridať">
+<!ENTITY smaug.keyMan.reload.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "Prosím vyhľadajte GnuPG pomocou tlačidla Prehľadávanie.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Stiahnuť chýbajúce kľúče">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Súbor verejného kľúča">
+<!ENTITY smaug.decryptbutton.label "Dešifrovať">
+<!ENTITY smaug.signing.label "Podpisovanie">
+<!ENTITY smaug.keygenTitle.label "Vytvoriť kľúč OpenPGP">
+<!ENTITY smaug.smgEncryptAttachNone.label "Iba podpísať/šifrovať text správy, ale nie prílohy">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Zopakovať heslo">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' je oddelovač podpisu">
+<!ENTITY smaug.cardPin.title "Zmeniť PIN pre SmartCard">
+<!ENTITY smaug.keyTrust.title "Smaug - Nastaviť dôveryhodnosť vlastníka">
+<!ENTITY smaug.viewconsole.label "Zobraziť konzolu">
+<!ENTITY smaug.tempTrustAllKeys.label "Dôveruj kľúčom všetkých príjemcov">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Nepoužívať Web of Trust k zisteniu platnosti kľúčov">
+<!ENTITY smaug.useNonDefaultComment.label "Pridať poznámku Smaugu do podpisu OpenPGP">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Prajete si podpisovať elektronicky všetky odchádzajúce e-mailové správy?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Kopírovať verejné kľúče do schránky">
+<!ENTITY smaug.about.accesskey "O">
+<!ENTITY smaug.mime_parts_on_demand.label "Stiahni prílohy až pri ich otvorení (iba pre IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Samotné dve pomlčky na riadku označia blok s podpisom">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Nezobrazovať znovu tento dialóg, pokiaľ šifrovanie nie je možné">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "Inštalácia dokončená. Prosím pokračujte na následujúcej stránke pomocníka pre pokračovanie nastavovania.">
+<!ENTITY smaug.keyMan.revokeKey.label "Zneplatniť kľúč">
+<!ENTITY smaug.sKeyDlg.checked.label "Ako dôkladne ste overil/a, že kľúč, ktorý chcete podpísať, patrí hore uvedenej osobe?">
+<!ENTITY smaug.keyGen.expiry.title "Koniec platnosti kľúča">
+<!ENTITY smaug.undoencryption.accesskey "T">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Zobraziť chybné kľúče">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Podrobnosti ...">
+<!ENTITY smaug.encrypt.label "Šifrovať">
+<!ENTITY smaug.cardDetails.login.label "Prihlasovacie údaje">
+<!ENTITY smaug.autoSendEncryptedNever.label "Nikdy">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Nie, chcem si vytvoriť pravidlá pre podpisovanie e-mailov iba pre určitých príjemcov">
+<!ENTITY smaug.about.title "O Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Vytvoriť z adresy pravidlo Smaug...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label "Podrobnosti">
+<!ENTITY smaug.keyTrust.trustKey.label "Dôveryhodnosť kľúča:">
+<!ENTITY smaug.setupWiz.pgInstall.title "Vyžadované GnuPG">
+<!ENTITY smaug.action.label "Akcia">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Vytvorenie kľúča">
+<!ENTITY smaug.autoKeyRetrieve2.label "z nasledujúceho keyservera:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Svoj verejný kľúč by ste mal/a dať všetkým ľudom zo svojho adresára, ktorý budú overovať váš podpis alebo pre Vás budú šifrovať e-maily. Svoj súkromný kľúč musíte zároveň držať v tajnosti. Nesmiete ho stratiť alebo nechať bez ochrany. Iba s ním prečítate e-maily, ktoré Vám ostatní zašifrujú a pošlú. Tajný kľúč je chránený heslom.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Pridať ID užívateľa">
+<!ENTITY smaug.keyDetails.keyType.label "Typ">
+<!ENTITY smaug.keyGen.years.label "roky/ov">
+<!ENTITY smaug.edit.accesskey "U">
+<!ENTITY smaug.keyExpiry.title "Smaug - Zmena Dátumu Expirácie">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - nastavenie príjemcu">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug umožňuje digitálne podpisovať Vaše e-mailové správy. Je to vlastne elektronická podoba podpisu v dopise a umožní adresátovi byť si istý tím, že e-mailová správa je naozaj od vás. Z hľadiska zabezpečenia je podpisovanie všetkých odchádzajúcich e-mailov dobré.">
+<!ENTITY smaug.cardDetails.sigcount.label "Počítadlo podpisov">
+<!ENTITY smaug.addToRule.useRuleButton.label "Pridať kľúč k vybranému pravidlu">
+<!ENTITY smaug.encDlgSign.label "Podpísať správu">
+<!ENTITY smaug.keyGen.noExpiry.label "Platnosť kľúča neskončí">
+<!ENTITY smaug.keyPassphraseRepeat.label "Heslo (opakovať)">
+<!ENTITY smaug.searchForKey.label "Hľadanie kľúča">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Následujúce predvoľby boli sprievodcom upravené:">
+<!ENTITY smaug.revealAttachmentsButton.label "Mená priložených súborov sú skryté. Stlačte 'Reveal' tlačidlo na zobrazenie pôvodných mien súborov.">
+<!ENTITY smaug.always.label "Vždy">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Exportovať kľúče do súboru">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Kopírovať verejné kľúče do schránky">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "Platnosť kľúča">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "Nastavenie OpenPGP">
+<!ENTITY smaug.progressText.label "Priebeh:">
+<!ENTITY smaug.sepratationDesc.label "(Niekoľko e-mailových adries oddeľte medzerami)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Prajem si nastaviť Smaug iba pre následujúcu identitu:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Odstrániť tlačidlo S/MIME z menu okna vytvárania správy">
+<!ENTITY smaug.keyMan.changeExpiry.label "Zmena Dátumu Expirácie">
+<!ENTITY smaug.keyMan.setTrust.label "Nastaviť dôveryhodnosť vlastníka">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Zobraz kľúče od ostatných ľudí">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Tento sprievodca vám pomôže ihneď začínať používať Smaug. V následujúcich niekoľkých krokoch vykonáte kompletné nastavenie.">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "jedna/u z hore uvedených adries">
+<!ENTITY smaug.keyMan.reload.label "Znova načítať vyrovnávaciu pamäť kľúčov">
+<!ENTITY smaug.viewconsole.accesskey "B">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "Z">
+<!ENTITY smaug.keyNoPassphrase.label "Žiadne heslo">
+<!ENTITY smaug.amPrefSelectKey.label "Vyberte kľúč ...">
+<!ENTITY smaug.moveUp.label "Posuň hore">
+<!ENTITY smaug.cardDetails.yes.label "Ano">
+<!ENTITY smaug.testemail.label "Skúšobný email">
+<!ENTITY smaug.composeOptionsMenu.label "Štandardné nastavenie pre vytváranie správ">
+<!ENTITY smaug.finallySignNotEncrypted.label "podpíš nezašifrované správy">
+<!ENTITY smaug.addToRule.newRuleButton.label "Vytvoriť nové pravidlo">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Nastavenie je takmer kompletné! Pokiaľ kliknete na tlačidlo 'Ďalej', sprievodca vykoná následujúce akcie:">
+<!ENTITY smaug.clearSearch.label "Vymazať">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Zmazať kľúč">
+<!ENTITY smaug.keyMan.viewPhoto.label "Foto ID">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "M">
+<!ENTITY smaug.viewdebuglog.label "Zobraziť log súbor">
+<!ENTITY smaug.manageUidDlg.title "Zmeniť primárne ID užívateľa">
+<!ENTITY smaug.useKeys.label "Použiť následujúce kľúče OpenPGP:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Použiť 8-bitové kódovanie pre odosielanie správy">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "S">
+<!ENTITY smaug.trustSenderKey.label "Nastaviť dôveryhodnosť vlastníka ...">
+<!ENTITY smaug.delete.accesskey "Z">
+<!ENTITY smaug.encryptedsend.accesskey "Z">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "H">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Načítanie kľúčov, prosím čakajte ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label "Automaticky odošli zašifrované">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Hľadaný výraz nebol nájdený">
+<!ENTITY smaug.importpublickey.label "Importovať verejný kľúč">
+<!ENTITY smaug.matchDescStart.label "Použiť pravidlo, ak príjemca">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Nie, ďakujem. Radšej si všetko nastavím ručne.">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Stlačte, ak chcete vidieť položky menu a nastavenia pre pokročilých užívateľov.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Dôveryhodnosť">
+<!ENTITY smaug.cardDetails.closeWindow.label "Zatvoriť">
+<!ENTITY smaug.keyTrust.trustLevel.label "Ako je kľúč dôveryhodný?">
+<!ENTITY smaug.cardDetails.title "Podrobnosti OpenPGP SmartCard">
+<!ENTITY smaug.openpgpPrefsButton.label "Smaug nastavenia...">
+<!ENTITY smaug.keyMan.importFromServer.label "Hľadať kľúče">
+<!ENTITY smaug.amPrefUseFromAddr.label "Použiť e-mailovú adresu tejto identity k určeniu kľúča OpenPGP">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Upresnite nastavenia, ktoré budú používané aplikáciou GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Zatvoriť okno">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "V">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Elektronické podpisovanie odchádzajúcich e-mailov">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Nájdi kľúče pre všetky kontakty">
+<!ENTITY smaug.amPrefEnablePgp.label "Povoliť podporu OpenPGP (Smaug) pre túto identitu">
+<!ENTITY smaug.keyMan.exportToFile.label "Exportovať kľúče do súboru">
+<!ENTITY smaug.cardPin.unblockPin.label "Odblokovať PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Upraviť">
+<!ENTITY smaug.encDlgPgpMime.accesskey "M">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Vyberať účty alebo identity, s ktorými bude Smaug pracovať">
+<!ENTITY smaug.useGpgAgent.tooltip "Použiť gpg-agenta (súčasť GnuPG 2) pre všetky vstupy hesla">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Prajete si zmeniť tieto nastavenia pre lepšiu prácu s Smaug na Vašom počítači?">
+<!ENTITY smaug.cardDetails.forcepin.label "Nutný PIN pre podpis">
+<!ENTITY smaug.rulesEditor.label "Smaug editor pravidiel pre príjemcov">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Nájdené kľúče - vyberte na import">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "F">
+<!ENTITY smaug.resetPrefsButton.label "Predvolené">
+<!ENTITY smaug.valid.label "Platný">
+<!ENTITY smaug.keyUserId.label "Účet / ID užívateľa">
+<!ENTITY smaug.cancelKey.label "Zrušiť">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label "Ak je to možné">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Prajem si vytvoriť nový pár kľúčov pre podpisovanie a šifrovanie správ">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "Nájdené správne nainštalované GnuPG.">
+<!ENTITY smaug.finalPGPMimeNo.label "Vynútiť Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Ignorovať pravidlo pre príjemcu">
+<!ENTITY smaug.basic.label "Základné">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "E">
+<!ENTITY smaug.setupWiz.pgComplete.title "Ďakujem">
+<!ENTITY smaug.displayKeyProperties.label "Zobraz vlastnosti kľúča">
+<!ENTITY smaug.agentAdditionalParam.label "Doplnkové parametre pre GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Váš kľúč je teraz generovaný">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Pridaj do pravidla pre príjemcu">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Rozšírené">
+<!ENTITY smaug.nextRule.label "Pokračovať s ďalším pravidlom pre danú adresu">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Kľúč k podpisovaniu:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Mám existujúce verejné a súkromné kľúče, ktoré by som chcel importovať">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Napíšte prosím svoje heslo znovu a potvrďte ho">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Odtlačok prstu:">
+<!ENTITY smaug.keyMan.keyProps.label "Vlastnosti kľúča">
+<!ENTITY smaug.keyMan.setTrust.accesskey "T">
+<!ENTITY smaug.keyMan.editMenu.accesskey "U">
+<!ENTITY smaug.attachmykey.label "Pripojiť môj vlastný verejný kľúč">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "C">
+<!ENTITY smaug.keyDetails.created.label "Vytvorený">
+<!ENTITY smaug.cardDetails.pinretry.label "Počítadlo opakovaného zadania PIN">
+<!ENTITY smaug.ctxDecryptOpen.label "Dešifrovať a otvoriť">
+<!ENTITY smaug.setupWiz.label "Sprievodca nastavením">
+<!ENTITY smaug.genCardKey.backupKey.label "Uložiť zálohu kľúča mimo SmartCard">
+<!ENTITY smaug.finalPGPMimeYes.label "Vynútiť PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Použiť vytvorený kľúč pre zvolenú identitu">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Vlastnosti kľúča">
+<!ENTITY smaug.amPrefUseKeyId.label "Použiť určený ID kľúč OpenPGP (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Poslať verejné kľúče e-mailom">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Základné nastavenia">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Rozšírené...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Absolútne dôverujem (používa sa pre vlastný kľúč)">
+<!ENTITY smaug.defaultSigning.label "Štandardne podpisovať správy">
+<!ENTITY smaug.keyDetails.fingerprint.label "Odtlačok prstu">
+<!ENTITY smaug.finalPGPMimeDefault.label "Použi štandardné nastavenia a pravidlá pre PGP formát">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "N">
+<!ENTITY smaug.setupWiz.pgInstall.desc "Pre správnu funkciu Smaug, je vyžadované GnuPG, ako doplnkový komponent pre kryptografické funkcie. Pomocník sa snažil nájsť GnuPG, ale to sa nepodarilo nájsť.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Jednoduché nastavenia šifrovania">
+<!ENTITY smaug.showPhoto.label "Zobraziť foto ID">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Použiť gpg-agenta pre heslá">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Vytvoriť pravidlo/á pre príjemcu">
+<!ENTITY smaug.sendOptionsMenu.label "Nastavenie odosielania...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Nenašiel sa žiaden OpenPGP kľúč">
+<!ENTITY smaug.keyMan.stopTransfer.label "Zastaviť prenos">
+<!ENTITY smaug.refreshKeys.label "Obnoviť zoznam kľúčov">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "Preľadávanie ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Zašifruj/podpíš odpoveď na zašifrovanú/podpísanú správu">
+<!ENTITY smaug.addPhoto.question.label "Chcete pridať fotku k nasledujúcim kľúčom?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Ak je to možné, zašifruj/podpíš odpoveď na zašifrovaný/podpísaný email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Obnoviť všetky verejné kľúče">
+<!ENTITY smaug.cardDetails.authKey.label "Kľúč overenia">
+<!ENTITY smaug.viewKeySigDlg.title "Zoznam podpisov">
+<!ENTITY smaug.cardDetails.vendor.label "Výrobca">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Poslať URL k nájdeniu kľúča">
+<!ENTITY smaug.encryptionDlg.label "Nastavenie šifrovania &amp; podpisovania Smaug">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "D">
+<!ENTITY smaug.maybe.label "Áno, ak je to zvolené pri vytváraní správy">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Dôverujem iba čiastočne">
+<!ENTITY smaug.prefs.pathsTitle.label "Súbory a zložky">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Upozornenie:</a> Smaug bude vždy overovať podpisy v e-mailoch všetkých identít a účtov bez ohľadu na to, či je to v nich povolené">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "O">
+<!ENTITY smaug.addUidDlg.comment.label "Poznámka (nepovinná)">
+<!ENTITY smaug.setupWiz.no "Nie, Vďaka">
+<!ENTITY smaug.alwaysTrustSend.label "Vždy veriť kľúčom iných">
+<!ENTITY smaug.keyMan.viewSig.accesskey "S">
+<!ENTITY smaug.changePasswd.newPasswd.label "Nové heslo">
+<!ENTITY smaug.undoencryption.label "Späť šifrovanie">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Vytvoriť a uložiť revokačný certifikát">
+<!ENTITY smaug.cardDetails.reset.label "Zmazať">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Zobraziť podpisy">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Nastavenie podpisovania/šifrovania...">
+<!ENTITY smaug.reload.label "Znovu načítať správu">
+<!ENTITY smaug.browse.label "Hľadať...">
+<!ENTITY smaug.passwordSettings.label "Nastavenie hesla">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritmus">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "H">
+<!ENTITY smaug.cardDetails.keyCreated.label "Vytvorené">
+<!ENTITY smaug.autoDecrypt.label "Automaticky dešifrovať/overovať správy">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Import OpenPGP kľúče">
+<!ENTITY smaug.keyservers.label "Zvoľte Vaše keyserver(y)">
+<!ENTITY smaug.encDlgIgnoreRules.label "Ignoruj pravidla na príjemcu">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Dostupné ID užívateľa:">
+<!ENTITY smaug.add.accesskey "P">
+<!ENTITY smaug.refreshKeys.accesskey "O">
+<!ENTITY smaug.signSenderKey.label "Podpísať kľúč ...">
+<!ENTITY smaug.searchKeyDlg.label "Stiahnuť kľúče OpenPGP">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "V">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Rozhodol/a ste sa nepoužívať Sprievodcu pre konfiguráciu Smaug.<html:br></html:br><html:br></html:br>Vďaka za používanie Smaugu.">
+<!ENTITY smaug.signedsend.accesskey "S">
+<!ENTITY smaug.keyGen.console.label "Konzola vytvárania kľúča">
+<!ENTITY smaug.signSenderKeyPopup.label "Podpísať kľúč odosielateľa ...">
+<!ENTITY smaug.cardDetails.url.label "URL verejného kľúča">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug se vždy nastavuje špecificky pre každý účet a identitu. Štandardne sa Smaug nakonfiguruje samo pre prácu s všetkými Vašimi účtami a identitami. Ak si toto neprajete, vyberte prosím konkrétny účet alebo identitu, s ktorými má Smaug pracovať.">
+<!ENTITY smaug.resetRememberedValues.label "Resetovať varovania">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Žiadny OpenPGP kľúč nenájdený">
+<!ENTITY smaug.cardDetails.save.label "Uložiť">
+<!ENTITY smaug.prefs.overrideGpg.label "Použiť toto">
+<!ENTITY smaug.logdirectory.label "Adresár záznamu">
+<!ENTITY smaug.setupWiz.pgSummary.title "Zhrnutie">
+<!ENTITY smaug.ruleEmail.label "Nastaviť pravidla Smaug pre">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Súhlasím, aby sprievodca teraz vykonal tieto zmeny">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Zobraziť telo správy ako jednoduchý text">
+<!ENTITY smaug.debugMenu.label "Ladenie OpenPGP">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Obnoviť verejné kľúče z keyservera">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Vytvárať kľúč pre podpisovanie a šifrovanie e-mailov">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Nepýtať sa nikdy na žiadne heslo">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Zmeniť kľúč:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Predvolené nastavenia vytvárania správy">
+<!ENTITY smaug.sendersKeyMenu.label "Kľúč odosielateľa">
+<!ENTITY smaug.preferences.label "Nastavenia Smaug...">
+<!ENTITY smaug.clearPassphrase.label "Zmazať uložené heslo">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Pre podpisovanie a šifrovanie e-mailov alebo čítanie zašifrovaných e-mailov potrebujete 'pár kľúčov'. Pár kľúčov obsahuje dva kľúče, jeden je verejný a jeden súkromný.">
+<!ENTITY smaug.selKeysButton.accesskey "V">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Zistili sme, že už máte svoj OpenPGP kľúč. K podpisovaniu, šifrovaniu a dešifrovaniu e-mailov môžete použiť svoje už existujúce kľúče alebo môžete vytvoriť nový pár kľúčov.">
+<!ENTITY smaug.noHushMailSupport.label "Použiť '&lt;' a '&gt;' k určeniu e-mailovej adresy">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Prosím, uveďte súbory obsahujúce verejný a súkromný kľúč pre import. Pole pre súkromný kľúč môže byť ponechaný prázdny, ak prvý súbor obsahuje súkromný a verejný kľúč.">
+<!ENTITY smaug.basicUserMenus.label "Skry Expertné nastavenia a menu">
+<!ENTITY smaug.finalSignDefault.label "Použi štandardy a pravidlá pre podpisovanie">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "dní">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "Predvoľby">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "N">
+<!ENTITY smaug.keyMan.generate.label "Nový pár kľúčov">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Pripojiť k správe môj verejný kľúč">
+<!ENTITY smaug.encDlgPgpMime.label "Použiť PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Vybrať všetky kľúče">
+<!ENTITY smaug.keyComment.label "Poznámka">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Vôbec sem neskontroloval/a">
+<!ENTITY smaug.keyDetails.usage.label "Použitie">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "I">
+<!ENTITY smaug.addUidDlg.email.label "E-mail">
+<!ENTITY smaug.openPgpSecurity.label "Zabezpečenie OpenPGP">
+<!ENTITY smaug.nextAddress.label "Nekontrolovať ďalej pravidlá pre danú adresu">
+<!ENTITY smaug.setupWiz.details.subtitle "Zmeniť nastavenie aplikácie">
+<!ENTITY smaug.keyMan.uploadToServer.label "Odoslať verejné kľúče">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Vyplňte iba e-mailové adresy, NIE mená príjemcov Napr. 'meno &lt;meno@adresa.sk&gt;' je nesprávne">
+<!ENTITY smaug.setupWiz.details.title "Predvoľby">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "N">
+<!ENTITY smaug.email.label "Email">
+<!ENTITY smaug.attachkey.label "Pripojiť verejný kľúč ...">
+<!ENTITY smaug.not.label "Nie">
+<!ENTITY smaug.keyExpiry.label "Koniec platnosti">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "Meno">
+<!ENTITY smaug.keyMan.manageUid.label "Spravovať ID užívateľa">
+<!ENTITY smaug.defaultEncryption.label "Vždy šifrovať správy">
+<!ENTITY smaug.never.label "Nikdy">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "S">
+<!ENTITY smaug.cardDetails.genCardKey.label "Vytvoriť kľúč">
+<!ENTITY smaug.editRules.accesskey "V">
+<!ENTITY smaug.prefs.accesskey "P">
+<!ENTITY smaug.keyDetails.selAction.accesskey "y">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "Je presne">
+<!ENTITY smaug.searchRule.label "Zobraziť pravidlá s e-mailovou adresou obsahujúce:">

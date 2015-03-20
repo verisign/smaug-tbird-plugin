@@ -1,0 +1,631 @@
+<!ENTITY smaug.keyMan.calcTrust.label "推算的信任级">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "签署类型">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "更改你的邮件设置以使 Smaug 工作得更为可靠">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "将邮件做为一个整体进行加密/数字签名，并使用 PGP/MIME 发送">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "是的，我想用向导来帮我开始">
+<!ENTITY smaug.keyDetails.ownerTrust.label "设定的信任级">
+<!ENTITY smaug.encryptAttachSkipDlg.label "使用所选择的模式用于所有将来的附件">
+<!ENTITY smaug.ctxImportKey.label "导入 OpenPGP 密钥">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "关闭文本流(RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "您想要做什么">
+<!ENTITY smaug.addToRule.title                    "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "E">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "上传公钥到密钥服务器">
+<!ENTITY smaug.about.label "关于">
+<!ENTITY smaug.keyGen.months.label "月">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle      "Specify the files to import">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label "Verify signature">
+<!ENTITY smaug.progress.label "进度">
+<!ENTITY smaug.adminSmartCard.accesskey "M">
+<!ENTITY smaug.debugMenu.accesskey "G">
+<!ENTITY smaug.sending.label "发送">
+<!ENTITY smaug.clearSearch.accesskey "C">
+<!ENTITY smaug.keyPassphrase.label "密码">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "更改识别码">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "仅显示用户标识中或密钥标识中包含如下字符的密钥:">
+<!ENTITY smaug.keyMan.importFromFile.label "从文件导入密钥">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "签署密钥">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "是的，我想签署我所有的电子邮件">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "废除">
+<!ENTITY smaug.cancelKey.tooltip "取消密钥创建">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "你希望现在使用向导吗?">
+<!ENTITY smaug.importMissingKeys.tooltip "尝试从一个密钥服务器导入缺少的密钥">
+<!ENTITY smaug.keyTrust.dontKnow.label "我不知道">
+<!ENTITY smaug.cardPin.newAdminPin.label "新管理识别码">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "查看相片">
+<!ENTITY smaug.keyDetails.expiry.label "失效于">
+<!ENTITY smaug.keyMan.keyType.label "类型">
+<!ENTITY smaug.created.label "创建">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "关闭必要时加载IMAP组件">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "选择密钥">
+<!ENTITY smaug.sendPGPMime.label "在本邮件中使用 PGP/MIME">
+<!ENTITY smaug.savedecrypted.label "保存已解密的邮件">
+<!ENTITY smaug.userSelectionList.label "Smaug 密钥选择">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "我随便检查了一下">
+<!ENTITY smaug.edit.label "修改">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "创建">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "重排文本以便保证签名能完整保留.">
+<!ENTITY smaug.decryptverify.label "解密/校验">
+<!ENTITY smaug.encDlgEncrypt.accesskey "E">
+<!ENTITY smaug.prefs.label "选项">
+<!ENTITY smaug.keyMan.changePwd.label "更改密码">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "密钥有效期为">
+<!ENTITY smaug.encryption.label "加密">
+<!ENTITY smaug.keyTrust.fullTrust.label "我可以相信">
+<!ENTITY smaug.addUidDlg.name.label "姓名">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "以上述某邮件地址结尾">
+<!ENTITY smaug.pgpKeys.label "OpenPGP 密钥">
+<!ENTITY smaug.amPrefPgpHeader.id.label "发送 OpenPGP 密钥标识">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "U">
+<!ENTITY smaug.keyGen.keySize.label "密钥长度">
+<!ENTITY smaug.basicUser.tooltip        "Press if you do not want to see menu items and options for advanced users.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "此向导能改变你的邮件设置以确保你系统中的数字签名和加密的邮件没有问题这些设置会有                                                             些你不必了解的技术上的变化，可是按默认设置用纯文本方式来撰写邮件是将稳妥一">
+<!ENTITY smaug.cardDetails.male.label "男">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "S">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(注意: 在发生冲突的情况下，“从不”将取代“总是”设置)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile    "Private key file">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug 安全信息...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "如果通过 IMAP 目录接收 PGP/MIME 邮件，您应该关闭此选项">
+<!ENTITY smaug.trustSenderKeyPopup.label "设置发件人的密钥信任级别...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "此密钥经过如下签署:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - 签署密钥">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>注意: 密钥创建过程可能会持续数分钟。</a> 创建密钥的过程中请不要退出程序。密钥创建结束时您将收到完成通知。">
+<!ENTITY smaug.keyDetails.additionalUid.label     "Additional User ID">
+<!ENTITY smaug.cardDetails.cardMenu.label "智能卡">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "女">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "从剪贴板导入密钥">
+<!ENTITY smaug.setDefaultsFor.label "加密或数字签名默认设置...">
+<!ENTITY smaug.changePasswd.title "更改 OpenPGP 密码">
+<!ENTITY smaug.keyMan.viewSig.label "签名">
+<!ENTITY smaug.autoKeyRetrieve.label "自动从服务器下载密钥">
+<!ENTITY smaug.matchBegin.label "以上述某邮件地址开头">
+<!ENTITY smaug.selKeysButton.label "选择密钥...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "发送 'OpenPGP' 信头">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "再次输入新识别码以确认">
+<!ENTITY smaug.signedsend.label "数字签名邮件">
+<!ENTITY smaug.cardDetails.lang.label "语言">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "长度">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "发送前换行已数字签名的 HTML 文本">
+<!ENTITY smaug.genCardKey.title "生成 OpenPGP 密钥">
+<!ENTITY smaug.ctxDecryptSave.accesskey "C">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "当前管理识别码">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title                "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "新识别码">
+<!ENTITY smaug.smgEncryptAttachInline.label "分别加密每个附件并对邮件使用内嵌式 PGP">
+<!ENTITY smaug.moveDown.accesskey "D">
+<!ENTITY smaug.keyservers.sample "示例: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "R">
+<!ENTITY smaug.userNoPassphrase.tooltip "如果你想用密码保护你的OpenPGP密钥就选择">
+<!ENTITY smaug.usePGPMimeAlways.label "总是使用 PGP/MIME">
+<!ENTITY smaug.addPhoto.title                     "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "恢复所有的Smaug参数到缺省值">
+<!ENTITY smaug.cardDetails.editData.label "编辑卡数据">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "R">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "要签署的密钥:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "我想你会喜欢为所有的身份标识设置 Smaug">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "指纹">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "更新所选择的公钥">
+<!ENTITY smaug.delete.label "删除">
+<!ENTITY smaug.keyId.label "密钥标识">
+<!ENTITY smaug.moreOptions.label "更多选项">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "我很仔细的检查过">
+<!ENTITY smaug.test.label "测试">
+<!ENTITY smaug.debug.label "调试">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "创建一个用于数字签名和加密邮件的密钥">
+<!ENTITY smaug.keyDetails.ID.label "标识">
+<!ENTITY smaug.matchContains.label "包含上述邮件地址中的字符">
+<!ENTITY smaug.keyMan.emptyTree.tooltip         "Enter search terms in the box above">
+<!ENTITY smaug.cardDetails.encKey.label "加密密钥">
+<!ENTITY smaug.noHushMailSupport.tooltip "使用 '&lt;' 和 '&gt;' 字符来指定GnuPG邮件地址. 如果收件人有旧的公钥就取消.">
+<!ENTITY smaug.keyDetails.selAction.label         "Select action ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "设为默认值">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Smaug 设置向导">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "默认用户标识">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey  "A">
+<!ENTITY smaug.advancedIdentityDlg.title          "Advanced Smaug Identity Settings">
+<!ENTITY smaug.keyMan.genRevoke.label "撤销证书">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "D">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "创建密钥">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "最大识别码长度">
+<!ENTITY smaug.decryptbutton.tip "使用 Smaug 解密或校验邮件">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "否">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "D">
+<!ENTITY smaug.keyGen.keyType.label "密钥类型">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "数字签名">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "密钥标识">
+<!ENTITY smaug.keyMan.viewMenu.label "查看">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "修改识别码">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc         "We could not find any OpenPGP key. Please select below if you want to
+                                                      create a new key pair or if you want to import an existing key.">
+<!ENTITY smaug.resetRememberedValues.tooltip "重新显示你已隐藏过的所有警告对话框和问题.">
+<!ENTITY smaug.msgViewColumn.tooltip              "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "是">
+<!ENTITY smaug.sign.label "数字签名">
+<!ENTITY smaug.keyMan.createMail.label          "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "当前密码">
+<!ENTITY smaug.keyManWindow.accesskey "y">
+<!ENTITY smaug.maxIdleMinutes.tooltip "缓存密码一段时间">
+<!ENTITY smaug.generateKey.label "生成密钥">
+<!ENTITY smaug.composeOptionsMenu.accesskey "D">
+<!ENTITY smaug.cardPin.pinRepeat.label "再次输入新识别码以确认">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "E">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label   "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "创建一个可用于加密或数字签名的 OpenPGP 兼容密钥">
+<!ENTITY smaug.keyserverDlg.label "选择密钥服务器">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "本地签署(将不会被导出)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "发送邮件时如何确定收件人密钥">
+<!ENTITY smaug.keyMan.keyserverMenu.label "密钥服务器">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "编辑规则">
+<!ENTITY smaug.keyDetails.keyPart.label           "Key Part">
+<!ENTITY smaug.copySecurityInfo.label "复制 Smaug 安全信息">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey       "I">
+<!ENTITY smaug.keyMan.fileMenu.label "文件">
+<!ENTITY smaug.maxIdleMinutesTail.label "分钟后清除缓存的口令">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "下移">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "序列号">
+<!ENTITY smaug.ctxDecryptSave.label "解密并另存为...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "密钥管理">
+<!ENTITY smaug.keyTrust.noTrust.label "我不信任">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "我想为数字签名和加密邮件选择一个密钥:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "密钥选择">
+<!ENTITY smaug.help.label "帮助">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>注意: 密钥创建过程可能会持续数分钟。</a> 创建密钥的过程中请不要退出程序。在此期间浏览网页或者执行能产生大量磁盘操作的程序将帮助填充“随机数池”并能加速密钥创建进程。密钥创建结束时您将收到完成通知。">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Smaug 安全设置">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "不撰写超文本信息">
+<!ENTITY smaug.maxIdleMinutesHead.label "在空闲">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "加密邮件">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "当前识别码">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "我不想回答">
+<!ENTITY smaug.defineRules.label "定义规则...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "M">
+<!ENTITY smaug.keyMan.showAllKeys.label "Display All Keys by Default">
+<!ENTITY smaug.keyMan.title "Smaug 密钥管理">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "K">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "增加">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "勾选并指示 GnuPG 路径">
+<!ENTITY smaug.setupWiz.pgSelectId.title "选择身份标识">
+<!ENTITY smaug.cardDetails.sigKey.label "数字签名密钥">
+<!ENTITY smaug.cardDetails.sex.label "性别">
+<!ENTITY smaug.cardPin.changeAdmPin.label "修改管理识别码">
+<!ENTITY smaug.keyserver.label "密钥服务器">
+<!ENTITY smaug.encDlgEncrypt.label "加密邮件">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "退出向导">
+<!ENTITY smaug.defaultKeySelOpts.label "密钥选择选项...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "选择密钥">
+<!ENTITY smaug.amPrefDesc.label "Smaug 为您提供 OpenPGP 加密和数字签名邮件支持。要使用该功能，您必须安装了 GnuPG (gpg) 程序。">
+<!ENTITY smaug.smaugAttachDesc.label "这则邮件包含附件。您希望怎样对其进行加密/数字签名？">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "管理智能卡...">
+<!ENTITY smaug.importMissingKeys.accesskey "D">
+<!ENTITY smaug.setupWiz.pgComplete.desc "准备使用 Smaug .<html:br></html:br><html:br></html:br>感谢你使用 Smaug .">
+<!ENTITY smaug.cardDetails.name.label "姓, 名">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "删除">
+<!ENTITY smaug.usersNotFound.label "收件人无效，不被信任或找不到其公钥">
+<!ENTITY smaug.manageUidDlg.addUid.label "增加">
+<!ENTITY smaug.keyMan.reload.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "下载缺少的密钥">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile    "Public key file">
+<!ENTITY smaug.decryptbutton.label "解密">
+<!ENTITY smaug.signing.label "数字签名">
+<!ENTITY smaug.keygenTitle.label "创建 OpenPGP 密钥">
+<!ENTITY smaug.smgEncryptAttachNone.label "仅加密/数字签名邮件，不处理附件">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "重复输入密码以确认">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "将'--'看作邮件正文和签名的分隔符">
+<!ENTITY smaug.cardPin.title "修改智能卡识别码">
+<!ENTITY smaug.keyTrust.title "Smaug - 设置密钥信任级别">
+<!ENTITY smaug.viewconsole.label "查看终端">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "不使用信任站点来确定密钥串的有效性">
+<!ENTITY smaug.useNonDefaultComment.label "在OpenPGP签署中增加Smaug注释">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "你想按默认方式对你所有发出的邮件进行数字签名吗?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "复制公钥到剪贴板">
+<!ENTITY smaug.about.accesskey "b">
+<!ENTITY smaug.mime_parts_on_demand.label "仅在打开时下载附件(IMAP 适用)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "同一行中两个连续的破折号标志签名区域">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "如果无法加密则不显示此对话框">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "废除密钥">
+<!ENTITY smaug.sKeyDlg.checked.label "您对“您将要签署的密钥确实属于声称拥有它的人”做过何种程度的考察?">
+<!ENTITY smaug.keyGen.expiry.title "密钥有效期">
+<!ENTITY smaug.undoencryption.accesskey "U">
+<!ENTITY smaug.keyMan.showInvalidKeys.label     "Display invalid keys">
+<!ENTITY smaug.openpgp.label "安全">
+<!ENTITY smaug.setupWiz.pgSettings.details "细节...">
+<!ENTITY smaug.encrypt.label "加密">
+<!ENTITY smaug.cardDetails.login.label "登录数据">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "不，我想对那些需要签署的邮件创建规则">
+<!ENTITY smaug.about.title "关于 Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "从地址创建 Smaug 规则...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label            "Details">
+<!ENTITY smaug.keyTrust.trustKey.label "要设置信任级别的密钥:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "动作">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "创建密钥">
+<!ENTITY smaug.autoKeyRetrieve2.label "从以下密钥服务器:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "你需要将你的公钥给你想数字签名或加密邮件给你的联系人。同时，你要将你的私钥安全                                                             保存。你不要删除它或没有任何保护地保留它。它用于读取那些人发给你的加密邮件。它同                                                          样可用加密你自己的邮件，因为它是安全的，它是由密码保护">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - 增加用户标识">
+<!ENTITY smaug.keyDetails.keyType.label "类型">
+<!ENTITY smaug.keyGen.years.label "年">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - 密钥规则设置">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug 允许你的邮件进行数字签名，它看起来象是电子版的信封签名，同时它也允许人                                                             们来确认这个邮件是否真的是你所发出的。这对发送邮件来说是个非常好的安全习惯。    ">
+<!ENTITY smaug.cardDetails.sigcount.label "数字签名次数计数器">
+<!ENTITY smaug.addToRule.useRuleButton.label      "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "数字签名邮件">
+<!ENTITY smaug.keyGen.noExpiry.label "密钥永不过期">
+<!ENTITY smaug.keyPassphraseRepeat.label "密码（重复）">
+<!ENTITY smaug.searchForKey.label "查找密钥">
+<!ENTITY smaug.setupWiz.details.changingPrefs "此向导修改了以下选项:">
+<!ENTITY smaug.revealAttachmentsButton.label     "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "总是">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "导出密钥到文件">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "复制公钥到剪贴板">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "推算的信任级">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP 选项">
+<!ENTITY smaug.progressText.label "进度:">
+<!ENTITY smaug.sepratationDesc.label "设置 OpenPGP 规则(请用空格分隔各邮件地址)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "我想你会喜欢只为以下身份标识设置 Smaug:">
+<!ENTITY smaug.disableSMIMEui.tooltip "在邮件编辑窗口工具栏上清除S/MIME按钮">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "设置密钥信任级别">
+<!ENTITY smaug.keyMan.showOthersKeys.label      "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "此向导将帮助你开启 Smaug 权限之路. 经过下几步的屏幕，我们会通过和你咨询的一些问                                                             题来设置相关信息.    ">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "则应用规则">
+<!ENTITY smaug.keyMan.reload.label "刷新密钥缓存">
+<!ENTITY smaug.viewconsole.accesskey "c">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "V">
+<!ENTITY smaug.keyNoPassphrase.label "无密码">
+<!ENTITY smaug.amPrefSelectKey.label "选择密钥...">
+<!ENTITY smaug.moveUp.label "上移">
+<!ENTITY smaug.cardDetails.yes.label "是">
+<!ENTITY smaug.testemail.label "邮件地址">
+<!ENTITY smaug.composeOptionsMenu.label "默认撰写选项">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label      "Create New Rule">
+<!ENTITY smaug.setupWiz.pgSummary.desc "即将完成! 点击'下一步'按钮, 向导将进行后继操作:">
+<!ENTITY smaug.clearSearch.label "清除">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "删除密钥">
+<!ENTITY smaug.keyMan.viewPhoto.label "相片">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "D">
+<!ENTITY smaug.viewdebuglog.label "查看日志文件">
+<!ENTITY smaug.manageUidDlg.title "修改默认用户标识">
+<!ENTITY smaug.useKeys.label "使用下列 OpenPGP 密钥进行加密或数字签名:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "对发出的邮件使用8位编码">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "S">
+<!ENTITY smaug.trustSenderKey.label "设置密钥信任级别...">
+<!ENTITY smaug.delete.accesskey "E">
+<!ENTITY smaug.encryptedsend.accesskey "E">
+<!ENTITY smaug.encryptedsend.key "P">
+<!ENTITY smaug.keyMan.changePwd.accesskey "P">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip        "Please wait while keys are being loaded ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip      "No keys match your search terms">
+<!ENTITY smaug.importpublickey.label "导入公钥">
+<!ENTITY smaug.matchDescStart.label "如果收件人地址">
+<!ENTITY smaug.setupWiz.pgWelcome.no "不用, 谢谢. 我想手动来配置">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey  "N">
+<!ENTITY smaug.expertUser.tooltip "如果你想看高级用户菜单和配置就选择">
+<!ENTITY smaug.keyMan.ownerTrust.label "设定的信任级">
+<!ENTITY smaug.cardDetails.closeWindow.label "关闭">
+<!ENTITY smaug.keyTrust.trustLevel.label "您在多大的程度上信任这个密钥?">
+<!ENTITY smaug.cardDetails.title "OpenPGP 智能卡细节">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "搜索密钥">
+<!ENTITY smaug.amPrefUseFromAddr.label "使用这个标识的电子邮件地址标示 OpenPGP 密钥">
+<!ENTITY smaug.agentAdditionalParam.tooltip "指定GnuPG所用的选项.">
+<!ENTITY smaug.keyMan.close.label "关闭窗口">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "数字签名你所发出的电子邮件">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "为这个标识打开 OpenPGP 支持 (Smaug)">
+<!ENTITY smaug.keyMan.exportToFile.label "导出密钥到文件">
+<!ENTITY smaug.cardPin.unblockPin.label "识别码解锁">
+<!ENTITY smaug.keyMan.editMenu.label "编辑">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "选择 Smaug 所工作的帐号或身份标识">
+<!ENTITY smaug.useGpgAgent.tooltip "在所有密码输入中使用GPG向导 (GnuPG 2部分)">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "你想更改一些默认选项以使 Smaug 在你的系统中运行得更好吗?">
+<!ENTITY smaug.cardDetails.forcepin.label "强制数字签名识别码">
+<!ENTITY smaug.rulesEditor.label "Smaug - 规则编辑器">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "有符合条件的密钥 - 请选择要导入的密钥">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "重置">
+<!ENTITY smaug.valid.label "有效">
+<!ENTITY smaug.keyUserId.label "帐户 / 个人标识">
+<!ENTITY smaug.cancelKey.label "取消">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "我想为数字签名和加密邮件创建新的密钥对">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "忽略规则">
+<!ENTITY smaug.basic.label "基本">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "A">
+<!ENTITY smaug.setupWiz.pgComplete.title "谢谢你">
+<!ENTITY smaug.displayKeyProperties.label       "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "附加到 GnuPG 的参数">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "正在创建你的密钥">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label         "Add to Per-Recipient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "高级">
+<!ENTITY smaug.nextRule.label "如果邮件地址符合条件则测试下一条规则">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "使用此密钥签署:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey    "I have existing public and private keys that I would like to import">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "请再次确认你输入的密码">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "密钥指纹:">
+<!ENTITY smaug.keyMan.keyProps.label "密钥属性">
+<!ENTITY smaug.keyMan.setTrust.accesskey "T">
+<!ENTITY smaug.keyMan.editMenu.accesskey "E">
+<!ENTITY smaug.attachmykey.label "附送我的公钥">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "创建于">
+<!ENTITY smaug.cardDetails.pinretry.label "识别码重试次数计数器">
+<!ENTITY smaug.ctxDecryptOpen.label "解密并打开">
+<!ENTITY smaug.setupWiz.label           "Setup Wizard">
+<!ENTITY smaug.genCardKey.backupKey.label "在卡外部保存密钥备份">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "将生成的密钥用于所选择的标识">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "密钥属性">
+<!ENTITY smaug.amPrefUseKeyId.label "使用指定的 OpenPGP 密钥标识 (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "用邮件发送公钥">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "基本设置">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "安全">
+<!ENTITY smaug.advancedPrefsButton.label "高级...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "我完全信任">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "指纹">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "查看 OpenPGP 内置相片">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "用GPG助手来控制缓存口令">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "创建规则">
+<!ENTITY smaug.sendOptionsMenu.label "发送选项...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle     "We could not find any OpenPGP Key">
+<!ENTITY smaug.keyMan.stopTransfer.label "停止传输">
+<!ENTITY smaug.refreshKeys.label "刷新密钥列表">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label   "Encrypt/sign replies to encrypted/signed messages">
+<!ENTITY smaug.addPhoto.question.label            "Do you want to add the following picture to the following key?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "When possible, encrypt/sign responses to encrypted/signed email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "更新所有的公钥">
+<!ENTITY smaug.cardDetails.authKey.label "认证密钥">
+<!ENTITY smaug.viewKeySigDlg.title "密钥签署列表">
+<!ENTITY smaug.cardDetails.vendor.label "制造商">
+<!ENTITY smaug.amPrefPgpHeader.url.label "发送获取密钥的 URL:">
+<!ENTITY smaug.encryptionDlg.label "Smaug 加密和数字签名设置">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "在撰写邮件时选择">
+<!ENTITY smaug.keyTrust.marginalTrust.label "我半信半疑">
+<!ENTITY smaug.prefs.pathsTitle.label "文件和目录">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>注意:</a> Smaug 将总是验证每个帐号或身份标识邮件的数                                                             字签名，而无论它是否被允许或不">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "U">
+<!ENTITY smaug.addUidDlg.comment.label "注释 (可选)">
+<!ENTITY smaug.setupWiz.no "不, 谢谢">
+<!ENTITY smaug.alwaysTrustSend.label "总是信任使用者的标识">
+<!ENTITY smaug.keyMan.viewSig.accesskey "S">
+<!ENTITY smaug.changePasswd.newPasswd.label "新的密码">
+<!ENTITY smaug.undoencryption.label "取消加密">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "创建并保存撤销证书">
+<!ENTITY smaug.cardDetails.reset.label "复位">
+<!ENTITY smaug.keyMan.ctxViewSig.label "查看签名">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "数字签名/加密选项...">
+<!ENTITY smaug.reload.label "重新载入邮件">
+<!ENTITY smaug.browse.label "浏览...">
+<!ENTITY smaug.passwordSettings.label "密码设定">
+<!ENTITY smaug.keyDetails.algorithm.label "算法">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "S">
+<!ENTITY smaug.cardDetails.keyCreated.label "创建于">
+<!ENTITY smaug.autoDecrypt.label "自动解密/验证邮件">
+<!ENTITY smaug.setupWiz.pgKeyImport.title         "Import OpenPGP Keys">
+<!ENTITY smaug.keyservers.label "密钥服务器:">
+<!ENTITY smaug.encDlgIgnoreRules.label           "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "可用的用户标识:">
+<!ENTITY smaug.add.accesskey "A">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "签署密钥...">
+<!ENTITY smaug.searchKeyDlg.label "下载 OpenPGP 密钥">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "你选择了不使用向导来配置 Smaug.                                                             <html:br></html:br><html:br></html:br>非常感谢你使用 Smgmai">
+<!ENTITY smaug.signedsend.accesskey "S">
+<!ENTITY smaug.keyGen.console.label "密钥创建终端">
+<!ENTITY smaug.signSenderKeyPopup.label "为发件人的签署密钥...">
+<!ENTITY smaug.cardDetails.url.label "公钥的 URL">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug 设置是指定帐号和身份标识，按缺省方式，Smaug 将配置在你所有的帐号和身份                                                             标识上。如果你想有所不同，请选择指定下面的你希望 Smaug 工作的帐号或身份标">
+<!ENTITY smaug.resetRememberedValues.label "复位警告">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title        "No OpenPGP Key Found">
+<!ENTITY smaug.cardDetails.save.label "保存">
+<!ENTITY smaug.prefs.overrideGpg.label "优先使用">
+<!ENTITY smaug.logdirectory.label "日志目录">
+<!ENTITY smaug.setupWiz.pgSummary.title "总计">
+<!ENTITY smaug.ruleEmail.label "为如下收件人">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "请确认向导将要提交的这些更改">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "以纯文本方式查看邮件">
+<!ENTITY smaug.debugMenu.label "调试 OpenPGP">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "从密钥服务器更新公钥">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "创建一个用于数字签名和加密邮件的密钥">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "不再询问用户密码">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "要修改的密钥:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "邮件撰写默认选项">
+<!ENTITY smaug.sendersKeyMenu.label "发件人密钥">
+<!ENTITY smaug.preferences.label "Smaug 选项">
+<!ENTITY smaug.clearPassphrase.label "清除缓存的密码">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "你需要有一个用于数字签名和加密电子邮件或读那些解密邮件的'密钥对'。                                                             一个密钥对有两个密钥, 一个是公钥，另一个是私">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "我们检测到你已经有一个 OpenPGP 密钥. 你可以使用任何已经存在的密钥对你的电子邮件                                                             进行数字签名、加密和解密，也可以创建一个新的密钥">
+<!ENTITY smaug.noHushMailSupport.label "使用 '&lt;' 和 '&gt;' 来指定邮件地址">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc          "Please specify the files containing the public and the private keys to
+                                                      import. The entry for private keys can be left empty if the first file
+                                                      contains both private and public keys.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "天">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "选项">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "R">
+<!ENTITY smaug.keyMan.generate.label "新密钥对">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label     "Attach my public key to messages">
+<!ENTITY smaug.encDlgPgpMime.label "使用 PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "选择所有密钥">
+<!ENTITY smaug.keyComment.label "注释">
+<!ENTITY smaug.sKeyDlg.notChecked.label "我还没检查过">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "I">
+<!ENTITY smaug.addUidDlg.email.label "电邮">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP 安全">
+<!ENTITY smaug.nextAddress.label "如果邮件地址符合条件则不再测试后续规则">
+<!ENTITY smaug.setupWiz.details.subtitle "修改应用设置">
+<!ENTITY smaug.keyMan.uploadToServer.label "上传公钥">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "只能使用邮件地址，不要填写收件人姓名 例如 '张三 &lt;zhang.san@address.net&gt;' 是无效的">
+<!ENTITY smaug.setupWiz.details.title "选项">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "H">
+<!ENTITY smaug.email.label "电子邮件">
+<!ENTITY smaug.attachkey.label "附送公钥...">
+<!ENTITY smaug.not.label "不在上述邮件地址中">
+<!ENTITY smaug.keyExpiry.label "有效期至">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "Name">
+<!ENTITY smaug.keyMan.manageUid.label "管理用户标识">
+<!ENTITY smaug.defaultEncryption.label "默认情况下对邮件加密">
+<!ENTITY smaug.never.label "从不">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "创建密钥">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "P">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "与上述某邮件地址完全相同">
+<!ENTITY smaug.searchRule.label "显示电子邮件地址中包含如下字符的规则:">

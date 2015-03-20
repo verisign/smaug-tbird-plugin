@@ -1,0 +1,629 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Validità della chiave">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Tipo di firma">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Cambia le impostazioni delle tue email per fare in modo che Smaug lavori in modo più affidabile">
+<!ENTITY smaug.pgpAccountSettings.accesskey "f">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Cifra/firma il messaggio tutto insieme e spediscilo in formato PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Sì, vorrei che la procedura guidata mi aiutasse a iniziare">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Fiducia personale">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Usa il metodo selezionato per tutti gli allegati futuri">
+<!ENTITY smaug.ctxImportKey.label "Importa chiave OpenPGP">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Disabilita testo 'flowed' (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Cosa vuoi fare">
+<!ENTITY smaug.addToRule.title "Aggiungi chiave alla regola per destinatario">
+<!ENTITY smaug.reload.accesskey "m">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Invia chiavi pubbliche al server">
+<!ENTITY smaug.about.label "Informazioni su Smaug">
+<!ENTITY smaug.keyGen.months.label "mesi">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Specifica i file da importare">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label "Verifica la firma">
+<!ENTITY smaug.progress.label "Avanzamento">
+<!ENTITY smaug.adminSmartCard.accesskey "C">
+<!ENTITY smaug.debugMenu.accesskey "g">
+<!ENTITY smaug.sending.label "Invio">
+<!ENTITY smaug.clearSearch.accesskey "S">
+<!ENTITY smaug.keyPassphrase.label "Frase segreta">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "Cambia PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Cerca:">
+<!ENTITY smaug.keyMan.importFromFile.label "Importa chiavi da un file">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Firma chiave">
+<!ENTITY smaug.revealAttachments.button "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Sì, voglio firmare tutte le mie email">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Revoca">
+<!ENTITY smaug.cancelKey.tooltip "Annulla creazione chiave">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Vuoi avviare la procedura guidata adesso?">
+<!ENTITY smaug.importMissingKeys.tooltip "Prova a importare da un server le chiavi mancanti">
+<!ENTITY smaug.keyTrust.dontKnow.label "Non lo so">
+<!ENTITY smaug.cardPin.newAdminPin.label "Nuovo Admin PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Mostra foto ID">
+<!ENTITY smaug.keyDetails.expiry.label "Scadenza">
+<!ENTITY smaug.keyMan.keyType.label "Tipo">
+<!ENTITY smaug.created.label "Creata">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Disabilita il caricamento delle parti IMAP su richiesta">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Selezione chiave">
+<!ENTITY smaug.sendPGPMime.label "Usa PGP/MIME per questo messaggio">
+<!ENTITY smaug.savedecrypted.label "Salva il messaggio decifrato">
+<!ENTITY smaug.userSelectionList.label "Seleziona chiave Smaug">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Ho controllato superficialmente">
+<!ENTITY smaug.edit.label "Modifica">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Genera">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Riformatta il testo per essere sicuro che la firma rimanga intatta.">
+<!ENTITY smaug.decryptverify.label "Decifra/Verifica">
+<!ENTITY smaug.encDlgEncrypt.accesskey "C">
+<!ENTITY smaug.prefs.label "Preferenze">
+<!ENTITY smaug.keyMan.changePwd.label "Cambia la frase segreta">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "z">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "La chiave scade tra">
+<!ENTITY smaug.encryption.label "Cifratura">
+<!ENTITY smaug.keyTrust.fullTrust.label "Mi fido completamente">
+<!ENTITY smaug.addUidDlg.name.label "Nome">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "Finisce con">
+<!ENTITY smaug.pgpKeys.label "Chiave/i OpenPGP">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Invia ID chiave OpenPGP">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "a">
+<!ENTITY smaug.keyGen.keySize.label "Dimensione della chiave">
+<!ENTITY smaug.basicUser.tooltip "Premi qui per nascondere le voci di menu e le opzioni riservate ad utenti esperti.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Questa procedura guidata può modificare le impostazioni delle tue email per fare in modo che non ci siano problemi nel cifrare e/o firmare le email sul tuo computer. Questi cambiamenti
+sono più che altro di natura tecnica e non dovresti neanche notarli, tranne per il fatto che le email saranno composte in testo semplice in modo predefinito.">
+<!ENTITY smaug.cardDetails.male.label "Maschio">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "F">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(Nota: in caso di contraddizione, 'Mai' ha la precedenza su 'Sempre')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "File della chiave privata">
+<!ENTITY smaug.pgpSecurityInfo.label "Informazioni di sicurezza Smaug...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Questa opzione deve essere disattivata se si ricevono in cartelle IMAP messaggi di posta in formato PGP/MIME.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Imposta la fiducia nel proprietario della chiave del mittente...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Firme per la chiave:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Firma chiave">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>NOTA: La creazione della chiave può richiedere anche diversi minuti per essere completata.</a> Non uscire dall'applicazione mentre la creazione della chiave è in corso. Sarai avvertito al termine del processo.">
+<!ENTITY smaug.keyDetails.additionalUid.label "ID aggiuntivo">
+<!ENTITY smaug.cardDetails.cardMenu.label "Smartcard">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Aggiungi foto">
+<!ENTITY smaug.cardDetails.female.label "Femmina">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Importa chiavi dagli appunti">
+<!ENTITY smaug.setDefaultsFor.label "Impostazioni predefinite per...">
+<!ENTITY smaug.changePasswd.title "Cambia la frase segreta OpenPGP">
+<!ENTITY smaug.keyMan.viewSig.label "Firme">
+<!ENTITY smaug.autoKeyRetrieve.label "Scarica automaticamente le chiavi per la verifica delle firme">
+<!ENTITY smaug.matchBegin.label "Inizia con">
+<!ENTITY smaug.selKeysButton.label "Seleziona chiave/i...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Invia intestazione 'OpenPGP'">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Ripeti il nuovo PIN">
+<!ENTITY smaug.signedsend.label "Firma messaggio">
+<!ENTITY smaug.cardDetails.lang.label "Lingua">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "Dimensione">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Riformatta il testo HTML firmato prima della spedizione">
+<!ENTITY smaug.genCardKey.title "Genera chiave OpenPGP">
+<!ENTITY smaug.ctxDecryptSave.accesskey "S">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Admin PIN attuale">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "Visualizzatore foto OpenPGP">
+<!ENTITY smaug.cardPin.newPin.label "Nuovo PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Cifra/firma ogni allegato separatamente e spedisci il messaggio in formato 'PGP in linea'">
+<!ENTITY smaug.moveDown.accesskey "b">
+<!ENTITY smaug.keyservers.sample "Esempio: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "r">
+<!ENTITY smaug.userNoPassphrase.tooltip "Da attivare nel caso in cui la tua chiave OpenPGP non sia protetta da una passphrase.">
+<!ENTITY smaug.usePGPMimeAlways.label "Usa PGP/MIME in modo predefinito">
+<!ENTITY smaug.addPhoto.title "Aggiungi foto alla chiave">
+<!ENTITY smaug.resetPrefs.tooltip "Ripristina i valori predefiniti delle preferenze di Smaug.">
+<!ENTITY smaug.cardDetails.editData.label "Modifica dati della scheda">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "s">
+<!ENTITY smaug.sendOptionsMenu.accesskey "i">
+<!ENTITY smaug.sKeyDlg.signKey.label "Chiave da firmare:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Vuoi configurare Smaug per tutte le identità?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA e El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Impronta digitale">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Ricarica le chiavi pubbliche selezionate">
+<!ENTITY smaug.delete.label "Elimina">
+<!ENTITY smaug.keyId.label "ID chiave">
+<!ENTITY smaug.moreOptions.label "Altre opzioni">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Ho controllato con grande accuratezza">
+<!ENTITY smaug.test.label "Prova">
+<!ENTITY smaug.debug.label "Debug">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Crea una chiave per cifrare e firmare le email">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "Contiene">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Inserisci nella casella qui sopra i termini da cercare">
+<!ENTITY smaug.cardDetails.encKey.label "Chiave di cifratura">
+<!ENTITY smaug.noHushMailSupport.tooltip "Usa i caratteri '&lt;' e '&gt;' per evidenziare gli indirizzi email a GnuPG. Disattivare se i destinatari usano vecchie chiavi Hushmail.">
+<!ENTITY smaug.keyDetails.selAction.label "Seleziona azione...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Imposta primaria">
+<!ENTITY smaug.setupWiz.accesskey "u">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Procedura guidata di configurazione Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "ID utente primario">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Impostazioni avanzate delle identità Smaug">
+<!ENTITY smaug.keyMan.genRevoke.label "Certificato di revoca">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "A">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Crea chiave">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Lunghezza max. PIN">
+<!ENTITY smaug.decryptbutton.tip "Decifra o verifica il messaggio con Smaug">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "No">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "o">
+<!ENTITY smaug.keyGen.keyType.label "Tipo chiave">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Firma">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "ID chiave">
+<!ENTITY smaug.keyMan.viewMenu.label "Visualizza">
+<!ENTITY smaug.attachmykey.accesskey "m">
+<!ENTITY smaug.cardDetails.adminPin.label "Cambia PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Specifica i file contenenti le chiavi pubbliche e private da importare. Le voci relative alla chiavi pubbliche possono essere lasciate vuote se il primo file contiene entrambi le chiavi.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Mostra di nuovo tutti i messaggi di avviso e le richieste che in passato hai deciso di nascondere.">
+<!ENTITY smaug.msgViewColumn.tooltip "Ordina per stato di OpenPGP">
+<!ENTITY smaug.setupWiz.yes "Sì">
+<!ENTITY smaug.sign.label "Firma">
+<!ENTITY smaug.keyMan.createMail.label "Componi email con le chiavi selezionate">
+<!ENTITY smaug.changePasswd.currPasswd.label "Frase segreta attuale">
+<!ENTITY smaug.keyManWindow.accesskey "o">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Mantieni in memoria la passphrase per un tempo limitato.">
+<!ENTITY smaug.generateKey.label "Genera chiave">
+<!ENTITY smaug.composeOptionsMenu.accesskey "p">
+<!ENTITY smaug.cardPin.pinRepeat.label "Ripeti il nuovo PIN">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "M">
+<!ENTITY smaug.autoDecrypt.accesskey "f">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Visualizza le chiavi non fidate">
+<!ENTITY smaug.generateKey.tooltip "Genera una nuova chiave in formato OpenPGP per cifrare e/o firmare">
+<!ENTITY smaug.keyserverDlg.label "Seleziona server delle chiavi">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Firma localmente (non può essere esportata)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "Come devono essere scelte le chiavi?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Server">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Modifica regole per destinatario">
+<!ENTITY smaug.keyDetails.keyPart.label "Parte della chiave">
+<!ENTITY smaug.copySecurityInfo.label "Copia le informazioni di sicurezza Smaug">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "File">
+<!ENTITY smaug.maxIdleMinutesTail.label "minuti di attesa">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "N">
+<!ENTITY smaug.moveDown.label "Sposta in basso">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Numero di serie">
+<!ENTITY smaug.ctxDecryptSave.label "Decifra e salva come...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "Gestione delle chiavi">
+<!ENTITY smaug.keyTrust.noTrust.label "NON mi fido">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Voglio usare una delle chiavi seguenti per firmare e cifrare le mie email:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Seleziona">
+<!ENTITY smaug.help.label "Guida">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>NOTA: La creazione della chiave può richiedere anche parecchi minuti.</a> Non uscire dall'applicazione prima del termine dell'operazione. Navigare su internet o svolgere attività che sfruttino intensamente il disco durante la creazione della chiave potrà facilitare la generazione dei numeri casuali e accelerare il processo stesso. Sarai avvertito quando la creazione della chiave sarà completata.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "b">
+<!ENTITY smaug.securitybutton.tip "Impostazioni di sicurezza Smaug">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Non comporre messaggi in formato HTML">
+<!ENTITY smaug.maxIdleMinutesHead.label "Ricorda la frase segreta per">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Cifra messaggio">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "PIN attuale">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Non rispondo">
+<!ENTITY smaug.defineRules.label "Modifica le regole...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "t">
+<!ENTITY smaug.keyMan.showAllKeys.label "Mostra tutte le chiavi come impostazione predefinita">
+<!ENTITY smaug.keyMan.title "Gestione chiavi Smaug">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "S">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Aggiungi">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Fai clic per specificare una posizione per GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Scegli le identità">
+<!ENTITY smaug.cardDetails.sigKey.label "Chiave di firma">
+<!ENTITY smaug.cardDetails.sex.label "Sesso">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Cambia Admin PIN">
+<!ENTITY smaug.keyserver.label "Server delle chiavi">
+<!ENTITY smaug.encDlgEncrypt.label "Cifra il messaggio">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Annulla la procedura guidata">
+<!ENTITY smaug.defaultKeySelOpts.label "Impostazioni per la scelta della chiave...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Selezione della chiave">
+<!ENTITY smaug.amPrefDesc.label "Il supporto per la cifratura e la firma dei messaggi in formato OpenPGP è fornito da Smaug. È necessario che tu abbia installato GnuPG (gpg) per poter usare questa funzionalità.">
+<!ENTITY smaug.smaugAttachDesc.label "Questo messaggio contiene allegati. Come vuoi cifrali/firmarli?">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "Gestisci smartcard...">
+<!ENTITY smaug.importMissingKeys.accesskey "a">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug è ora pronto per essere usato.<html:br></html:br><html:br></html:br>Grazie per aver scelto Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Nome, Cognome">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Elimina">
+<!ENTITY smaug.usersNotFound.label "Destinatari non validi, senza fiducia o non trovati">
+<!ENTITY smaug.manageUidDlg.addUid.label "Aggiungi">
+<!ENTITY smaug.keyMan.reload.accesskey "v">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Scarica le chiavi mancanti">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "File della chiave pubblica">
+<!ENTITY smaug.decryptbutton.label "Decifra">
+<!ENTITY smaug.signing.label "Firma">
+<!ENTITY smaug.keygenTitle.label "Genera chiave OpenPGP">
+<!ENTITY smaug.smgEncryptAttachNone.label "Cifra/firma solo il testo del messaggio, ma non gli allegati">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Ripeti la frase segreta">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' è un separatore di firma">
+<!ENTITY smaug.cardPin.title "Cambia il PIN della smartcard">
+<!ENTITY smaug.keyTrust.title "Smaug - Imposta fiducia nel proprietario">
+<!ENTITY smaug.viewconsole.label "Mostra la console">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Non usare il 'Web of Trust' per stabilire la validità delle chiavi">
+<!ENTITY smaug.useNonDefaultComment.label "Aggiungi il commento di Smaug nella firma di OpenPGP">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Vuoi firmare in modo predefinito tutte le email che invii?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Copia chiavi pubbliche negli appunti">
+<!ENTITY smaug.about.accesskey "E">
+<!ENTITY smaug.mime_parts_on_demand.label "Scarica gli allegati solo quando vengono aperti (cartelle IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Due trattini isolati su una riga indicheranno l'inizio della firma">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Non mostrare di nuovo questa finestra se la cifratura non è possibile">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "Revoca chiave">
+<!ENTITY smaug.sKeyDlg.checked.label "Quanto accuratamente hai verificato che la chiave che stai per firmare appartenga effettivamente alla/e persona/e scritta/e qui sopra?">
+<!ENTITY smaug.keyGen.expiry.title "Scadenza della chiave">
+<!ENTITY smaug.undoencryption.accesskey "U">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Visualizza le chiavi non valide">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Dettagli...">
+<!ENTITY smaug.encrypt.label "Cifra">
+<!ENTITY smaug.cardDetails.login.label "Dati di accesso">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "No, preferisco creare delle regole, in base al destinatario, per le email che devono essere firmate">
+<!ENTITY smaug.about.title "Informazioni su Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Crea regola Smaug a partire dall'indirizzo...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "t">
+<!ENTITY smaug.detailsHdrButton.label "Dettagli">
+<!ENTITY smaug.keyTrust.trustKey.label "Chiave di cui fidarsi:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "Azione">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "s">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Creazione della chiave">
+<!ENTITY smaug.autoKeyRetrieve2.label "dai seguenti server delle chiavi:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Dovrai dare la tua chiave pubblica a chiunque, tra i tuoi destinatari, vorrà verificare le tue firme o inviarti email cifrate. Nel frattempo, dovrai tenere segreta la tua chiave privata. Non devi darla a nessuno, né lasciarla incustodita. Chiunque se ne impossessi, potrà leggere tutte le email cifrate che hai ricevuto. Potrà perfino cifrare e/o firmare email a tuo nome. Dato che è segreta, è protetta da una frase segreta.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Aggiungi ID utente">
+<!ENTITY smaug.keyDetails.keyType.label "Tipo">
+<!ENTITY smaug.keyGen.years.label "anni">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Impostazioni del destinatario">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug ti consente di apporre una firma digitale alle tue email. Questo equivale alla versione elettronica della firma di una lettera, e consente alle altre persone di essere sicure che una email proviene realmente da te. È una buona abitudine di sicurezza firmare tutte le email spedite.">
+<!ENTITY smaug.cardDetails.sigcount.label "Contatore firme">
+<!ENTITY smaug.addToRule.useRuleButton.label "Aggiungi chiave alla regola selezionata">
+<!ENTITY smaug.encDlgSign.label "Firma il messaggio">
+<!ENTITY smaug.keyGen.noExpiry.label "La chiave non scade">
+<!ENTITY smaug.keyPassphraseRepeat.label "Frase segreta (ripeti)">
+<!ENTITY smaug.searchForKey.label "Cerca chiave">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Le seguenti impostazioni sono modificate da questa procedura guidata:">
+<!ENTITY smaug.revealAttachmentsButton.label "I nomi dei file allegati sono nascosti. Premi il pulsante 'Rivela' per ottenere i nomi originali.">
+<!ENTITY smaug.always.label "Sempre">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "E">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Esporta chiavi in un file">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Copia chiavi pubbliche negli appunti">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "P">
+<!ENTITY smaug.keyDetails.calcTrust.label "Validità della chiave">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "Opzioni OpenPGP">
+<!ENTITY smaug.progressText.label "Avanzamento:">
+<!ENTITY smaug.sepratationDesc.label "(Separa con uno spazio gli indirizzi email multipli)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Vorrei che Smaug funzionasse solo per le identità seguenti:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Rimuovi il pulsante S/MIME dalla barra dei pulsanti della finestra di composizione messaggi">
+<!ENTITY smaug.keyMan.changeExpiry.label "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "Imposta fiducia nel proprietario">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Visualizza le chiavi non di altre persone">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Questa procedura guidata ti aiuta a iniziare a usare subito Smaug. Nelle prossime schermate ti saranno fatte alcune domande per impostare correttamente tutto.">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "uno degli indirizzi qui sopra">
+<!ENTITY smaug.keyMan.reload.label "Ricarica cache chiavi">
+<!ENTITY smaug.viewconsole.accesskey "o">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "V">
+<!ENTITY smaug.keyNoPassphrase.label "Nessuna frase segreta">
+<!ENTITY smaug.amPrefSelectKey.label "Seleziona la chiave...">
+<!ENTITY smaug.moveUp.label "Sposta in alto">
+<!ENTITY smaug.cardDetails.yes.label "Sì">
+<!ENTITY smaug.testemail.label "Prova email">
+<!ENTITY smaug.composeOptionsMenu.label "Impostazioni predefinite per la composizione">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label "Crea nuova regola">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Hai praticamente finito! Premendo sul pulsante 'Avanti', la procedura guidata eseguirà le seguenti azioni:">
+<!ENTITY smaug.clearSearch.label "Svuota">
+<!ENTITY smaug.signedsend.key "F">
+<!ENTITY smaug.keyMan.delKey.label "Elimina chiave">
+<!ENTITY smaug.keyMan.viewPhoto.label "Foto ID">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "n">
+<!ENTITY smaug.viewdebuglog.label "Mostra il file di log">
+<!ENTITY smaug.manageUidDlg.title "Modifica ID utente primario">
+<!ENTITY smaug.useKeys.label "Usa le seguenti chiavi OpenPGP:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Usa la codifica a 8 bit per l'invio dei messaggi">
+<!ENTITY smaug.sendersKeyMenu.accesskey "v">
+<!ENTITY smaug.keyMan.sign.accesskey "i">
+<!ENTITY smaug.trustSenderKey.label "Imposta fiducia nel proprietario...">
+<!ENTITY smaug.delete.accesskey "E">
+<!ENTITY smaug.encryptedsend.accesskey "C">
+<!ENTITY smaug.encryptedsend.key "C">
+<!ENTITY smaug.keyMan.changePwd.accesskey "m">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Attendi il caricamento delle chiavi...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Nessuna chiave corrisponde ai termini impostati per la ricerca">
+<!ENTITY smaug.importpublickey.label "Importa chiave pubblica">
+<!ENTITY smaug.matchDescStart.label "Applica la regole se il destinatario">
+<!ENTITY smaug.setupWiz.pgWelcome.no "No, grazie. Preferisco configurare tutto manualmente">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Premi qui per vedere le voci di menu e le opzioni riservate ad utenti esperti.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Fiducia personale">
+<!ENTITY smaug.cardDetails.closeWindow.label "Chiudi">
+<!ENTITY smaug.keyTrust.trustLevel.label "Quanto ti fidi della chiave?">
+<!ENTITY smaug.cardDetails.title "Dettagli smartcard OpenPGP">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Ricerca chiavi">
+<!ENTITY smaug.amPrefUseFromAddr.label "Usa l'indirizzo email di questa identità per scegliere la chiave OpenPGP">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Specifica le opzioni che saranno utilizzate da GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Chiudi finestra">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "t">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Apponi una firma digitale alle email in uscita">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "Abilita il supporto OpenPGP (Smaug) per questa identità">
+<!ENTITY smaug.keyMan.exportToFile.label "Esporta chiavi in un file">
+<!ENTITY smaug.cardPin.unblockPin.label "Sblocca PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Modifica">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Scegli gli account o le identità con cui vuoi che funzioni Smaug">
+<!ENTITY smaug.useGpgAgent.tooltip "Usa gpg-agent (compreso in GnuPG 2) ogni volta che serve inserire la frase segreta">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Vuoi cambiare alcune impostazioni predefinite per fare in modo che Smaug funzioni meglio sul tuo computer?">
+<!ENTITY smaug.cardDetails.forcepin.label "Forza PIN della firma">
+<!ENTITY smaug.rulesEditor.label "Smaug - Editor delle regole per i singoli destinatari">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Chiavi trovate - Seleziona quelle da importare">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "F">
+<!ENTITY smaug.resetPrefsButton.label "Ripristina">
+<!ENTITY smaug.valid.label "Valido">
+<!ENTITY smaug.keyUserId.label "Account/ID utente">
+<!ENTITY smaug.cancelKey.label "Annulla">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Voglio creare una nuova coppia di chiavi per firmare e cifrare le mie email">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Ignora regole per i destinatari">
+<!ENTITY smaug.basic.label "Base">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "A">
+<!ENTITY smaug.setupWiz.pgComplete.title "Grazie">
+<!ENTITY smaug.displayKeyProperties.label "Visualizza proprietà della chiave">
+<!ENTITY smaug.agentAdditionalParam.label "Parametri aggiuntivi per GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "La creazione della tua chiave è in corso">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Aggiungi regola per destinatario">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Avanzate">
+<!ENTITY smaug.nextRule.label "Continua con la regola successiva per l'indirizzo corrispondente">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Firma con la chiave:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Ho delle chiavi pubbliche e private che vorrei importare">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Conferma la frase segreta digitandola di nuovo">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Impronta digitale:">
+<!ENTITY smaug.keyMan.keyProps.label "Proprietà della chiave">
+<!ENTITY smaug.keyMan.setTrust.accesskey "d">
+<!ENTITY smaug.keyMan.editMenu.accesskey "M">
+<!ENTITY smaug.attachmykey.label "Allega la mia chiave pubblica">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "Creata">
+<!ENTITY smaug.cardDetails.pinretry.label "Contatore tentativi PIN">
+<!ENTITY smaug.ctxDecryptOpen.label "Decifra e apri">
+<!ENTITY smaug.setupWiz.label "Procedura guidata di configurazione">
+<!ENTITY smaug.genCardKey.backupKey.label "Salva una copia di sicurezza della chiave al di fuori della scheda">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Utilizza la chiave generata per l'identità selezionata">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Proprietà della chiave">
+<!ENTITY smaug.amPrefUseKeyId.label "Usa la chiave OpenPGP con ID (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Invia chiavi pubbliche via email">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Impostazioni base">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Avanzate...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Mi fido definitivamente">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Impronta digitale">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "Mostra foto ID di OpenPGP">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Usa gpg-agent per le frasi segrete">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Crea una regola/e per i singoli destinatari">
+<!ENTITY smaug.sendOptionsMenu.label "Impostazioni di invio...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Non è stata trovata alcuna chiave OpenPGP">
+<!ENTITY smaug.keyMan.stopTransfer.label "Interrompi il trasferimento">
+<!ENTITY smaug.refreshKeys.label "Ricarica l'elenco delle chiavi">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Cifra/firma le risposte a messaggi cifrati/firmati">
+<!ENTITY smaug.addPhoto.question.label "Vuoi aggiungere l'immagine specificata alla chiave seguente?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Se possibile, cifra/firma le risposte a email cifrate/firmate">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Ricarica tutte le chiavi pubbliche">
+<!ENTITY smaug.cardDetails.authKey.label "Chiave di autenticazione">
+<!ENTITY smaug.viewKeySigDlg.title "Elenco firme">
+<!ENTITY smaug.cardDetails.vendor.label "Produttore">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Invia URL per scaricare la chiave:">
+<!ENTITY smaug.encryptionDlg.label "Impostazioni Smaug di cifratura e firma">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "h">
+<!ENTITY smaug.maybe.label "Sì, se selezionato durante la composizione del messaggio">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Mi fido marginalmente">
+<!ENTITY smaug.prefs.pathsTitle.label "File e cartelle">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Nota:</a> Smaug verificherà comunque le firme sulle email di tutti gli account o identità, indipendentemente dal fatto che sia abilitato o meno">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "l">
+<!ENTITY smaug.addUidDlg.comment.label "Commento (opzionale)">
+<!ENTITY smaug.setupWiz.no "No, grazie">
+<!ENTITY smaug.alwaysTrustSend.label "Fidati sempre delle chiavi di chiunque">
+<!ENTITY smaug.keyMan.viewSig.accesskey "F">
+<!ENTITY smaug.changePasswd.newPasswd.label "Nuova frase segreta">
+<!ENTITY smaug.undoencryption.label "Annulla cifratura">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Crea e salva un certificato di revoca">
+<!ENTITY smaug.cardDetails.reset.label "Ripristina">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Mostra firme">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Impostazioni di firma/cifratura...">
+<!ENTITY smaug.reload.label "Ricarica il messaggio">
+<!ENTITY smaug.browse.label "Sfoglia...">
+<!ENTITY smaug.passwordSettings.label "Impostazioni frase segreta">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritmo">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "c">
+<!ENTITY smaug.cardDetails.keyCreated.label "Creata">
+<!ENTITY smaug.autoDecrypt.label "Decifra/Verifica automaticamente i messaggi">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Importa chiavi OpenPGP">
+<!ENTITY smaug.keyservers.label "Specifica server delle chiavi">
+<!ENTITY smaug.encDlgIgnoreRules.label "Ignora regole per singolo destinatario">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "ID utente disponibili:">
+<!ENTITY smaug.add.accesskey "g">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "Firma chiave...">
+<!ENTITY smaug.searchKeyDlg.label "Scarica chiavi OpenPGP">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Hai scelto di non usare la procedura guidata per configurare Smaug. <html:br></html:br><html:br></html:br>Grazie per aver scelto Smaug.">
+<!ENTITY smaug.signedsend.accesskey "F">
+<!ENTITY smaug.keyGen.console.label "Console di creazione chiave">
+<!ENTITY smaug.signSenderKeyPopup.label "Firma la chiave del mittente...">
+<!ENTITY smaug.cardDetails.url.label "URL della chiave pubblica">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Le impostazioni Smaug sono specifiche per ogni account e identità. Smaug sarà configurato per funzionare con tutti i tuoi account e le tue identità. Se questo non è ciò che vuoi, seleziona qui sotto in maniera specifica l'account o l'identità con cui vuoi che funzioni Smaug.">
+<!ENTITY smaug.resetRememberedValues.label "Riattiva gli avvisi">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Nessuna chiave OpenPGP trovata">
+<!ENTITY smaug.cardDetails.save.label "Salva">
+<!ENTITY smaug.prefs.overrideGpg.label "Dai la precedenza a">
+<!ENTITY smaug.logdirectory.label "Cartella dei log">
+<!ENTITY smaug.setupWiz.pgSummary.title "Riepilogo">
+<!ENTITY smaug.ruleEmail.label "Imposta regole Smaug per">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Conferma che la procedura guidata dovrà rendere esecutivi questi cambiamenti">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Mostra il corpo del messaggio come testo puro">
+<!ENTITY smaug.debugMenu.label "Opzioni debug">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Ricarica chiavi pubbliche dal server">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Crea una chiave per firmare e cifrare le email">
+<!ENTITY smaug.keyMan.selectAll.key "t">
+<!ENTITY smaug.userNoPassphrase.label "Non chiedere alcuna frase segreta">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Chiave da modificare:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Impostazioni predefinite per la composizione dei messaggi">
+<!ENTITY smaug.sendersKeyMenu.label "Chiave del mittente">
+<!ENTITY smaug.preferences.label "Preferenze Smaug">
+<!ENTITY smaug.clearPassphrase.label "Cancella la frase segreta salvata">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Ti serve una 'coppia di chiavi' per firmare e cifrare le email, o per leggere le email cifrate. Una coppia di chiavi consta di due chiavi, una pubblica e una privata.">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Abbiamo visto che possiedi già una chiave OpenPGP. Puoi sia usare una delle tue chiavi esistenti per firmare, cifrare e decifrare le email, oppure puoi creare una nuova coppia di chiavi.">
+<!ENTITY smaug.noHushMailSupport.label "Usa '&lt;' e '&gt;' per specificare gli indirizzi email">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Specifica i file contenenti le chiavi pubbliche e private da importare. Le voci relative alla chiavi pubbliche possono essere lasciate vuote se il primo file contiene entrambi le chiavi.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "giorni">
+<!ENTITY smaug.disableRules.accesskey "g">
+<!ENTITY smaug.setupWiz.pgSettings.title "Preferenze">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "R">
+<!ENTITY smaug.keyMan.generate.label "Nuova coppia di chiavi">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Allega la mia chiave pubblica ai messaggi">
+<!ENTITY smaug.encDlgPgpMime.label "Usa PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Seleziona tutte le chiavi">
+<!ENTITY smaug.keyComment.label "Commento">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Non ho controllato affatto">
+<!ENTITY smaug.keyDetails.usage.label "Utilizzo">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "A">
+<!ENTITY smaug.addUidDlg.email.label "Email">
+<!ENTITY smaug.openPgpSecurity.label "Sicurezza OpenPGP">
+<!ENTITY smaug.nextAddress.label "Non controllare le regole successive per l'indirizzo corrispondente">
+<!ENTITY smaug.setupWiz.details.subtitle "Modifica le impostazioni dell'applicazione">
+<!ENTITY smaug.keyMan.uploadToServer.label "Invia chiavi pubbliche">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Inserisci solo gli indirizzi di email, NON i nomi dei destinatari Ad es.: 'Nome Cognome &lt;nome.cognome@indirizzo.net&gt;' non è valido">
+<!ENTITY smaug.setupWiz.details.title "Preferenze">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "A">
+<!ENTITY smaug.email.label "Email">
+<!ENTITY smaug.attachkey.label "Allega chiave pubblica...">
+<!ENTITY smaug.not.label "Non">
+<!ENTITY smaug.keyExpiry.label "Scadenza">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "A">
+<!ENTITY smaug.keyMan.userId.label "Nome">
+<!ENTITY smaug.keyMan.manageUid.label "Gestisci ID utente">
+<!ENTITY smaug.defaultEncryption.label "Cifra i messaggi">
+<!ENTITY smaug.never.label "Mai">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "Genera chiave">
+<!ENTITY smaug.editRules.accesskey "n">
+<!ENTITY smaug.prefs.accesskey "p">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "È esattamente">
+<!ENTITY smaug.searchRule.label "Visualizza le regole i cui indirizzi email contengono:">

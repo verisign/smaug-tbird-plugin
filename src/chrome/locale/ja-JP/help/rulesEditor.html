@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset='UTF-8'">
+  <title>Smaug ヘルプ: 受取人ごとの設定</title>
+  <style type="text/css" xml:space="preserve">
+  /*<![CDATA[*/
+    dt  { font-weight: bold;  }
+  /*]]>*/
+  </style>
+</head>
+
+<body>
+  <h1>Smaug ヘルプ</h1>
+
+  <h3>Smaug 受取人ごとの設定</h3>
+
+  <p>受取人ごとの設定では、受取人ごとに暗号化、署名、PGP/MIME に関するデフォルト設定と、どの OpenPGP鍵を用いるかを設定できます。各ルールは 5 つのフィールドからなり、1 つの方針をあらわします。:</p>
+
+  <dl>
+    <dt>メールアドレス</dt>
+
+    <dd>メールアドレスを To:, Cc: そして Bcc: フィールドでマッチさせます。 マッチングは、<span style="font-style: italic;">部分一致</span>で行われます。 (詳細は ルール編集 ダイアログにあります。)</dd>
+
+    <dt>OpenPGP鍵</dt>
+
+    <dd>受取人ごとに用いる OpenPGP鍵ID を設定します。</dd>
+
+    <dt>署名</dt>
+
+    <dd>
+      署名する/しないを設定します。
+    メッセージ作成ウインドウの設定を使用したり、上書きすることがあります。
+
+      <ul>
+        <li><em>常にしない</em>: メッセージ作成画面で署名するとしても、署名しません。(他の値を無効にします)</li>
+
+        <li><em>可能なら</em>: メッセージ作成画面で設定されないかぎり署名します。</li>
+
+        <li><em>常にする</em>: メッセージ作成画面で署名 <span style="font-style: italic;">しない</span> としても署名します。</li>
+      </ul>
+
+      <p>これらの設定はマッチするもの全てが適用されます。
+もし、ルールのうち 1 つが署名しないことにすると、他のルールが <em>常にする</em> となっていても、メッセージは署名されません。</p>
+    </dd>
+
+    <dt>暗号化</dt>
+
+    <dd>メッセージの暗号化を
+    するかしないかを設定します。設定可能な項目と意味は、署名と同様です。</dd>
+
+    <dt>PGP/MIME</dt>
+
+    <dd>PGP/MIME (RFC 3156) エンコードをするかしないかを設定します。もし PGP/MIME が無効なら、メッセージはインライン PGP でエンコードされます。設定可能な項目と意味は、署名と同様です。</dd>
+  </dl>
+
+  <p>ルールは表示されている順に処理されます。あるルールが受取人にあてはまり、OpenPGP鍵ID、さらに特定された鍵ID を含んでいる場合、その受取人については、他のルールは考慮されません。</p>
+
+  <p><em>注意:</em> ルールエディタはまだ完成していません。ルールファイルを直接編集することで、より詳細なルールを設定することが可能です (これらのルールはルールエディタで編集できなかったものです)。直接ファイルを編集することについての <a href="http://www.smaug.net/documentation/pgprules_file.php" target="_blank">詳細な情報 (英語)</a> は Smaug Homepage にあります。</p>
+  <hr />
+
+  <p>更なるヘルプは以下のサイトで利用できます (英語): <a href="http://www.smaug.net/support/" target="_blank">Smaug Help web page</a></p>
+</body>
+</html>

@@ -1,0 +1,652 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Avaimen luotettavuus">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Allek. tyyppi">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Muuta sähköpostiasetuksiani niin, että Smaug toimii luotettavammin">
+<!ENTITY smaug.pgpAccountSettings.accesskey "s">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Salaa/allekirjoita viesti kokonaisuudessaan ja lähetä se käyttäen PGP/MIME:ä">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Kyllä, suorita ohjattu asennus">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Omistajan luottamus">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Tee samoin kaikille tuleville liitteille">
+<!ENTITY smaug.ctxImportKey.label "Tuo OpenPGP-avain">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Ei tekstin juoksevaa rivitystä (RFC 2646 - flowed text)">
+<!ENTITY smaug.cardPin.action.label "Mitä haluat tehdä?">
+<!ENTITY smaug.addToRule.title                    "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "u">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Siirrä julkiset avaimet avainpalvelimelle">
+<!ENTITY smaug.about.label "Tietoja Smaug:stä">
+<!ENTITY smaug.keyGen.months.label "kuukaudessa">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Specify the files to import">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "S">
+<!ENTITY smaug.ctxVerifyAtt.label                "Verify signature">
+<!ENTITY smaug.progress.label "Edistyminen">
+<!ENTITY smaug.adminSmartCard.accesskey "H">
+<!ENTITY smaug.debugMenu.accesskey "j">
+<!ENTITY smaug.sending.label "Lähetys">
+<!ENTITY smaug.clearSearch.accesskey "T">
+<!ENTITY smaug.keyPassphrase.label "Salasana">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "Vaihtaa PIN-koodin">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Suodata käyttäjätunnuksista tai avaintunnuksista:">
+<!ENTITY smaug.keyMan.importFromFile.label "Tuo avaimet tiedostosta">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Allekirjoita avain">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Kyllä. Kaikki viestini allekirjoitetaan">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Mitätöi">
+<!ENTITY smaug.cancelKey.tooltip "Peruuta avaimen luonti">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Suoritetaanko ohjattu asennus?">
+<!ENTITY smaug.importMissingKeys.tooltip "Nouda puuttuvat avaimet avainpalvelimelta">
+<!ENTITY smaug.keyTrust.dontKnow.label "En tiedä">
+<!ENTITY smaug.cardPin.newAdminPin.label "Uusi ADMIN PIN-koodi">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Näytä kuva">
+<!ENTITY smaug.keyDetails.expiry.label "Vanhenee">
+<!ENTITY smaug.keyMan.keyType.label "Tyyppi">
+<!ENTITY smaug.created.label "Luotu">
+<!ENTITY smaug.importpublickey.accesskey "T">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Älä lataa IMAP-osia tarvittaessa">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Avainten valinta">
+<!ENTITY smaug.sendPGPMime.label "Käytä PGP/MIME:ä tässä viestissä">
+<!ENTITY smaug.savedecrypted.label "Tallenna purettu viesti">
+<!ENTITY smaug.userSelectionList.label "Smaug-avainten valinta">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Olen kohtuullisen varma">
+<!ENTITY smaug.edit.label "Muokkaa">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Luo">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Järjestä viestin teksti niin, että allekirjoitus ei rikkoudu lähetyksen yhteydessä.">
+<!ENTITY smaug.decryptverify.label "Pura tai varmista">
+<!ENTITY smaug.encDlgEncrypt.accesskey "S">
+<!ENTITY smaug.prefs.label "Asetukset">
+<!ENTITY smaug.keyMan.changePwd.label "Vaihda salasanaa">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "V">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Avain vanhenee">
+<!ENTITY smaug.encryption.label "Salaaminen">
+<!ENTITY smaug.keyTrust.fullTrust.label "Luotan täysin">
+<!ENTITY smaug.addUidDlg.name.label "Nimi">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "ja vastaanottajan osoitteen loppu täsmäävät">
+<!ENTITY smaug.pgpKeys.label "OpenPGP-avaimet">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Lähetä OpenPGP-avaintunnus">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "y">
+<!ENTITY smaug.keyGen.keySize.label "Avaimen koko">
+<!ENTITY smaug.basicUser.tooltip        "Press if you do not want to see menu items and options for advanced users.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Ohjattu asennus voi muuttaa asetuksiasi niin, että viestien allekirjoittaminen
+                                                      ja salaaminen on ongelmattomampaa. Pääasiassa muutos koskee vain teknisiä asetuksia,
+                                                      joita et huomaa, lukuun ottamatta, että viestit kirjoitetaan oletuksena pelkkänä
+                                                      tekstinä.">
+<!ENTITY smaug.cardDetails.male.label "Mies">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "A">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "v">
+<!ENTITY smaug.singleRcptSettings.desc "(Huom: ristiriitatilanteissa valinta &quot;Ei koskaan&quot; on etusijalla)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Private key file">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug-turvallisuustiedot...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Asetus tulee ottaa pois käytöstä jos vastaanotat PGP/MIME-viestejä IMAP-kansioihin.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Aseta lähettäjän avaimen omistajan luottamus...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Allekirjoitukset avaimelle:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Allekirjoita avain">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>Huom: Avaimen luominen voi kestää jopa useita minuutteja.</a> Älä sulje ohjelmaa kun avainta luodaan. Smaug ilmoittaa kun avain on valmis.">
+<!ENTITY smaug.keyDetails.additionalUid.label     "Additional User ID">
+<!ENTITY smaug.cardDetails.cardMenu.label "Älykortti">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label            "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "Nainen">
+<!ENTITY smaug.sendPGPMime.accesskey "K">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Tuo avaimet leikepöydältä">
+<!ENTITY smaug.setDefaultsFor.label "Oletusasetukset toiminnolle...">
+<!ENTITY smaug.changePasswd.title "Vaihda OpenPGP-salasana">
+<!ENTITY smaug.keyMan.viewSig.label "Allekirjoitukset">
+<!ENTITY smaug.autoKeyRetrieve.label "Lataa avaimet automaattisesti">
+<!ENTITY smaug.matchBegin.label "ja vastaanottajan osoitteen alku täsmäävät">
+<!ENTITY smaug.selKeysButton.label "Valitse avaimet...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Lähetä OpenPGP-otsake">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Toista uusi ADMIN PIN-koodi">
+<!ENTITY smaug.signedsend.label "Allekirjoita viesti">
+<!ENTITY smaug.cardDetails.lang.label "Kieli">
+<!ENTITY smaug.messengermenu.accesskey "E">
+<!ENTITY smaug.keyDetails.size.label "Koko">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Rivitä allekirjoitettu HTML-viesti ennen lähettämistä">
+<!ENTITY smaug.genCardKey.title "Luo OpenPGP-avain">
+<!ENTITY smaug.ctxDecryptSave.accesskey "t">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Nykyinen ADMIN PIN-koodi">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title                "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "Uusi PIN-koodi">
+<!ENTITY smaug.smgEncryptAttachInline.label "Salaa jokainen liite erikseen, ja teksti käyttäen viestin sisäistä PGP:tä">
+<!ENTITY smaug.moveDown.accesskey "a">
+<!ENTITY smaug.keyservers.sample "Esimerkiksi: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "M">
+<!ENTITY smaug.userNoPassphrase.tooltip "Valitse, jos OpenPGP-avaimesi ei ole suojattu salasanalla.">
+<!ENTITY smaug.usePGPMimeAlways.label "Käytä aina PGP/MIME:ä">
+<!ENTITY smaug.addPhoto.title "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "Palauta kaikki Smaug-asetukset takaisin oletusarvoihinsa.">
+<!ENTITY smaug.cardDetails.editData.label "Muokkaa kortin tietoja">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "v">
+<!ENTITY smaug.sendOptionsMenu.accesskey "L">
+<!ENTITY smaug.sKeyDlg.signKey.label "Allekirjoita avain:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Smaug on käytössä kaikilla käyttäjätunnuksilla">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA ja El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Sormenjälki">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Päivitä valitut julkiset avaimet">
+<!ENTITY smaug.delete.label "Poista">
+<!ENTITY smaug.keyId.label "Avaimen tunnus">
+<!ENTITY smaug.moreOptions.label "Lisäasetukset">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Olen aivan varma">
+<!ENTITY smaug.test.label "Testaa">
+<!ENTITY smaug.debug.label "Virheenjäljitys">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Luo avain, jolla voi allekirjoittaa ja salata sähköpostiviestejä">
+<!ENTITY smaug.keyDetails.ID.label "Tunnus">
+<!ENTITY smaug.matchContains.label "on osa vastaanottajan osoitetta">
+<!ENTITY smaug.keyMan.emptyTree.tooltip         "Enter search terms in the box above">
+<!ENTITY smaug.cardDetails.encKey.label "Salausavain">
+<!ENTITY smaug.noHushMailSupport.tooltip "Erittele sähköpostiosoitteet &quot;&lt;&quot; ja &quot;&gt;&quot;-merkeillä GnuPG:lle. Poista asetus käytöstä jos vastaanottajilla on vanhoja Hushmail-avaimia.">
+<!ENTITY smaug.keyDetails.selAction.label         "Select action ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Aseta ensisijaiseksi">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Smaug:n ohjattu asennus">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Ensisijainen käyttäjätunnus">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Advanced Smaug Identity Settings">
+<!ENTITY smaug.keyMan.genRevoke.label "Mitätöintivarmenne">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "a">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Luo avain">
+<!ENTITY smaug.savedecrypted.accesskey "n">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Suurin PIN-koodin pituus">
+<!ENTITY smaug.decryptbutton.tip "Pura salaus tai varmista viesti OpenPGP:llä (Smaug)">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Ei">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "D">
+<!ENTITY smaug.keyGen.keyType.label "Avaintyyppi">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Allekirjoittaminen">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "Avaintunnus">
+<!ENTITY smaug.keyMan.viewMenu.label "Näytä">
+<!ENTITY smaug.attachmykey.accesskey "m">
+<!ENTITY smaug.cardDetails.adminPin.label "Vaihda PIN-koodi">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "We could not find any OpenPGP key. Please select below if you want to
+                                                      create a new key pair or if you want to import an existing key.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Näytä jälleen kaikki varoitusikkunat ja -kysymykset, jotka olet aikaisemmmin päättänyt piilottaa.">
+<!ENTITY smaug.msgViewColumn.tooltip              "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "Kyllä">
+<!ENTITY smaug.sign.label "Allekirjoita">
+<!ENTITY smaug.keyMan.createMail.label          "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "Nykyinen salasana">
+<!ENTITY smaug.keyManWindow.accesskey "v">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Muista salasanat määritetyn ajan verran.">
+<!ENTITY smaug.generateKey.label "Luo avain">
+<!ENTITY smaug.composeOptionsMenu.accesskey "V">
+<!ENTITY smaug.cardPin.pinRepeat.label "Toista uusi PIN-koodi">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "M">
+<!ENTITY smaug.autoDecrypt.accesskey "v">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label   "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "Luo uuden OpenPGP-avaimen, jolla voi salata ja allekirjoittaa viestejä">
+<!ENTITY smaug.keyserverDlg.label "Valitse avainpalvelin">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Paikallinen allekirjoitus (ei voi viedä)">
+<!ENTITY smaug.clearPassphrase.accesskey "o">
+<!ENTITY smaug.recipientsSelectionOption.label "Kuinka avaimet valitaan?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Avainpalvelin">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Muokkaa vastaanottajakohtaisia sääntöjä">
+<!ENTITY smaug.keyDetails.keyPart.label           "Key Part">
+<!ENTITY smaug.copySecurityInfo.label "Kopioi Smaug-turvallisuustiedot">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Tiedosto">
+<!ENTITY smaug.maxIdleMinutesTail.label "minuuttia viimeisestä komennosta alkaen">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "a">
+<!ENTITY smaug.moveDown.label "Siirrä alas">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Sarjanumero">
+<!ENTITY smaug.ctxDecryptSave.label "Pura salaus ja tallenna nimellä...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "L">
+<!ENTITY smaug.keyManWindow.label "Avainten hallinta">
+<!ENTITY smaug.keyTrust.noTrust.label "En luota">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "A">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Käytän jotain alla olevista avaimista viestien allekirjoittamiseen ja salaamiseen:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Valinta">
+<!ENTITY smaug.help.label "Ohje">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>Huom: Avaimen luominen voi kestää jopa useita minuutteja.</a> Älä sulje ohjelmaa kun avainta luodaan. Tietokoneen aktiivinen käyttäminen avainta luotaessa lisää avaimen luontiin tarvittavaa satunnaisuutta ja siten nopeuttaa luontiprosessia. Smaug ilmoittaa kun avain on valmis.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "k">
+<!ENTITY smaug.securitybutton.tip "Smaug -turvallisuusasetukset">
+<!ENTITY smaug.composemenu.accesskey "E">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Älä kirjoita HTML-muotoisia viestejä">
+<!ENTITY smaug.maxIdleMinutesHead.label "Säilytä salasana">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Salaa viesti">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "Nykyinen PIN-koodi">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "En vastaa">
+<!ENTITY smaug.defineRules.label "Muokkaa sääntöjä ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "H">
+<!ENTITY smaug.keyMan.showAllKeys.label         "Display All Keys by Default">
+<!ENTITY smaug.keyMan.title "Smaug-avainten hallintaikkuna">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "p">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Lisää">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Valitse vaihtoehtoinen polku GnuPG:lle">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Valitse käyttäjätunnus">
+<!ENTITY smaug.cardDetails.sigKey.label "Allekirjoitusavain">
+<!ENTITY smaug.cardDetails.sex.label "Sukupuoli">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Vaihtaa ADMIN PIN-koodin">
+<!ENTITY smaug.keyserver.label "Avainpalvelin">
+<!ENTITY smaug.encDlgEncrypt.label "Salaa viesti">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Peruuta ohjattu asennus">
+<!ENTITY smaug.defaultKeySelOpts.label "Avainten valinnan asetukset...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Avaimen valinta">
+<!ENTITY smaug.amPrefDesc.label "Smaug tukee viestien salausta ja allekirjoitusta OpenPGP-avaimella. GnuPG (gpg) -ohjelman täytyy olla asennettuna, jotta Smaug toimisi.">
+<!ENTITY smaug.smaugAttachDesc.label "Viestissä on liitetiedostoja. Kuinka niitä käsitellään?">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "Hallinnoi älykorttia...">
+<!ENTITY smaug.importMissingKeys.accesskey "N">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug on valmis käytettäväksi.<html:br></html:br><html:br></html:br>Kiitos Smaug-tiimin puolesta.">
+<!ENTITY smaug.cardDetails.name.label "Etunimi, Sukunimi">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Poista">
+<!ENTITY smaug.usersNotFound.label "Vastaanottajia ei löydetty">
+<!ENTITY smaug.manageUidDlg.addUid.label "Lisää">
+<!ENTITY smaug.keyMan.reload.accesskey "ä">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Nouda puuttuvat avaimet">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Public key file">
+<!ENTITY smaug.decryptbutton.label "Pura salaus">
+<!ENTITY smaug.signing.label "Allekirjoittaminen">
+<!ENTITY smaug.keygenTitle.label "Luo OpenPGP-avain">
+<!ENTITY smaug.smgEncryptAttachNone.label "Salaa/allekirjoita vain viestin teksti, älä liitteitä">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Toista salasana">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "Käsittele  &quot;--&quot;-merkkiä sähköpostin allekirjoituksen erottimena">
+<!ENTITY smaug.cardPin.title "Vaihda älykortin PIN-koodi">
+<!ENTITY smaug.keyTrust.title "Smaug - Aseta omistajan luottamus">
+<!ENTITY smaug.viewconsole.label "Näytä konsoli">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Älä käytä ns. luottamusverkkoa avainten luotettavuuden arviointiin">
+<!ENTITY smaug.useNonDefaultComment.label "Lisää Smaug-kommentti OpenPGP-allekirjoitukseen">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Allekirjoitetaanko kaikki lähtevät viestit?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Kopioi julkiset avaimet leikepöydälle">
+<!ENTITY smaug.about.accesskey "T">
+<!ENTITY smaug.mime_parts_on_demand.label "Lataa MIME-liitteet vasta erikseen pyydettäessä (IMAP-kansiot)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Kaksi väliviivaa rivillä yksinään on merkkinä sähköpostin allekirjoitusosan alusta">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Älä näytä tätä valikkoa uudestaan, jos salaus ei ole mahdollista">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "Mitätöi avain">
+<!ENTITY smaug.sKeyDlg.checked.label "Kuinka varma olet, että avain, jota olet allekirjoittamassa, todella kuuluu yllä mainitulle henkilölle?">
+<!ENTITY smaug.keyGen.expiry.title "Avaimen vanhentuminen">
+<!ENTITY smaug.undoencryption.accesskey "K">
+<!ENTITY smaug.keyMan.showInvalidKeys.label     "Display invalid keys">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Lisätiedot...">
+<!ENTITY smaug.encrypt.label "Salaa">
+<!ENTITY smaug.cardDetails.login.label "Kirjautumistieto">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Ei. Luodaan vastaanottajakohtainen sääntö ihmisistä, joiden viestit allekirjoitetaan">
+<!ENTITY smaug.about.title "Tietoja Smaug:stä">
+<!ENTITY smaug.createRuleFromAddr.label "Luo Smaug-sääntö osoitteelle...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "l">
+<!ENTITY smaug.detailsHdrButton.label            "Details">
+<!ENTITY smaug.keyTrust.trustKey.label "Aseta luottamustaso avaimelle:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "Toiminto">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "A">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Avaimen luonti">
+<!ENTITY smaug.autoKeyRetrieve2.label "seuraavalta avainpalvelimelta:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Julkinen avain pitää toimittaa jokaiselle osoitekirjassasi olevalle, joka
+                                                      varmentaa allekirjoituksesi, purkaa lähettämäsi salatun viestin tai lähettää
+                                                      sinulle salatun viestin. Salainen avain sitä vastoin täytyy pitää salaisena.
+                                                      Sitä ei saa antaa kenellekään tai jättää sitä turvattomaan paikkaan. Sillä voi
+                                                      lukea kaikki ihmisten sinulle lähettämät salatut viestit. Sillä voi myös lähettää
+                                                      sähköpostia nimissäsi. Koska se on salainen, sitä suojaa salasana.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Lisää käyttäjätunnus">
+<!ENTITY smaug.keyDetails.keyType.label "Tyyppi">
+<!ENTITY smaug.keyGen.years.label "vuodessa">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Vastaanottaja-asetukset">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug:llä voit allekirjoittaa sähköpostisi. Digitaalinen allekirjoitus
+                                                      on varmistus siitä, että sähköposti on todellakin sinulta. Viestien
+                                                      allekirjoittaminen on hyvien tietoturvakäytäntöjen mukaista.
+">
+<!ENTITY smaug.cardDetails.sigcount.label "Allekirjoituslaskuri">
+<!ENTITY smaug.addToRule.useRuleButton.label      "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "Allekirjoita viesti">
+<!ENTITY smaug.keyGen.noExpiry.label "Avain ei vanhene">
+<!ENTITY smaug.keyPassphraseRepeat.label "Salasana (toista)">
+<!ENTITY smaug.searchForKey.label "Etsi avainta">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Ohjattu asennus muuttaa seuraavia asetuksia:">
+<!ENTITY smaug.revealAttachmentsButton.label     "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "Aina">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "L">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Vie avaimet tiedostoon">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "u">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Kopioi julkiset avaimet leikepöydälle">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "T">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "O">
+<!ENTITY smaug.keyDetails.calcTrust.label "Avaimen luotettavuus">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP-asetukset">
+<!ENTITY smaug.progressText.label "Edistyminen:">
+<!ENTITY smaug.sepratationDesc.label "(Erota sähköpostiosoitteet väleillä)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Smaug on käytössä vain seuraavilla käyttäjätunnuksilla:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Poista S/MIME-painike viestin luonti-ikkunan työkalupalkista">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "Aseta omistajan luottamus">
+<!ENTITY smaug.keyMan.showOthersKeys.label      "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Ohjatulla asennuksella Smaug saadaan nopeasti toimintakuntoon. Seuraavissa
+                                                      ikkunoissa kysytään joitain kysymyksiä, joiden perusteella tehdään asetukset.
+">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label                "one of the above addresses">
+<!ENTITY smaug.keyMan.reload.label "Päivitä avainvälimuisti">
+<!ENTITY smaug.viewconsole.accesskey "k">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "N">
+<!ENTITY smaug.keyNoPassphrase.label "Ei salasanaa">
+<!ENTITY smaug.amPrefSelectKey.label "Valitse avain...">
+<!ENTITY smaug.moveUp.label "Siirrä ylös">
+<!ENTITY smaug.cardDetails.yes.label "Kyllä">
+<!ENTITY smaug.testemail.label "Testisähköposti">
+<!ENTITY smaug.composeOptionsMenu.label "Viestien kirjoituksen oletusasetukset">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label      "Create New Rule">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Asennus on melkein valmis. Jos napsautat Seuraava-painiketta, ohjattu asennus suorittaa vielä seuraavat toiminnot:">
+<!ENTITY smaug.clearSearch.label "Tyhjennä">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Poista avain">
+<!ENTITY smaug.keyMan.viewPhoto.label "Kuva">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "o">
+<!ENTITY smaug.viewdebuglog.label "Näytä loki">
+<!ENTITY smaug.manageUidDlg.title "Muuta ensisijaista käyttäjätunnusta">
+<!ENTITY smaug.useKeys.label "Käytä seuraavia OpenPGP-avaimia:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Viestit lähetään 8-bittisellä koodauksella">
+<!ENTITY smaug.sendersKeyMenu.accesskey "L">
+<!ENTITY smaug.keyMan.sign.accesskey "A">
+<!ENTITY smaug.trustSenderKey.label "Aseta omistajan luottamus...">
+<!ENTITY smaug.delete.accesskey "o">
+<!ENTITY smaug.encryptedsend.accesskey "S">
+<!ENTITY smaug.encryptedsend.key "P">
+<!ENTITY smaug.keyMan.changePwd.accesskey "i">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip        "Please wait while keys are being loaded ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip      "No keys match your search terms">
+<!ENTITY smaug.importpublickey.label "Tuo julkinen avain">
+<!ENTITY smaug.matchDescStart.label "Sääntö pätee jos ylläoleva">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Ei kiitos. Muokkaan asetukset itse">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Valitse, jos haluat paljastaa kaikki asetukset ja täydellisen OpenPGP-valikon.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Omistajan luottamus">
+<!ENTITY smaug.cardDetails.closeWindow.label "Sulje">
+<!ENTITY smaug.keyTrust.trustLevel.label "Kuinka paljon luotat avaimeen?">
+<!ENTITY smaug.cardDetails.title "OpenPGP-älykortin tiedot">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Etsi avaimia">
+<!ENTITY smaug.amPrefUseFromAddr.label "Käytä näiden käyttäjätietojen sähköpostiosoitetta OpenGPG-avaimen selvittämiseen">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Kirjoita GnuPG:lle komentorivivalintoja.">
+<!ENTITY smaug.keyMan.close.label "Sulje ikkuna">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "k">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Digitaalisesti allekirjoita lähtevät viestit">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "Ota käyttöön OpenPGP-tuki (Smaug) näiden käyttäjätietojen kanssa">
+<!ENTITY smaug.keyMan.exportToFile.label "Vie avaimet tiedostoon">
+<!ENTITY smaug.cardPin.unblockPin.label "Pura PIN-koodin esto">
+<!ENTITY smaug.keyMan.editMenu.label "Muokkaa">
+<!ENTITY smaug.encDlgPgpMime.accesskey "K">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Valitse tili tai käyttäjätunnus, jolle Smaug asetetaan">
+<!ENTITY smaug.useGpgAgent.tooltip "Käytä gpg-agenttia (osa GnuPG 2:a) salasanojen täyttämiseen">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Muutetaanko ohjelman asetuksia sopimaan paremmin Smaug:n käyttöön?">
+<!ENTITY smaug.cardDetails.forcepin.label "Vaadi PIN-koodi allekirjoitettaessa">
+<!ENTITY smaug.rulesEditor.label "Smaug - Vastaanottajakohtaisten sääntöjen muokkain">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Löydettiin avaimia - Valitse tuotavat avaimet">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "K">
+<!ENTITY smaug.resetPrefsButton.label "Palauta oletusarvot">
+<!ENTITY smaug.valid.label "Voimassa">
+<!ENTITY smaug.keyUserId.label "Tili / Käyttäjätunnus">
+<!ENTITY smaug.cancelKey.label "Peruuta">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Luo uusi avainpari viestien allekirjoittamiseen ja salaamiseen">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Älä huomioi vastaanottajakohtaisia sääntöjä">
+<!ENTITY smaug.basic.label "Yleiset">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "L">
+<!ENTITY smaug.setupWiz.pgComplete.title "Kiitos">
+<!ENTITY smaug.displayKeyProperties.label       "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "GnuPG:n lisäkomentorivivalinnat">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Avainta luodaan">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label         "Add to Per-Recipient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Lisäasetukset">
+<!ENTITY smaug.nextRule.label "Jatka seuraavaan sääntöön täsmäävällä osoitteelle">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Allekirjoitusavain:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "I have existing public and private keys that I would like to import">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Varmista salasanasi kirjoittamalla se uudestaan">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Sormenjälki:">
+<!ENTITY smaug.keyMan.keyProps.label "Avaimen ominaisuudet">
+<!ENTITY smaug.keyMan.setTrust.accesskey "L">
+<!ENTITY smaug.keyMan.editMenu.accesskey "M">
+<!ENTITY smaug.attachmykey.label "Liitä julkinen avaimeni">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "Luotu">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN-koodin uusintayrityslaskuri">
+<!ENTITY smaug.ctxDecryptOpen.label "Pura salaus ja avaa">
+<!ENTITY smaug.setupWiz.label           "Setup Wizard">
+<!ENTITY smaug.genCardKey.backupKey.label "Tallenna varmuuskopio avaimesta toiselle medialle">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Käytä luotua avainta valitulla käyttäjätiedolla">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Avaimen ominaisuudet">
+<!ENTITY smaug.amPrefUseKeyId.label "Käytä tiettyä OpenPGP-avaimen tunnusta (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Lähetä julkiset avaimet sähköpostitse">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Yleiset asetukset">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Lisäasetukset...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Luotan ehdottomasti">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Sormenjälki">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "Ä">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "Näytä OpenPGP-kuva">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Käytä gpg-agenttia salasanojen hallintaan">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Luo vastaanottajakohtaisia sääntöjä">
+<!ENTITY smaug.sendOptionsMenu.label "Lähetysasetukset...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "We could not find any OpenPGP Key">
+<!ENTITY smaug.keyMan.stopTransfer.label "Keskeytä siirto">
+<!ENTITY smaug.refreshKeys.label "Päivitä avainlistaa">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label   "Encrypt/sign replies to encrypted/signed messages">
+<!ENTITY smaug.addPhoto.question.label "Do you want to add the following picture to the following key?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "When possible, encrypt/sign responses to encrypted/signed email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Päivitä kaikki julkiset avaimet">
+<!ENTITY smaug.cardDetails.authKey.label "Todennusavain">
+<!ENTITY smaug.viewKeySigDlg.title "Allekirjoituslista">
+<!ENTITY smaug.cardDetails.vendor.label "Valmistaja">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Lähetä URL, josta hakea avain:">
+<!ENTITY smaug.encryptionDlg.label "Smaug:n salaus- ja allekirjoitusasetukset">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "P">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "Vain jos valitaan erikseen viestiä kirjoitettaessa">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Luotan osittain">
+<!ENTITY smaug.prefs.pathsTitle.label "Tiedostot ja kansiot">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Huom.:</a> Smaug varmentaa jokaisen sähköpostin 
+                                                      allekirjoitukset riippumatta tilistä tai käyttäjätunnuksesta">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "S">
+<!ENTITY smaug.addUidDlg.comment.label "Kommentti (valinnainen)">
+<!ENTITY smaug.setupWiz.no "Ei kiitos">
+<!ENTITY smaug.alwaysTrustSend.label "Luota aina ihmisten salausavaimiin">
+<!ENTITY smaug.keyMan.viewSig.accesskey "a">
+<!ENTITY smaug.changePasswd.newPasswd.label "Uusi salasana">
+<!ENTITY smaug.undoencryption.label "Kumoa viestin salaus">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Luo ja tallenna mitätöintivarmenne">
+<!ENTITY smaug.cardDetails.reset.label "Palauta oletusarvot">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Näytä allekirjoitukset">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Allekirjoitus- ja salausasetukset...">
+<!ENTITY smaug.reload.label "Lataa IMAP-viesti uudestaan">
+<!ENTITY smaug.browse.label "Selaa...">
+<!ENTITY smaug.passwordSettings.label "Salasanan asetukset">
+<!ENTITY smaug.keyDetails.algorithm.label "Algorithmi">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "E">
+<!ENTITY smaug.cardDetails.keyCreated.label "Luotu">
+<!ENTITY smaug.autoDecrypt.label "Pura ja varmista viestit automaattisesti">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Import OpenPGP Keys">
+<!ENTITY smaug.keyservers.label "Määritä avainpalvelimet">
+<!ENTITY smaug.encDlgIgnoreRules.label           "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Käytettävissä olevat tunnukset:">
+<!ENTITY smaug.add.accesskey "L">
+<!ENTITY smaug.refreshKeys.accesskey "ä">
+<!ENTITY smaug.signSenderKey.label "Allekirjoita avain...">
+<!ENTITY smaug.searchKeyDlg.label "Nouda OpenPGP-avaimet">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "L">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Ohjattua asennusta ei suoriteta.
+                                                      <html:br></html:br><html:br></html:br>Kiitos, että käytät Smaugia.">
+<!ENTITY smaug.signedsend.accesskey "A">
+<!ENTITY smaug.keyGen.console.label "Avaimen luonti -konsoli">
+<!ENTITY smaug.signSenderKeyPopup.label "Allekirjoita lähettäjän avain...">
+<!ENTITY smaug.cardDetails.url.label "Julkisen avaimen URL">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug-asetukset riippuva käyttäjätunnuksesta ja tilistä. Yleensä
+                                                      Smaug asetetaan toimimaan kaikilla tileillä ja käyttäjätunnuksilla.
+                                                      Jos haluat käyttää Smaug:tä vain tietyillä tileillä tai käyttäjätunnuksilla,
+                                                      valitse ne alta.">
+<!ENTITY smaug.resetRememberedValues.label "Nollaa varoitusikkuna-asetukset">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "No OpenPGP Key Found">
+<!ENTITY smaug.cardDetails.save.label "Tallenna">
+<!ENTITY smaug.prefs.overrideGpg.label "Korvaa polulla">
+<!ENTITY smaug.logdirectory.label "Lokihakemisto">
+<!ENTITY smaug.setupWiz.pgSummary.title "Yhteenveto">
+<!ENTITY smaug.ruleEmail.label "Aseta Smaug-säännöt osoitteille">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Vahvista, että ohjattu asennus suorittaa muutokset">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Näytä viestirunko pelkkänä tekstinä">
+<!ENTITY smaug.debugMenu.label "OpenPGP:n virheenjäljitys">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Päivitä julkiset avaimet avainpalvelimelta">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Luo avain viestien allekirjoittamiseen ja salaamiseen">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Älä koskaan kysy salasanaa">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Muutettava avain:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Viestien kirjoituksen oletusasetukset">
+<!ENTITY smaug.sendersKeyMenu.label "Lähettäjän avain">
+<!ENTITY smaug.preferences.label "Smaug-asetukset">
+<!ENTITY smaug.clearPassphrase.label "Poista salasana muistista">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Viestien allekirjoittaminen ja salaaminen ja salattujen viestien lukeminen
+                                                      ei ole mahdollista ilman avainparia. Avainparissa on julkinen ja salainen
+                                                      avain.">
+<!ENTITY smaug.selKeysButton.accesskey "V">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "OpenPGP-avaimia on jo olemassa. Voit joko käyttää olemassa olevaa avainta
+                                                      viestien allekirjoittamiseen ja salaamiseen, tai luoda uuden avainparin.">
+<!ENTITY smaug.noHushMailSupport.label "Erittele sähköpostiosoitteet &quot;&lt;&quot; ja &quot;&gt;&quot;-merkeillä">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Please specifiy the files containing the public and the private keys to
+                                                      import. The entry for private keys can be left empty if the first file
+                                                      contains both private and public keys.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "päivässä">
+<!ENTITY smaug.disableRules.accesskey "Ä">
+<!ENTITY smaug.setupWiz.pgSettings.title "Asetukset">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "M">
+<!ENTITY smaug.keyMan.generate.label "Uusi avainpari">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Attach my public key to messages">
+<!ENTITY smaug.encDlgPgpMime.label "Käytä PGP/MIME:ä">
+<!ENTITY smaug.keyMan.selectAll.label "Valitse kaikki avaimet">
+<!ENTITY smaug.keyComment.label "Kommentti">
+<!ENTITY smaug.sKeyDlg.notChecked.label "En ole ollenkaan varma">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "u">
+<!ENTITY smaug.addUidDlg.email.label "Sähköposti">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP-turvallisuus">
+<!ENTITY smaug.nextAddress.label "Älä tarkista enää sääntöjä täsmäävälle osoitteelle">
+<!ENTITY smaug.setupWiz.details.subtitle "Muokkaa ohjelman asetuksia">
+<!ENTITY smaug.keyMan.uploadToServer.label "Siirrä julkiset avaimet">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Kirjoita kenttään vain sähköpostiosoitteita. Älä kirjoita vastaanottajien nimiä Esim. &quot;Joku Nimi &lt;joku.nimi@osoite.fi&gt;&quot; on virheellinen">
+<!ENTITY smaug.setupWiz.details.title "Asetukset">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "O">
+<!ENTITY smaug.email.label "Sähköposti">
+<!ENTITY smaug.attachkey.label "Liitä julkinen avain...">
+<!ENTITY smaug.not.label "Ei">
+<!ENTITY smaug.keyExpiry.label "Vanhentuminen">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "K">
+<!ENTITY smaug.keyMan.userId.label              "Name">
+<!ENTITY smaug.keyMan.manageUid.label "Hallinnoi käyttäjätunnuksia">
+<!ENTITY smaug.defaultEncryption.label "Salaa viestit oletuksena">
+<!ENTITY smaug.never.label "Ei koskaan">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "T">
+<!ENTITY smaug.cardDetails.genCardKey.label "Luo avain">
+<!ENTITY smaug.editRules.accesskey "M">
+<!ENTITY smaug.prefs.accesskey "A">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "on täsmälleen vastaanottajan osoite">
+<!ENTITY smaug.searchRule.label "Näytä säännöt, jotka pätevät sähköpostiosoitteille:">

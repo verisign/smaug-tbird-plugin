@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Ramalingam Saravanan.
+ * Portions created by Ramalingam Saravanan <svn@xmlterm.org> are
+ * Copyright (C) 2001 Ramalingam Saravanan. All Rights Reserved.
+ *
+ * Contributor(s):
+ * Patrick Brunschwig <patrick@enigmail.net>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <head>
+    <title>About Smaug</title>
+
+    <link title="defaultstyle" rel="stylesheet" type="text/css"
+          href="chrome://smaug/content/smaug.css">
+
+  </head>
+
+  <script>
+function SmgOpenURL(hrefObj) {
+  const SEAMONKEY_ID="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+  var xulAppinfo = Components.classes["@mozilla.org/xre/app-info;1"].getService(Components.interfaces.nsIXULAppInfo);
+  if (xulAppinfo.ID == SEAMONKEY_ID) return;
+
+  var ioservice  = Components.classes["@mozilla.org/network/io-service;1"].
+                getService(Components.interfaces.nsIIOService);
+  var iUri = ioservice.newURI(hrefObj.href, null, null);
+  var eps  = Components.classes["@mozilla.org/uriloader/external-protocol-service;1"].
+                getService(Components.interfaces.nsIExternalProtocolService);
+
+  eps.loadURI(iUri, null);
+}
+  </script>
+
+  <body>
+
+    <p>
+    <font size="+1">
+    S/MIME support over DANE provided by <b><a href="http://www.verisigninc.com/">Smaug</a></b>
+    </font>
+    </p>
+
+    <p>
+    <b><span id="version"> </span></b>
+    </p>
+
+    <p>
+    <em><span id="smgmime"> </span></em>
+    </p>
+
+    <p>
+    <pre id="agent">
+    </pre>
+    </p>
+  <hr>
+
+  <p>The Smaug Thunderbird plugin is a development project that uses the open source DANE library
+  libsmaug.  THe Thunderbird plugin was forked for the wellknown Enigmail project</p>
+  </ul>
+
+  <p> Smaug S/MIME over DANE support is open source and licensed under the MIT License</p>
+  </body>
+
+</html>

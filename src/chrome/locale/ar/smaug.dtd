@@ -1,0 +1,628 @@
+<!ENTITY smaug.keyMan.calcTrust.label "صلاحية المفتاح">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "نوع التوقيع">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "عدِّل إعدادات بريدك لتجعل Smaug يعمل بوثوقية أكبر">
+<!ENTITY smaug.pgpAccountSettings.accesskey "ق">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "عمِّ/وقِّع الرسالة بمرفقاتها أرسلها مستخدما PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "نعم، أرغب أن يبدأ معي المرشِد">
+<!ENTITY smaug.keyDetails.ownerTrust.label "الثقة في المالك">
+<!ENTITY smaug.encryptAttachSkipDlg.label "استخدم هذه الطريقة لكل المرفقات لاحقا">
+<!ENTITY smaug.ctxImportKey.label "استورد مفتاح OpenPGP">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "عطِّل النص المنساب (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "ما الذي تريد فعله">
+<!ENTITY smaug.addToRule.title                    "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "ح">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "ارفع المفاتيح العلنية إلى خادوم المفاتيح">
+<!ENTITY smaug.about.label "عن Smaug">
+<!ENTITY smaug.keyGen.months.label "أشهُر">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Specify the files to import">
+<!ENTITY smaug.msgViewColumn.label                "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "غ">
+<!ENTITY smaug.ctxVerifyAtt.label "Verify signature">
+<!ENTITY smaug.progress.label "التقدُّم">
+<!ENTITY smaug.adminSmartCard.accesskey "د">
+<!ENTITY smaug.debugMenu.accesskey "ح">
+<!ENTITY smaug.sending.label "الإرسال">
+<!ENTITY smaug.clearSearch.accesskey "م">
+<!ENTITY smaug.keyPassphrase.label "كلمة السر">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "غيّر PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "ابحث عن:">
+<!ENTITY smaug.keyMan.importFromFile.label "استورد مفاتيح من ملف">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "وقِّع المفتاح">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "نعم، أرغب في توقيع كل مراسلاتي">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "انقض">
+<!ENTITY smaug.cancelKey.tooltip "ألغِ توليد المفتاح">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "أترغب في استخدام هذا المرشِد الآن؟">
+<!ENTITY smaug.importMissingKeys.tooltip "يحاول استيراد المفاتيح المطلوبة من خادوم المفاتيح">
+<!ENTITY smaug.keyTrust.dontKnow.label "لا أعرف">
+<!ENTITY smaug.cardPin.newAdminPin.label "PIN المدير الجديد">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "استعرض الصُّورة">
+<!ENTITY smaug.keyDetails.expiry.label "الانتهاء">
+<!ENTITY smaug.keyMan.keyType.label "النوع">
+<!ENTITY smaug.created.label "تاريخ الإنشاء">
+<!ENTITY smaug.importpublickey.accesskey "و">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "عطِّل التحميل التصاعدي لأجزاء IMAP">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "اختيار المفاتيح">
+<!ENTITY smaug.sendPGPMime.label "استخدم PGP/MIME لهذه الرسالة">
+<!ENTITY smaug.savedecrypted.label "احفظ الرسالة المُظهَّرة">
+<!ENTITY smaug.userSelectionList.label "اختيار مفتاح Smaug">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "تحققت بلا تدقيق">
+<!ENTITY smaug.edit.label "عدِّل">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "ولِّد">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "يعيد ترتيب النص للتأكد أن التوقيع سيظل سليما.">
+<!ENTITY smaug.decryptverify.label "ظهِّر/تحقق">
+<!ENTITY smaug.encDlgEncrypt.accesskey "ع">
+<!ENTITY smaug.prefs.label "التفضيلات">
+<!ENTITY smaug.keyMan.changePwd.label "غير كلمة السر">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "ك">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "تنتهي صلاحية المفتاح بعد">
+<!ENTITY smaug.encryption.label "التعمية">
+<!ENTITY smaug.keyTrust.fullTrust.label "ثقة تامة">
+<!ENTITY smaug.addUidDlg.name.label "الاسم">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "نهايته هي">
+<!ENTITY smaug.pgpKeys.label "مفاتيح OpenPGP">
+<!ENTITY smaug.amPrefPgpHeader.id.label "ضع معرِّف مفتاح OpenPGP">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "ع">
+<!ENTITY smaug.keyGen.keySize.label "طول المفتاح">
+<!ENTITY smaug.basicUser.tooltip "اضغط لإخفاء عناصر قوائم و خيارات المستخدمين الخبراء.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "سيقوم هذا المرشِد بتغيير إعدادات بريدك للتأكد من عدم حدوث مشاكل عند توقيع وتعمية البريد على حاسوبك. أغلب التغييرات أشياء تقنية لا تلحظها إلا أن أحد أهمها هو أن البريد سيُحرر كنص صرف ابتداء.">
+<!ENTITY smaug.cardDetails.male.label "ذكر">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "ق">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "ص">
+<!ENTITY smaug.singleRcptSettings.desc "(لاحظ: عند التضارب، 'أبدًا' تسود على 'دائمًا')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Private key file">
+<!ENTITY smaug.pgpSecurityInfo.label "معلومات خصوصية Smaug...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "عطل هذا إن كنت تتلقى رسائل PGP/MIME في مجلدات IMAP.">
+<!ENTITY smaug.trustSenderKeyPopup.label "حدد الثقة في مالك مفتاح المُرسِل...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "التوقيعات على المفتاح:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - وقَّع المفتاح">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'> ملاحظة: قد يستغرق توليد المفتاح بضع دقائق ليتم.</a> لا تغلق التطبيق أثناء توليد المفتاح. ستبلّغُ عند تمام التوليد.">
+<!ENTITY smaug.keyDetails.additionalUid.label "هوية أخرى">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "أنثى">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "استورد مفاتيح من حافظة القصاصات">
+<!ENTITY smaug.setDefaultsFor.label "بدئيا عند…">
+<!ENTITY smaug.changePasswd.title "غيّر عبارة سر OpenPGP">
+<!ENTITY smaug.keyMan.viewSig.label "التوقيعات">
+<!ENTITY smaug.autoKeyRetrieve.label "نزِّل تلقائيا المفاتيح المطلوبة للتحقق من التوقيعات">
+<!ENTITY smaug.matchBegin.label "في أوله">
+<!ENTITY smaug.selKeysButton.label "اختر المفاتيح...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "ضع ترويسة  'OpenPGP'">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "كرر PIN الجديد">
+<!ENTITY smaug.signedsend.label "وقّع الرسالة">
+<!ENTITY smaug.cardDetails.lang.label "اللغة">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "الطول">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "أعد تسطير رسائل HTML الموقعة قبل الإرسال">
+<!ENTITY smaug.genCardKey.title "ولِّد مفتاح OpenPGP">
+<!ENTITY smaug.ctxDecryptSave.accesskey "س">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "PIN المدير الحالي">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "PIN الجديد">
+<!ENTITY smaug.smgEncryptAttachInline.label "عمِّ/وقِّع كل مرفقة على حدى وأرسل الرسالة مستخدما PGP في المتن">
+<!ENTITY smaug.moveDown.accesskey "س">
+<!ENTITY smaug.keyservers.sample "مثال: sks.dnsalias.net، pgp.mit.edu، ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "ح">
+<!ENTITY smaug.userNoPassphrase.tooltip "أشِّره إن كان مفتاح OpenPGP الخاص بك غير محمي بعبارة سر.">
+<!ENTITY smaug.usePGPMimeAlways.label "استخدم PGP/MIME بدئيا">
+<!ENTITY smaug.addPhoto.title                     "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "اضبط كل تفضيلات Smaug إلى القيم البدئية.">
+<!ENTITY smaug.cardDetails.editData.label "حرر بيانات البطاقة">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "م">
+<!ENTITY smaug.sendOptionsMenu.accesskey "س">
+<!ENTITY smaug.sKeyDlg.signKey.label "المفتاح الذي سيُوقّع:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "أترغب في ضبط Smaug لكل الهويات">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA والجمل">
+<!ENTITY smaug.keyMan.fingerprint.label "البصمة">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "أنعش المفاتيح العلنية المختارة">
+<!ENTITY smaug.delete.label "احذِف">
+<!ENTITY smaug.keyId.label "معرِّف (ID) المفتاح">
+<!ENTITY smaug.moreOptions.label "خيارات أخرى">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "تحققت بتدقيق شديد">
+<!ENTITY smaug.test.label "اختبر">
+<!ENTITY smaug.debug.label "التنقيح">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "ولّد مفتاحا لتوقيع وتعمية البريد">
+<!ENTITY smaug.keyDetails.ID.label "الهوية">
+<!ENTITY smaug.matchContains.label "يحوي">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "أدخل محددات البحث في الحقل أعلاه">
+<!ENTITY smaug.cardDetails.encKey.label "مفتاح التعمية">
+<!ENTITY smaug.noHushMailSupport.tooltip "يضع '&lt;' و '&gt;' لتحديد عناوين البريد لأجل GnuPG. عطِّله إن كانت للمتلقين مفاتيح Hushmail قديمة.">
+<!ENTITY smaug.keyDetails.selAction.label "Select action ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "اجعلها الأساسية">
+<!ENTITY smaug.setupWiz.accesskey "م">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "مُرشِد إعداد Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "هوية المستخدم الأساسية">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey  "A">
+<!ENTITY smaug.advancedIdentityDlg.title "تضبيطات Smaug المتقدمة للهوية">
+<!ENTITY smaug.keyMan.genRevoke.label "شهادة نقض">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "ح">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "ولّد مفتاحا">
+<!ENTITY smaug.savedecrypted.accesskey "ح">
+<!ENTITY smaug.cardDetails.maxpinlen.label "أقصى طول لأجل PIN">
+<!ENTITY smaug.decryptbutton.tip "ظهِّر أو تحقق من الرسالة باستخدام Smaug">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "لا">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "ظ">
+<!ENTITY smaug.keyGen.keyType.label "نوع المفتاح">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "التّوقيع">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "هويّة (ID) المفتاح">
+<!ENTITY smaug.keyMan.viewMenu.label "اعرض">
+<!ENTITY smaug.attachmykey.accesskey "ي">
+<!ENTITY smaug.cardDetails.adminPin.label "غيّر PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "We could not find any OpenPGP key. Please select below if you want to                                                             create a new key pair or if you want to import an existing key.">
+<!ENTITY smaug.resetRememberedValues.tooltip "يعيد عرض كل حوارات التحذير و الأسئلة التي صُرِفَت في الماضي">
+<!ENTITY smaug.msgViewColumn.tooltip              "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "نعم">
+<!ENTITY smaug.sign.label "وقّع">
+<!ENTITY smaug.keyMan.createMail.label "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "كلمة السر الحالية">
+<!ENTITY smaug.keyManWindow.accesskey "ف">
+<!ENTITY smaug.maxIdleMinutes.tooltip "يحفظ عبارة السر في الذاكرة لمدة محددة.">
+<!ENTITY smaug.generateKey.label "ولِّد المفتاح">
+<!ENTITY smaug.composeOptionsMenu.accesskey "ت">
+<!ENTITY smaug.cardPin.pinRepeat.label "كرر PIN الجديد">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "ح">
+<!ENTITY smaug.autoDecrypt.accesskey "ق">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "يولِّد مفتاحا جديدا متوافقا مع OpenPGP للتعمية و/أو التوقيع">
+<!ENTITY smaug.keyserverDlg.label "اختر خادوم مفاتيح">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "توقيع محلي (لا يمكن تصديره)">
+<!ENTITY smaug.clearPassphrase.accesskey "ذ">
+<!ENTITY smaug.recipientsSelectionOption.label "كيف تُختار المفاتيح؟">
+<!ENTITY smaug.keyMan.keyserverMenu.label "خادوم المفاتيح">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "حرر قواعد المتلقين">
+<!ENTITY smaug.keyDetails.keyPart.label "Key Part">
+<!ENTITY smaug.copySecurityInfo.label "انسخ معلومات خصوصية Smaug">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "ملف">
+<!ENTITY smaug.maxIdleMinutesTail.label "دقائق من السكون">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "ز">
+<!ENTITY smaug.moveDown.label "انقل لأسفل">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "الرّقم التّسلسلي">
+<!ENTITY smaug.ctxDecryptSave.label "ظهِّر واحفظ باسم...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "د">
+<!ENTITY smaug.keyManWindow.label "إدارة المفاتيح">
+<!ENTITY smaug.keyTrust.noTrust.label "لا أثق به">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "أريد اختيار أحد المفاتيح أدناه لتوقيع وتعمية بريدي:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "الاختيار">
+<!ENTITY smaug.help.label "مساعدة">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'> ملاحظة: قد يستغرق توليد المفتاح بضع دقائق ليتم.</a> لا تغلق التطبيق أثناء توليد المفتاح. التصفح بنشاط أو إجراء عمليات تستخدم القرص بكثافة مفيد لملء 'وعاء العشوائية' وسيُسرِّع التوليد. ستبلّغ عندما يتم التوليد.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "إعدادات خصوصية Smaug">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "لا تحرر رسائل HTML">
+<!ENTITY smaug.maxIdleMinutesHead.label "تذكر كلمة السر لمدة‍">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "عمِّ الرسالة">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "PIN الحالي">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "لا إجابة">
+<!ENTITY smaug.defineRules.label "حرر القواعد...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "د">
+<!ENTITY smaug.keyMan.showAllKeys.label "أظهر بدئيا كل المفاتيح">
+<!ENTITY smaug.keyMan.title "‮إدارة مفاتيح ‪Smaug">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "خ">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "أضف">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "انقر لتحدد مكان GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "اختر هويات">
+<!ENTITY smaug.cardDetails.sigKey.label "مفتاح التوقيع">
+<!ENTITY smaug.cardDetails.sex.label "الجنس">
+<!ENTITY smaug.cardPin.changeAdmPin.label "غيّر PIN المدير">
+<!ENTITY smaug.keyserver.label "خادوم المفاتيح">
+<!ENTITY smaug.encDlgEncrypt.label "عمِّ الرسالة">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "اصرف المرشِد">
+<!ENTITY smaug.defaultKeySelOpts.label "خيارات اختيار المفتاح...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "اختيار المفتاح">
+<!ENTITY smaug.amPrefDesc.label "يدعم Smaug تعمية وتوقيع الرسائل باستخدام OpenPGP. ينبغي تنصيب GnuPG (gpg) لتستخدم هذه الخاصية.">
+<!ENTITY smaug.smaugAttachDesc.label "مع هذه الرسالة مرفقات. كيف تريد تعميتها/توقيعها؟">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "أدِر البطاقات الذكية (SmartCard)…">
+<!ENTITY smaug.importMissingKeys.accesskey "م">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug جاهز للاستخدام الآن.<html:br></html:br><html:br></html:br>شكرًا لاستخدامك Smaug.">
+<!ENTITY smaug.cardDetails.name.label "الاسم الأول، الاسم">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "احذف">
+<!ENTITY smaug.usersNotFound.label "المتلقون غير صحيحون أو غير موثوق بهم أو لم يُعثر عليهم">
+<!ENTITY smaug.manageUidDlg.addUid.label "أضِفْ">
+<!ENTITY smaug.keyMan.reload.accesskey "ع">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "نزِّل المفاتيح المطلوبة">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Public key file">
+<!ENTITY smaug.decryptbutton.label "ظهِّر">
+<!ENTITY smaug.signing.label "التّوقيع">
+<!ENTITY smaug.keygenTitle.label "ولِّد مفتاح OpenPGP">
+<!ENTITY smaug.smgEncryptAttachNone.label "وقِّع/عمِّ نص الرسالة وحدها، وليس المرفقات">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "كرر كلمة السر">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' فاصل التوقيع">
+<!ENTITY smaug.cardPin.title "غيّر SmartCard PIN">
+<!ENTITY smaug.keyTrust.title "Smaug - حدد الثِّقة في المالك">
+<!ENTITY smaug.viewconsole.label "اعرض المرقاب">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "لا تستخدم شبكة الثقة لتحديد صلاحية المفاتيح">
+<!ENTITY smaug.useNonDefaultComment.label "أضف تعليق Smaug في توقيع OpenPGP">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "أتريد توقيع كل البريد الصدر بدئيا؟">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "انسخ المفاتيح العلنية إلى حافظة القصاصات">
+<!ENTITY smaug.about.accesskey "ع">
+<!ENTITY smaug.mime_parts_on_demand.label "نزِّل المرفقات عند فتحها (لا يصلح سوى مع IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "وضع شرطتين وحدهما في سطر يعني كتلة توقيع">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "لا تعرض هذا التنويه مجددا في حال كون التعمية غير ممكنة">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "انقض المفتاح">
+<!ENTITY smaug.sKeyDlg.checked.label "إلى أي مدى تحققت من أن المفتاح الذي أنت بصدد توقيعه ينتمي للشخص المذكور أعلاه؟">
+<!ENTITY smaug.keyGen.expiry.title "انتهاء المفتاح">
+<!ENTITY smaug.undoencryption.accesskey "ع">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Display invalid keys">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "التفاصيل ...">
+<!ENTITY smaug.encrypt.label "عمِّ">
+<!ENTITY smaug.cardDetails.login.label "بيانات الولوج">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "لا، بل أريد إنشاء قواعد حسب كل متلقٍ للبريد ممن يتطلبون التوقيع">
+<!ENTITY smaug.about.title "عن Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "ولّد قاعدة Smaug من العناوين...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "ج">
+<!ENTITY smaug.detailsHdrButton.label "تفاصيل">
+<!ENTITY smaug.keyTrust.trustKey.label "المفتاح الذي ستثِق به:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "الإجراء">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "ف">
+<!ENTITY smaug.setupWiz.pgKeygen.title "توليد المفتاح">
+<!ENTITY smaug.autoKeyRetrieve2.label "من خادوم المفاتيح التالي:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "ينبغي لك إعطاء مفتاحك العلني لكل شخص من معارفك يحتاج للتحقق من توقيعك أو تعمية البريد لك. بينما تحتاج لإبقاء مفتاحك السري سريًا. يجب ألا تعطيه لأحد أو تتركه غير محمي. لأن حائزه يمكنه قراءة كل البريد المعمى الذي يرسله الآخرون إليك، كما يمكنه توقيع مراسلات باسمك. المفتاح السري محمي بعبارة سر.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - أضِف هوية المستخدم">
+<!ENTITY smaug.keyDetails.keyType.label "النوع">
+<!ENTITY smaug.keyGen.years.label "سنوات">
+<!ENTITY smaug.edit.accesskey "ع">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - إعدادات المُتلقين">
+<!ENTITY smaug.setupWiz.pgSign.desc "يُمكّنك Smaug من توقيع مراسلاتك رقميا، و هو المقابل الرقمي لتذيلل خطابك بتوقيع بخط اليد؛ مما يُمكِّن المتلقين من الاطمئنان إلى أنك حقا المرسل. من المحبذ أن توقع مراسلاتك الصادرة. <html:br/><html:br/> للتحقق من البريد الموقع رقميا يحتاج المتلقي إلى استخدام برمجية بريد داعمة لبروتوكول Smaug، فإن لم يكن لديهم ذلك فسيظل بوسعهم قراءة الرسالة لكن سيظهر التوقيع كمُرفق أو كنص في متن الرسالة. قد يزعج هذا البعض لأنهم لا يعرفون ما هو، لذا فعليك تحديد إذا ما كنت تريد توقيع كل البريد الصادر أو تفادي إرسال بريد مُوقّع لبعض الأشخاص.">
+<!ENTITY smaug.cardDetails.sigcount.label "عداد التوقيعات">
+<!ENTITY smaug.addToRule.useRuleButton.label      "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "وقّع الرسالة">
+<!ENTITY smaug.keyGen.noExpiry.label "ليس للمفتاح مدة صلاحية محددة">
+<!ENTITY smaug.keyPassphraseRepeat.label "كلمة السر (أكّدها)">
+<!ENTITY smaug.searchForKey.label "ابحث عن مفتاح">
+<!ENTITY smaug.setupWiz.details.changingPrefs "التفضيلات التالية عدّلها المرشِد:">
+<!ENTITY smaug.revealAttachmentsButton.label "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "دائمًا">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "ل">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "صدِّر المفاتيح إلى ملف">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "س">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "انسخ المفاتيح العلنية إلى حافظة القصاصات">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "و">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "صلاحية المفتاح">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "خيارات OpenPGP">
+<!ENTITY smaug.progressText.label "التّقدّم:">
+<!ENTITY smaug.sepratationDesc.label "(افصل ما بين عناوين البريد بمسافات)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "أرغب في ضبط Smaug حصرا للهويات التالية:">
+<!ENTITY smaug.disableSMIMEui.tooltip "أزل زر S/MIME من شريط أدوات محرر الرسائل">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "حدد الثقة في المالك">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "سيُساعدك هذا المرشد على البدء في استخدام Smaug. خلال الشاشات القليلة التالية سنسألك بضعة أسئلة لإعداد كل شيء. <html:br/><html:br/> للتبسيط وضعنا بعض الخيارات السائدة للإعدادات. نهدف بهذه الخيارات البدئية إلى توفير مستوى معقولٍ من الأمان للمستخدم المتوسط دون إرباكه. بالطبع يمكنك تغيير كل الإعدادات بعد انتهاء المرشِد. يمكن معرفة المزيد عن خصائص Smaug من قائمة المساعدة أو من <a class='smaugLink'><html:a href='http://smaug.mozdev.org/'>موقع Smaug</html:a></a>. <html:br/><html:br/> إن واجهتك مشكلة أثناء استخدام هذا المرشِد فأخبرنا<a class='smaugLink'><html:a href='mailto:smaug@mozdev.org'>عبر البريد</html:a></a>. <html:br/><html:br/> يبدأ هذا المرشِد في أول مرّة تُنصِّب فيها Smaug، و لن يُعرض ثانية ولا يُمكن استدعاؤه من القائمة. <html:br/><html:br/> شكرا لاختيارك Smaug Smaug!">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "أحد العناوين أعلاه">
+<!ENTITY smaug.keyMan.reload.label "أعِد تحميل ذاكرة المفاتيح">
+<!ENTITY smaug.viewconsole.accesskey "ك">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "ع">
+<!ENTITY smaug.keyNoPassphrase.label "بلا كلمة سر">
+<!ENTITY smaug.amPrefSelectKey.label "اختر مفتاحا...">
+<!ENTITY smaug.moveUp.label "انقل لأعلى">
+<!ENTITY smaug.cardDetails.yes.label "نعم">
+<!ENTITY smaug.testemail.label "بريد اختبار">
+<!ENTITY smaug.composeOptionsMenu.label "خيارات التحرير البدئية">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label      "Create New Rule">
+<!ENTITY smaug.setupWiz.pgSummary.desc "انتهنا تقريبا! إذا نقرت على زر 'التالي' سيقوم المرشِد بهذه الإجراءات:">
+<!ENTITY smaug.clearSearch.label "احذف">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "احذف المفتاح">
+<!ENTITY smaug.keyMan.viewPhoto.label "صُّورة">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "ح">
+<!ENTITY smaug.viewdebuglog.label "اعرض ملف السجل">
+<!ENTITY smaug.manageUidDlg.title "غير هوية المستخدم الأساسية">
+<!ENTITY smaug.useKeys.label "استخدم OpenPGP مفاتيح التالية:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "استخدم ترميز 8-بتة لإرسال الرسالة">
+<!ENTITY smaug.sendersKeyMenu.accesskey "م">
+<!ENTITY smaug.keyMan.sign.accesskey "ق">
+<!ENTITY smaug.trustSenderKey.label "حدد الثقة في المالك...">
+<!ENTITY smaug.delete.accesskey "ذ">
+<!ENTITY smaug.encryptedsend.accesskey "ع">
+<!ENTITY smaug.encryptedsend.key "س">
+<!ENTITY smaug.keyMan.changePwd.accesskey "ة">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "انتظر حتى يتم تحميل المفاتيح …">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "لا تطابق أية مفاتيح محددات البحث التي أدخلت">
+<!ENTITY smaug.importpublickey.label "استورد مفتاحا علنيا">
+<!ENTITY smaug.matchDescStart.label "طبق القاعدة إن كان المتلقي">
+<!ENTITY smaug.setupWiz.pgWelcome.no "لا، شكرا. أُفضِّل الإعداد يدويًا">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey  "N">
+<!ENTITY smaug.expertUser.tooltip "اضغط هذا لإظهار عناصر قوائم و خيارات المستخدمين الخبراء.">
+<!ENTITY smaug.keyMan.ownerTrust.label "الثقة في المالك">
+<!ENTITY smaug.cardDetails.closeWindow.label "أغلق">
+<!ENTITY smaug.keyTrust.trustLevel.label "كم تثِق بهذا المفتاح؟">
+<!ENTITY smaug.cardDetails.title "تفاصيل OpenPGP SmartCard">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "ابحث عن مفاتيح">
+<!ENTITY smaug.amPrefUseFromAddr.label "استخدم عنوان بريد هذه الهوية لتَعرُّف مفتاح OpenPGP">
+<!ENTITY smaug.agentAdditionalParam.tooltip "حدد الخيارات التي سيستخدمها GnuPG.">
+<!ENTITY smaug.keyMan.close.label "أغلق النافذة">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "ح">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "وقّع رقميا رسائلك الصادرة">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "فعِّل دعم OpenPGP (Smaug) لهذه الهوية">
+<!ENTITY smaug.keyMan.exportToFile.label "صدِّر المفاتيح إلى ملف">
+<!ENTITY smaug.cardPin.unblockPin.label "افتح قفل PIN">
+<!ENTITY smaug.keyMan.editMenu.label "حرّر">
+<!ENTITY smaug.encDlgPgpMime.accesskey "خ">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "اختر الحسابات أو الهويات التي ترغب أن يعمل Smaug معها">
+<!ENTITY smaug.useGpgAgent.tooltip "استخدم gpg-agent جزء من (GnuPG 2) لكل إدخال عبارات السر">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "أتريد تغيير بعض الإعدادات البدئية لتجعل Smaug يعمل أفضل على جهازك؟">
+<!ENTITY smaug.cardDetails.forcepin.label "أجبر توقيع PIN">
+<!ENTITY smaug.rulesEditor.label "Smaug - محرر قواعد المُتلقين">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "وجدت مفاتيح - اختر لتستورِد">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "صفّر">
+<!ENTITY smaug.valid.label "صالح">
+<!ENTITY smaug.keyUserId.label "الحساب/هوية المستخدم">
+<!ENTITY smaug.cancelKey.label "ألغِ">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "أريد إنشاء زوج مفاتيح جديد لتوقيع وتعمية مراسلاتي">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "تجاهل قواعد المتلقين">
+<!ENTITY smaug.basic.label "أساسية">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "ر">
+<!ENTITY smaug.setupWiz.pgComplete.title "شكرا لك">
+<!ENTITY smaug.displayKeyProperties.label "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "معاملات إضافية تمرر إلى GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "يجري توليد زوج مفاتيحك الآن">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Add to Per-Recpient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "متقدمة">
+<!ENTITY smaug.nextRule.label "تابع تطبيق القاعدة التالية على العنوان المُطابق">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "مفتاح التوقيع:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "I have existing public and private keys that I would like to import">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "من فضلك أكد كلمة السر بإعادة إدخالها">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "البصمة:">
+<!ENTITY smaug.keyMan.keyProps.label "خصائص المفتاح">
+<!ENTITY smaug.keyMan.setTrust.accesskey "ث">
+<!ENTITY smaug.keyMan.editMenu.accesskey "ح">
+<!ENTITY smaug.attachmykey.label "أرفِق مفتاحي العلني">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "تاريخ الإنشاء">
+<!ENTITY smaug.cardDetails.pinretry.label "عدّاد تكرار محاولات PIN">
+<!ENTITY smaug.ctxDecryptOpen.label "ظهِّر وافتح">
+<!ENTITY smaug.setupWiz.label "مُرشِد الضبط">
+<!ENTITY smaug.genCardKey.backupKey.label "احفظ نسخة احتياطية من المفتاح خارج البطاقة">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "استخدم المفتاح المُولّد للهوية المختارة">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "خصائص المفتاح">
+<!ENTITY smaug.amPrefUseKeyId.label "استخدم معرِّف مفتاح OpenPGP محدد (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "أرسل المفاتيح العلنية بالبريد">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "التضبيطات الأساسية">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "متقدمة...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "ثقة مطلقة">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "البصمة">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "اعرض هوية OpenPGP الصُوَرة">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "استخدم gpg-agent لعبارات السر">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "ولّد قواعد المُتلقين">
+<!ENTITY smaug.sendOptionsMenu.label "خيارات الإرسال...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "We could not find any OpenPGP Key">
+<!ENTITY smaug.keyMan.stopTransfer.label "أوقف النقل">
+<!ENTITY smaug.refreshKeys.label "أنعش قائمة المفاتيح">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Encrypt/sign replies to encrypted/signed message">
+<!ENTITY smaug.addPhoto.question.label            "Do you want to add the following picture to the following key?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "When possible, encrypt/sign responses to encrypted/signed email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "أنعش كل المفاتيح العلنية">
+<!ENTITY smaug.cardDetails.authKey.label "مفتاح الاستيثاق">
+<!ENTITY smaug.viewKeySigDlg.title "التوقيعات">
+<!ENTITY smaug.cardDetails.vendor.label "الصانع">
+<!ENTITY smaug.amPrefPgpHeader.url.label "ضع مسار جلب المفتاح:">
+<!ENTITY smaug.encryptionDlg.label "إعدادات تعمية وتوقيع Smaug">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "س">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "نعم، إن اختير في تحرير الرسائل">
+<!ENTITY smaug.keyTrust.marginalTrust.label "ثقة هامشية">
+<!ENTITY smaug.prefs.pathsTitle.label "الملفات والأدلة">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>لاحظ:</a> سيقوم Smaug دائما بالتحقق من التوقيعات على البريد لكل حساب أو هوية، بغض النظر عن تفعيلها من عدمه">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "ف">
+<!ENTITY smaug.addUidDlg.comment.label "التعليق (اختياري)">
+<!ENTITY smaug.setupWiz.no "لا، شكرا">
+<!ENTITY smaug.alwaysTrustSend.label "ثِق دائما في مفاتيح الآخرين">
+<!ENTITY smaug.keyMan.viewSig.accesskey "ت">
+<!ENTITY smaug.changePasswd.newPasswd.label "كلمة السر الجدية">
+<!ENTITY smaug.undoencryption.label "تراجع عن التعمية">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "ولِّد واحفظ شهادة نقض">
+<!ENTITY smaug.cardDetails.reset.label "صفّر">
+<!ENTITY smaug.keyMan.ctxViewSig.label "استعرض التوقيعات">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "خيارات التوقيع/التعمية...">
+<!ENTITY smaug.reload.label "أعد تحميل الرسالة">
+<!ENTITY smaug.browse.label "تصفّح…">
+<!ENTITY smaug.passwordSettings.label "إعدادات كلمة السر">
+<!ENTITY smaug.keyDetails.algorithm.label "الخوارزميّة">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "ب">
+<!ENTITY smaug.cardDetails.keyCreated.label "تاريخ الإنشاء">
+<!ENTITY smaug.autoDecrypt.label "ظهِّر/تحقق من الرسائل تلقائيا">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Import OpenPGP Keys">
+<!ENTITY smaug.keyservers.label "حدد خادوما للبحث عن المفاتيح وتحديثها">
+<!ENTITY smaug.encDlgIgnoreRules.label "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "هويات المستخدم المعروفة:">
+<!ENTITY smaug.add.accesskey "ض">
+<!ENTITY smaug.refreshKeys.accesskey "ع">
+<!ENTITY smaug.signSenderKey.label "وقِّع المفتاح...">
+<!ENTITY smaug.searchKeyDlg.label "نزِّل مفاتيح OpenPGP">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "و">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "لقد اخترت ألا تستخدم المرشد لإعداد Smaug. <html:br></html:br><html:br></html:br> شكرا لاستخدامك Smaug.">
+<!ENTITY smaug.signedsend.accesskey "ق">
+<!ENTITY smaug.keyGen.console.label "مرقاب توليد المفاتيح">
+<!ENTITY smaug.signSenderKeyPopup.label "وقِّع مفتاح المُرسِل...">
+<!ENTITY smaug.cardDetails.url.label "مسار المفتاح العلني">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "إعدادات Smaug خاصة بالحسابات أو الهويات. بدئيا يُعدُّ Smaug ليعمل مع كل حساباتك و هوياتك. إذا لم يكن هذا ما تريده فاختر الهوية أو الحساب الذي تريد أن يعمل معه Smaug مما أدناه.">
+<!ENTITY smaug.resetRememberedValues.label "صفّر التحذيرات">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "No OpenPGP Key Found">
+<!ENTITY smaug.cardDetails.save.label "احفظ">
+<!ENTITY smaug.prefs.overrideGpg.label "افرض">
+<!ENTITY smaug.logdirectory.label "دليل السجل">
+<!ENTITY smaug.setupWiz.pgSummary.title "الملخّص">
+<!ENTITY smaug.ruleEmail.label "اضبط قواعد Smaug لأجل">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "صرّح للمرشِد بإحداث هذه التغييرات">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "اعرض متن الرسالة كنص صِرف">
+<!ENTITY smaug.debugMenu.label "خيارات التنقيح">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "حدث المفاتيح العلنية من خادوم المفاتيح">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "ولّد مفتاحا لتوقيع وتعمية البريد">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "لا تسأل أبدا عن كلمة السر">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "المفتاح الذي سيتغير:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "الخيارات البدئية لتحرير الرسائل">
+<!ENTITY smaug.sendersKeyMenu.label "مفتاح المُرسِل">
+<!ENTITY smaug.preferences.label "تفضيلات Smaug">
+<!ENTITY smaug.clearPassphrase.label "احذف كلمة السر المحفوظة">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "تحتاج إلى 'زوج مفاتيح' لتوقيع وتعمية البريد، أو لقراءة البريد المُعمّى. أحد المفتاحين علني والآخر سري.">
+<!ENTITY smaug.selKeysButton.accesskey "خ">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "لقد تحسسنا أنك لديك مفتاح OpenPGP بالفعل. يمكنك استخدام أحد المفاتيح الموجودة لتوقيع أو تعمية أو تظهير البريد، أو يمكنك إنشاء زوج مفاتيح جديد.">
+<!ENTITY smaug.noHushMailSupport.label "ضع '&lt;' و '&gt;' حول عنوان البريد">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Please specifiy the files containing the public and the private keys to                                                             import. The entry for private keys can be left empty if the first file                                                          contains both private and public keys.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "أيّام">
+<!ENTITY smaug.disableRules.accesskey "ت">
+<!ENTITY smaug.setupWiz.pgSettings.title "التفضيلات">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "س">
+<!ENTITY smaug.keyMan.generate.label "زوج مفاتيح جديد">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "أرفق مفتاحي العلنيّ بالرسائل">
+<!ENTITY smaug.encDlgPgpMime.label "استخدم PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "اختر كل المفاتيح">
+<!ENTITY smaug.keyComment.label "التعليق">
+<!ENTITY smaug.sKeyDlg.notChecked.label "لم أتحقق على الإطلاق">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "س">
+<!ENTITY smaug.addUidDlg.email.label "البريد">
+<!ENTITY smaug.openPgpSecurity.label "خصوصية OpenPGP">
+<!ENTITY smaug.nextAddress.label "لا تطبق قواعد تالية على العنوان المُطابق">
+<!ENTITY smaug.setupWiz.details.subtitle "عدِّل إعدادات التطبيق">
+<!ENTITY smaug.keyMan.uploadToServer.label "ارفع المفاتيح العلنية">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "أدخل عناوين البريد و حسب؛ لا تضع أسماء المتلقين مثلا: 'اسم ما &lt;some.name@address.net&gt;' غير مقبول">
+<!ENTITY smaug.setupWiz.details.title "التفضيلات">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "م">
+<!ENTITY smaug.email.label "البريد">
+<!ENTITY smaug.attachkey.label "أرفِق مفتاحا علنيا...">
+<!ENTITY smaug.not.label "ليس">
+<!ENTITY smaug.keyExpiry.label "الانتهاء">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "ن">
+<!ENTITY smaug.keyMan.userId.label "الاسم">
+<!ENTITY smaug.keyMan.manageUid.label "أدِر هويات المستخدمين">
+<!ENTITY smaug.defaultEncryption.label "عمِّ الرسائل بدئيا">
+<!ENTITY smaug.never.label "أبدًا">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "م">
+<!ENTITY smaug.cardDetails.genCardKey.label "ولِّد مفتاحا">
+<!ENTITY smaug.editRules.accesskey "ع">
+<!ENTITY smaug.prefs.accesskey "ف">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "بالضبط">
+<!ENTITY smaug.searchRule.label "اعرض القواعد ذات عناوين البريد التي تحوي:">

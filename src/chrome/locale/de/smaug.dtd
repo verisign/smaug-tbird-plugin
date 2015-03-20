@@ -1,0 +1,668 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Schlüsselgültigkeit">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Unterschriftenart">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Ihre E-Mail-Einstellungen anpassen, so dass Smaug zuverlässiger funktioniert">
+<!ENTITY smaug.pgpAccountSettings.accesskey "U">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Nachricht als Ganzes verschlüsseln/unterschreiben und mittels PGP/MIME senden">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Ja, ich möchte mir vom Assistenten helfen lassen">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Besitzervertrauen">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Die gewählte Methode für alle zukünftigen Anhänge verwenden">
+<!ENTITY smaug.ctxImportKey.label "OpenPGP-Schlüssel importieren">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Deaktiviere das Erlauben von Fließtext (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Was möchten Sie machen?">
+<!ENTITY smaug.addToRule.title "Schlüssel zu Empfängerregel hinzufügen">
+<!ENTITY smaug.reload.accesskey "N">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Auf Schlüsselserver hochladen…">
+<!ENTITY smaug.about.label "Über Smaug">
+<!ENTITY smaug.keyGen.months.label "Monaten">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Die zu importierenden Dateien auswählen">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "S">
+<!ENTITY smaug.ctxVerifyAtt.label "Unterschrift überprüfen">
+<!ENTITY smaug.progress.label "Fortschritt">
+<!ENTITY smaug.adminSmartCard.accesskey "C">
+<!ENTITY smaug.debugMenu.accesskey "F">
+<!ENTITY smaug.sending.label "Senden">
+<!ENTITY smaug.clearSearch.accesskey "z">
+<!ENTITY smaug.keyPassphrase.label "Passphrase">
+<!ENTITY smaug.finallySignEncrypted.label "Verschlüsselte Nachrichten unterschreiben">
+<!ENTITY smaug.cardPin.changePin.label "PIN ändern">
+<!ENTITY smaug.smgAttachInlineEncrypt.label "Jeden Anhang einzeln verschlüsseln und Nachricht mittels Inline-PGP senden">
+<!ENTITY smaug.keyMan.filter.label "Suchen nach:">
+<!ENTITY smaug.keyMan.importFromFile.label "Importieren…">
+<!ENTITY smaug.seeAccountSettings.label "Siehe auch kontospezifische Smaug Einstellungen (Konten-Einstellungen -&gt; OpenPGP Sicherheit)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label "immer">
+<!ENTITY smaug.keyMan.sign.label "Unterschreiben…">
+<!ENTITY smaug.revealAttachments.button "Zeigen">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Ja, ich möchte alle Nachrichten unterschreiben">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Zurückziehen">
+<!ENTITY smaug.cancelKey.tooltip "Erzeugen des Schlüssels abbrechen">
+<!ENTITY smaug.finalEncryptDefault.label "Standards und Regeln für Verschlüsselung verwenden">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Möchten Sie den Assistenten nun verwenden?">
+<!ENTITY smaug.importMissingKeys.tooltip "Versuche fehlende Schlüssel von einem Schlüsselserver zu importieren">
+<!ENTITY smaug.keyTrust.dontKnow.label "Ich weiß es nicht">
+<!ENTITY smaug.cardPin.newAdminPin.label "Neue Admin-PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Fotokennung anzeigen">
+<!ENTITY smaug.keyDetails.expiry.label "Ablaufdatum">
+<!ENTITY smaug.keyMan.keyType.label "Typ">
+<!ENTITY smaug.created.label "Erstellt">
+<!ENTITY smaug.importpublickey.accesskey "m">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Deaktiviere das Laden von IMAP-Teilen bei Bedarf">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel "Die GnuPG Installation wird gestartet. Bitte folgen Sie dem GnuPG Installationsassistenten.">
+<!ENTITY smaug.keySel.label "Schlüsselauswahl">
+<!ENTITY smaug.sendPGPMime.label "PGP/MIME verwenden">
+<!ENTITY smaug.savedecrypted.label "Entschlüsselte Nachricht speichern">
+<!ENTITY smaug.userSelectionList.label "Smaug-Schlüssel auswählen">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Ich habe es nur einfach überprüft">
+<!ENTITY smaug.edit.label "Bearbeiten">
+<!ENTITY smaug.keyMan.createMail.accesskey "N">
+<!ENTITY smaug.keyMan.generateMenu.label "Erzeugen">
+<!ENTITY smaug.setupWiz.pgSign.signMsg "Welchen generellen Arbeitsmodus wünschen Sie für das Unterschreiben
+von ausgehenden Nachrichten?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Der formatierte Text wird so umgebrochen, dass die Signatur unverändert bleibt.">
+<!ENTITY smaug.decryptverify.label "Entschlüsseln/Überprüfen">
+<!ENTITY smaug.encDlgEncrypt.accesskey "V">
+<!ENTITY smaug.prefs.label "Einstellungen…">
+<!ENTITY smaug.keyMan.changePwd.label "Passphrase ändern">
+<!ENTITY smaug.finalSignNo.label "Zwingend nicht unterschreiben">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "A">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label "Wenn Regeln die Standard-Einstellung zum Verschlüsseln geändert haben">
+<!ENTITY smaug.keyGen.expire.label "Schlüssel läuft ab in">
+<!ENTITY smaug.encryption.label "Verschlüsseln">
+<!ENTITY smaug.keyTrust.fullTrust.label "Ich vertraue ihm voll">
+<!ENTITY smaug.addUidDlg.name.label "Name">
+<!ENTITY smaug.userSelSendSigned.accesskey "U">
+<!ENTITY smaug.matchEnd.label "endet mit">
+<!ENTITY smaug.pgpKeys.label "OpenPGP-Schlüssel">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Sende OpenPGP-Schlüsselkennung">
+<!ENTITY smaug.assignKeysByRules.label "Durch Empfängerregeln">
+<!ENTITY smaug.moveUp.accesskey "o">
+<!ENTITY smaug.keyGen.keySize.label "Schlüsselstärke">
+<!ENTITY smaug.basicUser.tooltip "Auswählen, um Optionen für fortgeschrittene Anwender auszublenden.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Der Assistent kann Ihre E-Mail-Einstellungen so anpassen, dass keine
+                                                      Probleme beim Unterschreiben und Verschlüsseln von
+                                                      Nachrichten auftreten werden.
+                                                      Die meisten Einstellungen betreffen nur technische Dinge, aber
+                                                      ein wichtiger Punkt ist, dass Nachrichten standardmäßig nur
+                                                      als Reintext verfasst werden (also ohne HTML-Formatierung).">
+<!ENTITY smaug.cardDetails.male.label "Männlich">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label "Nur den Haupttext verschlüsseln und unterschreiben, Anhänge unverändert lassen">
+<!ENTITY smaug.encDlgSign.accesskey "u">
+<!ENTITY smaug.assignKeysByRules.tooltip "Verwende Schlüssel gemäss Empfängerregeln. Falls dies die einzig gewählte Option ist, muss für jeden Schlüssel eine Empfängerregel eingerichtet werden.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(Hinweis: Bei Konflikten hat &quot;Nie&quot; Vorrang vor &quot;Immer&quot;)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Private Schlüsseldatei">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug-Sicherheitsinfo…">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label "Nach Anwendung von Standards und Regeln:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Deaktivieren, wenn Sie PGP/MIME-Nachrichten in IMAP-Ordnern empfangen.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Besitzervertrauen des Absenders festlegen…">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Unterschriften für den Schlüssel:">
+<!ENTITY smaug.sKeyDlg.title "Smaug-Schlüssel unterschreiben">
+<!ENTITY smaug.confirmBeforeSendingOption.label "Senden bestätigen">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>ACHTUNG: Das Erzeugen eines Schlüssels kann mehrere Minuten dauern.</a> Beenden Sie die Anwendung während dieser Zeit nicht. Sie werden informiert, sobald der Schlüssel fertiggestellt ist.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Weitere Benutzerkennung">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label "Zwingend unterschreiben">
+<!ENTITY smaug.keyMan.addPhoto.label "Foto hinzufügen…">
+<!ENTITY smaug.cardDetails.female.label "Weiblich">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Aus Zwischenablage importieren">
+<!ENTITY smaug.setDefaultsFor.label "Standardeinstellung:">
+<!ENTITY smaug.changePasswd.title "OpenPGP-Passphrase ändern">
+<!ENTITY smaug.keyMan.viewSig.label "Unterschriften">
+<!ENTITY smaug.autoKeyRetrieve.label "Schlüssel zur Signatur-Überprüfung automatisch von">
+<!ENTITY smaug.matchBegin.label "beginnt mit">
+<!ENTITY smaug.selKeysButton.label "Auswählen…">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "OpenPGP-Kopfzeilen">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Neue PIN wiederholen">
+<!ENTITY smaug.signedsend.label "Nachricht unterschreiben">
+<!ENTITY smaug.cardDetails.lang.label "Sprache">
+<!ENTITY smaug.messengermenu.accesskey "M">
+<!ENTITY smaug.keyDetails.size.label "Stärke">
+<!ENTITY smaug.userSelSendEncrypted.label "Verschlüsselt absenden">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Unterschriebenen HTML-Text vor dem Senden umbrechen">
+<!ENTITY smaug.genCardKey.title "OpenPGP-Schlüssel erzeugen">
+<!ENTITY smaug.ctxDecryptSave.accesskey "N">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes "Verschlüssle alle meine Nachrichten, weil mir meine Privatsphäre wichtig ist">
+<!ENTITY smaug.cardPin.currAdmPin.label "Aktuelle ADMIN-PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "GnuPG wird heruntergeladen ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey "s">
+<!ENTITY smaug.photoViewer.title "OpenPGP-Fotoanzeige">
+<!ENTITY smaug.cardPin.newPin.label "Neue PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Jeden Anhang einzeln verschlüsseln/unterschreiben und Nachricht mittels Inline-PGP senden">
+<!ENTITY smaug.moveDown.accesskey "u">
+<!ENTITY smaug.keyservers.sample "Beispiel: sks.dnsalias.net, pool.sks-keyservers.net, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "W">
+<!ENTITY smaug.userNoPassphrase.tooltip "Aktivieren, wenn Ihr OpenPGP-Schlüssel nicht durch eine Passphrase geschützt ist.">
+<!ENTITY smaug.usePGPMimeAlways.label "PGP/MIME standardmäßig verwenden">
+<!ENTITY smaug.addPhoto.title "Foto zu Schlüssel hinzufügen">
+<!ENTITY smaug.resetPrefs.tooltip "Alle Smaug-Einstellungen werden auf die Standardwerte zurück gesetzt.">
+<!ENTITY smaug.cardDetails.editData.label "Daten bearbeiten…">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "g">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "Diesen Schlüssel beglaubigen:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Möchten Sie Smaug für alle Konten bzw. Identitäten einrichten?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle "Verschlüsseln Sie Ihre versendeten Nachrichten">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Fingerabdruck">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label "falls nicht verschlüsselt">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Ausgewählte Schlüssel aktualisieren">
+<!ENTITY smaug.delete.label "Löschen">
+<!ENTITY smaug.keyId.label "Schlüsselkennung">
+<!ENTITY smaug.moreOptions.label "Weitere Einstellungen">
+<!ENTITY smaug.keySearch.selectAll.key "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Ich habe es sehr genau überprüft">
+<!ENTITY smaug.test.label "Test">
+<!ENTITY smaug.debug.label "Fehlersuche">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Erzeugen eines Schlüssels zum Unterschreiben und Verschlüsseln">
+<!ENTITY smaug.keyDetails.ID.label "Kennung">
+<!ENTITY smaug.matchContains.label "enthält">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Suchbegriffe in das Eingabefeld oberhalb eintippen">
+<!ENTITY smaug.cardDetails.encKey.label "Verschlüsselungsschlüssel">
+<!ENTITY smaug.noHushMailSupport.tooltip "Deaktivieren, wenn Empfänger alte Hushmail-Schlüssel verwenden.">
+<!ENTITY smaug.keyDetails.selAction.label "Aktion wählen…">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Primäre Kennung festlegen">
+<!ENTITY smaug.setupWiz.accesskey "n">
+<!ENTITY smaug.userSelSendEncrypted.accesskey "V">
+<!ENTITY smaug.setupWiz.title "Smaug-Assistent">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label "Manuell, falls Schlüssel fehlen">
+<!ENTITY smaug.keyDetails.userId.label "Primäre Benutzerkennung">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "S">
+<!ENTITY smaug.advancedIdentityDlg.title "Erweiterte Smaug-Identitäten-Einstellungen">
+<!ENTITY smaug.keyMan.genRevoke.label "Widerrufszertifikat…">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "E">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "OpenPGP-Schlüssel erzeugen">
+<!ENTITY smaug.savedecrypted.accesskey "s">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Max. PIN-Länge">
+<!ENTITY smaug.decryptbutton.tip "Nachricht mit OpenPGP entschlüsseln/überprüfen">
+<!ENTITY smaug.assignKeysByEmailAddr.label "Durch Email-Adressen gemäss Schlüsselverwaltung">
+<!ENTITY smaug.cardDetails.no.label "Nein">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "t">
+<!ENTITY smaug.keyGen.keyType.label "Algorithmus">
+<!ENTITY smaug.autoEncryptDrafts.label "Nachrichten-Entwürfe verschlüsselt speichern">
+<!ENTITY smaug.setupWiz.pgSign.title "Unterschreiben">
+<!ENTITY smaug.encryptionModelManually.label "Manuelle Verschlüsselungs-Einstellungen">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "Installieren ...">
+<!ENTITY smaug.expertUserMenus.label "Experten-Optionen und -Menüpunkte anzeigen">
+<!ENTITY smaug.keyDetails.keyId.label "Schlüsselkennung">
+<!ENTITY smaug.keyMan.viewMenu.label "Anzeigen">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "PIN ändern…">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Es konnte kein OpenPGP-Schlüssel gefunden werden.
+                                                      Bitte wählen Sie unten, ob Sie ein neues Schlüsselpaar erzeugen
+                                                      möchten oder ob Sie einen existierenden Schlüssel importieren möchten.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Alle Warnungen und Fragen werden erneut angezeigt.">
+<!ENTITY smaug.msgViewColumn.tooltip "Nach OpenPGP-Status sortieren">
+<!ENTITY smaug.setupWiz.yes "Ja">
+<!ENTITY smaug.sign.label "Unterschreiben">
+<!ENTITY smaug.keyMan.createMail.label "Nachricht an die gewählten Schlüssel verfassen">
+<!ENTITY smaug.changePasswd.currPasswd.label "Aktuelle Passphrase">
+<!ENTITY smaug.keyManWindow.accesskey "v">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Während dieser Zeit wird OpenPGP Sie nicht mehr nach den Passphrasen fragen.">
+<!ENTITY smaug.generateKey.label "Schlüsselpaar erzeugen">
+<!ENTITY smaug.composeOptionsMenu.accesskey "S">
+<!ENTITY smaug.cardPin.pinRepeat.label "Neue PIN wiederholen">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc "Smaug kann GnuPG herunterladen und das Installationsprogramm automatisch starten. Wenn Sie dies möchten, drücken Sie auf die Schaltfläche 'Installieren'.<html:br/><html:br/>Wenn GnuPG bereits installiert ist, können Sie alternativ über die Schaltfläche 'Durchsuchen' den GnuPG-Installationspfad angeben.">
+<!ENTITY smaug.cardDetails.editData.accesskey "D">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Schlüssel ohne Vertrauen anzeigen">
+<!ENTITY smaug.generateKey.tooltip "Erzeugt ein OpenPGP konformes Schlüsselpaar zum Verschlüsseln und/oder Unterschreiben">
+<!ENTITY smaug.keyserverDlg.label "Schlüsselserver auswählen">
+<!ENTITY smaug.acceptedKeysOption.label "Zum verschlüsselten Senden akzeptieren">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Lokal unterschreiben (nicht exportierbar)">
+<!ENTITY smaug.clearPassphrase.accesskey "P">
+<!ENTITY smaug.recipientsSelectionOption.label "Ermittlung der Schlüssel von Nachrichten-Empfängern">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Schlüsselserver">
+<!ENTITY smaug.smgAttachNoneEncrypt.label "Nur den Haupttext verschlüsseln, Anhänge unverändert lassen">
+<!ENTITY smaug.editRules.label "Empfängerregeln…">
+<!ENTITY smaug.keyDetails.keyPart.label "Schlüsselteil">
+<!ENTITY smaug.copySecurityInfo.label "Smaug-Sicherheitsinfo kopieren">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "E">
+<!ENTITY smaug.keyMan.fileMenu.label "Datei">
+<!ENTITY smaug.maxIdleMinutesTail.label "Minuten zwischenspeichern">
+<!ENTITY smaug.confirmBeforeSendingNever.label "nie">
+<!ENTITY smaug.keyMan.generate.accesskey "N">
+<!ENTITY smaug.moveDown.label "Nach unten">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Nachricht doch nicht verschlüsseln und unterschreiben">
+<!ENTITY smaug.cardDetails.serial.label "Seriennummer">
+<!ENTITY smaug.ctxDecryptSave.label "Entschlüsseln und Speichern unter…">
+<!ENTITY smaug.acceptedKeysValid.label "Nur Schlüssel, denen ich trauen kann">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "S">
+<!ENTITY smaug.keyManWindow.label "Schlüssel verwalten…">
+<!ENTITY smaug.keyTrust.noTrust.label "Ich vertraue ihm NICHT">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Ich möchte einen der vorhandenen Schlüssel verwenden:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip "Nur automatisch verschlüsseln wenn explizit durch Empfängerregeln eingeschaltet">
+<!ENTITY smaug.keySelection.label "Auswahl">
+<!ENTITY smaug.help.label "Hilfe">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>ACHTUNG: Das Erzeugen eines Schlüssels kann mehrere Minuten dauern.</a> Beenden Sie die Anwendung während dieser Zeit nicht. Da der Zufallsgenerator von Aktivität auf dem Rechner abhängt, wird empfohlen z.B. im Webbrowser aktiv zu surfen, um das Erzeugen eines Schlüssels zu beschleunigen. Sie werden informiert, sobald der Schlüssel fertiggestellt ist.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "t">
+<!ENTITY smaug.securitybutton.tip "Smaug-Sendeoptionen bearbeiten">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Deaktiviere das Verfassen von HTML-Nachrichten">
+<!ENTITY smaug.maxIdleMinutesHead.label "Passphrase für">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label "Nachricht als Ganzes verschlüsseln und mittels PGP/MIME senden">
+<!ENTITY smaug.encryptedsend.label "Nachricht verschlüsseln">
+<!ENTITY smaug.finalEncryptYes.label "Zwingend verschlüsseln">
+<!ENTITY smaug.cardPin.currPin.label "Aktuelle PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Keine Antwort">
+<!ENTITY smaug.defineRules.label "Empfängerregeln bearbeiten…">
+<!ENTITY smaug.keyMan.manageUid.accesskey "B">
+<!ENTITY smaug.keyMan.showAllKeys.label "Standardmäßig alle Schlüssel anzeigen">
+<!ENTITY smaug.keyMan.title "Smaug-Schlüssel verwalten">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "S">
+<!ENTITY smaug.finalEncryptNo.label "Zwingend nicht verschlüsseln">
+<!ENTITY smaug.add.label "Hinzufügen">
+<!ENTITY smaug.SendingPrefs.label "Allgemeine Versandeinstellungen">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Aktivieren, um den folgenden Pfad zu GnuPG zu verwenden">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Identitäten auswählen">
+<!ENTITY smaug.cardDetails.sigKey.label "Unterschriftenschlüssel">
+<!ENTITY smaug.cardDetails.sex.label "Geschlecht">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Admin-PIN ändern">
+<!ENTITY smaug.keyserver.label "Schlüsselserver">
+<!ENTITY smaug.encDlgEncrypt.label "Nachricht verschlüsseln">
+<!ENTITY smaug.send.label "Absenden">
+<!ENTITY smaug.setupWiz.pgNoStart.title "OpenPGP-Assistent beenden">
+<!ENTITY smaug.defaultKeySelOpts.label "Schlüsselauswahl…">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Schlüsselauswahl">
+<!ENTITY smaug.amPrefDesc.label "OpenPGP-Verschlüsselung und Unterschrift von Nachrichten  wird von Smaug ermöglicht. GnuPG (GPG) muss installiert sein, um die Funktionen verwenden zu können.">
+<!ENTITY smaug.smaugAttachDesc.label "Diese Nachricht enthält Anhänge. Wie sollen diese verschlüsselt/unterschrieben werden?">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Zu ändernde Schlüssel:">
+<!ENTITY smaug.adminSmartCard.label "SmartCard verwalten…">
+<!ENTITY smaug.importMissingKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug ist nun fertig eingerichtet.<html:br/><html:br/>Danke, dass Sie Smaug verwenden.">
+<!ENTITY smaug.cardDetails.name.label "Vorname, Name">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Löschen">
+<!ENTITY smaug.usersNotFound.label "Nicht gefundene Empfänger">
+<!ENTITY smaug.manageUidDlg.addUid.label "Hinzufügen">
+<!ENTITY smaug.keyMan.reload.accesskey "n">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "Bitte GnuPG über die Schaltfläche 'Durchsuchen' zuweisen.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label "Nachricht doch nicht verschlüsseln/unterschreiben">
+<!ENTITY smaug.importMissingKeys.label "Fehlende Schlüssel herunterladen">
+<!ENTITY smaug.keyMan.keyDetails.key "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Öffentliche Schlüsseldatei">
+<!ENTITY smaug.decryptbutton.label "Entschlüsseln">
+<!ENTITY smaug.signing.label "Unterschreiben">
+<!ENTITY smaug.keygenTitle.label "OpenPGP-Schlüssel erzeugen">
+<!ENTITY smaug.smgEncryptAttachNone.label "Nur den Haupttext verschlüsseln/unterschreiben, Anhänge unverändert lassen">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Neue Passphrase (nochmals)">
+<!ENTITY smaug.keyMan.viewSig.key "S">
+<!ENTITY smaug.doubleDashSeparator.label "&quot;--&quot; als Unterschriften-Trenner behandeln">
+<!ENTITY smaug.cardPin.title "SmartCard-PIN">
+<!ENTITY smaug.keyTrust.title "Smaug - Besitzervertrauen festlegen">
+<!ENTITY smaug.viewconsole.label "Konsole anzeigen">
+<!ENTITY smaug.tempTrustAllKeys.label "Temporär den Schlüsseln aller Empfänger vertrauen">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Das &quot;Web of Trust&quot; nicht verwenden, um die Gültigkeit der Schlüssel zu bestimmen (außer für abgelaufene/widerrufene Schlüssel).">
+<!ENTITY smaug.useNonDefaultComment.label "Smaug-Information zur OpenPGP-Signatur hinzufügen">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Möchten Sie, dass standardmäßig alle ausgehenden Nachrichten unterschrieben werden?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "In Zwischenablage exportieren">
+<!ENTITY smaug.about.accesskey "Ü">
+<!ENTITY smaug.mime_parts_on_demand.label "Anhänge nur herunterladen, wenn diese geöffnet werden sollen (nur bei IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Zwei in einer Zeile allein stehende Bindestriche kündigen einen Signaturblock an.">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label "falls verschlüsselt">
+<!ENTITY smaug.displayNoLonger.label "Diesen Dialog nicht mehr anzeigen, wenn Verschlüsselung unmöglich ist">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "Installation abgeschlossen. Bitte wechseln Sie zur nächsten Seite um die Einrichtung fortzusetzen.">
+<!ENTITY smaug.keyMan.revokeKey.label "Zurückziehen">
+<!ENTITY smaug.sKeyDlg.checked.label "Haben Sie überprüft, ob dieser Schlüssel tatsächlich dem oben genannten Absender gehört?">
+<!ENTITY smaug.keyGen.expiry.title "Ablaufdatum">
+<!ENTITY smaug.undoencryption.accesskey "e">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Ungültige Schlüssel anzeigen">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Details…">
+<!ENTITY smaug.encrypt.label "Verschlüsseln">
+<!ENTITY smaug.cardDetails.login.label "Login-Daten">
+<!ENTITY smaug.autoSendEncryptedNever.label "nie">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Nein, ich möchte in Empfängerregeln festlegen, wann unterschrieben werden soll">
+<!ENTITY smaug.about.title "Über Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Smaug-Empfängerregel erstellen…">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "U">
+<!ENTITY smaug.viewdebuglog.accesskey "L">
+<!ENTITY smaug.detailsHdrButton.label "Details">
+<!ENTITY smaug.keyTrust.trustKey.label "Zu bewertender Schlüssel:">
+<!ENTITY smaug.setupWiz.pgInstall.title "GnuPG wird benötigt">
+<!ENTITY smaug.action.label "Aktion">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "a">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Schlüsselerzeugung">
+<!ENTITY smaug.autoKeyRetrieve2.label "folgendem Server herunterladen:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip "Weise die OpenPGP-Schlüssel aufgrund der Email Adresse zu, so wie sie in der Schlüsselverwaltung zu sehen sind.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Ihren öffentlichen Schlüssel (das Vorhängeschloss) müssen Sie
+                                                      allen Personen geben, die Ihre Unterschrift überprüfen und
+                                                      Nachrichten verschlüsselt an Sie senden können sollen.
+                                                      Im Gegensatz dazu müssen Sie Ihren privaten Schlüssel geheim
+                                                      halten! Sie dürfen diesen NICHT weitergeben oder ungeschützt
+                                                      lassen. Mit Hilfe Ihres privaten Schlüssels kann man alle Nachrichten
+                                                      lesen, die verschlüsselt an Sie gesendet wurden. Außerdem kann
+                                                      man damit in Ihrem Namen unterschreiben!
+                                                      Der private Schlüssel wird deshalb von einer Passphrase
+                                                      geschützt.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label "Jeden Anhang einzeln verschlüsseln und unterschreiben und Nachricht mittels Inline-PGP senden">
+<!ENTITY smaug.addUidDlg.title "Smaug-Benutzerkennung hinzufügen">
+<!ENTITY smaug.keyDetails.keyType.label "Typ">
+<!ENTITY smaug.keyGen.years.label "Jahren">
+<!ENTITY smaug.edit.accesskey "B">
+<!ENTITY smaug.keyExpiry.title "Smaug - Ablaufdatum ändern">
+<!ENTITY smaug.singleRcptSettings.label "Smaug-Empfängerregel bearbeiten">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug ermöglicht Ihnen das digitale Unterschreiben Ihrer Nachrichten.
+                                                      Dies ist die elektronische Version Ihrer Unterschrift unter einem Brief,
+                                                      und es ermöglicht Ihren Empfängern sicher zu gehen, dass
+                                                      Nachrichten tatsächlich von Ihnen stammen und nicht verändert
+                                                      wurden.">
+<!ENTITY smaug.cardDetails.sigcount.label "Unterschriftenzähler">
+<!ENTITY smaug.addToRule.useRuleButton.label "Schlüssel zur gewählten Empfängerregel hinzufügen">
+<!ENTITY smaug.encDlgSign.label "Nachricht unterschreiben">
+<!ENTITY smaug.keyGen.noExpiry.label "Schlüssel läuft nie ab">
+<!ENTITY smaug.keyPassphraseRepeat.label "Passphrase (wiederholen)">
+<!ENTITY smaug.searchForKey.label "Suche nach Schlüssel">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Folgende Einstellungen werden von diesem Assistenten verändert:">
+<!ENTITY smaug.revealAttachmentsButton.label "Die Namen der angehängten Dateien sind ausgeblendet. Drücken Sie &quot;Anzeigen&quot;, um die Dateinamen zu erhalten.">
+<!ENTITY smaug.always.label "Immer">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "f">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "In Datei exportieren…">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "In Zwischenablage exportieren">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Nachricht als Ganzes verschlüsseln und unterschreiben und mittels PGP/MIME senden">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label "Nachricht doch nicht unterschreiben">
+<!ENTITY smaug.ctxImportKey.accesskey "O">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "S">
+<!ENTITY smaug.keyDetails.calcTrust.label "Schlüsselgültigkeit">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip "Information über Unterschreiben/Verschlüsseln vor dem verschicken einer VERSCHLüSSELTEN Nachricht anzeigen">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP-Sicherheit">
+<!ENTITY smaug.progressText.label "Fortschritt:">
+<!ENTITY smaug.sepratationDesc.label "(Mehrere E-Mail-Adressen mit Leerzeichen trennen)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Nein, nur für die folgenden Konten bzw. Identitäten:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Die S/MIME-Schaltfläche aus der Funktionsleiste im Verfassen-Fenster entfernen.">
+<!ENTITY smaug.keyMan.changeExpiry.label "Ablaufdatum ändern">
+<!ENTITY smaug.keyMan.setTrust.label "Besitzervertrauen festlegen…">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Schlüssel anderer Personen anzeigen">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Dieser Assistent hilft Ihnen Smaug einzurichten. In den nächsten Schritten
+                                                      werden mit Hilfe von ein paar Fragen die korrekten Einstellungen gemacht.
+                                                      Um alles etwas zu vereinfachen, geht der Assistent auch von ein
+                                                      paar vermutlich gewünschten Einstellungen aus.
+                                                      Dabei wird versucht eine möglichst hohe Sicherheit zu erreichen, ohne
+                                                      Sie zu verwirren. Natürlich können Sie alle Einstellungen
+                                                      nach dem Beenden des Assistenten bei Bedarf noch manuell anpassen.
+">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip "Dialog zur Information über Unterschreiben/Verschlüsseln immer beim Verschicken einer Nachricht  anzeigen">
+<!ENTITY smaug.matchDescEnd.label "eine(r) der obigen Adressen">
+<!ENTITY smaug.keyMan.reload.label "Schlüsselzwischenspeicher neu laden">
+<!ENTITY smaug.viewconsole.accesskey "K">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "A">
+<!ENTITY smaug.keyNoPassphrase.label "keine Passphrase">
+<!ENTITY smaug.amPrefSelectKey.label "Schlüssel auswählen…">
+<!ENTITY smaug.moveUp.label "Nach oben">
+<!ENTITY smaug.cardDetails.yes.label "Ja">
+<!ENTITY smaug.testemail.label "Testadresse:">
+<!ENTITY smaug.composeOptionsMenu.label "Einstellungen">
+<!ENTITY smaug.finallySignNotEncrypted.label "Unverschlüsselte Nachrichten unterschreiben">
+<!ENTITY smaug.addToRule.newRuleButton.label "Neue Empfängerregel erstellen">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Sie sind nun fast fertig! Wenn Sie auf die Schaltfläche &quot;Weiter&quot; klicken,
+                                                      wird der Assistent folgende Einstellungen übernehmen:">
+<!ENTITY smaug.clearSearch.label "Alle zeigen">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Löschen">
+<!ENTITY smaug.keyMan.viewPhoto.label "Fotokennung">
+<!ENTITY smaug.smgAttachInlineSign.label "Jeden Anhang einzeln unterschreiben und Nachricht mittels Inline-PGP senden">
+<!ENTITY smaug.keyMan.delKey.accesskey "L">
+<!ENTITY smaug.viewdebuglog.label "Log-Datei anzeigen">
+<!ENTITY smaug.manageUidDlg.title "Benutzerkennungen verwalten">
+<!ENTITY smaug.useKeys.label "Verwende folgende OpenPGP-Schlüssel:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "8-Bit-Zeichenkodierung beim Senden verwenden">
+<!ENTITY smaug.sendersKeyMenu.accesskey "d">
+<!ENTITY smaug.keyMan.sign.accesskey "U">
+<!ENTITY smaug.trustSenderKey.label "Besitzervertrauen festlegen…">
+<!ENTITY smaug.delete.accesskey "L">
+<!ENTITY smaug.encryptedsend.accesskey "v">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "P">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Bitte warten, Schlüssel werden geladen…">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip "Dialog zur Information über Unterschreiben/Verschlüsseln nicht anzeigen beim Verschicken einer Nachricht">
+<!ENTITY smaug.autoSendEncryptedOption.label "Sende automatisch verschlüsselt">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Keine Schlüssel entsprechen Ihrer Suche">
+<!ENTITY smaug.importpublickey.label "Schlüssel importieren">
+<!ENTITY smaug.matchDescStart.label "Anwenden, wenn Empfänger">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Nein Danke, ich werde alles manuell einstellen">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Auswählen, um Optionen für fortgeschrittene Anwender anzuzeigen.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Besitzervertrauen">
+<!ENTITY smaug.cardDetails.closeWindow.label "Schließen">
+<!ENTITY smaug.keyTrust.trustLevel.label "Wie weit trauen Sie diesem User zu, Schlüssel anderer User korrekt zu prüfen?">
+<!ENTITY smaug.cardDetails.title "SmartCard-Details">
+<!ENTITY smaug.openpgpPrefsButton.label "Smaug Einstellungen">
+<!ENTITY smaug.keyMan.importFromServer.label "Schlüssel suchen…">
+<!ENTITY smaug.amPrefUseFromAddr.label "E-Mail-Adresse dieses Kontos verwenden, um OpenPGP-Schlüssel zu identifizieren">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Einstellungen zu GnuPG bearbeiten.">
+<!ENTITY smaug.keyMan.close.label "Schließen">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Digitales Unterschreiben Ihrer ausgehenden Nachrichten">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Schlüssel für alle Kontakte suchen">
+<!ENTITY smaug.amPrefEnablePgp.label "OpenPGP-Unterstützung (Smaug) für diese Identität aktivieren">
+<!ENTITY smaug.keyMan.exportToFile.label "Exportieren…">
+<!ENTITY smaug.cardPin.unblockPin.label "PIN freischalten">
+<!ENTITY smaug.keyMan.editMenu.label "Bearbeiten">
+<!ENTITY smaug.encDlgPgpMime.accesskey "P">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Wählen Sie die Konten oder Identitäten, mit der Sie Smaug verwenden möchten">
+<!ENTITY smaug.useGpgAgent.tooltip "GPG-Agent-Anwendung (Teil von GnuPG 2) für alle Passphrasen-Eingaben verwenden.">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Möchten Sie die Einstellungen anpassen, so dass Smaug besser funktionieren wird?">
+<!ENTITY smaug.cardDetails.forcepin.label "Unterschriften-PIN erzwingen">
+<!ENTITY smaug.rulesEditor.label "Smaug-Empfängerregeln">
+<!ENTITY smaug.searchKeyDlgSelAll.label "alle selektieren/deselektieren">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatisch verschlüsseln wenn für alle Empfänger mindestens ein bekannter und gültiger Schlüssel vorhanden ist (siehe oben), und keine Empfängerregel die Verschlüsselung ausschaltet.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Schlüssel gefunden - Auswählen zum Importieren">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "F">
+<!ENTITY smaug.resetPrefsButton.label "Zurücksetzen">
+<!ENTITY smaug.valid.label "Gültig">
+<!ENTITY smaug.keyUserId.label "Benutzerkennung">
+<!ENTITY smaug.cancelKey.label "Abbrechen">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label "wenn moeglich">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Ich möchte ein neues Schlüsselpaar erzeugen">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "GnuPG wurde gefunden.">
+<!ENTITY smaug.finalPGPMimeNo.label "Zwingend inline-PGP verwenden">
+<!ENTITY smaug.setupWiz.pgEncConv.desc "Smaug erlaubt Ihnen, Nachrichten und Anhänge dazu zu verschlüsseln.
+Die Verschlüsselung<html:br/>ist vergleichbar mit einem Brief der in einen Umschlag gesteckt wird. Damit werden<html:br/>
+Konversationen privat. Dies gilt nicht nur für 'geheime' Nachrichten, sondern für alles was
+nicht auf einer Postkarte<html:br/>geschrieben würde.<html:br/><html:br/>
+Um verschlüsselte Nachrichten verschicken zu können, werden die Schlüssel von allen<html:br/>
+Empfängern benötigt. Leider ist die OpenPGP-Verschlüsselung aber nicht überall im Einsatz, so dass Sie<html:br/>
+typischerweise nur die Schlüssel von <html:i>einigen</html:i> Empfängern haben.
+Um diese Situation zu unterstützen,<html:br/>enthält Smaug einen bequemen Modus, in welchem
+immer dann verschlüsselt wird, wenn es möglich ist. Sie können immer noch für jede<html:br/>
+Nachricht entscheiden, ob sie verschlüsselt werden soll, oder nicht.">
+<!ENTITY smaug.disableRules.label "Empfängerregeln ignorieren">
+<!ENTITY smaug.basic.label "Allgemein">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label "Nachricht doch nicht verschlüsseln">
+<!ENTITY smaug.attachkey.accesskey "Ö">
+<!ENTITY smaug.setupWiz.pgComplete.title "Danke">
+<!ENTITY smaug.displayKeyProperties.label "Schlüsseleigenschaften anzeigen">
+<!ENTITY smaug.agentAdditionalParam.label "Zusätzliche Parameter für GnuPG:">
+<!ENTITY smaug.assignKeysManuallyAlways.label "Immer (auch) manuell">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Ihr Schlüsselpaar wird nun erzeugt">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip "Dialog zur Unterschrift/Verschlüsselung vor dem versenden anzeigen, falls die Standardeinstellungen durch Empfängerregeln oder automatische Verschüsselung übersteuert werden">
+<!ENTITY smaug.keyMan.addToPRRule.label "Zu Empfängerregel hinzufügen">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Erweitert">
+<!ENTITY smaug.nextRule.label "Weitere Regeln auf passende Adresse prüfen">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Mit diesem Schlüssel unterschreiben:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Ich besitze öffentliche und private Schlüssel, die ich importieren möchte.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Bitte bestätigen Sie Ihre Passphrase durch erneutes Eingeben">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Fingerabdruck:">
+<!ENTITY smaug.keyMan.keyProps.label "Schlüsseleigenschaften">
+<!ENTITY smaug.keyMan.setTrust.accesskey "V">
+<!ENTITY smaug.keyMan.editMenu.accesskey "B">
+<!ENTITY smaug.attachmykey.label "Meinen öffentlichen Schlüssel anhängen">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "g">
+<!ENTITY smaug.keyDetails.created.label "Erzeugt">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN-Fehlversuchszähler">
+<!ENTITY smaug.ctxDecryptOpen.label "Entschlüsseln und Öffnen">
+<!ENTITY smaug.setupWiz.label "Smaug-Assistent">
+<!ENTITY smaug.genCardKey.backupKey.label "Sicherungskopie des Schlüssels außerhalb der SmartCard speichern">
+<!ENTITY smaug.finalPGPMimeYes.label "Zwingend PGP/MIME verwenden">
+<!ENTITY smaug.useForSigning.label "Schlüssel zum Unterschreiben verwenden">
+<!ENTITY smaug.smgAttachNoneSign.label "Nur den Haupttext unterschreiben, Anhänge unverändert lassen">
+<!ENTITY smaug.keyDetails.title "Schlüsseleigenschaften">
+<!ENTITY smaug.amPrefUseKeyId.label "Spezielle OpenPGP-Schlüsselkennung verwenden (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Öffentliche Schlüssel per E-Mail senden">
+<!ENTITY smaug.smgAttachPgpMimeSign.label "Nachricht als Ganzes unterschreiben und mittels PGP/MIME senden">
+<!ENTITY smaug.basicPrefs.label "Allgemeine Einstellungen">
+<!ENTITY smaug.acceptedKeysValid.tooltip "Nur Schüssel akzeptieren, die ich selbst unterschieben habe, oder die von Leuten unterschrieben wurden, denen ich vertraue. Technisch werden damit nur 'gültige' Schlüssel akzeptiert.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Erweitert ...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Ich vertraue ihm absolut">
+<!ENTITY smaug.defaultSigning.label "Nachrichten standardmäßig unterschreiben">
+<!ENTITY smaug.keyDetails.fingerprint.label "Fingerabdruck">
+<!ENTITY smaug.finalPGPMimeDefault.label "Standards und Regeln für PGP-Format verwenden">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "S">
+<!ENTITY smaug.setupWiz.pgInstall.desc "Um Smaug verwenden zu können, muss GnuPG als zusätzliche Komponente für die kryptografischen Funktionen installiert werden. Der Assistent hat GnuPG auf Ihrem System gesucht, aber nicht gefunden.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Bequeme Verschlüsselungs-Einstellungen">
+<!ENTITY smaug.showPhoto.label "Fotokennung anzeigen">
+<!ENTITY smaug.setupWiz.pgEncConv.title "Verschlüsselung">
+<!ENTITY smaug.useGpgAgent.label "Zur Passphrasen-Verwaltung die GPG-Agent-Anwendung verwenden">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg "Welchen generellen Arbeitsmodus wünschen Sie für das Verschlüsseln
+        von ausgehenden Nachrichten?">
+<!ENTITY smaug.perRecipientsOption.label "Empfängerregeln erstellen">
+<!ENTITY smaug.sendOptionsMenu.label "Senden…">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Es konnte kein OpenPGP-Schlüssel gefunden werden">
+<!ENTITY smaug.keyMan.stopTransfer.label "Übertragung unterbrechen">
+<!ENTITY smaug.refreshKeys.label "Liste aktualisieren">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "Durchsuchen ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Verschlüsseln/Unterschreiben beim Antworten auf verschlüsselte/unterschriebene Nachrichten">
+<!ENTITY smaug.addPhoto.question.label "Soll das folgende Foto zu folgendem Schlüssel hinzugefügt werden?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Antworten auf verschlüsselte/unterschriebene Nachrichten werden, wenn möglich, auch verschlüsselt/unterschrieben.">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Alle Schlüssel aktualisieren">
+<!ENTITY smaug.cardDetails.authKey.label "Authentifizierungsschlüssel">
+<!ENTITY smaug.viewKeySigDlg.title "Unterschriftenliste">
+<!ENTITY smaug.cardDetails.vendor.label "Hersteller">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Sende URL, um Schlüssel zu empfangen:">
+<!ENTITY smaug.encryptionDlg.label "Smaug-Sendeoptionen">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "P">
+<!ENTITY smaug.decryptverify.accesskey "E">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "t">
+<!ENTITY smaug.maybe.label "Ja, wenn beim Verfassen ausgewählt">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Ich vertraue ihm marginal">
+<!ENTITY smaug.prefs.pathsTitle.label "Dateien und Verzeichnisse">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo "Meine Nachrichten sollen nicht standardmässig verschlüsselt werden">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Hinweis:</a> Smaug wird Unterschriften immer
+                                                      für alle Konten bzw. Identitäten überprüfen, unabhängig davon was
+                                                      hier ausgewählt wird.">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "h">
+<!ENTITY smaug.addUidDlg.comment.label "Kommentar">
+<!ENTITY smaug.setupWiz.no "Nein, Danke">
+<!ENTITY smaug.alwaysTrustSend.label "Gültigen Schlüsseln immer vertrauen">
+<!ENTITY smaug.keyMan.viewSig.accesskey "U">
+<!ENTITY smaug.changePasswd.newPasswd.label "Neue Passphrase">
+<!ENTITY smaug.undoencryption.label "Verschlüsselung rückgängig machen">
+<!ENTITY smaug.uidValidity.label "Gültigkeit">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Widerrufszertifikat erzeugen &amp; speichern…">
+<!ENTITY smaug.cardDetails.reset.label "Zurücksetzen">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Unterschriften anzeigen">
+<!ENTITY smaug.acceptedKeysAll.tooltip "Alle Schlüssel akzeptieren, die weder deaktiviert noch zurückgezogen oder abgelaufen sind. Technisch entspricht dies der GnuPG Option '--trust-always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Unterschrift/Verschlüsselung…">
+<!ENTITY smaug.reload.label "Nachricht neu laden">
+<!ENTITY smaug.browse.label "Suchen…">
+<!ENTITY smaug.passwordSettings.label "Passphrasen-Einstellungen">
+<!ENTITY smaug.keyDetails.algorithm.label "Algorithmus">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "u">
+<!ENTITY smaug.cardDetails.keyCreated.label "Erzeugt">
+<!ENTITY smaug.autoDecrypt.label "Automatisch entschlüsseln/überprüfen">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "OpenPGP-Schlüssel importieren">
+<!ENTITY smaug.keyservers.label "Schlüsselserver">
+<!ENTITY smaug.encDlgIgnoreRules.label "Empfängerregeln ignorieren">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "F">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Verfügbare Benutzerkennungen:">
+<!ENTITY smaug.add.accesskey "H">
+<!ENTITY smaug.refreshKeys.accesskey "L">
+<!ENTITY smaug.signSenderKey.label "Schlüssel unterschreiben…">
+<!ENTITY smaug.searchKeyDlg.label "OpenPGP-Schlüssel herunterladen">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "E">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Sie haben sich entschlossen den Assistenten nicht zu verwenden,
+                                                      um OpenPGP einzurichten.
+                                                      <html:br/><html:br/>Danke, dass Sie Smaug verwenden.">
+<!ENTITY smaug.signedsend.accesskey "U">
+<!ENTITY smaug.keyGen.console.label "Konsole zum Erzeugen eines Schlüssels">
+<!ENTITY smaug.signSenderKeyPopup.label "Schlüssel unterschreiben…">
+<!ENTITY smaug.cardDetails.url.label "URL des öffentlichen Schlüssels">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug-Einstellungen beziehen sich auf Konten bzw. Identitäten.
+                                                      Standardmäßig wird Smaug für alle Konten bzw. Identitäten
+                                                      eingerichtet. Wenn Sie dies nicht möchten, wählen Sie bitte
+                                                      die einzelnen Konten bzw. Identitäten aus, für die Smaug
+                                                      eingerichtet werden soll.">
+<!ENTITY smaug.resetRememberedValues.label "Warnungen zurücksetzen">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Kein OpenPGP-Schlüssel gefunden">
+<!ENTITY smaug.cardDetails.save.label "Speichern">
+<!ENTITY smaug.prefs.overrideGpg.label "Anderer Pfad:">
+<!ENTITY smaug.logdirectory.label "Verzeichnis für Log-Dateien:">
+<!ENTITY smaug.setupWiz.pgSummary.title "Zusammenfassung">
+<!ENTITY smaug.ruleEmail.label "Regel für:">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Bestätigen Sie, dass der Assistent nun die getroffenen Einstellungen vornehmen soll">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Nachrichtentext als Reintext anzeigen">
+<!ENTITY smaug.debugMenu.label "Fehlersuche">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Von Schlüsselserver aktualisieren…">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Erzeugen eines Schlüssels zum Unterschreiben und Verschlüsseln">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Nie nach einer Passphrase fragen">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Schlüssel:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Standard-Einstellungen für das Verfassen von Nachrichten">
+<!ENTITY smaug.sendersKeyMenu.label "Schlüssel des Absenders">
+<!ENTITY smaug.preferences.label "Smaug-Einstellungen">
+<!ENTITY smaug.clearPassphrase.label "Passphrase aus Zwischenspeicher löschen">
+<!ENTITY smaug.setupWiz.pgSign.signYes "Alle meine Nachrichten sollen standardmässig unterschrieben werden">
+<!ENTITY smaug.setupWiz.pgSign.signNo "Meine Nachrichten sollen nicht standardmässig unterschrieben werden">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Sie benötigen ein &quot;Schlüsselpaar&quot;, um Nachrichten unterschreiben
+                                                      und verschlüsseln zu können. Ein Schlüsselpaar besteht aus einem
+                                                      öffentlichen und einem privaten Schlüssel.">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Sie haben bereits einen oder mehrere OpenPGP-Schlüssel. Sie
+                                                      können daher einen Ihrer existierenden Schlüssel verwenden,
+                                                      um Nachrichten zu unterschreiben und zu verschlüsseln, oder
+                                                      Sie können ein neues Schlüsselpaar erzeugen.">
+<!ENTITY smaug.noHushMailSupport.label "Die Zeichen &quot;&lt;&quot; und &quot;&gt;&quot; verwenden, um E-Mail-Adressen zu kennzeichnen.">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Bitte wählen Sie die Dateien mit öffentlichen und privaten Schlüsseln,
+                                                      die importiert werden sollen. Der Eintrag für private Schlüssel kann leer
+                                                      gelassen werden, falls die erste Datei sowohl private als auch öffentliche Schlüssel enthält.">
+<!ENTITY smaug.basicUserMenus.label "Experten-Optionen und -Menüpunkte ausblenden">
+<!ENTITY smaug.finalSignDefault.label "Standards und Regeln für Unterschriften verwenden">
+<!ENTITY smaug.keyMan.refreshKey.key "R">
+<!ENTITY smaug.keyGen.days.label "Tagen">
+<!ENTITY smaug.disableRules.accesskey "i">
+<!ENTITY smaug.setupWiz.pgSettings.title "Einstellungen">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "Z">
+<!ENTITY smaug.keyMan.generate.label "Neues Schlüsselpaar…">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Öffentlichen Schlüssel an Nachrichten anhängen.">
+<!ENTITY smaug.encDlgPgpMime.label "PGP/MIME verwenden">
+<!ENTITY smaug.keyMan.selectAll.label "Alle Schlüssel auswählen">
+<!ENTITY smaug.keyComment.label "Kommentar">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Ich habe es nicht überprüft">
+<!ENTITY smaug.keyDetails.usage.label "Verwendung">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Öffne den Dialog zur Auswahl von OpenPGP-Schlüsseln falls nicht für alle Empfänger ein Schlüssel gefunden werden kann.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "i">
+<!ENTITY smaug.addUidDlg.email.label "E-Mail">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP-Sicherheit">
+<!ENTITY smaug.nextAddress.label "Weitere Regeln nicht auf passende Adresse prüfen">
+<!ENTITY smaug.setupWiz.details.subtitle "Anpassen der Anwendungseinstellungen">
+<!ENTITY smaug.keyMan.uploadToServer.label "Schlüssel hochladen…">
+<!ENTITY smaug.userSelSendSigned.label "Unterschrieben absenden">
+<!ENTITY smaug.ruleEmail.tooltip "Geben Sie nur die E-Mail-Adresse ein - nicht den Namen des Empfängers Beispiel: &quot;Max Mustermann &lt;max.mustermann@domain.de&gt;&quot; ist ungültig">
+<!ENTITY smaug.setupWiz.details.title "Einstellungen">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes "Bequeme automatische Verschlüsselung">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip "Öffne immer den Dialog zur Auswahl von Schlüsseln.">
+<!ENTITY smaug.help.accesskey "H">
+<!ENTITY smaug.email.label "E-Mail-Adresse">
+<!ENTITY smaug.attachkey.label "Öffentlichen Schlüssel anhängen…">
+<!ENTITY smaug.not.label "Not">
+<!ENTITY smaug.keyExpiry.label "Ablaufdatum">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "e">
+<!ENTITY smaug.keyMan.userId.label "Name">
+<!ENTITY smaug.keyMan.manageUid.label "Benutzerkennungen verwalten…">
+<!ENTITY smaug.defaultEncryption.label "Nachrichten standardmäßig verschlüsseln">
+<!ENTITY smaug.never.label "Nie">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "D">
+<!ENTITY smaug.cardDetails.genCardKey.label "Schlüssel erzeugen…">
+<!ENTITY smaug.editRules.accesskey "r">
+<!ENTITY smaug.prefs.accesskey "i">
+<!ENTITY smaug.keyDetails.selAction.accesskey "w">
+<!ENTITY smaug.acceptedKeysAll.label "Alle Schlüssel (sofern nicht abgelaufen, zurückgezogen oder deaktiviert)">
+<!ENTITY smaug.matchExact.label "ist exakt">
+<!ENTITY smaug.searchRule.label "Zeige Regeln, deren E-Mail-Adressen folgendes enthalten:">

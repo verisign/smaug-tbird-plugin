@@ -1,0 +1,653 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Anahtar Doğruluğu">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "İmza Tipi">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Smaug'nin daha emin çalışabilmesi için posta seçeneklerinizi değiştirin">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Mesajı bir bütün olarak şifrele/imzala ve PGP/MIME kullanarak gönder">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Evet, Sihirbazı başlat">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Güvenilirlik">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Gelecekteki tüm ekler için seçili metodu kullan">
+<!ENTITY smaug.ctxImportKey.label "OpenPGP Anahtarı İthal et">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Sallanan metni kapat (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Ne yapmak istiyorsunuz">
+<!ENTITY smaug.addToRule.title                    "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "E">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Genel Anahtarları Anahtar Sunucusuna Yükle">
+<!ENTITY smaug.about.label "Smaug Hakkında">
+<!ENTITY smaug.keyGen.months.label "ay">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle      "Specify the files to import">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label                "Verify signature">
+<!ENTITY smaug.progress.label "İşlem">
+<!ENTITY smaug.adminSmartCard.accesskey "M">
+<!ENTITY smaug.debugMenu.accesskey "G">
+<!ENTITY smaug.sending.label "Gönderme">
+<!ENTITY smaug.clearSearch.accesskey "C">
+<!ENTITY smaug.keyPassphrase.label "Parola">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "PIN değiştir">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Şunları içeren kullanıcı ya da anahtar ID'lerini filtrele:">
+<!ENTITY smaug.keyMan.importFromFile.label "Anahtarları Dosyadan Al">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Anahtarı İmzala">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Evet, tüm postaları imzalamak istiyorum">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Feshet">
+<!ENTITY smaug.cancelKey.tooltip "Anahtar Üretiminden Vazgeç">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Sihirbazı şimdi kullanmak istiyor musunuz ?">
+<!ENTITY smaug.importMissingKeys.tooltip "Kayıp anahtarları bir anahtar sunucudan indirmeye çalış">
+<!ENTITY smaug.keyTrust.dontKnow.label "Bilmiyorum">
+<!ENTITY smaug.cardPin.newAdminPin.label "Yeni yönetici PIN'i">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Fotoğraf ID'si Görüntüle">
+<!ENTITY smaug.keyDetails.expiry.label "Son Kullanma Tarihi">
+<!ENTITY smaug.keyMan.keyType.label "Tip">
+<!ENTITY smaug.created.label "Oluşturuldu">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "İstek durumunda IMAP bölümlerini yüklemeyi kapat">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Anahtar Seçimi">
+<!ENTITY smaug.sendPGPMime.label "Bu Mesaj için PGP/MIME Kullan">
+<!ENTITY smaug.savedecrypted.label "Deşifre edilmiş mesajı kaydet">
+<!ENTITY smaug.userSelectionList.label "Smaug Anahtar Seçimi">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Dikkatsizce kontrol ettim">
+<!ENTITY smaug.edit.label "Düzenle">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Üret">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "İmzanın bozulmamış olduğunu garantilemek için metni tekrar düzenle.">
+<!ENTITY smaug.decryptverify.label "Deşifre/Doğrula">
+<!ENTITY smaug.encDlgEncrypt.accesskey "E">
+<!ENTITY smaug.prefs.label "Seçenekler">
+<!ENTITY smaug.keyMan.changePwd.label "Parola Değiştir">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Anahtar son kullanma tarihi">
+<!ENTITY smaug.encryption.label "Şifreleme">
+<!ENTITY smaug.keyTrust.fullTrust.label "Tam güveniyorum">
+<!ENTITY smaug.addUidDlg.name.label "İsim">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "Bitiyorsa">
+<!ENTITY smaug.pgpKeys.label "OpenPGP Anahtar(lar)">
+<!ENTITY smaug.amPrefPgpHeader.id.label "OpenPGP Anahtar ID'si Gönder">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "U">
+<!ENTITY smaug.keyGen.keySize.label "Anahtar boyu">
+<!ENTITY smaug.basicUser.tooltip "Uzman kullanıcılar için olan menü öğeleri ve seçenekleri görmek istemiyorsanız tıklayın.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Bu sihirbaz, posta seçeneklerinizi makinenizde posta şifreleme ya da imzalama
+                                                      konusunda sorun olmadığından emin olmanız için değiştirebilir.
+                                                      Bu değişiklikler, postanın öntanımlı olarak düz metin şeklinde yazılması dışında 
+                                                      çoğunlukla anlamayacağınız teknik şeylerdir.">
+<!ENTITY smaug.cardDetails.male.label "Bay">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "S">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(Not: çakışma durumunda, 'Asla', 'Her Zaman' dan önceliklidir)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile    "Private key file">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug Güvenlik Bilgisi ...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "IMAP dizinlerinde PGP/MIME mesajları alıyorsanız bu seçeneği kapatmalısınız.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Gönderenin Anahtarının Güvenilirliğini Belirle ...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Şu Anahtar için İmzalar:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Anahtar İmzala">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>NOT: Anahtar üretimi biraz uzun sürebilir.</a> Anahtar üretimi sırasında uygulamayı kapatmayın. Anahtar üretimi bittiğinde uyarılacaksınız.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Ek Kullanıcı ID'leri">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "Bayan">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Anahtarları Panodan Al">
+<!ENTITY smaug.setDefaultsFor.label "Öntanımlılar ...">
+<!ENTITY smaug.changePasswd.title "OpenPGP Parolası değiştir">
+<!ENTITY smaug.keyMan.viewSig.label "İmzalar">
+<!ENTITY smaug.autoKeyRetrieve.label "İmza doğrulaması için anahtarları otomatik indir">
+<!ENTITY smaug.matchBegin.label "Başlıyorsa">
+<!ENTITY smaug.selKeysButton.label "Anahtar(lar) Seç...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "'OpenPGP' Başlığı Gönder">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Yeni PIN'i tekrarla">
+<!ENTITY smaug.signedsend.label "Mesajı İmzala">
+<!ENTITY smaug.cardDetails.lang.label "Dil">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "Boyut">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "İmzalı HTML'yi yollmadan önce tekrar sarmala">
+<!ENTITY smaug.genCardKey.title "OpenPGP Anahtarı Oluştur">
+<!ENTITY smaug.ctxDecryptSave.accesskey "C">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Şimdiki Yönetici PIN'i">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "Yeni PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Her eki ayrı ayrı şifrele, ve metni satır içi PGP kullanarak gönder">
+<!ENTITY smaug.moveDown.accesskey "D">
+<!ENTITY smaug.keyservers.sample "Örnek: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "R">
+<!ENTITY smaug.userNoPassphrase.tooltip "OpenPGP anahtarınız bir parolayla korunmuyorsa aktif edin.">
+<!ENTITY smaug.usePGPMimeAlways.label "Her zaman PGP/MIME kullan">
+<!ENTITY smaug.addPhoto.title                     "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "Tüm Smaug seçeneklerini ilk hallerine getir.">
+<!ENTITY smaug.cardDetails.editData.label "Kart Verilerini Düzenle">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "R">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "İmzalanacak Anahtar:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Smaug'yi tüm kimlikler için kurmak istiyorum">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Parmak izi">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Seçili Genel Anahtarları Yenile">
+<!ENTITY smaug.delete.label "Sil">
+<!ENTITY smaug.keyId.label "Anahtar ID'si">
+<!ENTITY smaug.moreOptions.label "Daha fazla seçenek">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Çok dikkatli kontrol ettim">
+<!ENTITY smaug.test.label "Test">
+<!ENTITY smaug.debug.label "Hata ayıklama">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Posta İmzalama ve Şifreleme için bir Anahtar Oluştur">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "İçeriyorsa">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Yukarıdaki kutuya arama kriterlerini girin">
+<!ENTITY smaug.cardDetails.encKey.label "Şifreleme anahtarı">
+<!ENTITY smaug.noHushMailSupport.tooltip "GnuPG için posta adresi belirtmek için '&lt;' ve '&gt;' karakterlerini kullan. Alıcıların eski Hushmail anahtarları varsa etkisiz kıl.">
+<!ENTITY smaug.keyDetails.selAction.label "İşlem Seç ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Birincil yap">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Smaug Kurulum Sihirbazı">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Birincil Kullanıcı ID'si">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Gelişmiş Smaug Kimlik Ayarları">
+<!ENTITY smaug.keyMan.genRevoke.label "Lağv Sertifikası">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "D">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Anahtar Oluştur">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Max. PIN uzunluğu">
+<!ENTITY smaug.decryptbutton.tip "Mesajı OpenPGP(Smaug) ile deşifre et ya da doğrula">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Hayır">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "D">
+<!ENTITY smaug.keyGen.keyType.label "Anahtar tipi">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "İmzalama">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "Anahtar ID'si">
+<!ENTITY smaug.keyMan.viewMenu.label "Görünüm">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "PIN Değiştir">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc         "We could not find any OpenPGP key. Please select below if you want to
+                                                      create a new key pair or if you want to import an existing key.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Geçmişte gizlediğiniz tüm uyarı diyaloglarını ve soruları tekrar göstert.">
+<!ENTITY smaug.msgViewColumn.tooltip              "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "Evet">
+<!ENTITY smaug.sign.label "İmzala">
+<!ENTITY smaug.keyMan.createMail.label "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "Şimdiki Parola">
+<!ENTITY smaug.keyManWindow.accesskey "y">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Parolaları bir süreliğine hafızada tut.">
+<!ENTITY smaug.generateKey.label "Anahtar üret">
+<!ENTITY smaug.composeOptionsMenu.accesskey "Z">
+<!ENTITY smaug.cardPin.pinRepeat.label "Yeni PIN'i tekrarla">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "E">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "Şifreleme ve/veya imzalama için yeni bir OpenPGP anahtarı üretir.">
+<!ENTITY smaug.keyserverDlg.label "Anahtar sunucusu seçin">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Yerel imza (gönderilemez)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "Anahtarları nasıl seçmeliyiz?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Anahtar sunucu">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Alıcı başına kuralları düzenle">
+<!ENTITY smaug.keyDetails.keyPart.label "Anahtar Parçası">
+<!ENTITY smaug.copySecurityInfo.label "Smaug Güvenlik Bilgisini Kopyala">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Dosya">
+<!ENTITY smaug.maxIdleMinutesTail.label "kullanılmayan dakika">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "Aşağı">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Seri Numarası">
+<!ENTITY smaug.ctxDecryptSave.label "Deşifre et ve Farklı Kaydet...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "Anahtar Yönetimi">
+<!ENTITY smaug.keyTrust.noTrust.label "Güvenmiyorum">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Posta imzalama ve şifreleme için aşağıdaki anahtarlardan birini seçmek istiyorum:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Seçim">
+<!ENTITY smaug.help.label "Yardım">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>NOT: Anahtar üretiminin bitmesi biraz zaman alabilir.</a> Anahtar üretimi sırasında uygulamayı kapatmayın. Aktif olarak internette gezinmek ya da diskle ilgili işler yapmak rasgele üretimi kolaylaştıracağından işlemin hızını artıracaktır. Anahtar üretimi bittiğinde uyarılacaksınız.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Smaug güvenlik ayarları">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Mesaj yazarken HTML kullanma">
+<!ENTITY smaug.maxIdleMinutesHead.label "Parolayı şu kadar süre hatırla">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Mesajı Şifrele">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "Şimdiki PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Cevap  yok">
+<!ENTITY smaug.defineRules.label "Kuralları Düzenle ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "M">
+<!ENTITY smaug.keyMan.showAllKeys.label "Öntanımlı olarak tüm anahtarları göster">
+<!ENTITY smaug.keyMan.title "Smaug Anahtar Yönetimi">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "K">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Ekle">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "GnuPG yerini belirtmek için tıklayın">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Kimlik seçin">
+<!ENTITY smaug.cardDetails.sigKey.label "İmza anahtarı">
+<!ENTITY smaug.cardDetails.sex.label "Cinsiyet">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Yönetici PIN'i değiştir">
+<!ENTITY smaug.keyserver.label "Anahtar sunucusu">
+<!ENTITY smaug.encDlgEncrypt.label "Mesajı Şifrele">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Sihirbazdan vazgeç">
+<!ENTITY smaug.defaultKeySelOpts.label "Anahtar Seçimi Ayarları...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Anahtar SeçimiKey Selection">
+<!ENTITY smaug.amPrefDesc.label "Mesajları OpenPGP ile şifreleme ve imzalama Smaug tarafından sunulmaktadır. Bu özelliği kullanmak için GnuPG (gpg) kurmuş olmalısınız.">
+<!ENTITY smaug.smaugAttachDesc.label "Bu mesaj ekler içeriyor. Ekleri imzalamak/şifrelemek ister misiniz ?">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "SmartCard Düzenle...">
+<!ENTITY smaug.importMissingKeys.accesskey "I">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug kullanıma hazır.<html:br></html:br><html:br></html:br>Smaug kullandığınız için teşekkürler.">
+<!ENTITY smaug.cardDetails.name.label "İlk isim, İsim">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Sil">
+<!ENTITY smaug.usersNotFound.label "Alıcılar doğru değil, güvenilir değil ya da bulunamadı">
+<!ENTITY smaug.manageUidDlg.addUid.label "Ekle">
+<!ENTITY smaug.keyMan.reload.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Kayıp anahtarları indir">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile    "Public key file">
+<!ENTITY smaug.decryptbutton.label "Deşifre">
+<!ENTITY smaug.signing.label "İmzalama">
+<!ENTITY smaug.keygenTitle.label "OpenPGP Anahtarı Üret">
+<!ENTITY smaug.smgEncryptAttachNone.label "Sadece mesaj metnini şifrele/imzala, ekleri değil">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Parolayı Tekrarla">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' imza ayıracıdır">
+<!ENTITY smaug.cardPin.title "SmartCard PIN'i değiştir">
+<!ENTITY smaug.keyTrust.title "Smaug - Anahtar Sahibi Güvenilirliği Koy">
+<!ENTITY smaug.viewconsole.label "Konsol göster">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Anahtar doğruluğunu belirlemek için Güven Ağı'nı kullanma">
+<!ENTITY smaug.useNonDefaultComment.label "OpenPGP imzasına Smaug içeriği ekle">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Yolladığınız tüm postaları öntanımlı imzalamak istiyor musunuz ?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Genel Anahtarları Panoya Kopyala">
+<!ENTITY smaug.about.accesskey "P">
+<!ENTITY smaug.mime_parts_on_demand.label "Ekleri sadece açıldıklarında indir (sadece IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Bir satırdaki tek başına iki nokta imza bloğu anlamına gelir">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Şifreleme uygun değilse bu diyaloğu tekrar gösterme">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "Anahtar Feshet">
+<!ENTITY smaug.sKeyDlg.checked.label "İmzalamak üzere olduğunuz anahtarın aşağıdaki kişi(ler)e ait olduğunu ne kadar dikkatli kontrol ettiniz ?">
+<!ENTITY smaug.keyGen.expiry.title "Anahtar son kullanma tarihi">
+<!ENTITY smaug.undoencryption.accesskey "G">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Display invalid keys">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Detaylar ...">
+<!ENTITY smaug.encrypt.label "Şifrele">
+<!ENTITY smaug.cardDetails.login.label "Giriş verisi">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Hayır, imzalamak istediğim postaları alıcılara göre kendim belirleyeceğim">
+<!ENTITY smaug.about.title "Smaug Hakkında">
+<!ENTITY smaug.createRuleFromAddr.label "Adresten Smaug Kuralı Oluştur...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label "Ayrıntılar">
+<!ENTITY smaug.keyTrust.trustKey.label "Güvenilecek Anahtar:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "Hareket">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Anahtar Oluşturma">
+<!ENTITY smaug.autoKeyRetrieve2.label "şu anahtar sunucusundan:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Genel anahtarınızı, imzanızı doğrulamak isteyen ya da sizden şifreli posta almak
+                                                      isteyen iletişim listenizdeki herkese vermelisiniz. Bu sırada, özel anahtarınızı
+                                                      gizli tutmalısınız. Korumasız bırakmamalı, birilerinin ele geçirmediğinden emin
+                                                      olmalısınız. Özel anahtar, insanları şifreleyip size yolladığı tüm postaları
+                                                      okuyabilir, hatta sizin adınıza posta şifreleyebilir. Gizli olduğundan, tabi ki
+                                                      bir parolayla korunmaktadır.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Kullanıcı ID'si ekle">
+<!ENTITY smaug.keyDetails.keyType.label "Tip">
+<!ENTITY smaug.keyGen.years.label "yıl">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Alıcı Ayarları">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug postalarınızı dijital imzalamanıza olanak verir. Bu bir mektubu imzalamanın                                                         elektronik eşi gibidir, ve insanların postanın gerçekten sizden geldiğinden emin
+                                                      olmalarını sağlar. Yolladığınız tüm postaları imzalamanız iyi bir alışkanlıktır.
+">
+<!ENTITY smaug.cardDetails.sigcount.label "İmza sayacı">
+<!ENTITY smaug.addToRule.useRuleButton.label      "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "Mesajı İmzala">
+<!ENTITY smaug.keyGen.noExpiry.label "Anahtar son kullanma tarihi yok">
+<!ENTITY smaug.keyPassphraseRepeat.label "Parola (tekrar)">
+<!ENTITY smaug.searchForKey.label "Anahtar arama">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Şu seçenekler bu sihirbaz tarafından değiştirildi:">
+<!ENTITY smaug.revealAttachmentsButton.label     "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "Her Zaman">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Anahtarları Dosyaya Aktar">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Genel Anahtarları Panoya Kopyala">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "Anahtar doğruluğu">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP Ayarları">
+<!ENTITY smaug.progressText.label "İşlem:">
+<!ENTITY smaug.sepratationDesc.label "(Birden fazla posta adresini boşluklarla ayır)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Sadece şu kimlikler için Smaug kullanılmasını istiyorum:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Mesaj yazma penceresi araç çubuğundan S/MIME düğmesini kaldır">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "Anahtar Sahibi Güvenilirliği Belirle">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Bu sihirbaz Smaug kullanmaya hemen başlamanıza yardım edecek. Göreceğiniz bir kaç                                                         ekranda herşeyi ayarlamak için bir kaç soru soracağız.<html:br/><html:br/>
+                                                      Herşeyi basit tutmak için, ayarlarla ilgili bazı genellemeler yapıyoruz.
+                                                      Bu genellemeler kafa karıştırmadan, normal bir kullanıcı için yüksek güvenlik
+                                                      seviyesi sağlamak amaçlıdır. Tabi ki sihirbazı tamamladıktan sonra tüm bu
+                                                      ayarları değiştirebilirsiniz. Smaug hakkında daha fazla bilgiyi Yardım
+">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "şu adreslerden biriyse">
+<!ENTITY smaug.keyMan.reload.label "Anahtar Önbelleğini Tekrar Yükle">
+<!ENTITY smaug.viewconsole.accesskey "c">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "V">
+<!ENTITY smaug.keyNoPassphrase.label "Parola yok ">
+<!ENTITY smaug.amPrefSelectKey.label "Anahtar Seç ...">
+<!ENTITY smaug.moveUp.label "Yukarı">
+<!ENTITY smaug.cardDetails.yes.label "Evet">
+<!ENTITY smaug.testemail.label "E-posta test et">
+<!ENTITY smaug.composeOptionsMenu.label "Öntanımlı Komposizyon ayarları">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label      "Create New Rule">
+<!ENTITY smaug.setupWiz.pgSummary.desc "İşiniz neredeyse bitti! İleri düğmesine tıklarsanız, sihirbaz şu işleri yapacak:">
+<!ENTITY smaug.clearSearch.label "Temizle">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Anahtar Sil">
+<!ENTITY smaug.keyMan.viewPhoto.label "Fotoğraf ID">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "D">
+<!ENTITY smaug.viewdebuglog.label "Kayıt dosyası göster">
+<!ENTITY smaug.manageUidDlg.title "Birincil Kullanıcı ID'si Değiştir">
+<!ENTITY smaug.useKeys.label "Şu OpenPGP anahtarlarını kullan:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Mesaj gönderirken 8-bit kodlama kullan">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "S">
+<!ENTITY smaug.trustSenderKey.label "Anahtar Sahibi için Güvenilirlik Belirle ...">
+<!ENTITY smaug.delete.accesskey "E">
+<!ENTITY smaug.encryptedsend.accesskey "E">
+<!ENTITY smaug.encryptedsend.key "P">
+<!ENTITY smaug.keyMan.changePwd.accesskey "P">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Anahtarlar yüklenirken lütfen bekleyin ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Arama kriterlerinize uygun anahtar yok">
+<!ENTITY smaug.importpublickey.label "Genel anahtar ithal et">
+<!ENTITY smaug.matchDescStart.label "Kural uygula alıcı eğer">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Teşekkürler, ayarları elle yapmak istiyorum">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Deneyimli kullanıcılar için menü öğeleri ve seçenekleri görmek istiyorsanız seçin.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Güvenilirlik">
+<!ENTITY smaug.cardDetails.closeWindow.label "Kapat">
+<!ENTITY smaug.keyTrust.trustLevel.label "Anahtara ne kadar güveniyorsunuz?">
+<!ENTITY smaug.cardDetails.title "OpenPGP SmartCard Detayları">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Anahtar Ara">
+<!ENTITY smaug.amPrefUseFromAddr.label "OpenPGP anahtarını tanımlamak için bu kimliğin e-posta adresini kullan">
+<!ENTITY smaug.agentAdditionalParam.tooltip "GnuPG tarafından kullanılacak seçenekleri belirtin.">
+<!ENTITY smaug.keyMan.close.label "Pencereyi Kapat">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Postalarınızı dijital imzalayın">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "Bu kimlik için OpenPGP desteğini (Smaug) aç">
+<!ENTITY smaug.keyMan.exportToFile.label "Anahtarları Dosyaya Aktar">
+<!ENTITY smaug.cardPin.unblockPin.label "PIN bloğu kaldır">
+<!ENTITY smaug.keyMan.editMenu.label "Düzenle">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Smaug ile çalışmasını istediğiniz hesap ya da kimliği seçin">
+<!ENTITY smaug.useGpgAgent.tooltip "Tüm parola girişi için gpg-agent (GnuPG 2 bölümü) kullan">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Smaug'nin makinenizde daha iyi çalışabilmesi için bir kaç seçeneği değiştirmek ister misiniz ?">
+<!ENTITY smaug.cardDetails.forcepin.label "İmza PIN'i zorla">
+<!ENTITY smaug.rulesEditor.label "Smaug - Alıcı başına Kural Düzenleyici">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Bulunan Anahtarlar - Eklemek için Seçin">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "Temizle">
+<!ENTITY smaug.valid.label "Doğru">
+<!ENTITY smaug.keyUserId.label "Hesap / Kullanıcı ID'si">
+<!ENTITY smaug.cancelKey.label "Vazgeç">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Posta imzalama ve şifreleme için yeni bir anahtar çifti oluşturmak istiyorum">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Kullanıci başına kuralları gözardı et">
+<!ENTITY smaug.basic.label "Temel">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "A">
+<!ENTITY smaug.setupWiz.pgComplete.title "Teşekkürler">
+<!ENTITY smaug.displayKeyProperties.label "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "GnuPG için ek parametreler">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Anahtarınızı şu an üretiliyor">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Add to Per-Recpient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Gelişmiş">
+<!ENTITY smaug.nextRule.label "Eşleşen adres için sonraki kuralla devam et">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "İmzalanacak anahtar:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey    "I have existing public and private keys that I would like to import">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Lütfen tekrar girerek parolanızı doğrulayın">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Parmak izi:">
+<!ENTITY smaug.keyMan.keyProps.label "Anahtar Özellikleri">
+<!ENTITY smaug.keyMan.setTrust.accesskey "T">
+<!ENTITY smaug.keyMan.editMenu.accesskey "E">
+<!ENTITY smaug.attachmykey.label "Genel Anahtarımı Ataçla">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "Oluşturulma Tarihi">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN tekrar deneme sayacı">
+<!ENTITY smaug.ctxDecryptOpen.label "Deşifre et ve Aç">
+<!ENTITY smaug.setupWiz.label "Kurulum Sihirbazı">
+<!ENTITY smaug.genCardKey.backupKey.label "Anahtarın yedeğini kart dışında kaydet">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Seçili kimlik için üretilmiş anahtar kullan">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Anahtar Özellikleri">
+<!ENTITY smaug.amPrefUseKeyId.label "Belirli bir OpenPGP anahtar ID'si kullan (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Genel Anahtarları Eposta ile gönder">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Temel Ayarlar">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Gelişmiş...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Acayip süper güveniyorum :)">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Parmakizi">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "OpenPGP Fotoğraf ID'sini göster">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Parolalar için gpg-agent kullan">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Alıcı başına kural(lar) oluştur">
+<!ENTITY smaug.sendOptionsMenu.label "Gönderme Ayarları...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle     "We could not find any OpenPGP Key">
+<!ENTITY smaug.keyMan.stopTransfer.label "Transferi Durdur">
+<!ENTITY smaug.refreshKeys.label "Anahtar listesini yenile">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label   "Encrypt/sign replies to encrypted/signed messages">
+<!ENTITY smaug.addPhoto.question.label            "Do you want to add the following picture to the following key?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "When possible, encrypt/sign responses to encrypted/signed email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Tüm Genel Anahtarları Yenile">
+<!ENTITY smaug.cardDetails.authKey.label "Kimlik denetleme anahtarı">
+<!ENTITY smaug.viewKeySigDlg.title "İmza Listesi">
+<!ENTITY smaug.cardDetails.vendor.label "Üretici">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Anahtar geri alımı için URL gönder:">
+<!ENTITY smaug.encryptionDlg.label "Smaug Şifreleme &amp; İmzalama Ayarları">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "Mesaj yazarken seçildiyse, Evet">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Bilmeden güveniyorum">
+<!ENTITY smaug.prefs.pathsTitle.label "Dosya ve Dizinler">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Not:</a> Smaug ayarlarda etkin olup olmamasına bakmadan                                                         herzaman her kimlikteki ya da hesaptaki imzaları doğrulayacaktır.">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "U">
+<!ENTITY smaug.addUidDlg.comment.label "Yorum (isteğe bağlı)">
+<!ENTITY smaug.setupWiz.no "Hayır, teşekkürler">
+<!ENTITY smaug.alwaysTrustSend.label "İnsanların anahtarlarına her zaman güven">
+<!ENTITY smaug.keyMan.viewSig.accesskey "S">
+<!ENTITY smaug.changePasswd.newPasswd.label "Yeni Parola">
+<!ENTITY smaug.undoencryption.label "Şifrelemeyi geri al">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Lağv Sertifikası Üret &amp; Kaydet">
+<!ENTITY smaug.cardDetails.reset.label "Sıfırla">
+<!ENTITY smaug.keyMan.ctxViewSig.label "İmzaları Görüntüle">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "İmzalama/Şifreleme Ayarları...">
+<!ENTITY smaug.reload.label "Mesajı tekrar yükle">
+<!ENTITY smaug.browse.label "Göz at...">
+<!ENTITY smaug.passwordSettings.label "Parola ayarları">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritma">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "S">
+<!ENTITY smaug.cardDetails.keyCreated.label "Oluşturulma">
+<!ENTITY smaug.autoDecrypt.label "Mesajları otomatik Deşifre et/Doğrula">
+<!ENTITY smaug.setupWiz.pgKeyImport.title         "Import OpenPGP Keys">
+<!ENTITY smaug.keyservers.label "Anahtar sunucunuzu/sunucularınız belirtin">
+<!ENTITY smaug.encDlgIgnoreRules.label "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Uygun kullanıcı ID'leri:">
+<!ENTITY smaug.add.accesskey "A">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "Anahtarı İmzala ...">
+<!ENTITY smaug.searchKeyDlg.label "OpenPGP Anahtarları İndir">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Smaug ayarlarını sihirbaz ile yapmamayı tercih ettiniz.
+                                                      <html:br></html:br><html:br></html:br>Smaug kullandığınız için teşekkürler.">
+<!ENTITY smaug.signedsend.accesskey "S">
+<!ENTITY smaug.keyGen.console.label "Anahtar Üretim Konsolu">
+<!ENTITY smaug.signSenderKeyPopup.label "Gönderenin Anahtarını İmzala ...">
+<!ENTITY smaug.cardDetails.url.label "Genel anahtarın URL'si">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug ayarları hesaplara ve kimliklere özeldir. Öntanımlı olarak Smaug tüm
+                                                      hesaplarınızda ve kimliklerinizde çalışmak üzere yapılandırılır.
+                                                      Eğer istediğiniz bu değilse, lütfen Smaug'nin çalışmasını istediğiniz hesabı
+                                                      ya da kimliği aşağıdan seçin.">
+<!ENTITY smaug.resetRememberedValues.label "Uyarıları eski haline getir">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title        "No OpenPGP Key Found">
+<!ENTITY smaug.cardDetails.save.label "Kaydet">
+<!ENTITY smaug.prefs.overrideGpg.label "Üstüne yaz">
+<!ENTITY smaug.logdirectory.label "Kayıt dizini">
+<!ENTITY smaug.setupWiz.pgSummary.title "Özet">
+<!ENTITY smaug.ruleEmail.label "Şunun için Smaug kuralı koy">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Sihirbazın bu verileri gireceğini doğrulayın">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Mesaj gövdesini düz metin olarak göster">
+<!ENTITY smaug.debugMenu.label "OpenPGP Hata ayıklama">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Genel Anahtarları Anahtar Sunucusundan Yenile">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Posta Şifrelemek ve İmzalamak içi bir Anahtar Oluştur">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Asla parola sorma">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Değiştirilecek anahtar:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Mesaj Yazma Öntanımlı Ayarları">
+<!ENTITY smaug.sendersKeyMenu.label "Gönderenin Anahtarı">
+<!ENTITY smaug.preferences.label "Smaug Seçenekleri">
+<!ENTITY smaug.clearPassphrase.label "Kaydedilmiş parolaları sil">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Posta imzalama ve şifreleme, ya da şifreli bir postayı deşifre etmek için bir                                                               'anahtar çifti'ne ihtiyacınız var. Anahtar çiftinin iki anahtarı vardır, biri genel
+                                                      biri de özel.">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Zaten bir OpenPGP anahtarınız olduğunu görüyoruz. Postaları imzalama, şifreleme ve
+                                                      deşifreleme işleri için bu anahtarı kullanabilir, ya da yeni bir anahtar çifti 
+                                                      oluşturabilirsiniz.">
+<!ENTITY smaug.noHushMailSupport.label "E-posta adresleri belirtmek için '&lt;' ve '&gt;' kullan">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc          "Please specify the files containing the public and the private keys to
+                                                      import. The entry for private keys can be left empty if the first file
+                                                      contains both private and public keys.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "gün">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "Seçenekler">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "R">
+<!ENTITY smaug.keyMan.generate.label "Yeni Anahtar Çifti">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Genel anahtarımı mesajlara ekle">
+<!ENTITY smaug.encDlgPgpMime.label "PGP/MIME Kullan">
+<!ENTITY smaug.keyMan.selectAll.label "Tüm Anahtarları Seç">
+<!ENTITY smaug.keyComment.label "Yorum">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Aslında kontrol etmedim">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "I">
+<!ENTITY smaug.addUidDlg.email.label "E-Posta">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP Güvenliği">
+<!ENTITY smaug.nextAddress.label "Eşleşen adres için sonraki kuralları kontrol etme">
+<!ENTITY smaug.setupWiz.details.subtitle "Uygulama Seçeneklerini Düzelt">
+<!ENTITY smaug.keyMan.uploadToServer.label "Genel Anahtarları Gönder">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Sadece posta adreslerini doldur, alıcıların isimlerini koyma Ör: 'Bir isim &lt;bir.isim@adres.net&gt;' yanlış">
+<!ENTITY smaug.setupWiz.details.title "Seçenekler">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "Y">
+<!ENTITY smaug.email.label "EPosta">
+<!ENTITY smaug.attachkey.label "Genel Anahtar Ataçla ...">
+<!ENTITY smaug.not.label "Değilse">
+<!ENTITY smaug.keyExpiry.label "Son kullanım">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "Name">
+<!ENTITY smaug.keyMan.manageUid.label "Kullanıcı IDlerini Yönet">
+<!ENTITY smaug.defaultEncryption.label "Mesajları otomatik/öntanımlı olarak şifrele">
+<!ENTITY smaug.never.label "Asla">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "Anahtar Oluştur">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "n">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "Tam olarak">
+<!ENTITY smaug.searchRule.label "Şunları içeren posta adresleri için kuralları göster:">

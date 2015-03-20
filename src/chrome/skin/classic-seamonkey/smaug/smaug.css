@@ -1,0 +1,484 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2003 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** */
+
+/* Smaug styles for SeaMonkey */
+
+#button-smaug-decrypt,
+[typeid="button-smaug-decrypt"]
+  {
+    list-style-image : url("chrome://smaug/skin/smaug-toolbar.png");
+    -moz-image-region: rect(0px 30px 30px 0px);
+  }
+
+#button-smaug-decrypt:hover,
+[typeid="button-smaug-decrypt"]
+  {
+    -moz-image-region: rect(30px 30px 60px 0px);
+  }
+
+#button-smaug-decrypt[disabled],
+[typeid="button-smaug-decrypt"]
+  {
+    -moz-image-region: rect(60px 30px 90px 0px);
+  }
+
+toolbar[iconsize="small"]  #button-smaug-decrypt
+  {
+    -moz-image-region: rect(0px 20px 20px 0px);
+    list-style-image : url("chrome://smaug/skin/smaug-toolbar-small.png");
+  }
+
+toolbar[iconsize="small"] #button-smaug-decrypt:hover
+  {
+    -moz-image-region: rect(20px 20px 40px 0px);
+  }
+
+toolbar[iconsize="small"] #button-smaug-decrypt[disabled]
+  {
+    -moz-image-region: rect(40px 20px 60px 0px);
+  }
+
+#button-smaug-send {
+    -moz-image-region: rect(0px 30px 30px 0px);
+   list-style-image      : url("chrome://smaug/skin/smaug-send.png");
+}
+
+#button-smaug-send:hover {
+    -moz-image-region: rect(30px 30px 60px 0px);
+}
+
+#button-smaug-send[disabled] {
+    -moz-image-region: rect(60px 30px 90px 0px);
+}
+
+toolbar[iconsize="small"] #button-smaug-send {
+  -moz-image-region: rect(0px 20px 20px 0px);
+   list-style-image      : url("chrome://smaug/skin/smaug-send-small.png");
+}
+
+toolbar[iconsize="small"] #button-smaug-send:hover {
+  -moz-image-region: rect(20px 20px 40px 0px);
+}
+
+toolbar[iconsize="small"] #button-smaug-send[disabled] {
+  -moz-image-region: rect(40px 20px 60px 0px);
+}
+
+
+/*
+#button-smaug-decrypt
+  {
+    list-style-image      : url("chrome://smaug/skin/smgdecrypt.gif");
+  }
+
+#button-smaug-decrypt[disabled="true"],
+#button-smaug-decrypt[disabled="true"]:hover,
+#button-smaug-decrypt[disabled="true"]:hover:active
+  {
+    list-style-image      : url("chrome://smaug/skin/smgdecrypt-dis.gif");
+  }
+
+#button-smaug-decrypt:hover
+  {
+    list-style-image      : url("chrome://smaug/skin/smgdecrypt-hov.gif");
+  }
+
+#button-smaug-decrypt:hover:active
+  {
+    list-style-image      : url("chrome://smaug/skin/smgdecrypt-act.gif");
+  }
+
+#button-smaug-send
+  {
+    list-style-image      : url("chrome://smaug/skin/smgsend.gif");
+  }
+
+#button-smaug-send[disabled="true"],
+#button-smaug-send[disabled="true"]:hover,
+#button-smaug-send[disabled="true"]:hover:active
+  {
+    list-style-image      : url("chrome://smaug/skin/smgsend-dis.gif");
+  }
+
+#button-smaug-send:hover
+  {
+    list-style-image      : url("chrome://smaug/skin/smgsend-hov.gif");
+  }
+
+#button-smaug-send:hover:active
+  {
+    list-style-image      : url("chrome://smaug/skin/smgsend-act.gif");
+  }
+*/
+
+.action-box { width: 100px }
+
+#expandedSmaugBox {
+  background-color:#d8e0e8;
+  color: black;
+}
+
+.smaugHeaderName {
+  color: #888a85; /* lower contrast, TB3 */
+  text-align: right;
+  background-color: transparent;
+  -moz-margin-end: 2px;
+}
+
+.smaugHeaderNameBox {
+  width: 7.7em;
+  background-color:#d8e0e8;
+  color: black;
+}
+
+.smaugHeaderValue {
+  min-width: 50px;
+  white-space: normal;
+  color: WindowText;
+  line-height: 1.4em;
+
+  -moz-appearance: none !important;
+  -moz-appearance: none;
+
+  padding: 0px !important;
+  margin: 0px !important;
+  -moz-margin-start: 3px !important;
+  border: none !important;
+  background-color: transparent;
+}
+
+.smaugHeaderSpacer {
+  width: 2px;
+}
+
+.smaugHeaderBoxLabelNoSignature {
+  background-color:#d8e0e8;
+  color: black;
+}
+
+.smaugHeaderBoxLabelSignatureOk {
+  background-color:#ccffcc;
+  color: black;
+}
+
+.smaugHeaderBoxLabelSignatureVerified {
+  background-color:#ccffff;
+  color: black;
+}
+
+.smaugHeaderBoxLabelSignatureNotOk {
+  background-color:#FFD8FE;
+  color: black;
+}
+
+.smaugHeaderBoxLabelSignatureUnknown {
+  background-color:#FFFFC9;
+  color: black;
+}
+
+.smaugHeaderBoxLabelBuggyMailFormat {
+  background-color:#FFD8FE;
+  color: black;
+}
+
+.smaugLink {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.smaugStrong {
+  font-weight: bold;
+}
+
+.smaugUidInactive {
+  color: gray;
+  font-style: italic;
+}
+
+.smgMsgHdrView-flat-button {
+  min-width: 1px !important;
+  -moz-appearance: none;
+  color: GrayText;
+  background-color: transparent;
+  border: 2px solid transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 2px;
+  border-radius: 2px;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  min-height: 1ex;
+}
+
+.smgMsgHdrView-flat-button:hover {
+  color: -moz-buttonhovertext;
+  background-color: -moz-buttonhoverface;
+  -moz-border-top-colors: transparent threedhighlight threedlightshadow;
+  -moz-border-right-colors: transparent threeddarkshadow threedshadow;
+  -moz-border-bottom-colors: transparent threeddarkshadow threedshadow;
+  -moz-border-left-colors: transparent threedhighlight threedlightshadow;
+}
+
+
+/***************************************************
+ *  Icons for messenger status bar
+ ***************************************************/
+
+#smaug-status-bar #smaug-signed-status {
+  list-style-image: none;
+  visibility: collapse;
+}
+
+#smaug-status-bar[signed="ok"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignOk.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="notok"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignNotOk.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="unknown"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignUnkown.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="inactive"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignInactive.png");
+  visibility: visible;
+}
+
+#smaug-status-bar #smaug-encrypted-status {
+  list-style-image: none;
+  visibility: collapse;
+}
+
+#smaug-status-bar[encrypted="ok"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncOk.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="notok"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncNotOk.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="inactive"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncInactive.png");
+  visibility: visible;
+}
+
+
+/***************************************************
+ *  Icons for compose status bar: signed states
+ ***************************************************/
+
+#smaug-status-bar[signed="forceYes"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignForceYes.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="forceNo"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignForceNo.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="inactiveNone"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignInactiveNone.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="inactivePlus"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignInactivePlus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="inactiveMinus"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignInactiveMinus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="inactiveConflict"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignInactiveConflict.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="activeNone"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignActiveNone.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="activePlus"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignActivePlus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="activeMinus"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignActiveMinus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[signed="activeConflict"] #smaug-signed-status {
+  list-style-image: url("chrome://smaug/skin/smgSignActiveConflict.png");
+  visibility: visible;
+}
+
+/***************************************************
+ *  Icons for compose status bar: encrypted states
+ ***************************************************/
+
+#smaug-status-bar[encrypted="forceYes"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncForceYes.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="forceNo"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncForceNo.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="activeNone"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncActiveNone.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="activePlus"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncActivePlus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="activeMinus"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncActiveMinus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="activeConflict"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncActiveConflict.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="inactiveNone"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncInactiveNone.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="inactivePlus"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncInactivePlus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="inactiveMinus"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncInactiveMinus.png");
+  visibility: visible;
+}
+
+#smaug-status-bar[encrypted="inactiveConflict"] #smaug-encrypted-status {
+  list-style-image: url("chrome://smaug/skin/smgEncInactiveConflict.png");
+  visibility: visible;
+}
+
+
+.smaugPrefsTitle {
+  font-weight: bold;
+  height: 25px;
+}
+
+treechildren::-moz-tree-cell-text(smaugSubkeyTitle) {
+  font-weight: bold;
+}
+
+treechildren::-moz-tree-cell-text(smaugOwnKey) {
+  font-weight: bold;
+}
+
+treechildren::-moz-tree-cell-text(smgKeyInactive) {
+  color: gray;
+  font-style: italic;
+}
+
+treechildren::-moz-tree-column(smgDontEncrypt) {
+  background-color: rgb(90%, 90%, 90%);
+}
+
+.smaugExpandViewButton {
+  width: 9px; /* The image's width is 9 pixels */
+  list-style-image: url("chrome://smaug/skin/twisty-clsd.png");
+}
+
+.smaugCollapseViewButton {
+  width: 9px; /* The image's width is 9 pixels */
+  list-style-image: url("chrome://smaug/skin/twisty-open.png");
+
+}
+
+treechildren::-moz-tree-image(smgSignedEncrypted)
+{
+  list-style-image: url("chrome://smaug/skin/col-encrypted-signed.png");
+}
+
+treechildren::-moz-tree-image(smgSigned)
+{
+  list-style-image: url("chrome://smaug/skin/col-encrypted-signed.png");
+    -moz-image-region: rect(0px 24px 12px 12px);
+}
+
+treechildren::-moz-tree-image(smgEncrypted)
+{
+  list-style-image: url("chrome://smaug/skin/col-encrypted-signed.png");
+    -moz-image-region: rect(0px 12px 12px 0px);
+}
+
+/*
+
+ the following styles are available for the key trust
+   columnm in the key manager:
+    smaug_keyValid_unknown
+    smaug_keyValid_invalid
+    smaug_keyValid_disabled
+    smaug_keyValid_revoked
+    smaug_keyValid_expired
+    smaug_keyTrust_untrusted
+    smaug_keyTrust_marginal
+    smaug_keyTrust_full
+    smaug_keyTrust_ultimate
+    smaug_keyTrust_unknown
+
+They can be applied using:
+treechildren::-moz-tree-cell(STYLE) {}
+treechildren::-moz-tree-cell-text(STYLE) {}
+*/

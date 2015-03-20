@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Ramalingam Saravanan.
+ * Portions created by Ramalingam Saravanan <svn@xmlterm.org> are
+ * Copyright (C) 2001 Ramalingam Saravanan. All Rights Reserved.
+ *
+ * Contributor(s):
+ * Patrick Brunschwig <patrick@enigmail.net>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<!--
+  This is the overlay that adds a menu and PGP buttons to the
+  messenger compose window
+-->
+
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css"
+                 type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % smaugDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smaugDTD;
+<!ENTITY % messengercomposeDTD SYSTEM "chrome://messenger/locale/messengercompose/messengercompose.dtd" >
+%messengercomposeDTD;
+]>
+
+<overlay id="smgMsgComposeOverlay"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugMsgComposeHelper.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugMsgComposeOverlay.js"/>
+
+ <commandset id="msgComposeCommandUpdate"
+              commandupdater="true"
+              events="focus"
+              oncommandupdate="Smaug.msg.focusChange()"/>
+
+  <popupset id="aTooltipSet"/>
+
+  <keyset id="tasksKeys">
+    <key id="key_smgEncrypt" key="&smaug.encryptedsend.key;"
+         oncommand="Smaug.msg.setFinalSendMode('toggle-final-encrypt')" modifiers="accel, shift"/>
+    <key id="key_smgSign" key="&smaug.signedsend.key;"
+         oncommand="Smaug.msg.setFinalSendMode('toggle-final-sign')" modifiers="accel, shift"/>
+  </keyset>
+
+<!-- menu for all apps -->
+
+  <menubar id="mail-menubar">
+
+      <menu id="menu_Smaug"
+            label="&smaug.label;"
+            accesskey="&smaug.composemenu.accesskey;"
+            insertbefore="tasksMenu">
+
+        <menupopup id="menu_SmaugPopup"
+                   onpopupshowing="SmaugFuncs.collapseAdvanced(this, 'hidden', Smaug.msg.setMenuSettings(''))">
+
+          <!-- encryption state and entries to change it: -->
+          <menu id="smaug_compose_encrypt_menu"
+                accesskey="&smaug.encryptedsend.accesskey;"
+                label="&smaug.encryption.label;">
+            <menupopup id="menu_SmaugEncryptPopup"
+                  accesskey="&smaug.encryptedsend.accesskey;"
+                   onpopupshowing="Smaug.msg.setMenuSettings('b')">
+              <menuitem id="smaug_final_encryptDefaultb"
+                  type="checkbox"
+                  label="&smaug.finalEncryptDefault.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-encryptDefault');" />
+              <menuitem id="smaug_final_encryptYesb"
+                  type="checkbox"
+                  accesskey="&smaug.encryptedsend.accesskey;"
+                  key="key_smgEncrypt"
+                  label="&smaug.finalEncryptYes.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-encryptYes');" />
+              <menuitem id="smaug_final_encryptNob"
+                  type="checkbox"
+                  accesskey="&smaug.encryptedsend.accesskey;"
+                  key="key_smgEncrypt"
+                  label="&smaug.finalEncryptNo.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-encryptNo');" />
+            </menupopup>
+          </menu>
+
+          <!-- signing state and entries to change it: -->
+          <menu id="smaug_compose_sign_menu"
+                accesskey="&smaug.signedsend.accesskey;"
+                label="&smaug.signing.label;">
+            <menupopup id="menu_SmaugSignPopup"
+                   onpopupshowing="Smaug.msg.setMenuSettings('a')">
+              <menuitem id="smaug_final_signDefaulta"
+                  type="checkbox"
+                  label="&smaug.finalSignDefault.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-signDefault');" />
+              <menuitem id="smaug_final_signYesa"
+                  type="checkbox"
+                  accesskey="&smaug.signedsend.accesskey;"
+                  key="key_smgSign"
+                  label="&smaug.finalSignYes.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-signYes');" />
+              <menuitem id="smaug_final_signNoa"
+                  type="checkbox"
+                  accesskey="&smaug.signedsend.accesskey;"
+                  key="key_smgSign"
+                  label="&smaug.finalSignNo.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-signNo');" />
+            </menupopup>
+          </menu>
+
+          <!-- PGP/Mime state and entries to change it: -->
+          <menuseparator advanced="true"/>
+          <menu id="smaug_compose_pgpmime_menu"
+                advanced="true"
+                accesskey="&smaug.sendPGPMime.accesskey;"
+                label="&smaug.pgpMime.label;">
+            <menupopup id="menu_SmaugPgpMimePopup"
+                   advanced="true"
+                   onpopupshowing="Smaug.msg.setMenuSettings('c')">
+              <menuitem id="smaug_final_pgpmimeDefaultc"
+                  type="checkbox"
+                  label="&smaug.finalPGPMimeDefault.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-pgpmimeDefault');" />
+              <menuitem id="smaug_final_pgpmimeYesc"
+                  type="checkbox"
+                  accesskey="&smaug.sendPGPMime.accesskey;"
+                  label="&smaug.finalPGPMimeYes.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-pgpmimeYes');" />
+              <menuitem id="smaug_final_pgpmimeNoc"
+                  type="checkbox"
+                  accesskey="&smaug.sendPGPMime.accesskey;"
+                  label="&smaug.finalPGPMimeNo.label;"
+                  oncommand="Smaug.msg.doPgpButton('final-pgpmimeNo');" />
+            </menupopup>
+          </menu>
+
+          <menuseparator/>
+
+          <menuitem id="smaug_trust_all_keys"
+              label="&smaug.tempTrustAllKeys.label;"
+              accesskey="&smaug.tempTrustAllKeys.accesskey;"
+              type="checkbox"
+              checked="false"
+              advanced="true"
+              oncommand="Smaug.msg.tempTrustAllKeys();" />
+
+          <menuitem id="smaug_undo_encryption"
+              label="&smaug.undoencryption.label;"
+              accesskey="&smaug.undoencryption.accesskey;"
+              oncommand="Smaug.msg.undoEncryption();" />
+
+          <menuitem id="smaug_insert_own_key"
+              label="&smaug.attachmykey.label;"
+              accesskey="&smaug.attachmykey.accesskey;"
+              type="checkbox"
+              checked="false"
+              oncommand="Smaug.msg.toggleAttachOwnKey();" />
+
+          <menuitem id="smaug_insert_key"
+              label="&smaug.attachkey.label;"
+              accesskey="&smaug.attachkey.accesskey;"
+              advanced="true"
+              oncommand="Smaug.msg.attachKey();" />
+
+          <menuitem id="smaug_clearPassphrase"
+              label="&smaug.clearPassphrase.label;"
+              accesskey="&smaug.clearPassphrase.accesskey;"
+              advanced="true"
+              oncommand="SmaugCommon.clearPassphrase(window);" />
+
+          <menuseparator/>
+
+          <menuitem id="smaug_keymgmt"
+             label="&smaug.keyManWindow.label;"
+             accesskey="&smaug.keyManWindow.accesskey;"
+             oncommand="SmaugFuncs.openKeyManager(window);" />
+
+          <menuitem id="smaug_RulesEditor"
+              label="&smaug.editRules.label;"
+              accesskey="&smaug.editRules.accesskey;"
+              oncommand="SmaugFuncs.openRulesEditor();"/>
+
+          <menuseparator/>
+
+          <menu id="smaug_compose_options_menu"
+                label="&smaug.prefs.label;"
+                accesskey="&smaug.prefs.accesskey;">
+                <!--
+                label="&smaug.composeOptionsMenu.label;"
+                accesskey="&smaug.composeOptionsMenu.accesskey;"
+                -->
+
+            <menupopup onpopupshowing="SmaugFuncs.collapseAdvanced(this, 'hidden', Smaug.msg.setMenuSettings(''))">
+
+              <menuitem id="smaug_accountSettings"
+                label="&smaug.pgpAccountSettings.label;"
+                accesskey="&smaug.pgpAccountSettings.accesskey;"
+                oncommand="Smaug.msg.goAccountManager();" />
+
+              <menuitem id="smaug_defaultSendOpts"
+                label="&smaug.sendOptionsMenu.label;"
+                accesskey="&smaug.sendOptionsMenu.accesskey;"
+                oncommand="SmaugFuncs.openPrefWindow(window, true, 'sendingTab');" />
+
+              <menuitem id="smaug_defaultKeySelOpts"
+                label="&smaug.defaultKeySelOpts.label;"
+                accesskey="&smaug.defaultKeySelOpts.accesskey;"
+                advanced="true"
+                oncommand="SmaugFuncs.openPrefWindow(window, true, 'keySelTab');" />
+
+            </menupopup>
+          </menu>
+
+          <menuitem id="smaug_help"
+              label="&smaug.help.label;"
+              accesskey="&smaug.help.accesskey;"
+              oncommand="SmaugFuncs.openHelpWindow('compose');" />
+
+        </menupopup>
+      </menu>
+
+  </menubar>
+
+  <!-- Smaug toolbar button -->
+  <toolbarpalette id="MsgComposeToolbarPalette">
+   <!-- for compatibility reasons (themes) the button name is unchanged and doesn't match the action(s) -->
+    <toolbarbutton class="toolbarbutton-1"
+            id="button-smaug-send"
+            type="menu-button"
+            label="&smaug.securitybutton.label;"
+            buttontype="thunderbird"
+            tooltip="aTooltipSet"
+            tooltiptext="&smaug.securitybutton.tip;"
+            oncommand="Smaug.msg.doPgpButton('');">
+            <!-- NOTE: this oncommand is empty because it is always triggered AFTER
+                       the oncommand commands below.
+                       Therefor THOSE use nextCommand() instead of doPgpButton() -->
+
+        <menupopup onpopupshowing="SmaugFuncs.collapseAdvanced(this, 'hidden', Smaug.msg.setMenuSettings('3'))">
+
+          <!-- encryption state and entries to change it: -->
+          <menu id="smaug_compose_encrypt_menu3"
+                accesskey="&smaug.encryptedsend.accesskey;"
+                label="&smaug.encryption.label;">
+            <menupopup id="menu_SmaugEncryptPopup3"
+                   onpopupshowing="Smaug.msg.setMenuSettings('3b')">
+              <menuitem id="smaug_final_encryptDefault3b"
+                  type="checkbox"
+                  label="&smaug.finalEncryptDefault.label;"
+                  oncommand="Smaug.msg.nextCommand('final-encryptDefault');" />
+              <menuitem id="smaug_final_encryptYes3b"
+                  type="checkbox"
+                  accesskey="&smaug.encryptedsend.accesskey;"
+                  key="key_smgEncrypt"
+                  label="&smaug.finalEncryptYes.label;"
+                  oncommand="Smaug.msg.nextCommand('final-encryptYes');" />
+              <menuitem id="smaug_final_encryptNo3b"
+                  type="checkbox"
+                  accesskey="&smaug.encryptedsend.accesskey;"
+                  key="key_smgEncrypt"
+                  label="&smaug.finalEncryptNo.label;"
+                  oncommand="Smaug.msg.nextCommand('final-encryptNo');" />
+            </menupopup>
+          </menu>
+
+          <!-- signing state and entries to change it: -->
+          <menu id="smaug_compose_sign_menu3"
+                accesskey="&smaug.signedsend.accesskey;"
+                label="&smaug.signing.label;">
+            <menupopup id="menu_SmaugSignPopup3"
+                   onpopupshowing="Smaug.msg.setMenuSettings('3a')">
+              <menuitem id="smaug_final_signDefault3a"
+                  type="checkbox"
+                  label="&smaug.finalSignDefault.label;"
+                  oncommand="Smaug.msg.nextCommand('final-signDefault');" />
+              <menuitem id="smaug_final_signYes3a"
+                  type="checkbox"
+                  accesskey="&smaug.signedsend.accesskey;"
+                  key="key_smgSign"
+                  label="&smaug.finalSignYes.label;"
+                  oncommand="Smaug.msg.nextCommand('final-signYes');" />
+              <menuitem id="smaug_final_signNo3a"
+                  type="checkbox"
+                  key="key_smgSign"
+                  accesskey="&smaug.signedsend.accesskey;"
+                  label="&smaug.finalSignNo.label;"
+                  oncommand="Smaug.msg.nextCommand('final-signNo');" />
+            </menupopup>
+          </menu>
+
+          <!-- PGP/Mime state and entries to change it: -->
+          <menuseparator advanced="true"/>
+          <menu id="smaug_compose_pgpmime_menu3"
+                advanced="true"
+                accesskey="&smaug.sendPGPMime.accesskey;"
+                label="&smaug.pgpMime.label;">
+            <menupopup id="menu_SmaugPgpMimePopup3"
+                   advanced="true"
+                   onpopupshowing="Smaug.msg.setMenuSettings('3c')">
+              <menuitem id="smaug_final_pgpmimeDefault3c"
+                  type="checkbox"
+                  label="&smaug.finalPGPMimeDefault.label;"
+                  oncommand="Smaug.msg.nextCommand('final-pgpmimeDefault');" />
+              <menuitem id="smaug_final_pgpmimeYes3c"
+                  type="checkbox"
+                  accesskey="&smaug.sendPGPMime.accesskey;"
+                  label="&smaug.finalPGPMimeYes.label;"
+                  oncommand="Smaug.msg.nextCommand('final-pgpmimeYes');" />
+              <menuitem id="smaug_final_pgpmimeNo3c"
+                  type="checkbox"
+                  accesskey="&smaug.sendPGPMime.accesskey;"
+                  label="&smaug.finalPGPMimeNo.label;"
+                  oncommand="Smaug.msg.nextCommand('final-pgpmimeNo');" />
+            </menupopup>
+          </menu>
+
+          <menuseparator advanced="true"/>
+
+          <menuitem id="smaug_trust_all_keys3"
+              label="&smaug.tempTrustAllKeys.label;"
+              type="checkbox"
+              advanced="true"
+              oncommand="Smaug.msg.nextCommand('trustKeys')" />
+
+        </menupopup>
+    </toolbarbutton>
+  </toolbarpalette>
+
+  <!-- Thunderbird & Spicebird -->
+  <toolbar id="composeToolbar2"
+           defaultset="button-send,separator,button-address,spellingButton,button-attach,button-smaug-send,button-security,button-save">
+  </toolbar>
+
+  <!-- Seamonkey 2.x -->
+  <toolbar id="composeToolbar"
+           defaultset="button-send,separator,button-address,button-attach,spellingButton,button-smaug-send,button-security,separator,button-save,spring,throbber-box">
+  </toolbar>
+
+  <statusbar id="status-bar">
+    <hbox id="smaug-status-bar"
+          insertafter="totalMessageCount">
+      <statusbarpanel id="smaug-encrypted-status"
+        class="statusbarpanel-iconic"
+        collapsed="true" onclick="Smaug.msg.handleClick(event, 'toggle-final-encrypt');"/>
+      <statusbarpanel id="smaug-signed-status"
+        class="statusbarpanel-iconic"
+        collapsed="true" onclick="Smaug.msg.handleClick(event,'toggle-final-sign');"/>
+    </hbox>
+  </statusbar>
+
+</overlay>

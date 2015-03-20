@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2005 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % smgMailDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smgMailDTD;
+]>
+
+<window id="smaugGenCardKeyDlg"
+        title="&smaug.genCardKey.title;"
+        windowtype="smaug:genCardKey"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onload="onLoad()"
+        buttons="accept,cancel"
+        minwidth="450px"
+        width="600px">
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugCommon.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugKeygen.js"/>
+
+  <broadcasterset>
+    <broadcaster id="bcBackupKey"/>
+    <broadcaster id="bcNoExpiry"/>
+  </broadcasterset>
+
+  <popupset id="aTooltipSet"/>
+
+  <groupbox id="userIdBox" orient="vertical">
+
+    <hbox orient="horizontal" align="center">
+      <label value="&smaug.keyUserId.label;" control="userIdentity"/>
+      <menulist id="userIdentity" label="..." flex="1">
+        <menupopup id="userIdentityPopup"/>
+      </menulist>
+    </hbox>
+
+    <checkbox id="useForSigning"
+              label="&smaug.useForSigning.label;"
+              checked="true" />
+
+  </groupbox>
+
+  <checkbox id="createBackup"
+            label="&smaug.genCardKey.backupKey.label;"
+            checked="true"
+            oncommand="enableDisable('createBackup','bcBackupKey', false)"/>
+  <grid>
+    <columns>
+      <column />
+      <column flex="1"/>
+    </columns>
+
+    <rows>
+      <row>
+        <hbox id="passphraseBox" align="center">
+          <label control="passphrase" value="&smaug.keyPassphrase.label;" />
+        </hbox>
+        <hbox align="center">
+          <textbox id="passphrase" type="password" observes="bcBackupKey"/>
+          <label control="passphraseRepeat" value="&smaug.keyPassphraseRepeat.label;" />
+          <textbox id="passphraseRepeat" type="password" observes="bcBackupKey"/>
+        </hbox>
+      </row>
+
+      <row>
+        <hbox align="center">
+          <label control="keyComment" value="&smaug.keyComment.label;" />
+        </hbox>
+        <textbox id="keyComment" />
+      </row>
+
+      <row>
+        <hbox align="center">
+          <label value="&smaug.keyGen.expire.label;" control="expireInput"/>
+        </hbox>
+        <hbox align="center">
+          <textbox id="expireInput" size="5" maxlength="5" value="5" observes="bcNoExpiry"/>
+          <menulist id="timeScale" label="&smaug.keyGen.years.label;" value="365"  observes="bcNoExpiry">
+            <menupopup id="timeScalePopup" value="5">
+              <menuitem id="years" value="y" label="&smaug.keyGen.years.label;" selected="true"/>
+              <menuitem id="months" value="m" label="&smaug.keyGen.months.label;"/>
+              <menuitem id="days" value="d" label="&smaug.keyGen.days.label;"/>
+            </menupopup>
+          </menulist>
+          <checkbox label="&smaug.keyGen.noExpiry.label;"
+                    id="noExpiry"
+                    oncommand="enableDisable('noExpiry','bcNoExpiry', true)"/>
+        </hbox>
+      </row>
+
+    </rows>
+  </grid>
+
+  <separator/>
+
+<hbox autostretch="never">
+  <button label="&smaug.generateKey.label;"
+          class="dialog"
+          tooltip="aTooltip"
+          tooltiptext="&smaug.generateKey.tooltip;"
+          oncommand="startKeyGen();" />
+
+  <button label="&smaug.cancelKey.label;"
+          class="dialog"
+          tooltip="aTooltip"
+          tooltiptext="&smaug.cancelKey.tooltip;"
+          oncommand="onClose();" />
+</hbox>
+
+<groupbox id="keygenConsoleBox" orient="vertical">
+
+  <caption label="&smaug.keyGen.console.label;"/>
+
+  <description>&smaug.genCardKey.desc;</description>
+
+  <iframe id="keygenConsole" type="content" name="keygenConsole"
+          src="chrome://smaug/content/smaugKeygenConsole.htm"
+          height="200" flex="1"/>
+
+</groupbox>
+
+
+  <script type="application/x-javascript">
+  <![CDATA[
+    Components.utils.import("resource://smaug/commonFuncs.jsm");
+    Components.utils.import("resource://smaug/smaugCommon.jsm");
+    Components.utils.import("resource://smaug/keyManagement.jsm");
+
+    // Ec is predefined by smaugCommon.js
+
+    var gUserIdentityList;
+    var gUserIdentityListPopup;
+    var gUseForSigning;
+    var gUsedId;
+
+    function onLoad() {
+      gUserIdentityList      = document.getElementById("userIdentity");
+      gUserIdentityListPopup = document.getElementById("userIdentityPopup");
+      gUseForSigning     = document.getElementById("useForSigning");
+      //document.getElementById("bcNoExpiry")
+      if (gUserIdentityListPopup) {
+        fillIdentityListPopup();
+      }
+    }
+
+    function onClose() {
+      window.close();
+    }
+
+    function enableDisable(watchElement, bcElement, inverted) {
+      var bcBackupKey = document.getElementById(bcElement);
+
+      if (document.getElementById(watchElement).checked) {
+        if (inverted) {
+          bcBackupKey.setAttribute("disabled", "true");
+        }
+        else {
+         bcBackupKey.removeAttribute("disabled");
+        }
+      }
+      else {
+        if (inverted) {
+          bcBackupKey.removeAttribute("disabled");
+        }
+        else {
+          bcBackupKey.setAttribute("disabled", "true");
+        }
+      }
+    }
+
+    function smgGenKeyObserver() {
+      this._state = 0;
+    }
+
+    smgGenKeyObserver.prototype =
+    {
+      keyId: null,
+      backupLocation: null,
+      _state: null,
+
+      QueryInterface : function(iid)
+      {
+        //DEBUG_LOG("smaugGenCardKey: SmgMimeReadCallback.QI: "+iid+"\n");
+        if (iid.equals(Components.interfaces.nsISmgMimeReadCallback) ||
+            iid.equals(Components.interfaces.nsISupports) )
+          return this;
+
+        throw Components.results.NS_NOINTERFACE;
+      },
+
+      onDataAvailable: function (data) {
+        var txt = "";
+        var aLine = data.split(/ +/);
+        if (aLine[0] == "[GNUPG:]") {
+         if (aLine[1]=="GET_LINE" && aLine[2]=="keygen.comment") {
+            txt=Ec.getString("keygen.started")+"\n";
+            this._state=1;
+          }
+          else if (aLine[1]=="PROGRESS" && aLine[2]=="primegen") {
+            txt = aLine[3];
+          }
+          else if (aLine[1] == "BACKUP_KEY_CREATED") {
+            this.backupLocation = data.replace(/^.*BACKUP_KEY_CREATED [A-Z0-9]+ +/, "");
+          }
+          else if (aLine[1] == "KEY_CREATED") {
+            this.keyId = aLine[3].substr(-16);
+          }
+        }
+        else if (this._state>0) {
+          txt=data+"\n";
+        }
+        if (txt) {
+          var contentFrame = Ec.getFrame(window, "keygenConsole");
+          if (contentFrame) {
+            var consoleElement = contentFrame.document.getElementById('console');
+            consoleElement.firstChild.data += txt;
+            if (!contentFrame.mouseDownState)
+              contentFrame.scrollTo(0,9999);
+          }
+        }
+        return "";
+      }
+    }
+
+    function startKeyGen() {
+      DEBUG_LOG("smaugGenCardKey: startKeyGen(): Start\n");
+
+      var smaugSvc = Ec.getService(window);
+      if (!smaugSvc) {
+        Ec.alert(window,Ec.getString("accessError"));
+        return;
+      }
+
+      var passphraseElement = document.getElementById("passphrase");
+      var passphrase2Element = document.getElementById("passphraseRepeat");
+      var createBackupElement = document.getElementById("createBackup");
+
+      var passphrase = passphraseElement.value;
+
+      if (!createBackupElement.checked) {
+        passphrase="";
+      }
+      else {
+        if (passphrase != passphrase2Element.value) {
+          Ec.alert(window,Ec.getString("passNoMatch"));
+          return;
+        }
+
+        if (passphrase.search(/[\x80-\xFF]/)>=0) {
+          Ec.alert(window,Ec.getString("passCharProblem"));
+          return;
+        }
+
+        if (!passphrase) {
+          Ec.alert(window,Ec.getString("keygen.passRequired"));
+          return;
+        }
+      }
+
+      var commentElement = document.getElementById("keyComment");
+      var comment = commentElement.value;
+
+      var noExpiry = document.getElementById("noExpiry");
+      var expireInput = document.getElementById("expireInput");
+      var timeScale = document.getElementById("timeScale");
+
+      var expiryTime = 0;
+      var valid = "0";
+      if (! noExpiry.checked) {
+        expiryTime = Number(expireInput.value) * (timeScale.value == "y" ? 365 : (timeScale.value == "m" ? 30 : 1));
+        if (expiryTime > 36500) {
+          Ec.alert(window,Ec.getString("expiryTooLong"));
+          return;
+        }
+        if (! (expiryTime > 0)) {
+          Ec.alert(window,Ec.getString("expiryTooShort"));
+          return;
+        }
+        valid = String(Number(expireInput.value));
+        if (timeScale.value != "d") valid += timeScale.value;
+      }
+      var curId = getCurrentIdentity();
+      gUsedId = curId;
+
+      var userName = curId.fullName;
+      var userEmail = curId.email;
+
+      if (!userName) {
+        Ec.alert(window,Ec.getString("passUserName"));
+        return;
+      }
+
+      var idString = userName;
+
+      if (comment)
+        idString += " (" + comment + ")";
+
+      idString += " <" + userEmail + ">";
+
+      var confirmMsg = Ec.getString("keyConfirm",idString);
+
+      if (!SmgConfirm(confirmMsg, Ec.getString("keyMan.button.generateKey"))) {
+       return;
+      }
+      var contentFrame = Ec.getFrame(window, "keygenConsole");
+      if (contentFrame) {
+        var consoleElement = contentFrame.document.getElementById('console');
+        consoleElement.firstChild.data = "";
+      }
+
+      var generateObserver = new smgGenKeyObserver();
+      SmaugKeyMgmt.genCardKey(window,
+                               userName,
+                               userEmail,
+                               comment,
+                               valid,
+                               passphrase,
+                               generateObserver,
+        function _keyGenCb(exitCode, errorMsg) {
+          if (exitCode == 0 && generateObserver.keyId) {
+            if (document.getElementById("useForSigning").checked && generateObserver.keyId) {
+              gUsedId.setBoolAttribute("enablePgp", true);
+              gUsedId.setIntAttribute("pgpKeyMode", 1);
+              gUsedId.setCharAttribute("pgpkeyId", "0x"+generateObserver.keyId.substr(-8,8));
+            }
+            var msg=Ec.getString("keygen.completed", generateObserver.keyId);
+            if (generateObserver.backupLocation) {
+              msg += "\n"+Ec.getString("keygen.keyBackup", generateObserver.backupLocation);
+            }
+            if (Ec.confirmDlg(window, msg+"\n\n"+Ec.getString("revokeCertRecommended"), Ec.getString("keyMan.button.generateCert"))) {
+              SmgCreateRevokeCert(generateObserver.keyId, curId.email, closeWin);
+            }
+            else
+              closeWin();
+          }
+          else {
+            Ec.alert(window, errorMsg);
+          }
+        });
+    }
+
+    function closeWin() {
+      window.close();
+    }
+
+  ]]>
+  </script>
+
+</window>
+

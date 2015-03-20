@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2003 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % smgMailDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smgMailDTD;
+]>
+
+<dialog id="smaugUserSelectionList"
+        title="&smaug.userSelectionList.label;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onload="smaugUserSelLoad();"
+        buttons="accept,cancel,extra1"
+        buttonlabelaccept="&smaug.send.label;"
+        ondialogaccept="return smaugUserSelAccept();"
+        buttonlabelextra1="&smaug.perRecipientsOption.label;"
+        ondialogextra1="smaugNewRecipientRule();"
+        minheight="450">
+
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugCommon.js"/>
+  <!-- script type="application/x-javascript" src="chrome://smaug/content/smaugUserSelection.js"/> -->
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugUserSelection.js"/>
+  <groupbox id="dialogHeadline" orient="vertical">
+     <caption id="usersNotFoundCapt" label="&smaug.usersNotFound.label;"/>
+     <description id="usersNotFoundDesc" width="700px">...</description>
+  </groupbox>
+
+  <!-- <separator/> -->
+
+  <vbox flex="1">
+    <groupbox width="700px" flex="1">
+      <caption id="dialogHeader"
+               label="..." collapsed="true"/>
+
+      <hbox flex="0" align="center">
+        <label value="&smaug.keyMan.filter.label;" control="filterKey"/>
+        <textbox id="filterKey" size="30"
+                 type="search"
+                 timeout="500"
+                 oncommand="onSearchInput();"/>
+      </hbox>
+
+      <tree  id="smaugUserIdSelection" flex="1"
+        hidecolumnpicker="false"
+        seltype="single"
+        style="height:350px"
+        onkeypress="smaugUserSelCallback(event)">
+        <!-- onclick="smaugUserSelCallback(event);" -->
+
+        <treecols>
+          <treecol id="selectionCol" style="width:19px"
+                   label="&smaug.keySelection.label;"
+                   class="treecol-image"
+                   src="chrome://smaug/content/check1.png"
+                   ignoreincolumnpicker="true"
+                   persist="width"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="smgUserNameCol" primary="true"
+                   flex="1"
+                   ignoreincolumnpicker="true"
+                   label="&smaug.keyUserId.label;"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="uidValidityCol" style="width:85px"
+                   label="&smaug.uidValidity.label;"
+                   persist="width,hidden"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="expCol" style="width:70px"
+                   label="&smaug.keyExpiry.label;"
+                   persist="width,hidden"/>
+          <splitter class="tree-splitter"/>
+          <treecol id="keyCol" style="width:90px"
+                   label="&smaug.keyId.label;"
+                   persist="width,hidden"/>
+        </treecols>
+
+        <treechildren id="smaugUserIdSelectionChildren"
+              properties="sendUnencrypted"/>
+
+      </tree>
+    </groupbox>
+
+    <checkbox id="smaugUserSelSendEncrypted"
+              label="&smaug.userSelSendEncrypted.label;"
+              accesskey="&smaug.userSelSendEncrypted.accesskey;"
+              checked="true"
+              oncommand="switchSendEncryptedCallback();"/>
+    <checkbox id="smaugUserSelSendSigned"
+              label="&smaug.userSelSendSigned.label;"
+              accesskey="&smaug.userSelSendSigned.accesskey;"
+              checked="true"
+              oncommand="switchSendSignedCallback();"/>
+
+    <checkbox id="displayNoLonger"
+              label="&smaug.displayNoLonger.label;"
+              checked="false"
+              disabled="true"
+              collapsed="true"/>
+  </vbox>
+
+  <hbox>
+    <button class="dialog"
+            id="refreshKeys"
+            label="&smaug.refreshKeys.label;"
+            accesskey="&smaug.refreshKeys.accesskey;"
+            oncommand="smaugRefreshKeys();"/>
+
+    <button class="dialog"
+            halign="right"
+            id="importMissingKeys"
+            label="&smaug.importMissingKeys.label;"
+            accesskey="&smaug.importMissingKeys.accesskey;"
+            tooltip="&smaug.importMissingKeys.tooltip;"
+            oncommand="smaugSearchMissingKeys();"/>
+  </hbox>
+</dialog>

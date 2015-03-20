@@ -1,0 +1,614 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Sleutelvertrouwen">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Ond.tek. type">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Wijzig uw e-mailinstellingen om Smaug betrouwbaarder te laten werken">
+<!ENTITY smaug.pgpAccountSettings.accesskey "p">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Het bericht als een geheel versleutelen/ondertekenen en verzenden met behulp van PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Ja, ik wil dat de wizard me op weg helpt">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Eigenaarsvertrouwen">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Gebruik de geselecteerde methode voor alle toekomstige bijlagen">
+<!ENTITY smaug.ctxImportKey.label "OpenPGP sleutel importeren">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Flowed text (RFC 2646) uitschakelen">
+<!ENTITY smaug.cardPin.action.label "Wat wilt u doen?">
+<!ENTITY smaug.addToRule.title "Voeg sleutel aan per ontvanger regel toe">
+<!ENTITY smaug.reload.accesskey "B">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Publieke sleutels naar sleutelserver uploaden">
+<!ENTITY smaug.about.label "Over Smaug">
+<!ENTITY smaug.keyGen.months.label "maanden">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Kies de bestanden om te importeren">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "l">
+<!ENTITY smaug.ctxVerifyAtt.label "Controleer handtekening">
+<!ENTITY smaug.progress.label "Vooruitgang">
+<!ENTITY smaug.adminSmartCard.accesskey "C">
+<!ENTITY smaug.debugMenu.accesskey "G">
+<!ENTITY smaug.sending.label "Verzenden">
+<!ENTITY smaug.clearSearch.accesskey "L">
+<!ENTITY smaug.keyPassphrase.label "Wachtwoord">
+<!ENTITY smaug.finallySignEncrypted.label "versleutelde berichten ondertekenen">
+<!ENTITY smaug.cardPin.changePin.label "PIN wijzigen">
+<!ENTITY smaug.smgAttachInlineEncrypt.label "Versleutel iedere bijlage afzonderlijk en verstuur het bericht via inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Zoeken naar:">
+<!ENTITY smaug.keyMan.importFromFile.label "Sleutels uit bestand importeren">
+<!ENTITY smaug.seeAccountSettings.label "Zie ook de specifieke Smaug instellingen (zie Accountinstellingen → OpenPGP Beveiliging)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label "Altijd">
+<!ENTITY smaug.keyMan.sign.label "Sleutel ondertekenen">
+<!ENTITY smaug.revealAttachments.button "Onthul">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Ja, ik wil al mijn e-mail ondertekenen">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Intrekken">
+<!ENTITY smaug.cancelKey.tooltip "Sleutelgeneratie annuleren">
+<!ENTITY smaug.finalEncryptDefault.label "Gebruik standaarden en regels om te versleutelen">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Wilt u de wizard nu gebruiken?">
+<!ENTITY smaug.importMissingKeys.tooltip "Probeer de ontbrekende sleutels te importeren vanaf een sleutelserver">
+<!ENTITY smaug.keyTrust.dontKnow.label "Ik weet het niet">
+<!ENTITY smaug.cardPin.newAdminPin.label "Nieuwe admin PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Foto-ID bekijken">
+<!ENTITY smaug.keyDetails.expiry.label "Vervaldag">
+<!ENTITY smaug.keyMan.keyType.label "Type">
+<!ENTITY smaug.created.label "Aangemaakt">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Laden van IMAP delen op aanvraag uitschakelen">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel "Het installatieprogramma wordt gestart. Volg alsjeblieft de stappen van de GnuPG installatiewizard.">
+<!ENTITY smaug.keySel.label "Sleutelselectie">
+<!ENTITY smaug.sendPGPMime.label "PGP/MIME voor dit bericht gebruiken">
+<!ENTITY smaug.savedecrypted.label "Ontcijferd bericht opslaan">
+<!ENTITY smaug.userSelectionList.label "Smaug sleutel selectie">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Ik heb het vluchtig gecontroleerd">
+<!ENTITY smaug.edit.label "Aanpassen">
+<!ENTITY smaug.keyMan.createMail.accesskey "g">
+<!ENTITY smaug.keyMan.generateMenu.label "Genereren">
+<!ENTITY smaug.setupWiz.pgSign.signMsg "Welke algemene model wil je instellen om uitgaande e-mail te ondertekenen?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Herschik de tekst om zeker te weten dat de handtekening intact blijft.">
+<!ENTITY smaug.decryptverify.label "Ontcijferen/verifiëren">
+<!ENTITY smaug.encDlgEncrypt.accesskey "V">
+<!ENTITY smaug.prefs.label "Voorkeuren">
+<!ENTITY smaug.keyMan.changePwd.label "Wachtwoord wijzigen">
+<!ENTITY smaug.finalSignNo.label "Niet ondertekenen afdwingen">
+<!ENTITY smaug.keyMan.selectAll.accesskey "e">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "g">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label "Indien regels de standaard instelling voor versleuteling hebben veranderd">
+<!ENTITY smaug.keyGen.expire.label "Sleutel vervalt binnen">
+<!ENTITY smaug.encryption.label "Versleuteling">
+<!ENTITY smaug.keyTrust.fullTrust.label "Ik vertrouw het volledig">
+<!ENTITY smaug.addUidDlg.name.label "Naam">
+<!ENTITY smaug.userSelSendSigned.accesskey "o">
+<!ENTITY smaug.matchEnd.label "Eindigt met">
+<!ENTITY smaug.pgpKeys.label "OpenPGP sleutel(s)">
+<!ENTITY smaug.amPrefPgpHeader.id.label "OpenPGP sleutel ID versturen">
+<!ENTITY smaug.assignKeysByRules.label "Door regels per ontvanger">
+<!ENTITY smaug.moveUp.accesskey "h">
+<!ENTITY smaug.keyGen.keySize.label "Sleutelgrootte">
+<!ENTITY smaug.basicUser.tooltip "Klik hier als u menu items en instellingen voor gevorderde gebruikers niet wilt zien.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Deze wizard kan uw e-mailinstellingen aanpassen om ervoor te zorgen dat er geen problemen zijn met het ondertekenen en versleutelen van e-mail op uw pc. Deze wijzigingen zijn meestal technische dingen waar u zelf niets van zal merken. Eén ding is echter belangrijk om weten: uw e-mail zal standaard opgesteld worden als platte tekst.">
+<!ENTITY smaug.cardDetails.male.label "Man">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label "Versleutel en onderteken de berichttekst. maar niet de bijlagen">
+<!ENTITY smaug.encDlgSign.accesskey "O">
+<!ENTITY smaug.assignKeysByRules.tooltip "Wijs sleutels toe volgens voor-ontvanger regels. Vraag om nieuwe regels te maken als dit de smge gekozen optie is.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "n">
+<!ENTITY smaug.singleRcptSettings.desc "(Let op: in geval van conflict domineert ‘Nooit’ over ‘Altijd’)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Privésleutel bestand">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug beveiligingsinfo…">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Laat het informatiescherm met ondertekenings-/versleutelgegevens zien voor het versturen van een ONVERSLEUTELD bericht">
+<!ENTITY smaug.afterDefaultsAndRules.label "Na het toepassen van standaarden en regels:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Zet deze instelling op UIT als u PGP/MIME berichten in IMAP folders ontvangt.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Sleutelvertrouwen van verzender instellen…">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Ondertekeningen voor sleutel:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Sleutel ondertekenen">
+<!ENTITY smaug.confirmBeforeSendingOption.label "Bevestig voor het versturen">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>LET OP: Het genereren van een sleutel kan enkele minuten duren.</a> Sluit het programma niet tijdens het aanmaken van de sleutel. U zal gewaarschuwd worden als de sleutel aangemaakt is.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Toegevoegde gebruiker-ID">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label "Ondertekenen afdwingen">
+<!ENTITY smaug.keyMan.addPhoto.label "Voeg foto toe">
+<!ENTITY smaug.cardDetails.female.label "Vrouw">
+<!ENTITY smaug.sendPGPMime.accesskey "M">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Sleutels van klembord importeren">
+<!ENTITY smaug.setDefaultsFor.label "Standaardwaarde…">
+<!ENTITY smaug.changePasswd.title "OpenPGP wachtwoord wijzigen">
+<!ENTITY smaug.keyMan.viewSig.label "Ondertekeningen">
+<!ENTITY smaug.autoKeyRetrieve.label "Sleutels voor handtekening verificatie automatisch downloaden">
+<!ENTITY smaug.matchBegin.label "Begint met">
+<!ENTITY smaug.selKeysButton.label "Sleutel(s) selecteren…">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Verstuur ‘OpenPGP’ berichtkop">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Admin PIN herhalen">
+<!ENTITY smaug.signedsend.label "Bericht ondertekenen">
+<!ENTITY smaug.cardDetails.lang.label "Taal">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "Grootte">
+<!ENTITY smaug.userSelSendEncrypted.label "Verstuur versleuteld">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Ondertekende HTML tekst afbreken voor verzending">
+<!ENTITY smaug.genCardKey.title "OpenPGP sleutel genereren">
+<!ENTITY smaug.ctxDecryptSave.accesskey "S">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes "Versleutel standaard alle berichten, want privacy is uitermate belangrijk voor mij">
+<!ENTITY smaug.cardPin.currAdmPin.label "Huidige ADMIN PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "GnuPG wordt gedownload…">
+<!ENTITY smaug.tempTrustAllKeys.accesskey "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP foto toon applicatie">
+<!ENTITY smaug.cardPin.newPin.label "Nieuwe PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Elke bijlage apart versleutelen/ondertekenen en het bericht met behulp van inline PGP verzenden">
+<!ENTITY smaug.moveDown.accesskey "l">
+<!ENTITY smaug.keyservers.sample "Voorbeeld: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "c">
+<!ENTITY smaug.userNoPassphrase.tooltip "Activeer dit als uw OpenPGP sleutel niet is beveiligd met een wachtwoord.">
+<!ENTITY smaug.usePGPMimeAlways.label "Altijd PGP/MIME gebruiken">
+<!ENTITY smaug.addPhoto.title "Voeg foto aan sleutel toe">
+<!ENTITY smaug.resetPrefs.tooltip "Zet alle Smaug voorkeuren terug naar hun oorspronkelijke waarde.">
+<!ENTITY smaug.cardDetails.editData.label "Kaartgegevens bewerken">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "G">
+<!ENTITY smaug.sendOptionsMenu.accesskey "z">
+<!ENTITY smaug.sKeyDlg.signKey.label "Sleutel om te ondertekenen:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Wilt u Smaug instellen voor alle identiteiten?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle "Versleutel je uitgaande e-mails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Vingerafdruk">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label "Indien niet-versleuteld">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Geselecteerde publieke sleutels verversen">
+<!ENTITY smaug.delete.label "Verwijderen">
+<!ENTITY smaug.keyId.label "Sleutel-ID">
+<!ENTITY smaug.moreOptions.label "Meer opties">
+<!ENTITY smaug.keySearch.selectAll.key "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Ik heb een zorgvuldige controle gedaan">
+<!ENTITY smaug.test.label "Testen">
+<!ENTITY smaug.debug.label "Debugging">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Sleutel aanmaken om e-mail te onderteken en versleutelen">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "Bevat">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Typ zoekwoorden in het vak hierboven">
+<!ENTITY smaug.cardDetails.encKey.label "Coderingssleutel">
+<!ENTITY smaug.noHushMailSupport.tooltip "Gebruik de ‘&lt;’ en ‘&gt;’ tekens om e-mailadressen voor GnuPG op te geven. Schakel het uit als ontvangers oude Hushmail sleutels gebruiken.">
+<!ENTITY smaug.keyDetails.selAction.label "Selecteer actie…">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Als primair instellen">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey "v">
+<!ENTITY smaug.setupWiz.title "Smaug instellingswizard">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label "Handmatig als sleutels ontbreken">
+<!ENTITY smaug.keyDetails.userId.label "Primair gebruiker-ID">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "V">
+<!ENTITY smaug.advancedIdentityDlg.title "Geavanceerde Smaug identiteits instellingen">
+<!ENTITY smaug.keyMan.genRevoke.label "Intrekkingscertificaat">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "O">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Sleutel aanmaken">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Max. PIN lengte">
+<!ENTITY smaug.decryptbutton.tip "Het bericht met Smaug ontcijferen of verifiëren">
+<!ENTITY smaug.assignKeysByEmailAddr.label "Per e-mailadres volgens sleutelbeheer">
+<!ENTITY smaug.cardDetails.no.label "Nee">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "T">
+<!ENTITY smaug.keyGen.keyType.label "Sleuteltype">
+<!ENTITY smaug.autoEncryptDrafts.label "Conceptberichten versleutelen voor het opslaan">
+<!ENTITY smaug.setupWiz.pgSign.title "Ondertekenen">
+<!ENTITY smaug.encryptionModelManually.label "Handmatige versleutelingsinstellingen">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "Installeer…">
+<!ENTITY smaug.expertUserMenus.label "Toon instellingen en menu's voor gevorderden">
+<!ENTITY smaug.keyDetails.keyId.label "Sleutel-ID">
+<!ENTITY smaug.keyMan.viewMenu.label "Bekijken">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "PIN wijzigen">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Wij konden geen OpenPGP sleutel vinden. Kies hieronder of u een nieuw sleutelpaar wilt aanmaken of dat u een bestaande sleutel wilt importeren.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Laat alle waarschuwingen die u in het verleden heeft verborgen opnieuw zien.">
+<!ENTITY smaug.msgViewColumn.tooltip "Sorteer op OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "Ja">
+<!ENTITY smaug.sign.label "Ondertekenen">
+<!ENTITY smaug.keyMan.createMail.label "Schrijf e-mail aan geselecteerde sleutels">
+<!ENTITY smaug.changePasswd.currPasswd.label "Huidig wachtwoord">
+<!ENTITY smaug.keyManWindow.accesskey "S">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Bewaar wachtwoord gedurende een beperkte tijd in het geheugen">
+<!ENTITY smaug.generateKey.label "Sleutel genereren">
+<!ENTITY smaug.composeOptionsMenu.accesskey "S">
+<!ENTITY smaug.cardPin.pinRepeat.label "Nieuwe PIN herhalen">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc "Smaug kan GnuPG downloaden en het installatieprogramma voor je starten. Klik als je dat wilt op de Installeer knop om GnuPG te downloaden en te installeren.">
+<!ENTITY smaug.cardDetails.editData.accesskey "b">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Toon onvertrouwde sleutels">
+<!ENTITY smaug.generateKey.tooltip "Genereert een nieuwe OpenPGP sleutel voor versleutelen en/of ondertekenen">
+<!ENTITY smaug.keyserverDlg.label "Selecteer sleutelserver">
+<!ENTITY smaug.acceptedKeysOption.label "Om versleuteld te versturen, accepteer">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Lokale ondertekening (kan niet geëxporteerd worden)">
+<!ENTITY smaug.clearPassphrase.accesskey "w">
+<!ENTITY smaug.recipientsSelectionOption.label "Hoe moeten de sleutels worden gekozen?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Sleutelserver">
+<!ENTITY smaug.smgAttachNoneEncrypt.label "Versleutel de berichttekst, maar niet de bijlagen">
+<!ENTITY smaug.editRules.label "Regels per ontvanger bewerken">
+<!ENTITY smaug.keyDetails.keyPart.label "Sleuteldeel">
+<!ENTITY smaug.copySecurityInfo.label "Smaug beveiligingsinfo kopiëren">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "N">
+<!ENTITY smaug.keyMan.fileMenu.label "Bestand">
+<!ENTITY smaug.maxIdleMinutesTail.label "minuten als deze niet wordt gebruikt">
+<!ENTITY smaug.confirmBeforeSendingNever.label "Nooit">
+<!ENTITY smaug.keyMan.generate.accesskey "N">
+<!ENTITY smaug.moveDown.label "Omlaag">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Versleutel en onderteken het bericht helemaal niet">
+<!ENTITY smaug.cardDetails.serial.label "Serienummer">
+<!ENTITY smaug.ctxDecryptSave.label "Ontcijferen en opslaan als…">
+<!ENTITY smaug.acceptedKeysValid.label "Alleen sleutel die ik expliciet vertrouw">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "g">
+<!ENTITY smaug.keyManWindow.label "Sleutelbeheer">
+<!ENTITY smaug.keyTrust.noTrust.label "Ik vertrouw het NIET">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Ik wil één van de onderstaande sleutels selecteren om mijn e-mail te ondertekenen en te versleutelen:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip "Stuur niet automatisch versleuteld, tenzij expliciet geactiveerd door per-ontvanger regels">
+<!ENTITY smaug.keySelection.label "Selectie">
+<!ENTITY smaug.help.label "Help">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>LET OP: het genereren van een sleutel kan enkele minuten duren.</a> Sluit de toepassing niet terwijl dit proces aan de gang is. Actief browsen of schijfintensieve bewerkingen uitvoeren, vult de 'willekeurigheidsreserve' aan en versnelt het proces. U zal gewaarschuwd worden wanneer het genereren van de sleutel klaar is.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "u">
+<!ENTITY smaug.securitybutton.tip "Smaug beveiligingsinstellingen">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Geen HTML-berichten opstellen">
+<!ENTITY smaug.maxIdleMinutesHead.label "Onthoud wachtwoord gedurende">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label "Het bericht als een geheel ondertekenen en verstuur het bericht via PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Bericht versleutelen">
+<!ENTITY smaug.finalEncryptYes.label "Versleutelen afdwingen">
+<!ENTITY smaug.cardPin.currPin.label "Huidige PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Ik wil niet antwoorden">
+<!ENTITY smaug.defineRules.label "Regels definiëren…">
+<!ENTITY smaug.keyMan.manageUid.accesskey "e">
+<!ENTITY smaug.keyMan.showAllKeys.label "Standaard alle sleutels tonen">
+<!ENTITY smaug.keyMan.title "Smaug sleutelbeheer">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "S">
+<!ENTITY smaug.finalEncryptNo.label "Niet versleutelen afdwingen">
+<!ENTITY smaug.add.label "Toevoegen">
+<!ENTITY smaug.SendingPrefs.label "Algemene voorkeuren voor het versturen">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Activeer dit om een specifieke locatie voor GnuPG aan te geven">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Identiteiten selecteren">
+<!ENTITY smaug.cardDetails.sigKey.label "Ondertekensleutel">
+<!ENTITY smaug.cardDetails.sex.label "Geslacht">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Admin PIN wijzigen">
+<!ENTITY smaug.keyserver.label "Sleutelservers">
+<!ENTITY smaug.encDlgEncrypt.label "Bericht versleutelen">
+<!ENTITY smaug.send.label "Versturen">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Wizard annuleren">
+<!ENTITY smaug.defaultKeySelOpts.label "Sleutelselectie opties…">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Sleutelselectie">
+<!ENTITY smaug.amPrefDesc.label "Ondersteuning voor OpenPGP versleuteling en ondertekening van berichten wordt voorzien door Smaug. U moet GnuPG (gpg) geïnstalleerd hebben om deze functie te gebruiken.">
+<!ENTITY smaug.smaugAttachDesc.label "Dit bericht bevat bijlagen. Hoe wilt u deze versleutelen/ondertekenen?">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Sleutels waarvan je de vervaldag wilt wijzigen:">
+<!ENTITY smaug.adminSmartCard.label "SmartCard beheren…">
+<!ENTITY smaug.importMissingKeys.accesskey "i">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug is nu klaar voor gebruik.<html:br/><html:br/>Bedankt dat u voor Smaug gekozen hebt.">
+<!ENTITY smaug.cardDetails.name.label "Voornaam, familienaam">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Verwijderen">
+<!ENTITY smaug.usersNotFound.label "Ontvangers niet geldig, niet vertrouwd of niet gevonden">
+<!ENTITY smaug.manageUidDlg.addUid.label "Toevoegen">
+<!ENTITY smaug.keyMan.reload.accesskey "H">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "Geef zelf de plaats aan waar GnuPG is geïnstalleerd met de Blader knop.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label "Versleutel/onderteken het bericht helemaal niet">
+<!ENTITY smaug.importMissingKeys.label "Download ontbrekende sleutels">
+<!ENTITY smaug.keyMan.keyDetails.key "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Publieke sleutel bestand">
+<!ENTITY smaug.decryptbutton.label "Ontcijferen">
+<!ENTITY smaug.signing.label "Ondertekening">
+<!ENTITY smaug.keygenTitle.label "OpenPGP Sleutel genereren">
+<!ENTITY smaug.smgEncryptAttachNone.label "Enkel de berichttekst versleutelen/ondertekenen, maar de bijlage niet">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Herhaal wachtwoord">
+<!ENTITY smaug.keyMan.viewSig.key "S">
+<!ENTITY smaug.doubleDashSeparator.label "‘--’ als een scheidingsteken voor een handtekening behandelen">
+<!ENTITY smaug.cardPin.title "SmartCard PIN wijzigen">
+<!ENTITY smaug.keyTrust.title "Smaug - Sleutelvertrouwen instellen">
+<!ENTITY smaug.viewconsole.label "Console bekijken">
+<!ENTITY smaug.tempTrustAllKeys.label "Vertrouw de sleutels van alle ontvangers">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Gebruik het Web van vertrouwen niet om de geldigheid van sleutels vast te stellen">
+<!ENTITY smaug.useNonDefaultComment.label "Voeg Smaug opmerking toe aan OpenPGP handtekening">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Wilt u al uw uitgaande e-mails standaard ondertekenen?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Publieke sleutels naar klembord kopiëren">
+<!ENTITY smaug.about.accesskey "E">
+<!ENTITY smaug.mime_parts_on_demand.label "Download bijlagen alleen wanneer ze worden geopend (alleen bij IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Twee streepjes op een regel zijn op zichzelf genoeg om een handtekening blok te bepalen">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label "Indien versleuteld">
+<!ENTITY smaug.displayNoLonger.label "Dit dialoogvenster niet meer tonen als versleuteling niet mogelijk is">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "Installatie compleet. Ga verder met de volgende pagina van de wizard om door te gaan met de configuratie.">
+<!ENTITY smaug.keyMan.revokeKey.label "Sleutel intrekken">
+<!ENTITY smaug.sKeyDlg.checked.label "Hoe zorgvuldig heeft u gecontroleerd of de sleutel die u gaat ondertekenen werkelijk eigendom is van de hierbovengenoemde persoon/personen?">
+<!ENTITY smaug.keyGen.expiry.title "Vervaldag sleutel">
+<!ENTITY smaug.undoencryption.accesskey "u">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Toon ongeldige sleutels">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Details…">
+<!ENTITY smaug.encrypt.label "Versleutelen">
+<!ENTITY smaug.cardDetails.login.label "Login data">
+<!ENTITY smaug.autoSendEncryptedNever.label "Nooit">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Nee, ik wil regels aanmaken per ontvanger voor e-mails die ondertekend moeten worden.">
+<!ENTITY smaug.about.title "Over Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Maak Smaug regel van adres…">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "C">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label "Details">
+<!ENTITY smaug.keyTrust.trustKey.label "Sleutel om te vertrouwen:">
+<!ENTITY smaug.setupWiz.pgInstall.title "GnuPG vereist">
+<!ENTITY smaug.action.label "Actie">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "s">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Sleutel aanmaken">
+<!ENTITY smaug.autoKeyRetrieve2.label "van de volgende sleutelserver:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip "Wijs sleutels toe volgens de sleutels met het e-mailadres in sleutelbeheer.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Uw publieke sleutel moet u aan iedereen in uw contactlijst geven die uw ondertekening wil verifiëren of die een versleutelde e-mail aan u wil sturen. Uw privésleutel moet u geheim houden. Deze mag u zeker niet weggeven of onbeschermd achterlaten. Met behulp van deze sleutel kan u alle aan u gerichte versleutelde e-mails lezen. Het kan ook e-mail ondertekenen in uw naam. Omdat deze sleutel privé moet blijven, is de sleutel beschermd door een wachtwoord.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label "Versleutel en Onderteken iedere bijlage afzonderlijk en verstuur het bericht via inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Gebruiker-ID toevoegen">
+<!ENTITY smaug.keyDetails.keyType.label "Type">
+<!ENTITY smaug.keyGen.years.label "jaren">
+<!ENTITY smaug.edit.accesskey "n">
+<!ENTITY smaug.keyExpiry.title "Smaug - Wijzig vervaldag">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Ontvangersinstellingen">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug staat u toe al uw e-mails digitaal te ondertekenen. Dit is net als een elektronische versie van een handtekening en het stelt mensen in staat om er zeker van te zijn dat de e-mail echt van u afkomstig is. Het is een goede veiligheidsoptie om al uw uitgaande mails digitaal te ondertekenen.">
+<!ENTITY smaug.cardDetails.sigcount.label "Ondertekeningenteller">
+<!ENTITY smaug.addToRule.useRuleButton.label "Voeg sleutel aan geselecteerde regel toe">
+<!ENTITY smaug.encDlgSign.label "Bericht ondertekenen">
+<!ENTITY smaug.keyGen.noExpiry.label "Sleutel vervalt nooit">
+<!ENTITY smaug.keyPassphraseRepeat.label "Wachtwoord (herhaal)">
+<!ENTITY smaug.searchForKey.label "Zoek naar sleutel">
+<!ENTITY smaug.setupWiz.details.changingPrefs "De volgende voorkeuren zijn door deze wizard aangepast:">
+<!ENTITY smaug.revealAttachmentsButton.label "De namen van de bijgevoegde bestanden zijn verstopt. Druk op de ‘Onthul’ knop om de originele bestandsnamen op te halen.">
+<!ENTITY smaug.always.label "Altijd">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "z">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Publieke sleutels naar bestand exporteren">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "b">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Publieke sleutels naar klembord kopiëren">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Het bericht als een geheel versleutelen/ondertekenen en verstuur het bericht via PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label "Onderteken het bericht helemaal niet">
+<!ENTITY smaug.ctxImportKey.accesskey "i">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "S">
+<!ENTITY smaug.keyDetails.calcTrust.label "Sleutelvertrouwen">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip "Laat het informatiescherm met ondertekenings-/versleutelgegevens zien voor het versturen van een VERSLEUTELD bericht">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP opties">
+<!ENTITY smaug.progressText.label "Vooruitgang:">
+<!ENTITY smaug.sepratationDesc.label "(Meerdere e-mailadressen met spaties scheiden)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Ik wil Smaug enkel instellen voor de volgende identiteiten:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Verwijder de S/MIME knop van de werkbalk van het berichtopstelvenster">
+<!ENTITY smaug.keyMan.changeExpiry.label "Wijzig vervaldag">
+<!ENTITY smaug.keyMan.setTrust.label "Sleutelvertrouwen instellen">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Toon sleutels van andere mensen">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Deze wizard helpt u Smaug gelijk te gebruiken. U krijgt nu enkele               						      schermen met vragen te zien om de configuratie in orde te brengen.">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip "Laat altijd een informatiescherm met ondertekenings-/versleutelgegevens voor het versturen van een bericht">
+<!ENTITY smaug.matchDescEnd.label "één van de bovenstaande adressen">
+<!ENTITY smaug.keyMan.reload.label "Sleutelcache herladen">
+<!ENTITY smaug.viewconsole.accesskey "c">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "k">
+<!ENTITY smaug.keyNoPassphrase.label "Geen wachtwoord">
+<!ENTITY smaug.amPrefSelectKey.label "Sleutel selecteren…">
+<!ENTITY smaug.moveUp.label "Omhoog">
+<!ENTITY smaug.cardDetails.yes.label "Ja">
+<!ENTITY smaug.testemail.label "E-mail testen">
+<!ENTITY smaug.composeOptionsMenu.label "Standaard opstellen opties">
+<!ENTITY smaug.finallySignNotEncrypted.label "niet-versleutelde berichten ondertekenen">
+<!ENTITY smaug.addToRule.newRuleButton.label "Maak nieuwe regel">
+<!ENTITY smaug.setupWiz.pgSummary.desc "U bent nu bijna op het einde! Als u op de 'Volgende'-knop klikt, zal de wizard de volgende handelingen uitvoeren:">
+<!ENTITY smaug.clearSearch.label "Leegmaken">
+<!ENTITY smaug.signedsend.key "O">
+<!ENTITY smaug.keyMan.delKey.label "Sleutel verwijderen">
+<!ENTITY smaug.keyMan.viewPhoto.label "Foto-ID">
+<!ENTITY smaug.smgAttachInlineSign.label "Onderteken iedere bijlage afzonderlijk en verstuur het bericht via inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "d">
+<!ENTITY smaug.viewdebuglog.label "Logbestand bekijken">
+<!ENTITY smaug.manageUidDlg.title "Primair gebruiker-ID wijzigen">
+<!ENTITY smaug.useKeys.label "De volgende OpenPGP sleutels gebruiken:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "8-bit codering gebruiken om berichten te verzenden">
+<!ENTITY smaug.sendersKeyMenu.accesskey "v">
+<!ENTITY smaug.keyMan.sign.accesskey "O">
+<!ENTITY smaug.trustSenderKey.label "Sleutelvertrouwen instellen…">
+<!ENTITY smaug.delete.accesskey "V">
+<!ENTITY smaug.encryptedsend.accesskey "V">
+<!ENTITY smaug.encryptedsend.key "V">
+<!ENTITY smaug.keyMan.changePwd.accesskey "W">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Wacht tot de sleutels zijn geladen…">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip "Laat geen informatiescherm met ondertekenings-/versleutelgegevens voor het versturen van een bericht">
+<!ENTITY smaug.autoSendEncryptedOption.label "Automatisch versleutel versturen">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Geen sleutels gevonden die aan uw criteria voldoen">
+<!ENTITY smaug.importpublickey.label "Publieke sleutel importeren">
+<!ENTITY smaug.matchDescStart.label "Regel als ontvanger toepassen">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Nee, bedankt, ik verkies om alles handmatig te configureren">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "n">
+<!ENTITY smaug.expertUser.tooltip "Klik hier als u menu items en instellingen wilt zien voor gevorderde gebruikers.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Eigenaarvertrouwen">
+<!ENTITY smaug.cardDetails.closeWindow.label "Sluiten">
+<!ENTITY smaug.keyTrust.trustLevel.label "Hoe veel vertrouwen heeft u in de sleutel?">
+<!ENTITY smaug.cardDetails.title "OpenPGP SmartCard details">
+<!ENTITY smaug.openpgpPrefsButton.label "Smaug voorkeuren…">
+<!ENTITY smaug.keyMan.importFromServer.label "Naar sleutels zoeken">
+<!ENTITY smaug.amPrefUseFromAddr.label "Het e-mailadres van deze identiteit gebruiken om de OpenPGP sleutel te identificeren">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Specificeer opties die door GnuPG gebruikt zullen worden.">
+<!ENTITY smaug.keyMan.close.label "Venster sluiten">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Uw uitgaande e-mails digitaal ondertekenen">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Zoek sleutels bij alle contacten">
+<!ENTITY smaug.amPrefEnablePgp.label "OpenPGP ondersteuning (Smaug) voor deze identiteit inschakelen">
+<!ENTITY smaug.keyMan.exportToFile.label "Sleutels naar bestand exporteren">
+<!ENTITY smaug.cardPin.unblockPin.label "PIN deblokkeren">
+<!ENTITY smaug.keyMan.editMenu.label "Bewerken">
+<!ENTITY smaug.encDlgPgpMime.accesskey "P">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Selecteer de accounts of identiteiten die met Smaug moeten werken">
+<!ENTITY smaug.useGpgAgent.tooltip "Gebruik gpg-agent (Onderdeel van GnuPG 2) voor alle wachtwoord invoer">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Wilt u enkele instellingen wijzigen om Smaug beter op uw pc te laten functioneren?">
+<!ENTITY smaug.cardDetails.forcepin.label "PIN ondertekening forceren">
+<!ENTITY smaug.rulesEditor.label "Smaug - Regels per ontvanger bewerken">
+<!ENTITY smaug.searchKeyDlgSelAll.label "Alle selecteren/deselecteren">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Stuur automatisch versleuteld als er voor iedere ontvanger tenminste één sleutel bekend en geaccepteerd is (zie boven) en er geen regels per ontvanger zijn die afdwingen om niet te versleutelen.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Sleutels gevonden - Selecteer om te importeren">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "F">
+<!ENTITY smaug.resetPrefsButton.label "Reset">
+<!ENTITY smaug.valid.label "Geldig">
+<!ENTITY smaug.keyUserId.label "Account / Gebruiker-ID">
+<!ENTITY smaug.cancelKey.label "Annuleren">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label "Indien mogelijk">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Ik wil een nieuw sleutelpaar aanmaken om mijn e-mail te ondertekenen en te versleutelen">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "Geldige GnuPG installatie gevonden.">
+<!ENTITY smaug.finalPGPMimeNo.label "Inline PGP afdwingen">
+<!ENTITY smaug.setupWiz.pgEncConv.desc "Smaug maakt het mogelijk om uitgaande e-mail en alle bijlagen te versleutelen. Versleutelen is te vergelijken met een ansichtkaart in een envelop stoppen. Het zorgt dat dingen privé worden. Het is niet alleen voor ‘geheime’ berichten, maar voor alles wat je niet als ansichtkaart wil versturen.">
+<!ENTITY smaug.disableRules.label "Regels per ontvanger negeren">
+<!ENTITY smaug.basic.label "Basis">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label "Versleutel het bericht helemaal niet">
+<!ENTITY smaug.attachkey.accesskey "b">
+<!ENTITY smaug.setupWiz.pgComplete.title "Bedankt">
+<!ENTITY smaug.displayKeyProperties.label "Bekijk eigenschappen van sleutel">
+<!ENTITY smaug.agentAdditionalParam.label "Bijkomende parameters voor GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label "Altijd (ook) handmatig">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Uw sleutel wordt nu gegenereerd">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip "Laat het informatiescherm met ondertekenings-/versleutelgegevens zien als uw voorkeur met betrekking tot versleuteling is gewijzigd door een regel per ontvanger of door automatische versleuteling">
+<!ENTITY smaug.keyMan.addToPRRule.label "Voeg toe aan per ontvanger regel">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Geavanceerd">
+<!ENTITY smaug.nextRule.label "Met de volgende regel voor het overeenstemmende adres verdergaan">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Sleutel om mee te ondertekenen:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Ik heb bestaande publieke en privésleutels die ik wil importeren">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Bevestig uw wachtwoord door het opnieuw in te typen">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Vingerafdruk:">
+<!ENTITY smaug.keyMan.keyProps.label "Sleuteleigenschappen">
+<!ENTITY smaug.keyMan.setTrust.accesskey "V">
+<!ENTITY smaug.keyMan.editMenu.accesskey "w">
+<!ENTITY smaug.attachmykey.label "Mijn publieke sleutel bijvoegen">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "T">
+<!ENTITY smaug.keyDetails.created.label "Aangemaakt">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN herhaalteller">
+<!ENTITY smaug.ctxDecryptOpen.label "Ontcijferen en openen">
+<!ENTITY smaug.setupWiz.label "Instellingswizard">
+<!ENTITY smaug.genCardKey.backupKey.label "Backup van de sleutel buiten de kaart opslaan">
+<!ENTITY smaug.finalPGPMimeYes.label "PGP/MIME afdwingen">
+<!ENTITY smaug.useForSigning.label "Gegenereerde sleutel voor de geselecteerde identiteit gebruiken">
+<!ENTITY smaug.smgAttachNoneSign.label "Onderteken de berichttekst, maar niet de bijlagen">
+<!ENTITY smaug.keyDetails.title "Sleuteleigenschappen">
+<!ENTITY smaug.amPrefUseKeyId.label "Een specifiek OpenPGP sleutel ID (0x1234ABCD) gebruiken:">
+<!ENTITY smaug.keyMan.sendKeys.label "Publieke sleutels per e-mail verzenden">
+<!ENTITY smaug.smgAttachPgpMimeSign.label "Het bericht als een geheel ondertekenen en verzenden met behulp van PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Basisinstellingen">
+<!ENTITY smaug.acceptedKeysValid.tooltip "Accepteer alleen sleutels die door uzelf zijn ondertekend of door andere mensen die u vertrouwt. Technisch gezien accepteert u alleen ‘geldige’ sleutels voor versleuteling.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Geavanceerd…">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Ik vertrouw het maximaal">
+<!ENTITY smaug.defaultSigning.label "Berichten standaard ondertekenen">
+<!ENTITY smaug.keyDetails.fingerprint.label "Vingerafdruk">
+<!ENTITY smaug.finalPGPMimeDefault.label "Gebruik standaarden en regels voor PGP opmaak">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "z">
+<!ENTITY smaug.setupWiz.pgInstall.desc "Om Smaug te kunnen gebruiken is GnuPG vereist als extra component voor het uitvoeren van de cryptografische taken. De wizard heeft geprobeerd GnuPG te vinden, maar is daar niet in geslaagd.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Handige versleutelingsinstellingen">
+<!ENTITY smaug.showPhoto.label "OpenPGP foto ID bekijken">
+<!ENTITY smaug.setupWiz.pgEncConv.title "Versleuteling">
+<!ENTITY smaug.useGpgAgent.label "Gpg-agent voor het afhandelen van het wachtwoord gebruiken">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg "Welk algemene model wil je instellen om uitgaande e-mail te versleutelen?">
+<!ENTITY smaug.perRecipientsOption.label "Regel(s) per ontvanger aanmaken">
+<!ENTITY smaug.sendOptionsMenu.label "Verzend opties…">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Wij konden geen OpenPGP sleutel vinden">
+<!ENTITY smaug.keyMan.stopTransfer.label "Overdracht stoppen">
+<!ENTITY smaug.refreshKeys.label "Ververs sleutellijst">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "Blader…">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Versleutel/signeer antwoorden op een versleuteld/gesigneerd bericht">
+<!ENTITY smaug.addPhoto.question.label "Wilt u de volgende foto aan de volgende sleutel toevoegen?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Versleutel/signeer indien mogelijk antwoorden op versleutelde/gesigneerde e-mail">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Alle publieke sleutels verversen">
+<!ENTITY smaug.cardDetails.authKey.label "Authenticatiesleutel">
+<!ENTITY smaug.viewKeySigDlg.title "Lijst met ondertekeningen">
+<!ENTITY smaug.cardDetails.vendor.label "Fabrikant">
+<!ENTITY smaug.amPrefPgpHeader.url.label "URL voor het ophalen van de sleutel versturen:">
+<!ENTITY smaug.encryptionDlg.label "Smaug versleuteling &amp; ondertekening instellingen">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "a">
+<!ENTITY smaug.decryptverify.accesskey "O">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "o">
+<!ENTITY smaug.maybe.label "Ja, als het geselecteerd is bij Berichtopstelling">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Ik vertrouw het weinig">
+<!ENTITY smaug.prefs.pathsTitle.label "Bestanden en Mappen">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo "Versleutel mijn berichten niet standaard">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Let op:</a> Smaug zal altijd de ondertekeningen van e-mails controleren, of Smaug nu ingeschakeld is voor die account of niet.">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "P">
+<!ENTITY smaug.addUidDlg.comment.label "Opmerking (optioneel)">
+<!ENTITY smaug.setupWiz.no "Nee, bedankt">
+<!ENTITY smaug.alwaysTrustSend.label "Sleutels altijd vertrouwen">
+<!ENTITY smaug.keyMan.viewSig.accesskey "k">
+<!ENTITY smaug.changePasswd.newPasswd.label "Nieuw wachtwoord">
+<!ENTITY smaug.undoencryption.label "Versleuteling ongedaan maken">
+<!ENTITY smaug.uidValidity.label "Geldigheid">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Intrekkingscertificaat aanmaken &amp; opslaan">
+<!ENTITY smaug.cardDetails.reset.label "Leegmaken">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Ondertekeningen bekijken">
+<!ENTITY smaug.acceptedKeysAll.tooltip "Accepteer alle sleutels die niet door u zijn uitgeschakeld of ingetrokken/verlopen door de eigenaar. Technisch gezien volgt dit model de GPG optie ‘--trust-model always’.">
+<!ENTITY smaug.pgpAccountSettings.label "Onderteken/versleutel Opties…">
+<!ENTITY smaug.reload.label "Bericht herladen">
+<!ENTITY smaug.browse.label "Verkennen…">
+<!ENTITY smaug.passwordSettings.label "Wachtwoordinstellingen">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritme">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "s">
+<!ENTITY smaug.cardDetails.keyCreated.label "Aangemaakt">
+<!ENTITY smaug.autoDecrypt.label "Berichten automatisch ontcijferen/verifiëren">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Importeer OpenPGP sleutels">
+<!ENTITY smaug.keyservers.label "Kies uw sleutelserver(s)">
+<!ENTITY smaug.encDlgIgnoreRules.label "Negeer per ontvanger regels">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "f">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Beschikbare gebruiker-ID's:">
+<!ENTITY smaug.add.accesskey "T">
+<!ENTITY smaug.refreshKeys.accesskey "v">
+<!ENTITY smaug.signSenderKey.label "Sleutel ondertekenen…">
+<!ENTITY smaug.searchKeyDlg.label "Download OpenPGP sleutels">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "U heeft ervoor gekozen om de wizard niet te gebruiken om Smaug te configuren.<html:br/><html:br/>Bedankt dat u voor Smaug gekozen hebt.">
+<!ENTITY smaug.signedsend.accesskey "O">
+<!ENTITY smaug.keyGen.console.label "Sleutelgeneratieconsole">
+<!ENTITY smaug.signSenderKeyPopup.label "Sleutel van verzender ondertekenen…">
+<!ENTITY smaug.cardDetails.url.label "URL van publieke sleutel">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug instellingen zijn specifiek voor accounts en identiteiten.                                                                     Standaard zal Smaug zichzelf zo configureren dat het op al uw accounts en identiteiten werkt. Als u dat niet wilt, selecteer dan het account waar Smaug wel op moet werken.">
+<!ENTITY smaug.resetRememberedValues.label "Waarschuwingen resetten">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Geen OpenPGP sleutel gevonden">
+<!ENTITY smaug.cardDetails.save.label "Opslaan">
+<!ENTITY smaug.prefs.overrideGpg.label "Overschrijven met">
+<!ENTITY smaug.logdirectory.label "Logmap">
+<!ENTITY smaug.setupWiz.pgSummary.title "Samenvatting">
+<!ENTITY smaug.ruleEmail.label "Smaug regels instellen voor">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Bevestig dat de wizard al deze wijzigingen mag doorvoeren">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Berichttekst als platte tekst bekijken">
+<!ENTITY smaug.debugMenu.label "Debuggings opties">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Publieke sleutels vanaf sleutelserver verversen">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Maak een sleutel aan om e-mail te onderteken en te versleutelen">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Vraag nooit om een wachtwoord">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Sleutel om aan te passen:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Standaardopties voor Berichtopstelling">
+<!ENTITY smaug.sendersKeyMenu.label "Sleutel van verzender">
+<!ENTITY smaug.preferences.label "Smaug voorkeuren">
+<!ENTITY smaug.clearPassphrase.label "Opgeslagen wachtwoord vergeten">
+<!ENTITY smaug.setupWiz.pgSign.signYes "Onderteken standaard al mijn berichten">
+<!ENTITY smaug.setupWiz.pgSign.signNo "Onderteken mijn berichten niet standaard">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "U heeft een ‘sleutelpaar’ nodig om e-mails te ondertekenen en te versleutelen. Een sleutelpaar heeft twee sleutels, een publieke en een privésleutel.">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "We hebben gemerkt dat u al over een OpenPGP sleutel beschikt. U kunt één van uw bestaande sleutels gebruiken om te onderteken, versleutelen en ontcijferen of u kunt een nieuw sleutelpaar aanmaken.">
+<!ENTITY smaug.noHushMailSupport.label "Gebruik ‘&lt;’ en ‘&gt;’ om e-mailadressen op te geven">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Kies de bestanden die de publieke en privésleutels bevatten om te importeren. Het keuzeveld voor privésleutels kan leeg blijven, als het eerste bestand zowel publieke als privésleutels bevat.">
+<!ENTITY smaug.basicUserMenus.label "Verberg instellingen en menu's voor gevorderden">
+<!ENTITY smaug.finalSignDefault.label "Gebruik standaarden en regels om te signeren">
+<!ENTITY smaug.keyMan.refreshKey.key "R">
+<!ENTITY smaug.keyGen.days.label "dagen">
+<!ENTITY smaug.disableRules.accesskey "N">
+<!ENTITY smaug.setupWiz.pgSettings.title "Voorkeuren">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "n">
+<!ENTITY smaug.keyMan.generate.label "Nieuw sleutelpaar">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Voeg mijn publieke sleutel toe aan berichten">
+<!ENTITY smaug.encDlgPgpMime.label "PGP/MIME gebruiken">
+<!ENTITY smaug.keyMan.selectAll.label "Alle sleutels selecteren">
+<!ENTITY smaug.keyComment.label "Opmerking">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Ik heb het helemaal niet gecontroleerd">
+<!ENTITY smaug.keyDetails.usage.label "Gebruik">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open het informatiescherm om handmatig sleutels toe te wijzen als er sleutels ontbreken.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "i">
+<!ENTITY smaug.addUidDlg.email.label "E-mail">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP beveiliging">
+<!ENTITY smaug.nextAddress.label "De volgende regels voor het overeenstemmende adres niet controleren">
+<!ENTITY smaug.setupWiz.details.subtitle "Programma-instellingen aanpassen">
+<!ENTITY smaug.keyMan.uploadToServer.label "Publieke sleutels uploaden">
+<!ENTITY smaug.userSelSendSigned.label "Verstuur ondertekend">
+<!ENTITY smaug.ruleEmail.tooltip "Vul enkel het e-mailadres in. NIET de naam van de ontvanger gebruiken Bv. ‘Een Naam &lt;een.naam@adres.net&gt;’ is ongeldig">
+<!ENTITY smaug.setupWiz.details.title "Voorkeuren">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes "Handige automatische versleuteling">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip "Open op het laatst altijd het informatiescherm om handmatig sleutles toe te kunnen wijzen.">
+<!ENTITY smaug.help.accesskey "H">
+<!ENTITY smaug.email.label "E-mail">
+<!ENTITY smaug.attachkey.label "Publieke sleutel bijvoegen…">
+<!ENTITY smaug.not.label "Niet">
+<!ENTITY smaug.keyExpiry.label "Vervaldag">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "P">
+<!ENTITY smaug.keyMan.userId.label "Naam">
+<!ENTITY smaug.keyMan.manageUid.label "Gebruiker-ID's beheren">
+<!ENTITY smaug.defaultEncryption.label "Berichten standaard versleutelen">
+<!ENTITY smaug.never.label "Nooit">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "B">
+<!ENTITY smaug.cardDetails.genCardKey.label "Sleutel genereren">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "k">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label "Alle geldige sleutels die ik heb">
+<!ENTITY smaug.matchExact.label "Is exact">
+<!ENTITY smaug.searchRule.label "Regels met e-mailadressen bekijken bevattende:">

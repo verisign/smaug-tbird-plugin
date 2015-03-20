@@ -1,0 +1,628 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Veljavnost ključa">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Vrsta ključa">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Spremenite nastavitve e-pošte, da boe Smaug deloval bolj zanesljivo">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Sporočilo v celoti šifriraj/podpiši in pošlji kot sporočilo PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Da, želim, da me čarovnik uvede v delo">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Zaupanje uporabniku">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Uporabi izbrano metodo za vse prihodnje priponke">
+<!ENTITY smaug.ctxImportKey.label "Uvozi ključ OpenPGP">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Onemogoči pretočno besedilo (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Kaj želite storiti?">
+<!ENTITY smaug.addToRule.title "Pravilu po prejemniku dodaj ključ">
+<!ENTITY smaug.reload.accesskey "R">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Prenesi javne ključe na strežnik ključev">
+<!ENTITY smaug.about.label "O programu Smaug">
+<!ENTITY smaug.keyGen.months.label "mesecih">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Navedite datoteke za uvoz">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "Z">
+<!ENTITY smaug.ctxVerifyAtt.label "Preveri podpis">
+<!ENTITY smaug.progress.label "Napredek">
+<!ENTITY smaug.adminSmartCard.accesskey "U">
+<!ENTITY smaug.debugMenu.accesskey "r">
+<!ENTITY smaug.sending.label "Pošiljanje">
+<!ENTITY smaug.clearSearch.accesskey "P">
+<!ENTITY smaug.keyPassphrase.label "Geslo">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "Spremeni PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Najdi:">
+<!ENTITY smaug.keyMan.importFromFile.label "Uvozi ključe iz datotek">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Podpiši ključ">
+<!ENTITY smaug.revealAttachments.button "Razkrij">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Da, želim podpisovati vsa svoja e-sporočila">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Prekliči">
+<!ENTITY smaug.cancelKey.tooltip "Prekini izdelavo ključa">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Želite zdaj uporabiti čarovnika?">
+<!ENTITY smaug.importMissingKeys.tooltip "Poskusi uvoziti manjkajoče ključe s strežnika ključev">
+<!ENTITY smaug.keyTrust.dontKnow.label "ne vem">
+<!ENTITY smaug.cardPin.newAdminPin.label "Novi upraviteljski PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Ogled fotografske ID">
+<!ENTITY smaug.keyDetails.expiry.label "Preteče">
+<!ENTITY smaug.keyMan.keyType.label "Vrsta">
+<!ENTITY smaug.created.label "Ustvarjen">
+<!ENTITY smaug.importpublickey.accesskey "j">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Onemogoči nalaganje delov IMAP na zahtevo">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Izbira ključa">
+<!ENTITY smaug.sendPGPMime.label "Za to sporočilo uporabi PGP/MIME">
+<!ENTITY smaug.savedecrypted.label "Shrani šifrirano sporočilo">
+<!ENTITY smaug.userSelectionList.label "Izbor ključa Smaug">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "preveril(a) sem na običajen način">
+<!ENTITY smaug.edit.label "Spremeni">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Ustvari">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Preuredi besedilo, da bo podpis zagotovo ostal nedotaknjen.">
+<!ENTITY smaug.decryptverify.label "Dešifriraj/preveri">
+<!ENTITY smaug.encDlgEncrypt.accesskey "Š">
+<!ENTITY smaug.prefs.label "Nastavitve">
+<!ENTITY smaug.keyMan.changePwd.label "Spremeni geslo">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "v">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "r">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Ključu poteče veljavnost v">
+<!ENTITY smaug.encryption.label "Šifriraj">
+<!ENTITY smaug.keyTrust.fullTrust.label "v celoti zaupam">
+<!ENTITY smaug.addUidDlg.name.label "Ime">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "se konča z">
+<!ENTITY smaug.pgpKeys.label "Ključ(i) OpenPGP">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Pošlji ID ključa OpenPGP">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "g">
+<!ENTITY smaug.keyGen.keySize.label "Velikost ključa">
+<!ENTITY smaug.basicUser.tooltip "Pritisnite, če ne želite videti menijskih izbir in možnosti za napredne uporabnike.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Ta čarovnik lahko spremeni vaše e-poštne nastavitve tako, da zagotovo ne bo težav s podpisovanjem in šifriranjem e-sporočil na vašem računalniku. Te spremembe nastavitev so večinoma tehnične narave in jih ne boste opazili, čeprav je pomembna privzeta sprememba ta, da bodo sporočila zapisana v navadnem besedilu brez oblikovanja.">
+<!ENTITY smaug.cardDetails.male.label "moški">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "P">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "D">
+<!ENTITY smaug.singleRcptSettings.desc "(Napotek: pri konfliktih ima 'nikoli' prednost pred 'vedno')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Datoteka javnega ključa">
+<!ENTITY smaug.pgpSecurityInfo.label "Varnostni podatki Smaug ...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "To IZKLJUČITE, če prejemate sporočila PGP/MIME v mape IMAP.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Nastavi zaupanje ključa pošiljatelja ...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Podpisi za ključ:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - podpisovanje ključa">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>OPOMBA: Tvorba ključa lahko traja nekaj minut.</a> Ne zaprite aplikacije, medtem ko je tvorba ključa v teku. Ko bo ključ izdelan, boste o tem obveščeni.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Dodatni ID uporabnika">
+<!ENTITY smaug.cardDetails.cardMenu.label "Pametna kartica">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Dodaj sliko">
+<!ENTITY smaug.cardDetails.female.label "ženski">
+<!ENTITY smaug.sendPGPMime.accesskey "g">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Prenesi ključe iz odložišča">
+<!ENTITY smaug.setDefaultsFor.label "Privzete nastavitve za ...">
+<!ENTITY smaug.changePasswd.title "Spremeni geslo OpenPGP">
+<!ENTITY smaug.keyMan.viewSig.label "Podpisi">
+<!ENTITY smaug.autoKeyRetrieve.label "Samodejno prenesi ključe za preverjanje podpisa">
+<!ENTITY smaug.matchBegin.label "se začne z">
+<!ENTITY smaug.selKeysButton.label "Izberi ključe ...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Pošlji glavo 'OpenPGP'">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Ponovite nov PIN">
+<!ENTITY smaug.signedsend.label "Podpiši sporočilo">
+<!ENTITY smaug.cardDetails.lang.label "Jezik">
+<!ENTITY smaug.messengermenu.accesskey "E">
+<!ENTITY smaug.keyDetails.size.label "Velikost">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Podpisano besedilo HTML pred pošiljanjem razlomi po vrsticah">
+<!ENTITY smaug.genCardKey.title "Ustvari ključ OpenPGP">
+<!ENTITY smaug.ctxDecryptSave.accesskey "D">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Trenutni upraviteljski PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "Prenašanje GnuPG …">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "Ogledovalnik slik OpenPGP">
+<!ENTITY smaug.cardPin.newPin.label "Nov PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Vsako prilogo šifriraj/podpiši posamično in jo pošlji kot vdelan PGP">
+<!ENTITY smaug.moveDown.accesskey "d">
+<!ENTITY smaug.keyservers.sample "Primer: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "C">
+<!ENTITY smaug.userNoPassphrase.tooltip "Vključite, če vaš ključ OpenPGP ni zavarovan z geslom.">
+<!ENTITY smaug.usePGPMimeAlways.label "Privzeto uporabi PGP/MIME">
+<!ENTITY smaug.addPhoto.title "Ključu dodaj sliko">
+<!ENTITY smaug.resetPrefs.tooltip "Nastavi vse nastavitve Smaug nazaj na privzete vrednosti.">
+<!ENTITY smaug.cardDetails.editData.label "Uredi podatke o kartici">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "i">
+<!ENTITY smaug.sendOptionsMenu.accesskey "E">
+<!ENTITY smaug.sKeyDlg.signKey.label "Ključ, ki ga želite podpisati:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Želite nastaviti Smaug za vse identitete?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA in El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Prstni odtis">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Osveži izbrane javne ključe">
+<!ENTITY smaug.delete.label "Izbriši">
+<!ENTITY smaug.keyId.label "ID ključa">
+<!ENTITY smaug.moreOptions.label "Dodatne nastavitve">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "preveril(a) sem zelo podrobno">
+<!ENTITY smaug.test.label "Preizkusi">
+<!ENTITY smaug.debug.label "Razhroščevanje">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Ustvarjanje ključa za podpisovanje in šifriranje e-sporočil">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "vsebuje">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "V zgornje polje vnesite iskalne pojme">
+<!ENTITY smaug.cardDetails.encKey.label "Šifrirni ključ">
+<!ENTITY smaug.noHushMailSupport.tooltip "Uporabi znaka '&lt;' in '&gt;' za določanje e-naslovov za GnuPG. Izključite, če imajo prejemniki stare ključe Hushmail.">
+<!ENTITY smaug.keyDetails.selAction.label "Izberite dejanje ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Nastavi primarno">
+<!ENTITY smaug.setupWiz.accesskey "N">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Namestitveni čarovnik za Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Primarna uporabnikov ID">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Napredne nastavitve identitete Smaug">
+<!ENTITY smaug.keyMan.genRevoke.label "Dokazilo o preklicu">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "O">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Ustvari ključ">
+<!ENTITY smaug.savedecrypted.accesskey "s">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Najv. dolžina PIN">
+<!ENTITY smaug.decryptbutton.tip "Dešifriraj/preveri sporočilo">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Ne">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "R">
+<!ENTITY smaug.keyGen.keyType.label "Vrsta ključa">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Podpisovanje">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "Namesti …">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "ID ključa">
+<!ENTITY smaug.keyMan.viewMenu.label "Pogled">
+<!ENTITY smaug.attachmykey.accesskey "m">
+<!ENTITY smaug.cardDetails.adminPin.label "Spremeni PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Nobenega ključa OpenPGP ni mogoče najti. Izberite spodaj, če želite   ustvariti nov par ključev ali če želite uvoziti obstoječi ključ.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Ponovno prikaži vsa doslej prikrita opozorilna okna in vprašanja.">
+<!ENTITY smaug.msgViewColumn.tooltip "Razvrsti po stanju OpenPGP">
+<!ENTITY smaug.setupWiz.yes "Da">
+<!ENTITY smaug.sign.label "Podpiši">
+<!ENTITY smaug.keyMan.createMail.label "Sestavi sporočilo z izbranimi ključi">
+<!ENTITY smaug.changePasswd.currPasswd.label "Trenutno geslo">
+<!ENTITY smaug.keyManWindow.accesskey "U">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Shrani geslo v medpomnilniku za omejeni čas.">
+<!ENTITY smaug.generateKey.label "Izdelaj par ključev">
+<!ENTITY smaug.composeOptionsMenu.accesskey "S">
+<!ENTITY smaug.cardPin.pinRepeat.label "Ponovite nov PIN">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "U">
+<!ENTITY smaug.autoDecrypt.accesskey "a">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Prikaži zaupanja nevredne ključe">
+<!ENTITY smaug.generateKey.tooltip "Ustvari par ključev">
+<!ENTITY smaug.keyserverDlg.label "Izberite strežnik ključev">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "lokalni podpis (ga ni mogoče izvoziti)">
+<!ENTITY smaug.clearPassphrase.accesskey "P">
+<!ENTITY smaug.recipientsSelectionOption.label "Način izbiranja ključev">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Strežnik ključev">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Uredi pravila za prejemnike">
+<!ENTITY smaug.keyDetails.keyPart.label "Del ključa">
+<!ENTITY smaug.copySecurityInfo.label "Kopiraj varnostne podatke Smaug">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Datoteka">
+<!ENTITY smaug.maxIdleMinutesTail.label "minut nedejavnosti">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "T">
+<!ENTITY smaug.moveDown.label "Pomakni dol">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Serijska številka">
+<!ENTITY smaug.ctxDecryptSave.label "Dešifriraj in shrani kot ...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "T">
+<!ENTITY smaug.keyManWindow.label "Upravljanje s ključi">
+<!ENTITY smaug.keyTrust.noTrust.label "NE zaupam">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Želim izbrati enega od spodnjih ključev za podpisovanje in šifriranje e-sporočil:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Izbira">
+<!ENTITY smaug.help.label "Pomoč">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>POZOR: Ustvarjanje ključa lahko traja več minut.</a> V tem času ne zaprite brskalnika. Ker je generator nakljunčnih števil odvisen od dejavnosti računalnika, je priporočljivo npr. aktivno brskati, da bi pospešili ustvarjanje ključa. Ko bo ključ ustvarjen, boste o tem takoj obveščeni.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "M">
+<!ENTITY smaug.securitybutton.tip "Varnostne nastavitve Smaug">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Ne zapiši sporočil v obliki HTML">
+<!ENTITY smaug.maxIdleMinutesHead.label "Geslo si zapomni za">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Šifriraj sporočilo">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "Trenutni PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "ne želim odgovoriti">
+<!ENTITY smaug.defineRules.label "Uredi pravila ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "N">
+<!ENTITY smaug.keyMan.showAllKeys.label "Privzeto pokaži vse ključe">
+<!ENTITY smaug.keyMan.title "Upravljanje s ključi Smaug">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "S">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Dodaj">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Kliknite za določitev mesta GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Izberite identitete">
+<!ENTITY smaug.cardDetails.sigKey.label "Podpisni ključ">
+<!ENTITY smaug.cardDetails.sex.label "Spol">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Spremeni upraviteljski PIN">
+<!ENTITY smaug.keyserver.label "Strežnik ključev">
+<!ENTITY smaug.encDlgEncrypt.label "Šifriraj sporočilo">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Prekliči čarovnika">
+<!ENTITY smaug.defaultKeySelOpts.label "Nastavitve izbire ključa ...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Izbira ključa">
+<!ENTITY smaug.amPrefDesc.label "Smaug omogoča šifriranje in podpisovanje sporočil OpenPGP. Da bi lahko izkoriščali njegove funkcije, mora biti nameščen GnuPG (gpg).">
+<!ENTITY smaug.smaugAttachDesc.label "To sporočilo vsebuje priloge. Kako naj jih šifriram/podpišem?">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Ključi za spremembo datuma preteka:">
+<!ENTITY smaug.adminSmartCard.label "Upravljanje pametne kartice ...">
+<!ENTITY smaug.importMissingKeys.accesskey "D">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug je zdaj pripravljen za uporabo.<html:br></html><html:br></html>Hvala, ker uporabljate Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Ime, priimek">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Izbriši">
+<!ENTITY smaug.usersNotFound.label "Prejemniki niso veljavni, zaupanja vredni ali jih ni mogoče najti">
+<!ENTITY smaug.manageUidDlg.addUid.label "Dodaj">
+<!ENTITY smaug.keyMan.reload.accesskey "Ž">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "Z gumbom Prebrskaj poiščite GnuPG.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Prenesi manjkajoče ključe">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Datoteka javnega ključa">
+<!ENTITY smaug.decryptbutton.label "Dešifriraj">
+<!ENTITY smaug.signing.label "Podpiši">
+<!ENTITY smaug.keygenTitle.label "Ustvari ključ OpenPGP">
+<!ENTITY smaug.smgEncryptAttachNone.label "Šifriraj samo glavno besedilo, priloge pusti nespremenjene">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Ponovi geslo">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' obravnavaj kot ločilo podpisa">
+<!ENTITY smaug.cardPin.title "Spremeni PIN pametne kartice">
+<!ENTITY smaug.keyTrust.title "Smaug - nastavitev zaupanja lastnikom">
+<!ENTITY smaug.viewconsole.label "Prikaži konzolo">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Ne uporabljaj splet zaupanja za preverjanje veljavnosti ključev.">
+<!ENTITY smaug.useNonDefaultComment.label "V podpis OpenPGP dodaj komentar Smauga">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Želite kot privzeto nastavitev podpisovati vsa odhodna sporočila?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Kopiraj javne ključe v odložišče">
+<!ENTITY smaug.about.accesskey "O">
+<!ENTITY smaug.mime_parts_on_demand.label "Naloži priponke le ob odprtem sporočilu (samo za IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Dva vezaja v vrstici napovedujeta blok podpisa">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Tega pogovornega okna ne prikaži, če šifriranje ni možno.">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "Namestitev dokončana. Nadaljujte na naslednjo stran čarovnika, da nadaljujete s postopkom nastavljanja.">
+<!ENTITY smaug.keyMan.revokeKey.label "Prekliči ključ">
+<!ENTITY smaug.sKeyDlg.checked.label "Kako previdno ste preverili, da ključ, ki ga želite podpisati, dejansko pripada osebi(am), navedeni(m) zgoraj?">
+<!ENTITY smaug.keyGen.expiry.title "Potek veljavnosti ključa">
+<!ENTITY smaug.undoencryption.accesskey "r">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Prikaži neveljavne ključe">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Podrobnosti ...">
+<!ENTITY smaug.encrypt.label "Šifriraj">
+<!ENTITY smaug.cardDetails.login.label "Prijavni podatki">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Ne, želim ustvariti pravila za prejemnike za e-pisma, ki jih je potrebno podpisati">
+<!ENTITY smaug.about.title "O programu Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Ustvari pravilo Smaug iz naslova ...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "d">
+<!ENTITY smaug.detailsHdrButton.label "Podrobnosti">
+<!ENTITY smaug.keyTrust.trustKey.label "Ključ, kateremu želite nastaviti zaupanje:">
+<!ENTITY smaug.setupWiz.pgInstall.title "GnuPG je obvezen">
+<!ENTITY smaug.action.label "Dejanje">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "I">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Tvorba ključa">
+<!ENTITY smaug.autoKeyRetrieve2.label "z naslednjega strežnika ključev:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Svoj javni ključ boste morali dati vsem stikom v svojem seznamu, ki bi želeli preverjati vaš podpis ali želeli šifrirati e-sporočila za vas. Z druge strani morate svoj zasebni ključ tajno varovati. Ne smete ga pošiljati, ali puščati nezaščitenega. Z njim lahko tretja oseba prebere vsa e-sporočila, ki vam jih pošiljatelji pošiljajo šifrirana. Prav tako lahko z njim šifrirajo sporočila v vašem imenu. Ker je tajen, je zaščiten z geslom.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - dodajanje uporabniške identifikacije ID">
+<!ENTITY smaug.keyDetails.keyType.label "Vrsta">
+<!ENTITY smaug.keyGen.years.label "letih">
+<!ENTITY smaug.edit.accesskey "S">
+<!ENTITY smaug.keyExpiry.title "Smaug - Spremeni datum preteka">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Nastavitve prejemnikov">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug vam omogoča digitalno podpisovanje e-sporočil. To je kot elektronska različica podpisovanja pisem in omogoča ljudem, da so prepričani, da je e-sporočilo resnično vaše.  Dobra varnostna praksa je, da podpisujete vsa odhodna sporočila.">
+<!ENTITY smaug.cardDetails.sigcount.label "Števec podpisov">
+<!ENTITY smaug.addToRule.useRuleButton.label "Izbranemu pravilu dodaj ključ">
+<!ENTITY smaug.encDlgSign.label "Podpiši sporočilo">
+<!ENTITY smaug.keyGen.noExpiry.label "Ključu veljavnost ne poteče">
+<!ENTITY smaug.keyPassphraseRepeat.label "Ponovi geslo">
+<!ENTITY smaug.searchForKey.label "Išči ključ">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Ta čarovnik spreminja naslednje možnosti:">
+<!ENTITY smaug.revealAttachmentsButton.label "Imena pripetih datotek so skrita. Pritisnite gumb 'Razkrij', pridobite izvorna imena datotek.">
+<!ENTITY smaug.always.label "vedno">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "P">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Izvozi ključe v datoteko">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "V">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Kopiraj javne ključe v odložišče">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "U">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "Veljavnost ključa">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "Možnosti OpenPGP">
+<!ENTITY smaug.progressText.label "Napredek:">
+<!ENTITY smaug.sepratationDesc.label "(več e-poštnih naslovov loči s presledki)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Smaug želim nastaviti samo za naslednje identitete:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Odstrani gumb S/MIME z orodne vrstice okna sestavljanja sporočila.">
+<!ENTITY smaug.keyMan.changeExpiry.label "Spremeni datum preteka">
+<!ENTITY smaug.keyMan.setTrust.label "Nastavi zaupanje">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Prikaži ključe drugih">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Ta čarovnik pomaga pri prvi uporabi Smaug. Čez nekaj naslednjih zaslonov vam bomo zastavili nekaj vprašanj, da bo vse pravilno nastavljeno.">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "enega gornjih naslovov">
+<!ENTITY smaug.keyMan.reload.label "Ponovno naloži medpomnilnik ključev">
+<!ENTITY smaug.viewconsole.accesskey "K">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "P">
+<!ENTITY smaug.keyNoPassphrase.label "brez gesla">
+<!ENTITY smaug.amPrefSelectKey.label "Izberite ključ ...">
+<!ENTITY smaug.moveUp.label "Pomakni gor">
+<!ENTITY smaug.cardDetails.yes.label "Da">
+<!ENTITY smaug.testemail.label "Preizkusno sporočilo">
+<!ENTITY smaug.composeOptionsMenu.label "Privzete nastavitve sestavljanja">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label "Ustvari novo pravilo">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Zdaj ste skoraj končali! Če kliknete na gumb 'Naprej', bo čarovnik izvedel naslednja dejanja:">
+<!ENTITY smaug.clearSearch.label "Počisti">
+<!ENTITY smaug.signedsend.key "p">
+<!ENTITY smaug.keyMan.delKey.label "Izbriši ključ">
+<!ENTITY smaug.keyMan.viewPhoto.label "Fotografska ID">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "Z">
+<!ENTITY smaug.viewdebuglog.label "Pokaži dnevnik">
+<!ENTITY smaug.manageUidDlg.title "Spremeni primarno uporabniško ID">
+<!ENTITY smaug.useKeys.label "Uporabi naslednje ključe OpenPGP:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Za pošiljanje sporočil uporabi 8-bitno šifriranje">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "P">
+<!ENTITY smaug.trustSenderKey.label "Določi zaupanje lastnikom ...">
+<!ENTITY smaug.delete.accesskey "Z">
+<!ENTITY smaug.encryptedsend.accesskey "š">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "G">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Počakajte trenutek, dokler se ključi nalagajo ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Noben ključ se ne ujema z iskanimi pojmi">
+<!ENTITY smaug.importpublickey.label "Uvozi javni ključ">
+<!ENTITY smaug.matchDescStart.label "Pravila uporabi, ko uporabnik">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Ne, hvala. Raje stvari nastavim sam">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Pritisnite, če želite videti menijske izbire in možnosti za napredne uporabnike.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Zaupanje lastniku">
+<!ENTITY smaug.cardDetails.closeWindow.label "Zapri">
+<!ENTITY smaug.keyTrust.trustLevel.label "Kako zaupate temu ključu?">
+<!ENTITY smaug.cardDetails.title "Podrobnosti pametne kartice OpenPGP">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Išči ključe">
+<!ENTITY smaug.amPrefUseFromAddr.label "Uporabi e-poštni naslov tega računa za identifikacijo ključa OpenPGP">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Navedite možnosti, ki jih bo upošteval GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Zapri okno">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "v">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Digitalno podpisujte odhodna e-sporočila">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Najdi ključe za vse stike">
+<!ENTITY smaug.amPrefEnablePgp.label "Vklopi podporo OpenPGP (Smaug) za to identiteto">
+<!ENTITY smaug.keyMan.exportToFile.label "Izvozi ključe v datoteko">
+<!ENTITY smaug.cardPin.unblockPin.label "Odblokiraj PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Uredi">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Izberite račune ali identitete, s katerimi bo deloval Smaug">
+<!ENTITY smaug.useGpgAgent.tooltip "Uporabi gpg-agent (sestavni del GnuPG 2) za vse vnose gesel">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Želite spremeniti nekaj privzetih nastavitev, da bo Smaug deloval bolje na vašem računalniku?">
+<!ENTITY smaug.cardDetails.forcepin.label "Izsili podpis PIN">
+<!ENTITY smaug.rulesEditor.label "Smaug - Določi pravila za prejemnike">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Ključi najdeni - izberite za uvoz">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "F">
+<!ENTITY smaug.resetPrefsButton.label "Ponastavi">
+<!ENTITY smaug.valid.label "Veljaven">
+<!ENTITY smaug.keyUserId.label "Uporabnikov ID">
+<!ENTITY smaug.cancelKey.label "Prekini">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Želim ustvariti nov par ključev za podpisovanje in šifriranje e-sporočil">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "Zaznana veljavna namestitev GnuPG.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Ignoriraj pravila za prejemnike">
+<!ENTITY smaug.basic.label "Splošno">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "P">
+<!ENTITY smaug.setupWiz.pgComplete.title "Hvala">
+<!ENTITY smaug.displayKeyProperties.label "Pokaži lastnosti ključa">
+<!ENTITY smaug.agentAdditionalParam.label "Dodatne nastavitve za GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Vaš ključ se ustvarja">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Dodaj pravilom po prejemniku">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Napredno">
+<!ENTITY smaug.nextRule.label "Nadaljuj z naslednjim pravilom za ustrezni naslov">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Ključ za podpisovanje:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Imam obstoječe javne in zasebne ključe, ki jih želim uvoziti.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Prosimo, potrdite svojo geslo s ponovnim vnosom">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Prstni odtis:">
+<!ENTITY smaug.keyMan.keyProps.label "Lastnosti ključa">
+<!ENTITY smaug.keyMan.setTrust.accesskey "N">
+<!ENTITY smaug.keyMan.editMenu.accesskey "U">
+<!ENTITY smaug.attachmykey.label "Pripni moj javni ključ">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "Ustvarjen">
+<!ENTITY smaug.cardDetails.pinretry.label "Števec ponovnih poskusov PIN">
+<!ENTITY smaug.ctxDecryptOpen.label "Dešifriraj in odpri">
+<!ENTITY smaug.setupWiz.label "Namestitveni čarovnik">
+<!ENTITY smaug.genCardKey.backupKey.label "Shrani varnostno kopijo ključa zunaj kartice">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Uporabi ključ za podpisovanje">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Lastnosti ključa">
+<!ENTITY smaug.amPrefUseKeyId.label "Uporabi posebno identifikacijo ključa OpenPGP (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Pošlji javne ključe po e-pošti">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Splošne nastavitve">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Napredno ...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "skrajno popolnoma zaupam">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Prstni odtis">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "k">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "k">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "Prikaži foto ID OpenPGP">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Za upravljanje s ključi uporabi program gpg-agent">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Nastavi pravila za prejemnike">
+<!ENTITY smaug.sendOptionsMenu.label "Nastavitve pošiljanja ...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Ključa OpenPGP ni mogoče najti">
+<!ENTITY smaug.keyMan.stopTransfer.label "Ustavi prenos">
+<!ENTITY smaug.refreshKeys.label "Posodobi seznam">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "Prebrskaj …">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Šifriraj/podpiši odgovore na šifrirano/podpisano sporočilo">
+<!ENTITY smaug.addPhoto.question.label "Želite dodati naslednjo sliko naslednjemu ključu?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Če je možno, šifriraj/podpiši odgovore na šifrirana/podpisana e-sporočila">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Osveži vse javne ključe">
+<!ENTITY smaug.cardDetails.authKey.label "Ključ za avtentikacijo">
+<!ENTITY smaug.viewKeySigDlg.title "Seznam podpisov">
+<!ENTITY smaug.cardDetails.vendor.label "Izdelovalec">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Pošlji URL za pridobitev ključa:">
+<!ENTITY smaug.encryptionDlg.label "Nastavitve Smaug za šifriranje &amp; podpisovanje">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "E">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "da, če je tako izbrano pri sestavljanju">
+<!ENTITY smaug.keyTrust.marginalTrust.label "delno zaupam">
+<!ENTITY smaug.prefs.pathsTitle.label "Datoteke in mape">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Opomba:</a> Smaug bo vedno preverjal podpise e-sporočil za vsak račun ali identiteto, ne glede na to, ali je omogočeno ali ne">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "R">
+<!ENTITY smaug.addUidDlg.comment.label "Komentar (neobvezno)">
+<!ENTITY smaug.setupWiz.no "Ne, hvala">
+<!ENTITY smaug.alwaysTrustSend.label "Vedno zaupaj ključem ljudi">
+<!ENTITY smaug.keyMan.viewSig.accesskey "L">
+<!ENTITY smaug.changePasswd.newPasswd.label "Novo geslo">
+<!ENTITY smaug.undoencryption.label "Razveljavi šifriranje">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Ustvari in shrani potrdilo o preklicu">
+<!ENTITY smaug.cardDetails.reset.label "Ponastavi">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Ogled podpisov">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Nastavitve podpisovanja/šifriranja ...">
+<!ENTITY smaug.reload.label "Ponovno naloži sporočilo">
+<!ENTITY smaug.browse.label "Prebrskaj ...">
+<!ENTITY smaug.passwordSettings.label "Nastavitve gesla">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritem">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "I">
+<!ENTITY smaug.cardDetails.keyCreated.label "Ustvarjen">
+<!ENTITY smaug.autoDecrypt.label "Samodejno dešifriraj/preveri sporočila">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Uvozi ključe OpenPGP">
+<!ENTITY smaug.keyservers.label "Strežnik(i) gesel">
+<!ENTITY smaug.encDlgIgnoreRules.label "Prezri pravila po prejemnikih">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Uporabniške ID na voljo:">
+<!ENTITY smaug.add.accesskey "D">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "Podpiši ključ ...">
+<!ENTITY smaug.searchKeyDlg.label "Prenesi ključe OpenPGP">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "T">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Za konfiguracijo Smaug niste izbrali čarovnika.<html:br></html><html:br></html>Hvala, ker uporabljate Smaug.">
+<!ENTITY smaug.signedsend.accesskey "p">
+<!ENTITY smaug.keyGen.console.label "Konzola tvorbe ključa">
+<!ENTITY smaug.signSenderKeyPopup.label "Podpiši ključ pošiljatelja ...">
+<!ENTITY smaug.cardDetails.url.label "URL javnega ključa">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Nastavitve Smaug se ločijo po računih in identitetah. Privzeta nastavitev Smaug je delo z vsemi računi in identitetami. Če tega ne želite, izberite določen račun ali identiteto, s katero želite Smaug povezati.">
+<!ENTITY smaug.resetRememberedValues.label "Ponastavi opozorila">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Ključa OpenPGP ni mogoče najti">
+<!ENTITY smaug.cardDetails.save.label "Shrani">
+<!ENTITY smaug.prefs.overrideGpg.label "Uporabi raje">
+<!ENTITY smaug.logdirectory.label "Mapa dnevnika">
+<!ENTITY smaug.setupWiz.pgSummary.title "Povzetek">
+<!ENTITY smaug.ruleEmail.label "Pravila prejemnika za">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Potrdite, da čarovnik upošteva te spremembe">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Telo besedila prikaži kot enostavno besedilo">
+<!ENTITY smaug.debugMenu.label "Možnosti razhroščevanja">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Osveži javne ključe s strežnika ključev">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Ustvari ključ za podpisovanje in šifriranje e-sporočil">
+<!ENTITY smaug.keyMan.selectAll.key "v">
+<!ENTITY smaug.userNoPassphrase.label "Uporabi ključ brez gesla">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Ključ, ki ga želite spremeniti:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Standardne nastavitve izdelave sporočil">
+<!ENTITY smaug.sendersKeyMenu.label "Ključ pošiljatelja">
+<!ENTITY smaug.preferences.label "Nastavitve Smaug">
+<!ENTITY smaug.clearPassphrase.label "Izbriši shranjeno geslo">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Za podpisovanje in šifriranje ter branje šifriranih sporočil potrebujete  'par ključev'. Par ključev sestavljata dva ključa, eden je javen in drug zaseben.">
+<!ENTITY smaug.selKeysButton.accesskey "I">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Izkazalo se je, da že imate ključ OpenPGP. Za podpisovanje, šifriranje in dešifriranje lahko uporabite enega od svojih že obstoječih ključev ali ustvarite nov par ključev.">
+<!ENTITY smaug.noHushMailSupport.label "Uporabi '&lt;' in '&gt;' pri navajanju e-naslovov">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Prosimo, navedite datoteke, ki vsebujejo javne in zasebne ključe za uvoz.    Vnos za zasebni ključ lahko pustite prazen, če prva datoteka   vsebuje tako zasebne kot javne ključe.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "dneh">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "Možnosti">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "Č">
+<!ENTITY smaug.keyMan.generate.label "Ustvari nov par ključev">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Sporočilom pripni moj javni ključ">
+<!ENTITY smaug.encDlgPgpMime.label "Uporabi PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Izberi vse ključe">
+<!ENTITY smaug.keyComment.label "Komentar">
+<!ENTITY smaug.sKeyDlg.notChecked.label "sploh nisem preveril(a)">
+<!ENTITY smaug.keyDetails.usage.label "Raba">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "Š">
+<!ENTITY smaug.addUidDlg.email.label "E-naslov">
+<!ENTITY smaug.openPgpSecurity.label "Varnost OpenPGP">
+<!ENTITY smaug.nextAddress.label "Ne preverjaj drugih pravil za ustrezni naslov">
+<!ENTITY smaug.setupWiz.details.subtitle "Spremeni nastavitve programa">
+<!ENTITY smaug.keyMan.uploadToServer.label "Prenesi javne ključe na strežnik ključev">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Vnesite le e-poštni naslov - brez imena prejemnika Primer: 'Janez Kranjski &lt;janez.kranjski@domena.si&gt;' je neveljavno">
+<!ENTITY smaug.setupWiz.details.title "Nastavitve">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "P">
+<!ENTITY smaug.email.label "E-poštni naslov">
+<!ENTITY smaug.attachkey.label "Pripni javni ključ ...">
+<!ENTITY smaug.not.label "ne">
+<!ENTITY smaug.keyExpiry.label "Datum poteka">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "K">
+<!ENTITY smaug.keyMan.userId.label "Ime">
+<!ENTITY smaug.keyMan.manageUid.label "Upravljaj z uporabniškimi ID">
+<!ENTITY smaug.defaultEncryption.label "Sporočila praviloma šifriraj">
+<!ENTITY smaug.never.label "nikoli">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "D">
+<!ENTITY smaug.cardDetails.genCardKey.label "Ustvari ključ">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "i">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "je natanko">
+<!ENTITY smaug.searchRule.label "Poglej pravila z e-poštnimi naslovi, ki vsebujejo:">

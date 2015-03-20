@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Ramalingam Saravanan.
+ * Portions created by Ramalingam Saravanan <svn@xmlterm.org> are
+ * Copyright (C) 2001 Ramalingam Saravanan. All Rights Reserved.
+ *
+ * Contributor(s):
+ * Patrick Brunschwig <patrick@enigmail.net>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<!--
+  This is the overlay that adds a menu and some PGP buttons
+  to messenger mail reading window
+-->
+
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css"
+                 type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://smaug/locale/smaug.dtd" >
+
+<overlay id="smaugMessengerOverlay"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"  src="chrome://smaug/content/smaugMessengerOverlay.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugCommon.js"/>
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugKeyManager.js"/>
+
+
+  <commandset id="mailToolbarItems">
+    <command id="button_smaug_decrypt"/>
+  </commandset>
+
+  <broadcasterset>
+    <broadcaster id="smaugBcDisplayClass" class="headerValue"/>
+  </broadcasterset>
+
+  <!-- Menu insert point for Thunderbird & SeaMonkey -->
+  <menubar id="mail-menubar">
+    <menu id="menu_Smaug"
+          label="&smaug.label;"
+          accesskey="&smaug.messengermenu.accesskey;"
+          insertbefore="tasksMenu" />
+  </menubar>
+
+  <!-- Menu insert point for Spicebird -->
+  <menubar id="framework-menubar">
+    <menu id="menu_Smaug"
+          label="&smaug.label;"
+          accesskey="&smaug.messengermenu.accesskey;"
+          insertafter="messageMenu,go-menu,view-menu" insertbefore="tools-menu"
+          app="mailnews"/>
+  </menubar>
+
+  <!-- Thunderbird secondary pane -->
+  <popup id="appmenuSecondaryPane">
+        <splitmenu id="menu_Smaug2ndPane"
+          label="&smaug.label;"
+          accesskey="&smaug.messengermenu.accesskey;"
+          insertafter="appmenu_customize">
+        <menupopup id="smaug_2ndPanePopup" onpopupshowing="Smaug.msg.displayMainMenu(this)"/>
+    </splitmenu>
+  </popup>
+
+  <!-- Menu content for all apps -->
+  <menu id="menu_Smaug">
+
+    <menupopup id="menu_SmaugPopup"
+      onpopupshowing="SmaugFuncs.collapseAdvanced(this, 'hidden', Smaug.msg.updateOptionsDisplay());">
+
+      <menuitem id="smaug_decryptverify"
+           label="&smaug.decryptverify.label;"
+           accesskey="&smaug.decryptverify.accesskey;"
+           advanced="true"
+           hidden="false"
+           oncommand="Smaug.msg.messageDecrypt();" />
+
+      <menuitem id="smaug_savedecrypted"
+           label="&smaug.savedecrypted.label;"
+           accesskey="&smaug.savedecrypted.accesskey;"
+           oncommand="Smaug.msg.messageSave();" />
+
+      <menuseparator
+           advanced="true"
+           hidden="false"/>
+
+      <menuitem id="smaug_autoDecrypt"
+           type="checkbox"
+           checked="false"
+           advanced="true"
+           hidden="false"
+           label="&smaug.autoDecrypt.label;"
+           accesskey="&smaug.autoDecrypt.accesskey;"
+           oncommand="Smaug.msg.toggleAttribute('autoDecrypt');" />
+
+      <!--
+      <menuseparator
+           advanced="true"
+           hidden="false"/>
+
+      <menuitem id="smaug_clearPassphrase"
+           label="&smaug.clearPassphrase.label;"
+           accesskey="&smaug.clearPassphrase.accesskey;"
+           advanced="true"
+           hidden="false"
+           oncommand="SmaugCommon.clearPassphrase(window);" />
+
+      <menuitem id="smaug_reload_msg"
+           label="&smaug.reload.label;"
+           accesskey="&smaug.reload.accesskey;"
+           advanced="true"
+           hidden="false"
+           oncommand="Smaug.msg.reloadCompleteMsg();" />
+
+      <menu id="smaug_sendersKeyMenu"
+           label="&smaug.sendersKeyMenu.label;"
+           advanced="true"
+           hidden="false"
+           accesskey="&smaug.sendersKeyMenu.accesskey;">
+
+        <menupopup onpopupshowing="Smaug.hdrView.updateSendersKeyMenu();">
+
+          <menuitem id="smaug_importpublickey"
+               label="&smaug.importpublickey.label;"
+               accesskey="&smaug.importpublickey.accesskey;"
+               oncommand="Smaug.msg.messageImport();" />
+
+          <menuseparator/>
+
+          <menuitem label="&smaug.displayKeyProperties.label;"
+                    id="smaug_keyMgmtDispKeyDetails"
+                    oncommand="Smaug.hdrView.dispKeyDetails();"/>
+          <menuitem label="&smaug.signSenderKey.label;"
+                    id="smaug_keyMgmtSignKey"
+                    oncommand="Smaug.hdrView.signKey();"/>
+          <menuitem label="&smaug.trustSenderKey.label;"
+                    id="smaug_keyMgmtKeyTrust"
+                    oncommand="Smaug.hdrView.editKeyTrust();"/>
+          <menuitem label="&smaug.showPhoto.label;"
+                    id="smaug_keyMgmtShowPhoto"
+                    oncommand="Smaug.hdrView.showPhoto();"/>
+        </menupopup>
+      </menu>
+
+      <menuseparator/>
+
+      <menuitem id="smaug_keymgmt"
+           label="&smaug.keyManWindow.label;"
+           accesskey="&smaug.keyManWindow.accesskey;"
+           oncommand="SmaugFuncs.openKeyManager(window);" />
+
+      <menuitem label="&smaug.adminSmartCard.label;"
+              id="smaug_smartCard"
+              accesskey="&smaug.adminSmartCard.accesskey;"
+              advanced="true"
+              hidden="false"
+              oncommand="SmaugFuncs.openCardDetails();"/>
+
+      <menuitem id="smaug_RulesEditor"
+          label="&smaug.editRules.label;"
+          accesskey="&smaug.editRules.accesskey;"
+          oncommand="SmaugFuncs.openRulesEditor();"/>
+      -->
+      <menuitem id="smaug_keymgmt"
+           label="&smaug.keyManWindow.label;"
+           accesskey="&smaug.keyManWindow.accesskey;"
+           oncommand="SmaugFuncs.openKeyManager(window);" />
+
+
+      <menuseparator/>
+
+      <menuitem id="smaug_prefs"
+           label="&smaug.prefs.label;"
+           accesskey="&smaug.prefs.accesskey;"
+           oncommand="SmaugFuncs.openPrefWindow(window, true, null);" />
+
+      <menuitem id="smaug_help"
+           label="&smaug.help.label;"
+           accesskey="&smaug.help.accesskey;"
+           oncommand="SmaugFuncs.openHelpWindow('messenger');" />
+
+      <menu id="smaug_debugMenu"
+           label="&smaug.debugMenu.label;"
+           advanced="true"
+           hidden="false"
+           accesskey="&smaug.debugMenu.accesskey;">
+
+        <menupopup>
+          <menuitem id="smaug_console"
+               label="&smaug.viewconsole.label;"
+               accesskey="&smaug.viewconsole.accesskey;"
+               oncommand="SmaugFuncs.openConsoleWindow();" />
+
+          <menuitem id="smaug_debug_log"
+               label="&smaug.viewdebuglog.label;"
+               accesskey="&smaug.viewdebuglog.accesskey;"
+               oncommand="SmaugFuncs.openDebugLog(window);" />
+        </menupopup>
+      </menu>
+
+      <menuitem id="smaug_about"
+           label="&smaug.about.label;"
+           accesskey="&smaug.about.accesskey;"
+           oncommand="SmaugFuncs.openAboutWindow();" />
+
+    </menupopup>
+  </menu>
+
+<!-- Thunderbird & SeaMonkey 2.x -->
+   <toolbarpalette id="MailToolbarPalette">
+      <toolbarbutton class="toolbarbutton-1"
+              id="button-smaug-decrypt"
+              label="&smaug.decryptbutton.label;"
+              tooltiptext="&smaug.decryptbutton.tip;"
+              oncommand="Smaug.msg.messageDecrypt();"
+              buttontype="thunderbird"
+              observes="button_smaug_decrypt"
+              insertafter="button-newmsg"
+              />
+  </toolbarpalette>
+
+<!-- Spicebird -->
+   <toolbarpalette id="framework-toolpalette">
+      <toolbarbutton class="framework-toolbarbutton padded-toolbarbutton"
+              id="button-smaug-decrypt"
+              label="&smaug.decryptbutton.label;"
+              tooltiptext="&smaug.decryptbutton.tip;"
+              oncommand="Smaug.msg.messageDecrypt();"
+              buttontype="thunderbird"
+              observes="button_smaug_decrypt"
+              insertafter="button-newmsg"
+              app="mailnews"
+              />
+  </toolbarpalette>
+
+  <!-- override default set to include smaug decryption icon -->
+  <!-- Thunderbird 3.0 and newer -->
+  <toolbar id="mail-bar3"
+          defaultset="button-getmsg,button-newmsg,button-chat,button-address,spacer,button-tag,button-smaug-decrypt,qfb-show-filter-bar,spring,gloda-search,button-appmenu">
+  </toolbar>
+
+  <!-- SeaMonkey 2.0 and newer -->
+  <toolbar id="msgToolbar"
+           defaultset="button-getmsg,button-newmsg,separator,button-reply,button-replyall,button-forward,separator,button-smaug-decrypt,spacer,button-goback,button-goforward,button-next,button-junk,button-delete,button-mark,spring,throbber-box">
+  </toolbar>
+
+
+  <vbox id="messagepanebox">
+    <vbox position="1">
+      <hbox id="smaugBox" class="expandedSmaugBox"
+            collapsed="true" align="center">
+
+        <vbox>
+          <spacer class="smaugHeaderSpacer"/>
+        </vbox>
+
+        <hbox class="headerNameBox" align="start" id="smaugStatusTextBox" pack="start">
+          <image id="smgToggleHeaderView2"
+                 class="smaugExpandViewButton" onclick="Smaug.hdrView.toggleHeaderView();"
+                 state="false" persist="state class"/>
+          <spacer flex="1"/>
+          <label class="smaugHeaderName"
+                id="smaugStatusHdr" flex="1"
+                value="&smaug.label;" control="smaugStatusText"/>
+        </hbox>
+
+        <hbox flex="1" pack="start" class="headerValueBox">
+          <vbox flex="1" pack="start">
+            <textbox flex="1" readonly="true" align="center"
+                 id="smaugStatusText" chromedir="ltr"
+                 class="smaugHeaderValue"/>
+            <textbox flex="1" readonly="true"
+                   id="expandedSmaugStatusText"
+                   class="smaugHeaderValue"
+                   observes="smaugStatusText"
+                   chromedir="ltr"
+                   collapsed="true" display="false" state="false"
+                   persist="display" aria-labelledby="smaugStatusHdr"/>
+          </vbox>
+          <vbox class="smaugHeaderNameBox" flex="0" pack="center">
+            <observes element="smaugStatusText" attribute="class"/>
+            <button id="smaugStatusHdrDetails" pack="center"
+                    label="&smaug.detailsHdrButton.label;"
+                    type="menu"
+                    class="smgMsgHdrView-flat-button">
+              <menupopup id="smgSecurityContext"
+                     onpopupshowing="Smaug.hdrView.dispSecurityContext();">
+                <menuitem label="&smaug.importpublickey.label;"
+                          id="smaug_importKey"
+                          hidden="true"
+                          oncommand="Smaug.msg.handleUnknownKey();"/>
+                <menuitem label="&smaug.reload.label;"
+                          id="smaug_reloadMessage"
+                          hidden="true"
+                          oncommand="Smaug.msg.reloadCompleteMsg();"/>
+                <menuitem label="&smaug.pgpSecurityInfo.label;"
+                          id="smaug_pgpSecurityInfo"
+                          oncommand="Smaug.msg.viewOpenpgpInfo(null, false);"/>
+                <menuitem label="&smaug.copySecurityInfo.label;"
+                          id="smaug_copySecurityInfo"
+                          oncommand="Smaug.hdrView.copyStatusInfo();"/>
+                <menuseparator/>
+                <menuitem label="&smaug.displayKeyProperties.label;"
+                          id="smaug_dispKeyDetails"
+                          oncommand="Smaug.hdrView.dispKeyDetails();"/>
+                <menuitem label="&smaug.showPhoto.label;"
+                          id="smaug_showPhoto"
+                          oncommand="Smaug.hdrView.showPhoto();"/>
+                <menuitem label="&smaug.signSenderKeyPopup.label;"
+                          id="smaug_signSenderKey"
+                          oncommand="Smaug.hdrView.signKey();"/>
+                <menuitem label="&smaug.trustSenderKeyPopup.label;"
+                          id="smaug_editSenderKeyTrust"
+                          oncommand="Smaug.hdrView.editKeyTrust();"/>
+              </menupopup>
+            </button>
+          </vbox>
+        </hbox>
+      </hbox>
+
+      <hbox id="smaugRevealAttachments" hidden="true" class="smaugHeaderNameBox smaugHeaderBoxLabelSignatureUnknown" flex="0" pack="center">
+        <vbox flex="1" pack="start">
+          <textbox flex="1" readonly="true" align="center" class="smaugHeaderValue" chromedir="ltr"
+            value="&smaug.revealAttachmentsButton.label;"/>
+        </vbox>
+        <button class="smgMsgHdrView-flat-button" label="&smaug.revealAttachments.button;" oncommand="Smaug.msg.revealAttachments();"/>
+      </hbox>
+    </vbox>
+  </vbox>
+
+
+  <!-- Thunderbird -->
+  <popup id="attachmentItemContext" onpopupshowing="return Smaug.hdrView.smgOnShowAttachmentContextMenu();">
+    <menuseparator/>
+    <menuitem id="smaug_ctxImportKey"
+      label="&smaug.ctxImportKey.label;"
+      accesskey="&smaug.ctxImportKey.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('importKey');"/>
+    <menuitem id="smaug_ctxDecryptOpen"
+      label="&smaug.ctxDecryptOpen.label;"
+      accesskey="&smaug.ctxDecryptOpen.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('openAttachment');"/>
+    <menuitem id="smaug_ctxDecryptSave"
+      label="&smaug.ctxDecryptSave.label;"
+      accesskey="&smaug.ctxDecryptSave.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('saveAttachment');"/>
+    <menuitem id="smaug_ctxVerifyAtt"
+      label="&smaug.ctxVerifyAtt.label;"
+      accesskey="&smaug.ctxVerifyAtt.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('verifySig');"/>
+  </popup>
+
+  <!-- SeaMonkey -->
+  <popup id="attachmentListContext">
+    <menuseparator/>
+    <menuitem id="smaug_ctxImportKey_SM"
+      label="&smaug.ctxImportKey.label;"
+      accesskey="&smaug.ctxImportKey.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('importKey');"/>
+    <menuitem id="smaug_ctxDecryptOpen_SM"
+      label="&smaug.ctxDecryptOpen.label;"
+      accesskey="&smaug.ctxDecryptOpen.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('openAttachment');"/>
+    <menuitem id="smaug_ctxDecryptSave_SM"
+      label="&smaug.ctxDecryptSave.label;"
+      accesskey="&smaug.ctxDecryptSave.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('saveAttachment');"/>
+    <menuitem id="smaug_ctxVerifyAtt_SM"
+      label="&smaug.ctxVerifyAtt.label;"
+      accesskey="&smaug.ctxVerifyAtt.accesskey;"
+      oncommand="Smaug.msg.handleAttachmentSel('verifySig');"/>
+  </popup>
+
+  <statusbar id="status-bar">
+    <hbox id="smaug-status-bar"
+          insertafter="totalMessageCount"
+          app="mailnews">
+      <statusbarpanel id="smaug-encrypted-status"
+        class="statusbarpanel-iconic"
+        collapsed="true"/>
+      <statusbarpanel id="smaug-signed-status"
+        class="statusbarpanel-iconic"
+        collapsed="true"/>
+    </hbox>
+  </statusbar>
+</overlay>

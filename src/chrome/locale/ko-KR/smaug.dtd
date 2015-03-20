@@ -1,0 +1,631 @@
+<!ENTITY smaug.keyMan.calcTrust.label "키 유효성">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "서명 형식">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "전자 메일 프로그램의 설정을 변경하면 Smaug가 더 빈틈없는 보안을 유지할 수 있습니다">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "메시지 전체를 하나로 암호화/서명하고 PGP/MIME을 사용해 보냅니다">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "네, 마법사가 도움을 줄 수 있도록 합니다">
+<!ENTITY smaug.keyDetails.ownerTrust.label "소유자 신뢰">
+<!ENTITY smaug.encryptAttachSkipDlg.label "다음 모든 첨부파일에 대해 선택한 방식을 적용">
+<!ENTITY smaug.ctxImportKey.label "OpenPGP 키 가져오기">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "flowed 형식 텍스트 (RFC 2646) 비활성화">
+<!ENTITY smaug.cardPin.action.label "스마트 카드의">
+<!ENTITY smaug.addToRule.title                    "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "E">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "키 서버로 공개키 업로드">
+<!ENTITY smaug.about.label "Smaug에 대하여">
+<!ENTITY smaug.keyGen.months.label "월">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle      "Specify the files to import">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label "Verify signature">
+<!ENTITY smaug.progress.label "진행">
+<!ENTITY smaug.adminSmartCard.accesskey "M">
+<!ENTITY smaug.debugMenu.accesskey "g">
+<!ENTITY smaug.sending.label "보내기">
+<!ENTITY smaug.clearSearch.accesskey "C">
+<!ENTITY smaug.keyPassphrase.label "패스프레이즈">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "PIN을 변경한다">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "검색:">
+<!ENTITY smaug.keyMan.importFromFile.label "파일에서 키 가져오기">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "키에 서명">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "네, 제 모든 전자 메일에 서명하겠습니다">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "폐기">
+<!ENTITY smaug.cancelKey.tooltip "키 생성 취소">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "마법사를 사용하겠습니까?">
+<!ENTITY smaug.importMissingKeys.tooltip "가지지 않은 키를 키 서버로부터 다운로드하는 것을 시도해 주세요">
+<!ENTITY smaug.keyTrust.dontKnow.label "모르겠습니다: 다른 사람의 키를 유효화하는데 이 키를 얼마나 신뢰해도 될지 모를 경우 선택해 주십시오.">
+<!ENTITY smaug.cardPin.newAdminPin.label "새로운 관리자 PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "사진 ID 보기">
+<!ENTITY smaug.keyDetails.expiry.label "만료일">
+<!ENTITY smaug.keyMan.keyType.label "형식">
+<!ENTITY smaug.created.label "발급일">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "항상 IMAP 첨부파일 다운로드 활성화">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "키 선택">
+<!ENTITY smaug.sendPGPMime.label "이 메시지에 PGP/MIME을 사용">
+<!ENTITY smaug.savedecrypted.label "복호화한 메시지 저장">
+<!ENTITY smaug.userSelectionList.label "Smaug 키 선택">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "대략 확인 했습니다">
+<!ENTITY smaug.edit.label "변경">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "생성">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "서명이 완전한 상태가 되도록 텍스트를 재배열합니다">
+<!ENTITY smaug.decryptverify.label "복호화/검증">
+<!ENTITY smaug.encDlgEncrypt.accesskey "E">
+<!ENTITY smaug.prefs.label "설정">
+<!ENTITY smaug.keyMan.changePwd.label "패스프레이즈 바꾸기">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "키 만료">
+<!ENTITY smaug.encryption.label "암호화">
+<!ENTITY smaug.keyTrust.fullTrust.label "충분히 신뢰합니다: 이 키로 서명된 다른 사람의 키는 모두 유효화 됩니다.">
+<!ENTITY smaug.addUidDlg.name.label "이름">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "끝부분이">
+<!ENTITY smaug.pgpKeys.label "OpenPGP 키">
+<!ENTITY smaug.amPrefPgpHeader.id.label "OpenPGP 키 ID 보내기">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "U">
+<!ENTITY smaug.keyGen.keySize.label "키 크기">
+<!ENTITY smaug.basicUser.tooltip "고급 사용자를 위한 메뉴 항목이나 옵션을 보고 싶지 않다면 누르세요.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "이 마법사는 전자 메일 프로그램의 설정을 변경해서 전자 메일에 서명하거나 암호화하는데 특별한 문제가 발생하지 않도록 해줍니다. 변경되는 설정들은, 기본적으로 텍스트로 전자 메일 메시지가 작성된다는 점을 제외하고, 대부분 사용자가 반드시 알 필요는 없는 기술적인 사항들로 이뤄져있습니다.">
+<!ENTITY smaug.cardDetails.male.label "남성">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "S">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(주의: 만약 설정간 충돌이 발생할 경우, '하지 않음'이 '항상'에 우선합니다)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile    "Private key file">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug 보안 정보 ...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "IMAP폴더에 있는 PGP/MIME 메시지를 받고있는 경우라면 이 옵션을 꺼야합니다.">
+<!ENTITY smaug.trustSenderKeyPopup.label "보낸 사람의 키에 대한 소유자의 신뢰 설정...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "키에 대한 서명:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - 키에 서명하기">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>주의：키 생성은 완료까지 몇 분 정도 걸릴 수 있습니다.</a> 키 생성이 진행되는 동안 응용프로그램을 종료하지 마십시오. 키 생성이 완료되면 알려드립니다.">
+<!ENTITY smaug.keyDetails.additionalUid.label "추가 사용자 ID">
+<!ENTITY smaug.cardDetails.cardMenu.label "스마트 카드">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "여성">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "클립보드에서 키 가져오기">
+<!ENTITY smaug.setDefaultsFor.label "다음 각 항목에 대한 기본 정책">
+<!ENTITY smaug.changePasswd.title "OpenPGP 패스프레이즈 변경">
+<!ENTITY smaug.keyMan.viewSig.label "서명">
+<!ENTITY smaug.autoKeyRetrieve.label "서명 검증을 위해 자동적으로 키를 다운로드 합니다.">
+<!ENTITY smaug.matchBegin.label "시작부분이">
+<!ENTITY smaug.selKeysButton.label "키 선택...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "'OpenPGP' 헤더 보내기">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "새로운 관리자 PIN (다시)">
+<!ENTITY smaug.signedsend.label "메시지 서명">
+<!ENTITY smaug.cardDetails.lang.label "언어">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "크기">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "보내기 전에 서명된 HTML 텍스트를 다시 줄바꿈">
+<!ENTITY smaug.genCardKey.title "OpenPGP 키 생성">
+<!ENTITY smaug.ctxDecryptSave.accesskey "C">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "현재 관리자 PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "새로운 PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "첨부 파일을 개별적으로 암호화/서명하고 인라인 형식 PGP을 사용한 메시지를 보냅니다">
+<!ENTITY smaug.moveDown.accesskey "D">
+<!ENTITY smaug.keyservers.sample "예: subkeys.pgp.net, sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "R">
+<!ENTITY smaug.userNoPassphrase.tooltip "OpenPGP 키가 패스프레이즈로 보호되어 있지 않은 경우에 활성화 하세요.">
+<!ENTITY smaug.usePGPMimeAlways.label "PGP/MIME을 기본으로 사용">
+<!ENTITY smaug.addPhoto.title                     "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "모든 Smaug 설정을 기본값으로 설정합니다.">
+<!ENTITY smaug.cardDetails.editData.label "카드 데이터 편집">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "R">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "서명될 키:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "모든 신원에 대하여 Smaug를 설정하시겠습니까?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "지문">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "선택한 공개키를 새로 고침">
+<!ENTITY smaug.delete.label "삭제">
+<!ENTITY smaug.keyId.label "키 ID">
+<!ENTITY smaug.moreOptions.label "더 많은 옵션">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "매우 주의깊게 확인했습니다">
+<!ENTITY smaug.test.label "테스트">
+<!ENTITY smaug.debug.label "디버그">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "전자 메일을 서명하고 암호화할 키 생성하기">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "일부분">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "위의 상자에 검색어 입력">
+<!ENTITY smaug.cardDetails.encKey.label "암호화 키">
+<!ENTITY smaug.noHushMailSupport.tooltip "GnuPG에서 전자메일 주소를 지정하기위해 '&lt;' 와 '&gt;' 문자를 사용합니다. 받는 사람이 오래된 Hushmail 키를 사용하고 있는 경우는 비활성화 바랍니다.">
+<!ENTITY smaug.keyDetails.selAction.label "동작 선택 ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "기본으로 설정">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Smaug 설정 마법사">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "기본 사용자 ID">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey  "A">
+<!ENTITY smaug.advancedIdentityDlg.title "고급 Smaug 신원 설정">
+<!ENTITY smaug.keyMan.genRevoke.label "폐기 인증서">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "D">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "키 생성">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "최대 PIN 길이">
+<!ENTITY smaug.decryptbutton.tip "Smaug로 된 메시지를 복호화 또는 검증">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "아니오">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "D">
+<!ENTITY smaug.keyGen.keyType.label "키 형식">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "서명하기">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "키 ID">
+<!ENTITY smaug.keyMan.viewMenu.label "보기">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "PIN 변경">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc         "We could not find any OpenPGP key. Please select below if you want to
+                                                      create a new key pair or if you want to import an existing key.">
+<!ENTITY smaug.resetRememberedValues.tooltip "숨김으로 설정했던 모든 경고 및 묻기 대화상자를 다시 표시합니다.">
+<!ENTITY smaug.msgViewColumn.tooltip              "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "네">
+<!ENTITY smaug.sign.label "서명">
+<!ENTITY smaug.keyMan.createMail.label "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "현재 패스프레이즈">
+<!ENTITY smaug.keyManWindow.accesskey "y">
+<!ENTITY smaug.maxIdleMinutes.tooltip "제한 시간 동안 패스프레이즈를 메모리에 일시 저장합니다.">
+<!ENTITY smaug.generateKey.label "키 생성">
+<!ENTITY smaug.composeOptionsMenu.accesskey "D">
+<!ENTITY smaug.cardPin.pinRepeat.label "새로운 PIN (다시)">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "E">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "암호화 그리고/또는 서명하기 위해 OpenPGP 규약에 따른 새로운 키를 생성합니다">
+<!ENTITY smaug.keyserverDlg.label "키 서버 선택">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "로컬 서명 (내보내기 할 수 없음. 이 컴퓨터에서만 사용)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "키는 무엇을 기준으로 선택합니까?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "키 서버">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "받는 사람별 규칙 편집">
+<!ENTITY smaug.keyDetails.keyPart.label "키 조각">
+<!ENTITY smaug.copySecurityInfo.label "Smaug 보안 정보 복사">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "파일">
+<!ENTITY smaug.maxIdleMinutesTail.label "분 동안 기억">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "아래로">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "일련 번호">
+<!ENTITY smaug.ctxDecryptSave.label "복호화 후 다른 이름으로 저장...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "키 관리">
+<!ENTITY smaug.keyTrust.noTrust.label "신뢰하지 '않습니다': 이 키로 서명된 다른 키를 유효화하지 않습니다.">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "내 메일을 서명하고 암호화하는데 사용할 키를 아래 목록에서 선택하겠습니다:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "선택">
+<!ENTITY smaug.help.label "도움말">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>주의：키 생성은 완료까지 몇 분 정도 걸릴 수 있습니다.</a> 키 생성이 진행되는 동안 응용프로그램을 종료하지 마십시오. 키 생성 도중에 브라우저를 사용하거나 디스크 액세스가 많은 작업을 수행하면, '난수 풀'이 채워져 처리 속도가 빨라집니다. 키 생성이 완료되면 알려드립니다.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Smaug 보안 설정">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "HTML 메시지를 작성하지 않음">
+<!ENTITY smaug.maxIdleMinutesHead.label "패스프레이즈를 유휴 시간">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "메시지 암호화">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "현재 PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "대답하지 않겠습니다">
+<!ENTITY smaug.defineRules.label "규칙 편집 ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "M">
+<!ENTITY smaug.keyMan.showAllKeys.label "기본으로 모든 키 표시">
+<!ENTITY smaug.keyMan.title "Smaug 키 관리">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "K">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "추가">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "GnuPG 위치를 지정하려면 클릭하세요">
+<!ENTITY smaug.setupWiz.pgSelectId.title "신원 선택">
+<!ENTITY smaug.cardDetails.sigKey.label "서명 키">
+<!ENTITY smaug.cardDetails.sex.label "성별">
+<!ENTITY smaug.cardPin.changeAdmPin.label "관리자 PIN을 변경한다">
+<!ENTITY smaug.keyserver.label "키 서버">
+<!ENTITY smaug.encDlgEncrypt.label "메시지 암호화">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "마법사 취소">
+<!ENTITY smaug.defaultKeySelOpts.label "키 선택 옵션...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "키 선택">
+<!ENTITY smaug.amPrefDesc.label "OpenPGP 암호화와 서명 메시지 지원은 Smaug이 지원하고 있습니다. 이 기능을 사용하려면 GnuPG (gpg)를 설치하셔야 합니다.">
+<!ENTITY smaug.smaugAttachDesc.label "이 메시지는 첨부 파일을 포함하고 있습니다. 이 첨부파일을 어떻게 암호화/서명 할까요?">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "스마트 카드 관리 ...">
+<!ENTITY smaug.importMissingKeys.accesskey "D">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug를 사용 준비가 완료되었습니다.<html:br></html:br><html:br></html:br>Smaug을 선택해주셔서 감사합니다.">
+<!ENTITY smaug.cardDetails.name.label "이름, 성">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "삭제">
+<!ENTITY smaug.usersNotFound.label "유효하지 않거나, 신뢰할 수 없거나, 찾을 수 없는 받는 사람">
+<!ENTITY smaug.manageUidDlg.addUid.label "추가">
+<!ENTITY smaug.keyMan.reload.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "키 서버에서 누락된 키 가져오기 시도">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile    "Public key file">
+<!ENTITY smaug.decryptbutton.label "복호화">
+<!ENTITY smaug.signing.label "서명">
+<!ENTITY smaug.keygenTitle.label "OpenPGP 키 생성">
+<!ENTITY smaug.smgEncryptAttachNone.label "메시지 본문만 암호화/서명하고, 첨부 파일은 하지 않습니다">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "새로운 패스프레이즈 (다시)">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--'는 서명 분리자">
+<!ENTITY smaug.cardPin.title "스마트 카드 PIN 변경">
+<!ENTITY smaug.keyTrust.title "Smaug - 소유자 신뢰 설정">
+<!ENTITY smaug.viewconsole.label "콘솔 표시">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "키 유효성을 결정하는데 웹-오브-트러스트(Web of Trust)를 사용하지 않습니다.">
+<!ENTITY smaug.useNonDefaultComment.label "OpenPGP 서명에 Smaug 주석을 추가">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "기본으로 모든 전자 메일에 서명합니까?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "클립보드에 공개키 복사">
+<!ENTITY smaug.about.accesskey "b">
+<!ENTITY smaug.mime_parts_on_demand.label "열었을 때만 첨부 파일을 다운로드 (IMAP전용)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "한줄에 대쉬('-') 2개 밖에 없는 경우 서명 블록으로 취급">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "암호화 할 수 없는 경우에는 이 대화상자를 다시 표시하지 않음">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "키 폐기">
+<!ENTITY smaug.sKeyDlg.checked.label "서명하려고 하는 키가 위에 표시된 이름의 사람이 실재로 소유하고 있는 것인지 면밀하게 확인했습니까?">
+<!ENTITY smaug.keyGen.expiry.title "키 만료">
+<!ENTITY smaug.undoencryption.accesskey "U">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Display invalid keys">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "자세히 ...">
+<!ENTITY smaug.encrypt.label "암호화">
+<!ENTITY smaug.cardDetails.login.label "로그인 데이터">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "아니오, 서명이 필요한 전자 메일에 대해서는 받는 사람별로 규칙을 만들겠습니다">
+<!ENTITY smaug.about.title "Smaug에 대하여">
+<!ENTITY smaug.createRuleFromAddr.label "주소로부터 Smaug 규칙 생성 ...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label "자세히">
+<!ENTITY smaug.keyTrust.trustKey.label "신뢰할 키:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "동작">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "키 생성">
+<!ENTITY smaug.autoKeyRetrieve2.label "키서버(keyserver):">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "보낸 전자 메일을 검증하거나 암호화된 전자 메일을 당신에게 보내고자하는 사람 모두에게 공개키를 줘야만 합니다. 공개키와는 달리 개인 키는 철저히 본인만이 가지고 있어야 합니다. 만약 개인키가 공개되어 버리면 해당 공개키로 암호화된 전자 메일은 다른 사람이 읽을 수 있습니다. 뿐만 아니라 본인 명의로 암호화하거나 서명할 수 있습니다. 이와 같은 부작용을 줄이기 위해, 개인키는 패스프레이즈로 보호됩니다.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - 사용자 ID 추가">
+<!ENTITY smaug.keyDetails.keyType.label "형식">
+<!ENTITY smaug.keyGen.years.label "년">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - 받는 사람 설정">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug는 전자 메일에 디지털로 서명할 수 있게합니다. 이는 실제로 편지를 주고 받을 때 편지에 사인 하는 것과 같고, 다른 사람들에게 서명된 전자 메일이 실제로 여러분이 보낸 전자 메일임을 확신할 수 있도록 합니다. 실질적인 보안 효과를 거두기 위해서는 외부로 전달되는 모든 메시지에 대하여 서명하는 것이 좋습니다. <html:br/><html:br/> 여러분이 서명한 전자 메일을 검증하기 위해서는 메시지를 받게되는 다른 사람들도 Smaug 기능이 들어있는 메일 프로그램이 필요합니다. Smaug 기능이 들어있는 메일 프로그램이 아니더라도, 여러분이 보낸 전자 메일을 읽을 수는 있겠지만, 서명은 첨부파일로 나타나던지 혹은 전자 메일 메시지 내용에 둘러쳐진 텍스트로 나타나게 됩니다. 이런 증상은 어떤 사람에게는 좀 짜증이 나는 일이 될 수 있습니다. 외부로 나가는 모든 전자 메일에 대하여 서명을 할지 혹은 서명된 전자 메일을 원치않는 사람에게 보내게되는 일을 미리 피할 것인지 선택해 주셔야합니다.">
+<!ENTITY smaug.cardDetails.sigcount.label "서명 카운터">
+<!ENTITY smaug.addToRule.useRuleButton.label      "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "메시지 서명">
+<!ENTITY smaug.keyGen.noExpiry.label "만료되지 않는 키">
+<!ENTITY smaug.keyPassphraseRepeat.label "패스프레이즈 (확인)">
+<!ENTITY smaug.searchForKey.label "키 검색">
+<!ENTITY smaug.setupWiz.details.changingPrefs "마법사에의해 다음 설정들이 변경됩니다:">
+<!ENTITY smaug.revealAttachmentsButton.label "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "항상">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "파일로 키 내보내기 ">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "공개키를 클립보드에 복사">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "키 유효성">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP 옵션">
+<!ENTITY smaug.progressText.label "진행:">
+<!ENTITY smaug.sepratationDesc.label "(복수 메일 주소는 공백 문자로 구분해 주세요)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "다음 신원에 대해서만 Smaug를 설정:">
+<!ENTITY smaug.disableSMIMEui.tooltip "메시지 작성 윈도우 툴바에서 S/MIME 버튼을 제거">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "소유자 신뢰 설정">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "이 마법사는 Smaug를 바로 시작할 수 있도록 도와드립니다. 다음 몇 화면을 지나는 동안 모든 설정에 필요한 몇 가지 질문을 드릴 것입니다. <html:br/><html:br/> 진행하기 앞서, 일반 사용자가 높은 보안 수준을 유지하려고 한다는 가정하에 마법사의 설문이 진행됨을 알려드립니다. 물론 마법사가 끝난 후 모든 설정에 대해 변경할 수 있습니다. Smaug에 대한 더 자세한 사항은 도움말 메뉴나 <a class='smaugLink'><html:a href='http://smaug.mozdev.org/'>Smaug 웹사이트</html:a></a>에서 찾으실 수 있을 것입니다. <html:br/><html:br/> 이 마법사를 사용하는데 불편한 점이 있다면, <a class='smaugLink'><html:a href='mailto:smaug@mozdev.org'>전자 메일 보내기(영문)</html:a></a>를 통해 저희에게 알려주십시오. <html:br/><html:br/> 이 마법사는 Smaug을 처음 설치했을 때만 나타납니다. 다시 나타나지 않고 메뉴에도 따로 나타나지 않습니다. <html:br/><html:br/> Smaug Smaug를 선택해주셔서 감사합니다!">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "일치하면 규칙을 적용합니다">
+<!ENTITY smaug.keyMan.reload.label "키 캐쉬 다시 읽기">
+<!ENTITY smaug.viewconsole.accesskey "c">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "V">
+<!ENTITY smaug.keyNoPassphrase.label "패스프레이즈 없음">
+<!ENTITY smaug.amPrefSelectKey.label "키 선택 ...">
+<!ENTITY smaug.moveUp.label "위로">
+<!ENTITY smaug.cardDetails.yes.label "예">
+<!ENTITY smaug.testemail.label "테스트 메일">
+<!ENTITY smaug.composeOptionsMenu.label "기본 작성 옵션">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label      "Create New Rule">
+<!ENTITY smaug.setupWiz.pgSummary.desc "거의 끝났습니다. '다음' 버튼을 클릭하면, 마법사는 다음과 같은 조치를 취합니다:">
+<!ENTITY smaug.clearSearch.label "원래대로">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "키 삭제">
+<!ENTITY smaug.keyMan.viewPhoto.label "사진 ID">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "D">
+<!ENTITY smaug.viewdebuglog.label "로그 파일 보기">
+<!ENTITY smaug.manageUidDlg.title "기본 사용자 ID 변경">
+<!ENTITY smaug.useKeys.label "다음 OpenPGP 키들을 사용:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "보내는 메시지에 대해 8-bit 인코딩을 사용">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "S">
+<!ENTITY smaug.trustSenderKey.label "소유자 신뢰를 설정 ...">
+<!ENTITY smaug.delete.accesskey "E">
+<!ENTITY smaug.encryptedsend.accesskey "E">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "P">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "키를 불러오는 동안 기다리세요 ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "검색어와 일치하는 키 없음">
+<!ENTITY smaug.importpublickey.label "공개키 가져오기">
+<!ENTITY smaug.matchDescStart.label "받는 사람이 위의 주소와">
+<!ENTITY smaug.setupWiz.pgWelcome.no "아니오, 수동으로 설정하겠습니다">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey  "N">
+<!ENTITY smaug.expertUser.tooltip "고급 사용자를 위한 메뉴 항목이나 옵션을 보고 싶다면 누르세요.">
+<!ENTITY smaug.keyMan.ownerTrust.label "소유자 신뢰">
+<!ENTITY smaug.cardDetails.closeWindow.label "닫기">
+<!ENTITY smaug.keyTrust.trustLevel.label "키를 얼마나 신뢰합니까? (해당 키가 유효한 경우)">
+<!ENTITY smaug.cardDetails.title "OpenPGP 스마트 카드 세부사항">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "키 검색">
+<!ENTITY smaug.amPrefUseFromAddr.label "OpenPGP 키 식별을 위해 이 신원의 전자 메일 주소를 사용">
+<!ENTITY smaug.agentAdditionalParam.tooltip "GnuPG가 사용하게될 옵션을 지정하세요.">
+<!ENTITY smaug.keyMan.close.label "윈도우 닫기">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "외부로 전달되는 메일에 대하여 디지털 서명하기">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "이 신원에 대하여 OpenPGP 지원 (smaug)을 활성화">
+<!ENTITY smaug.keyMan.exportToFile.label "파일로 키 내보내기">
+<!ENTITY smaug.cardPin.unblockPin.label "PIN 블록을 해제한다">
+<!ENTITY smaug.keyMan.editMenu.label "편집">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Smaug가 동작하기를 원하는 계정이나 신원을 선택">
+<!ENTITY smaug.useGpgAgent.tooltip "모든 패스프레이즈 입력에 대해 gpg-agent (GnuPG 2 구성물)를 사용">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Smaug가 당신의 컴퓨터에서 더 잘 동작할 수 있도록 몇 가지 기본 설정을 변경하시겠습니까?">
+<!ENTITY smaug.cardDetails.forcepin.label "강제 서명 PIN">
+<!ENTITY smaug.rulesEditor.label "Smaug - 받는 사람별 규칙 편집기">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "키가 발견됨 - 가져오기할 키를 선택">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "초기화">
+<!ENTITY smaug.valid.label "유효">
+<!ENTITY smaug.keyUserId.label "계정 / 사용자 ID">
+<!ENTITY smaug.cancelKey.label "취소">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "내 메일을 서명하고 암호화하는데 사용할 새로운 키 쌍을 생성하고 싶습니다">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "받는 사람별 규칙을 무시">
+<!ENTITY smaug.basic.label "기본">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "A">
+<!ENTITY smaug.setupWiz.pgComplete.title "감사합니다">
+<!ENTITY smaug.displayKeyProperties.label "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "GnuPG 추가 매개변수">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "키가 생성되고 있습니다">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Add to Per-Recpient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "고급">
+<!ENTITY smaug.nextRule.label "일치하는 주소에 대해 이다음 규칙으로 계속 진행">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "서명에 사용할 키:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey    "I have existing public and private keys that I would like to import">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "패스프레이즈를 한번더 입력해서 확인해주십시오">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "지문:">
+<!ENTITY smaug.keyMan.keyProps.label "키 속성">
+<!ENTITY smaug.keyMan.setTrust.accesskey "T">
+<!ENTITY smaug.keyMan.editMenu.accesskey "E">
+<!ENTITY smaug.attachmykey.label "내 공개키 첨부">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "생성일">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN 재시도 카운터">
+<!ENTITY smaug.ctxDecryptOpen.label "복호화 후 열기">
+<!ENTITY smaug.setupWiz.label "설정 마법사">
+<!ENTITY smaug.genCardKey.backupKey.label "카드 외부에 키 백업">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "선택한 신원으로 생성된 키를 사용">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "키 속성">
+<!ENTITY smaug.amPrefUseKeyId.label "지정한 OpenPGP 키 ID (예:0x1234ABCD)를 사용:">
+<!ENTITY smaug.keyMan.sendKeys.label "전자 메일로 공개키 보내기">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "기본 설정">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "고급...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "완전히 신뢰합니다: (※ 본인 소유의 키에만 사용!) 스스로 유효화되며 이 키로 서명된 다른 사람의 키도 모두 유효화 됩니다.">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "지문">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "OpenPGP 사진 ID 보기">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "패스프레이즈를 취급하기 위해 gpg-agent 사용">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "받는 사람별 규칙 생성">
+<!ENTITY smaug.sendOptionsMenu.label "보내기 옵션...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle     "We could not find any OpenPGP Key">
+<!ENTITY smaug.keyMan.stopTransfer.label "전송 중지">
+<!ENTITY smaug.refreshKeys.label "키 목록 새로고침">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Encrypt/sign replies to encrypted/signed message">
+<!ENTITY smaug.addPhoto.question.label            "Do you want to add the following picture to the following key?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "When possible, encrypt/sign responses to encrypted/signed email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "모든 공개키를 새로 고침">
+<!ENTITY smaug.cardDetails.authKey.label "진위식별 키">
+<!ENTITY smaug.viewKeySigDlg.title "서명 목록">
+<!ENTITY smaug.cardDetails.vendor.label "제조자">
+<!ENTITY smaug.amPrefPgpHeader.url.label "키 검색을 위한 URL 보내기:">
+<!ENTITY smaug.encryptionDlg.label "Smaug 암호화 &amp; 서명 설정">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "예, 메시지 작성시에 선택되어 있는 경우">
+<!ENTITY smaug.keyTrust.marginalTrust.label "최소한 신뢰합니다: 이 키로 서명된 다른 키는 부분 유효화 됩니다. 추가로 2이상의 최소 신뢰하는 키로 서명되면 충분 유효화 됩니다.">
+<!ENTITY smaug.prefs.pathsTitle.label "파일과 디렉토리">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>주의:</a> Smaug는 모든 계정 또는 신원에 대하여, Smaug가 설정된 상태이든 아니든 관계없이, 전자 메일에 있는 서명을 검증하게 된다는 점을 주의하십시오">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "U">
+<!ENTITY smaug.addUidDlg.comment.label "주석 (선택 사양)">
+<!ENTITY smaug.setupWiz.no "아니오, 그대로 두십시오">
+<!ENTITY smaug.alwaysTrustSend.label "항상 다른 사람들의 키를 신뢰">
+<!ENTITY smaug.keyMan.viewSig.accesskey "S">
+<!ENTITY smaug.changePasswd.newPasswd.label "새로운 패스프레이즈">
+<!ENTITY smaug.undoencryption.label "암호화 실행 취소">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "폐기 인증서 생성 &amp; 저장">
+<!ENTITY smaug.cardDetails.reset.label "초기화">
+<!ENTITY smaug.keyMan.ctxViewSig.label "서명 보기">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "서명/암호화 옵션...">
+<!ENTITY smaug.reload.label "메시지 다시 읽기">
+<!ENTITY smaug.browse.label "찾아보기...">
+<!ENTITY smaug.passwordSettings.label "패스프레이즈 설정">
+<!ENTITY smaug.keyDetails.algorithm.label "알고리즘">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "S">
+<!ENTITY smaug.cardDetails.keyCreated.label "생성일">
+<!ENTITY smaug.autoDecrypt.label "자동적으로 메시지 복호화/검증">
+<!ENTITY smaug.setupWiz.pgKeyImport.title         "Import OpenPGP Keys">
+<!ENTITY smaug.keyservers.label "키 서버 지정">
+<!ENTITY smaug.encDlgIgnoreRules.label "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "사용가능 사용자 ID:">
+<!ENTITY smaug.add.accesskey "A">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "키에 서명 ...">
+<!ENTITY smaug.searchKeyDlg.label "OpenPGP 키 다운로드">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Smaug 설정 마법사를 사용하지 않기를 선택하셨습니다.<html:br></html:br><html:br></html:br>Smaug을 선택해주셔서 감사합니다.">
+<!ENTITY smaug.signedsend.accesskey "S">
+<!ENTITY smaug.keyGen.console.label "키 생성 콘솔">
+<!ENTITY smaug.signSenderKeyPopup.label "보낸 사람의 키에 서명 ...">
+<!ENTITY smaug.cardDetails.url.label "공개키 URL">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug 설정은 계정과 신원 별로 따로 설정됩니다. 기본적으로 Smaug는 모든 계정과 신원에 대하여 동작하도록 되어있습니다. 만약 그렇게 하는 것을 원하지 않으신다면, 아래에서 Smaug가 동작할 계정이나 신원을 선택해주시기 바랍니다.">
+<!ENTITY smaug.resetRememberedValues.label "경고 초기화">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title        "No OpenPGP Key Found">
+<!ENTITY smaug.cardDetails.save.label "저장">
+<!ENTITY smaug.prefs.overrideGpg.label "다음 설정 우선:">
+<!ENTITY smaug.logdirectory.label "로그 디렉토리">
+<!ENTITY smaug.setupWiz.pgSummary.title "요약">
+<!ENTITY smaug.ruleEmail.label "Smaug 규칙 설정 대상:">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "마법사가 변경 사항을 적용할 수 있도록 확인해주십시오">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "텍스트로 메시지 본문 보기">
+<!ENTITY smaug.debugMenu.label "디버깅 옵션">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "키 서버에서 공개키 새로 고침">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "전자 메일 서명과 암호화하는 키 생성">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "사용자에게 어떤 패스프레이즈도 묻지 않음">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "변경할 키:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "메시지 작성 기본 옵션">
+<!ENTITY smaug.sendersKeyMenu.label "보내는 사람의 키">
+<!ENTITY smaug.preferences.label "Smaug 설정">
+<!ENTITY smaug.clearPassphrase.label "저장된 패스프레이즈 삭제">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "전자 메일을 서명하고 암호화하거나 암호화된 전자 메일을 읽는데 '키 쌍'이 필요합니다. 키 쌍은 공개키와 개인키 두 개가 한 세트입니다.">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "OpenPGP 키를 이미 보유하고 계신 것으로 보입니다. 이미 가지고 계신 키로 서명과 암호화 그리고 복호화를, 또는 새로운 키 쌍을 생성하실 수 있습니다.">
+<!ENTITY smaug.noHushMailSupport.label "전자 메일 주소를 지정하는데 '&lt;' 와 '&gt;'를 사용">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc          "Please specify the files containing the public and the private keys to
+                                                      import. The entry for private keys can be left empty if the first file
+                                                      contains both private and public keys.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "일">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "응용프로그램 설정">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "R">
+<!ENTITY smaug.keyMan.generate.label "새로운 키 쌍">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "메시지에 내 공개키를 첨부">
+<!ENTITY smaug.encDlgPgpMime.label "PGP/MIME 사용">
+<!ENTITY smaug.keyMan.selectAll.label "모든 키 선택">
+<!ENTITY smaug.keyComment.label "주석">
+<!ENTITY smaug.sKeyDlg.notChecked.label "전혀 확인하지 않았습니다">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "I">
+<!ENTITY smaug.addUidDlg.email.label "전자 메일">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP 보안">
+<!ENTITY smaug.nextAddress.label "일치하는 주소에 대해 더는 규칙을 고려하지 않음">
+<!ENTITY smaug.setupWiz.details.subtitle "응용프로그램 설정 변경">
+<!ENTITY smaug.keyMan.uploadToServer.label "공개키 업로드">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "전자 메일 주소만 입력바라며, 받는 사람의 이름은 입력하지 '마십시오' 예를 들어, 'Some Name &lt;some.name@address.net&gt;'은 잘못된 것입니다.">
+<!ENTITY smaug.setupWiz.details.title "설정">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "H">
+<!ENTITY smaug.email.label "전자 메일">
+<!ENTITY smaug.attachkey.label "공개키 첨부 ...">
+<!ENTITY smaug.not.label "안">
+<!ENTITY smaug.keyExpiry.label "만료">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "이름">
+<!ENTITY smaug.keyMan.manageUid.label "사용자 ID 관리">
+<!ENTITY smaug.defaultEncryption.label "기본으로 메시지 암호화">
+<!ENTITY smaug.never.label "하지 않음">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "키 생성">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "P">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "정확히">
+<!ENTITY smaug.searchRule.label "다음 전자 메일 주소를 포함하고있는 규칙을 보기:">

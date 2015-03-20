@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Patrick Brunschwig.
+ * Portions created by Patrick Brunschwig <patrick@enigmail.net> are
+ * Copyright (C) 2005 Patrick Brunschwig. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % smgMailDTD SYSTEM "chrome://smaug/locale/smaug.dtd" >
+%smgMailDTD;
+]>
+
+<window id="smaugCardDetailsDlg"
+        title="&smaug.cardDetails.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        buttons="accept"
+        windowtype="smaug:cardDetails"
+        onload="onLoad();">
+
+
+  <script type="application/x-javascript" src="chrome://smaug/content/smaugCardDetails.js"/>
+
+  <broadcasterset>
+    <broadcaster id="bcEditMode" readonly="true"/>
+    <broadcaster id="bcEnableMode" disabled="true"/>
+  </broadcasterset>
+
+  <menubar id="mainmenu" grippyhidden="true">
+    <menu label="&smaug.keyMan.fileMenu.label;"
+          accesskey="&smaug.keyMan.fileMenu.accesskey;">
+      <menupopup>
+        <menuitem label="&smaug.keyMan.close.label;"
+                  accesskey="&smaug.keyMan.close.accesskey;"
+                  key="key_closeWin"
+                  oncommand="window.close()"/>
+      </menupopup>
+    </menu>
+
+    <menu id="cardMenu"
+          label="&smaug.cardDetails.cardMenu.label;"
+          accesskey="&smaug.cardDetails.cardMenu.accesskey;">
+      <menupopup>
+       <menuitem id="editData"
+              label="&smaug.cardDetails.editData.label;"
+              accesskey="&smaug.cardDetails.editData.accesskey;"
+              oncommand="doEditData()"/>
+        <menuitem label="&smaug.cardDetails.genCardKey.label;"
+                  id="genCardKey"
+                  accesskey="&smaug.cardDetails.genCardKey.accesskey;"
+                  oncommand="engmailGenerateCardKey()"/>
+        <menuitem label="&smaug.cardDetails.adminPin.label;"
+                  id="adminPin"
+                  accesskey="&smaug.cardDetails.adminPin.accesskey;"
+                  oncommand="smaugAdminPin()"/>
+      </menupopup>
+    </menu>
+  </menubar>
+
+  <vbox orient="vertical">
+    <grid>
+      <columns>
+        <column/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row align="center">
+          <label value="&smaug.cardDetails.vendor.label;" control="card_vendor"/>
+          <textbox readonly="true" id="card_vendor" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.serial.label;" control="card_serial"/>
+          <textbox readonly="true" id="card_serial" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.name.label;" id="card_namelabel"/>
+          <hbox>
+            <textbox observes="bcEditMode" id="card_firstname" value="" aria-labelledby="card_namelabel"/>
+            <textbox observes="bcEditMode" id="card_name" value="" aria-labelledby="card_namelabel"/>
+          </hbox>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.lang.label;" control="card_lang"/>
+          <textbox observes="bcEditMode" id="card_lang" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.sex.label;" control="card_sex"/>
+          <radiogroup id="card_sex">
+            <hbox>
+              <radio id="card_sex_m"
+                    value="m"
+                    observes="bcEnableMode"
+                    label="&smaug.cardDetails.male.label;"/>
+              <radio id="card_sex_f"
+                    value="f"
+                    observes="bcEnableMode"
+                    label="&smaug.cardDetails.female.label;"/>
+            </hbox>
+          </radiogroup>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.url.label;" control="card_url"/>
+          <textbox observes="bcEditMode" id="card_url" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.login.label;" control="card_login"/>
+          <textbox observes="bcEditMode" id="card_login" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.forcepin.label;" control="card_forcepin"/>
+          <radiogroup id="card_forcepin">
+            <hbox>
+              <radio id="card_forcepin_0"
+                    value="0"
+                    observes="bcEnableMode"
+                    label="&smaug.cardDetails.no.label;"/>
+              <radio id="card_forcepin_1"
+                    value="1"
+                    observes="bcEnableMode"
+                    label="&smaug.cardDetails.yes.label;"/>
+            </hbox>
+          </radiogroup>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.maxpinlen.label;" control="card_maxpinlen"/>
+          <textbox readonly="true" id="card_maxpinlen" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.pinretry.label;" control="card_pinretry"/>
+          <textbox readonly="true" id="card_pinretry" value=""/>
+        </row>
+        <row align="center">
+          <label value="&smaug.cardDetails.sigcount.label;" control="card_sigcount"/>
+          <textbox readonly="true" id="card_sigcount" value=""/>
+        </row>
+        <row>
+          <label value="&smaug.cardDetails.sigKey.label;" control="card_key_fpr_1"/>
+          <vbox>
+            <textbox readonly="true" size="55" id="card_key_fpr_1" value=""/>
+            <hbox align="center">
+              <label value="&smaug.cardDetails.keyCreated.label;" control="card_key_created_1"/>
+              <textbox readonly="true" id="card_key_created_1" value=""/>
+            </hbox>
+          </vbox>
+        </row>
+        <row>
+          <label value="&smaug.cardDetails.encKey.label;" control="card_key_fpr_2"/>
+          <vbox>
+            <textbox readonly="true" id="card_key_fpr_2" value=""/>
+            <hbox align="center">
+              <label value="&smaug.cardDetails.keyCreated.label;" control="card_key_created_2"/>
+              <textbox readonly="true" id="card_key_created_2" value=""/>
+            </hbox>
+          </vbox>
+        </row>
+        <row>
+          <label value="&smaug.cardDetails.authKey.label;" control="card_key_fpr_3"/>
+          <vbox>
+            <textbox readonly="true" id="card_key_fpr_3" value=""/>
+            <hbox align="center">
+              <label value="&smaug.cardDetails.keyCreated.label;" control="card_key_created_3"/>
+              <textbox readonly="true" id="card_key_created_3" value=""/>
+            </hbox>
+          </vbox>
+        </row>
+      </rows>
+    </grid>
+
+  </vbox>
+
+  <vbox align="end">
+    <hbox>
+      <button id="saveChanges"
+              label="&smaug.cardDetails.save.label;"
+              oncommand="doSaveChanges()"
+              observes="bcEnableMode"/>
+      <button id="reset"
+              label="&smaug.cardDetails.reset.label;"
+              oncommand="doReset()"
+              observes="bcEnableMode"/>
+    </hbox>
+  </vbox>
+
+</window>
+

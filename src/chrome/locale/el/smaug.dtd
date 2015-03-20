@@ -1,0 +1,624 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Εγκυρότητα κλειδιού">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Τύπος υπογρ.">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Αλλάξτε τις ρυθμίσεις αλληλογραφίας σας ώστε το Smaug να λειτουργεί πιο αξιόπιστα">
+<!ENTITY smaug.pgpAccountSettings.accesskey "υ">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Καθολική κρυπτογράφηση/υπογραφή του μηνύματος και αποστολή του με χρήση PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Ναι, θα ήθελα να με βοηθήσει o Mάγος">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Εμπιστοσύνη ιδιοκτήτη">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Χρήση της επιλεγμένης μεθόδου για όλες τις μελλοντικές επισυνάψεις">
+<!ENTITY smaug.ctxImportKey.label "Εισαγωγή κλειδιού OpenPGP">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Απενεργοποίηση ρευστού κειμένου - flowed text (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Τι θέλετε να κάνετε;">
+<!ENTITY smaug.addToRule.title "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "Ε">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Αποστολή δημόσιων κλειδιών σε εξυπηρετητή κλειδιών">
+<!ENTITY smaug.about.label "Σχετικά με το Smaug">
+<!ENTITY smaug.keyGen.months.label "μήνες">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Ορίστε τα αρχεία προς εισαγωγή">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "Κ">
+<!ENTITY smaug.ctxVerifyAtt.label "Επαλήθευση υπογραφής">
+<!ENTITY smaug.progress.label "Πρόοδος">
+<!ENTITY smaug.adminSmartCard.accesskey "ι">
+<!ENTITY smaug.debugMenu.accesskey "α">
+<!ENTITY smaug.sending.label "Ρυθμίσεις">
+<!ENTITY smaug.clearSearch.accesskey "α">
+<!ENTITY smaug.keyPassphrase.label "Φράση πρόσβασης">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "Αλλαγή PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Αναζήτηση για:">
+<!ENTITY smaug.keyMan.importFromFile.label "Εισαγωγή κλειδιών από αρχείο">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Υπογραφή κλειδιού">
+<!ENTITY smaug.revealAttachments.button "Αποκάλυψη">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Ναι, θέλω να υπογράφονται όλα τα μηνύματά μου">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Ανάκληση">
+<!ENTITY smaug.cancelKey.tooltip "Ακύρωση της δημιουργίας κλειδιού">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Θέλετε να χρησιμοποιήσετε το Μάγο τώρα;">
+<!ENTITY smaug.importMissingKeys.tooltip "Προσπάθεια εισαγωγής των κλειδιών που λείπουν από έναν εξυπηρετητή κλειδιών">
+<!ENTITY smaug.keyTrust.dontKnow.label "Δε γνωρίζω">
+<!ENTITY smaug.cardPin.newAdminPin.label "Νέο PIN διαχειριστή">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Εμφάνιση ID φωτογραφίας">
+<!ENTITY smaug.keyDetails.expiry.label "Λήξη">
+<!ENTITY smaug.keyMan.keyType.label "Τύπος">
+<!ENTITY smaug.created.label "Δημιουργήθηκε">
+<!ENTITY smaug.importpublickey.accesskey "ι">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Απενεργοποίηση φόρτωσης τμημάτων IMAP κατ' απαίτηση">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel "Ο εγκαταστάτης αρχίζει. Παρακαλώ ακολουθήστε τα βήματά του.">
+<!ENTITY smaug.keySel.label "Επιλογή κλειδιού">
+<!ENTITY smaug.sendPGPMime.label "Χρήση PGP/MIME για αυτό το μήνυμα">
+<!ENTITY smaug.savedecrypted.label "Αποθήκευση αποκρυπτογραφημένου μηνύματος">
+<!ENTITY smaug.userSelectionList.label "Επιλογή κλειδιού Smaug">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Έκανα έναν τυπικό έλεγχο">
+<!ENTITY smaug.edit.label "Τροποποίηση">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Δημιουργία">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Αλλαγή της δομής του κειμένου ώστε να παραμείνει ακέραια η υπογραφή.">
+<!ENTITY smaug.decryptverify.label "Αποκρυπτογράφηση/Επαλήθευση">
+<!ENTITY smaug.encDlgEncrypt.accesskey "Κ">
+<!ENTITY smaug.prefs.label "Προτιμήσεις">
+<!ENTITY smaug.keyMan.changePwd.label "Αλλαγή φράσης πρόσβασης">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "π">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "Ε">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Το κλειδί λήγει σε">
+<!ENTITY smaug.encryption.label "Κρυπτογράφηση">
+<!ENTITY smaug.keyTrust.fullTrust.label "Το εμπιστεύομαι πλήρως">
+<!ENTITY smaug.addUidDlg.name.label "Όνομα">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "τελειώνει με">
+<!ENTITY smaug.pgpKeys.label "Κλειδί(ά) OpenPGP">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Αποστολή του ID του κλειδιού OpenPGP">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "π">
+<!ENTITY smaug.keyGen.keySize.label "Μέγεθος κλειδιού">
+<!ENTITY smaug.basicUser.tooltip "Πατήστε το αν δε θέλετε να εμφανίζονται τα μενού και οι επιλογές για προχωρημένους χρήστες.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Αυτός ο Μάγος μπορεί να κάνει αλλαγές στις ρυθμίσεις αλληλογραφίας σας ώστε να μην παρουσιαστεί κάποιο πρόβλημα κατά την υπογραφή και κρυπτογράφηση μηνυμάτων στο μηχάνημά σας. Αυτές οι αλλαγές είναι κυρίως τεχνικής φύσης, αλλά ένα σημαντικό πράγμα που πρέπει να γνωρίζετε είναι ότι η σύνταξη των μηνυμάτων θα γίνεται εξ ορισμού σε απλό κείμενο.">
+<!ENTITY smaug.cardDetails.male.label "Άντρας">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "Υ">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "ξ">
+<!ENTITY smaug.singleRcptSettings.desc "(Σημείωση: σε περίπτωση σύγκρουσης, το 'Ποτέ' υπερισχύει του 'Πάντα')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Αρχείο ιδιωτικού κλειδιού">
+<!ENTITY smaug.pgpSecurityInfo.label "Πληροφορίες ασφαλείας Smaug...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Θα πρέπει να το ΑΠΕΝΕΡΓΟΠΟΙΗΣΕΤΕ αν λαμβάνετε μηνύματα PGP/MIME σε φακέλους IMAP.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Ορισμός εμπιστοσύνης του αποστολέα του κλειδιού...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Υπογραφές για το κλειδί:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Υπογραφή κλειδιού">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>ΣΗΜΕΙΩΣΗ: Η δημιουργία του κλειδιού μπορεί να διαρκέσει αρκετά λεπτά. </a> Μην τερματίσετε την εφαρμογή κατά τη διάρκεια της δημιουργίας του κλειδιού. Θα ειδοποιηθείτε όταν ολοκληρωθεί η δημιουργία του κλειδιού.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Επιπλέον ID χρήστη">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Προσθήκη εικόνας">
+<!ENTITY smaug.cardDetails.female.label "Γυναίκα">
+<!ENTITY smaug.sendPGPMime.accesskey "M">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Εισαγωγή κλειδιών από το πρόχειρο">
+<!ENTITY smaug.setDefaultsFor.label "Εξ ορισμού για...">
+<!ENTITY smaug.changePasswd.title "Αλλαγή της φράσης πρόσβασης OpenPGP">
+<!ENTITY smaug.keyMan.viewSig.label "Υπογραφές">
+<!ENTITY smaug.autoKeyRetrieve.label "Αυτόματη λήψη κλειδιών για επαλήθευση υπογραφής">
+<!ENTITY smaug.matchBegin.label "αρχίζει με">
+<!ENTITY smaug.selKeysButton.label "Επιλογή κλειδιού(ών)...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Αποστολή κεφαλίδας 'OpenPGP'">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Επανάληψη του νέου PIN">
+<!ENTITY smaug.signedsend.label "Υπογραφή μηνύματος">
+<!ENTITY smaug.cardDetails.lang.label "Γλώσσα">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "Μέγεθος">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Επαναμορφοποίηση υπογεγραμμένου HTML κειμένου πριν την αποστολή">
+<!ENTITY smaug.genCardKey.title "Δημιουργία κλειδιού OpenPGP">
+<!ENTITY smaug.ctxDecryptSave.accesskey "π">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Τρέχον PIN ΔΙΑΧΕΙΡΙΣΤΗ">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "Λήψη GnuPG">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP Πρόγραμμα προβολής εικόνων">
+<!ENTITY smaug.cardPin.newPin.label "Νέο PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Υπογραφή/Κρυπτογράφηση κάθε επισύναψης ξεχωριστά και αποστολή του μηνύματος με χρήση inline-PGP">
+<!ENTITY smaug.moveDown.accesskey "κ">
+<!ENTITY smaug.keyservers.sample "Παράδειγμα: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "α">
+<!ENTITY smaug.userNoPassphrase.tooltip "Ενεργοποιήστε το αν το OpenPGP κλειδί σας δεν προστατεύεται από μια φράση πρόσβασης.">
+<!ENTITY smaug.usePGPMimeAlways.label "Να χρησιμοποιείται PGP/MIME εξ ορισμού">
+<!ENTITY smaug.addPhoto.title "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "Επαναφορά όλων των ρυθμίσεων του Smaug στις προκαθορισμένες τους τιμές.">
+<!ENTITY smaug.cardDetails.editData.label "Επεξεργασία δεδομένων της κάρτας">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "Α">
+<!ENTITY smaug.sendOptionsMenu.accesskey "α">
+<!ENTITY smaug.sKeyDlg.signKey.label "Κλειδί προς υπογραφή:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Θέλετε το Smaug να χρησιμοποιήσει όλες τις ταυτότητες;">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Αποτύπωμα">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Ανανέωση των επιλεγμένων δημόσιων κλειδιών">
+<!ENTITY smaug.delete.label "Διαγραφή">
+<!ENTITY smaug.keyId.label "ID κλειδιού">
+<!ENTITY smaug.moreOptions.label "Περισσότερες επιλογές">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Έκανα πολύ προσεκτικό έλεγχο">
+<!ENTITY smaug.test.label "Δοκιμή">
+<!ENTITY smaug.debug.label "Αποσφαλμάτωση">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Δημιουργία ενός νέου κλειδιού για κρυπτογράφηση και υπογραφή αλληλογραφίας">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "περιέχει">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Εισάγετε τους όρους αναζήτησης στο παραπάνω πεδίο">
+<!ENTITY smaug.cardDetails.encKey.label "Κλειδί κρυπτογράφησης">
+<!ENTITY smaug.noHushMailSupport.tooltip "Χρήση των χαρακτήρων '&lt;' και '&gt;' στις διευθύνσεις email του GnuPG. Απενεργοποίηση αν ο παραλήπτης χρησιμοποιεί κλειδιά Hushmail.">
+<!ENTITY smaug.keyDetails.selAction.label "Επιλογή ενέργειας ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Ορισμός ως κύριο">
+<!ENTITY smaug.setupWiz.accesskey "Μ">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Μάγος ρύθμισης Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Κύριο ID χρήστη">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Προχωρημένες ρυθμίσεις ταυτότητας Smaug">
+<!ENTITY smaug.keyMan.genRevoke.label "Πιστοποιητικό ανάκλησης">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "Α">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Δημιουργία κλειδιού">
+<!ENTITY smaug.savedecrypted.accesskey "π">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Μεγ. μήκος PIN">
+<!ENTITY smaug.decryptbutton.tip "Αποκρυπτογράφηση ή επαλήθευση του μηνύματος με το Smaug">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Όχι">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "δ">
+<!ENTITY smaug.keyGen.keyType.label "Τύπος κλειδιού">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Υπογραφή">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "Εγκατάσταση ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "ID κλειδιού">
+<!ENTITY smaug.keyMan.viewMenu.label "Εμφάνιση">
+<!ENTITY smaug.attachmykey.accesskey "η">
+<!ENTITY smaug.cardDetails.adminPin.label "Αλλαγή PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Δεν μπορέσαμε να βρούμε κλειδί OpenPGP. Παρακαλώ επιλέξτε εάν θέλετε να δημιουργήσετε ένα νέο ζεύγος κλειδιών ή να εισάγετε ένα υπάρχον κλειδί.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Ενεργοποίηση όλων των μηνυμάτων και ερωτημάτων που έχετε απενεργοποιήσει στο παρελθόν.">
+<!ENTITY smaug.msgViewColumn.tooltip "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "Ναι">
+<!ENTITY smaug.sign.label "Υπογραφή">
+<!ENTITY smaug.keyMan.createMail.label "Σύνθεση mail σε Επιλεγμένα Κλειδιά">
+<!ENTITY smaug.changePasswd.currPasswd.label "Τρέχουσα φράση πρόσβασης">
+<!ENTITY smaug.keyManWindow.accesskey "Δ">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Απομνημόνευση της φράσης πρόσβασης για περιορισμένο χρονικό διάστημα.">
+<!ENTITY smaug.generateKey.label "Δημιουργία κλειδιού">
+<!ENTITY smaug.composeOptionsMenu.accesskey "σ">
+<!ENTITY smaug.cardPin.pinRepeat.label "Επανάληψη του νέου PIN">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc "Το Smaug μπορεί να λάβει το GnuPG και να τρέξει το πρόγραμμα εγκατάστασής του. Εάν το θέλετε αυτό, πατήστε στο κουμπί εγκατάστασης.">
+<!ENTITY smaug.cardDetails.editData.accesskey "ξ">
+<!ENTITY smaug.autoDecrypt.accesskey "υ">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Προβολή μή έμπιστων κλειδιών">
+<!ENTITY smaug.generateKey.tooltip "Δημιουργεί ένα νέο κλειδί συμβατό με OpenPGP για κρυπτογράφηση ή/και υπογραφή">
+<!ENTITY smaug.keyserverDlg.label "Επιλογή εξυπηρετητή κλειδιών">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Τοπική υπογραφή (δεν μπορεί να εξαχθεί)">
+<!ENTITY smaug.clearPassphrase.accesskey "κ">
+<!ENTITY smaug.recipientsSelectionOption.label "Πως να επιλέγονται τα κλειδιά;">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Εξυπηρετητής κλειδιών">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Επεξεργασία κανόνων ανά χρήστη">
+<!ENTITY smaug.keyDetails.keyPart.label "Τμήμα Κλειδιού">
+<!ENTITY smaug.copySecurityInfo.label "Αντιγραφή πληροφοριών ασφαλείας Smaug">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Αρχείο">
+<!ENTITY smaug.maxIdleMinutesTail.label "λεπτά αδράνειας">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "ζ">
+<!ENTITY smaug.moveDown.label "Μετακίνηση κάτω">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Σειριακός αριθμός">
+<!ENTITY smaug.ctxDecryptSave.label "Αποκρυπτογράφηση και αποθήκευση ως...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "Δ">
+<!ENTITY smaug.keyManWindow.label "Διαχείριση κλειδιών">
+<!ENTITY smaug.keyTrust.noTrust.label "ΔΕΝ το εμπιστεύομαι">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Θέλω να επιλέξω ένα από τα παρακάτω κλειδιά για την υπογραφή και κρυπτογράφηση της αλληλογραφίας μου:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Επιλογή">
+<!ENTITY smaug.help.label "Βοήθεια">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>ΣΗΜΕΙΩΣΗ: Η δημιουργία του κλειδιού μπορεί να διαρκέσει αρκετά λεπτά. </a> Μην τερματίσετε την εφαρμογή κατά τη διάρκεια της δημιουργίας του κλειδιού. Κατά τη διάρκεια της δημιουργίας του κλειδιού θα ήταν καλό να κάνετε κάποιες εργασίες που χρησιμοποιούν τους πόρους του συστήματος (επεξεργαστή, μνήμη, δίσκο) για να αυξηθεί η εντροπία και να επισπευσθεί η δημιουργία του κλειδιού. Θα ειδοποιηθείτε όταν ολοκληρωθεί η δημιουργία του κλειδιού.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "κ">
+<!ENTITY smaug.securitybutton.tip "Ρυθμίσεις ασφαλείας του Smaug">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Να μη γίνεται σύνταξη μηνυμάτων HTML">
+<!ENTITY smaug.maxIdleMinutesHead.label "Απομνημόνευση της φράσης πρόσβασης για">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Κρυπτογράφηση μηνύματος">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "Τρέχον PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Δε θα απαντήσω">
+<!ENTITY smaug.defineRules.label "Επεξεργασία κανόνων...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "I">
+<!ENTITY smaug.keyMan.showAllKeys.label "Εξ ορισμού εμφάνιση όλων των κλειδιών">
+<!ENTITY smaug.keyMan.title "Διαχείριση κλειδιών Smaug">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "ξ">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Προσθήκη">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Κάντε κλικ για να καθορίσετε την τοποθεσία του GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Επιλογή ταυτοτήτων">
+<!ENTITY smaug.cardDetails.sigKey.label "Κλειδί υπογραφής">
+<!ENTITY smaug.cardDetails.sex.label "Φύλλο">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Αλλαγή PIN διαχειριστή">
+<!ENTITY smaug.keyserver.label "Εξυπηρετητής κλειδιών">
+<!ENTITY smaug.encDlgEncrypt.label "Κρυπτογράφηση μηνύματος">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Ακύρωση του Μάγου">
+<!ENTITY smaug.defaultKeySelOpts.label "Ρυθμίσεις επιλογής κλειδιού...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Επιλογή κλειδιού">
+<!ENTITY smaug.amPrefDesc.label "Η υποστήριξη κρυπτογράφησης και υπογραφής OpenPGP μηνυμάτων παρέχεται από το Smaug. Πρέπει να έχετε εγκατεστημένο το GnuPG (gpg) για να χρησιμοποιήσετε αυτό το χαρακτηριστικό.">
+<!ENTITY smaug.smaugAttachDesc.label "Αυτό το μήνυμα περιέχει επισυνάψεις. Θέλετε να υπογραφούν/κρυπτογραφηθούν;">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Αλλαγή ημερομηνίας λήξης των κλειδιών:">
+<!ENTITY smaug.adminSmartCard.label "Διαχείριση SmartCard...">
+<!ENTITY smaug.importMissingKeys.accesskey "Λ">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Το Smaug είναι τώρα έτοιμο για χρήση..<html:br></html:br><html:br></html:br>Ευχαριστούμε που χρησιμοποιείτε το  Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Όνομα, Επώνυμο">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Διαγραφή">
+<!ENTITY smaug.usersNotFound.label "Οι παραλήπτες δεν είναι έγκυροι, δεν είναι έμπιστοι ή δε βρέθηκαν">
+<!ENTITY smaug.manageUidDlg.addUid.label "Προσθήκη">
+<!ENTITY smaug.keyMan.reload.accesskey "Ε">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "Παρακαλώ ορίστε το GnuPG χρησιμοποιώντας το κουμπί Εύρεση">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Λήψη κλειδιών που λείπουν">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Αρχείο δημόσιου κλειδιού">
+<!ENTITY smaug.decryptbutton.label "Αποκρ/φηση">
+<!ENTITY smaug.signing.label "Υπογραφή">
+<!ENTITY smaug.keygenTitle.label "Δημιουργία κλειδιού OpenPGP">
+<!ENTITY smaug.smgEncryptAttachNone.label "Υπογραφή/Κρυπτογράφηση μόνο του κειμένου, όχι των επισυνάψεων">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Επανάληψη της φράσης πρόσβασης">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "Το '--' είναι το διαχωριστικό της υπογραφής">
+<!ENTITY smaug.cardPin.title "Αλλαγή του PIN της SmartCard">
+<!ENTITY smaug.keyTrust.title "Smaug - Ορισμός εμπιστοσύνης ιδιοκτήτη">
+<!ENTITY smaug.viewconsole.label "Εμφάνιση κονσόλας">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Να μη χρησιμοποιείται το Web of Trust για τον καθορισμό της εγκυρότητας των κλειδιών">
+<!ENTITY smaug.useNonDefaultComment.label "Προσθήκη σχολίων του Smaug στην υπογραφή OpenPGP">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Θέλετε να υπογράφονται τα εξερχόμενα μηνύματά σας;">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Αντιγραφή δημόσιων κλειδιών σε εξυπηρετητή κλειδιών">
+<!ENTITY smaug.about.accesskey "Σ">
+<!ENTITY smaug.mime_parts_on_demand.label "Λήψη των συνημμένων μόνο όταν ανοιχτούν (μόνο IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Δύο παύλες σε μία γραμμή (μόνες τους) ορίζουν ένα τμήμα υπογραφής">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Να μην εμφανιστεί αυτό το μήνυμα ξανά αν δεν είναι δυνατή η κρυπτογράφηση">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "Η εγκατάσταση ολοκληρώθηκε. Παρακαλώ προχωρήστε στην επόμενη σελίδα του εγκαταστάτη για να συνεχίσετε.">
+<!ENTITY smaug.keyMan.revokeKey.label "Ανάκληση κλειδιού">
+<!ENTITY smaug.sKeyDlg.checked.label "Πόσο προσεκτικά ελέγξατε ότι το κλειδί που πρόκειται να υπογράψετε ανήκει πραγματικά στο παραπάνω άτομο;">
+<!ENTITY smaug.keyGen.expiry.title "Λήξη κλειδιού">
+<!ENTITY smaug.undoencryption.accesskey "φ">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Προβολή άκυρων κλειδιών">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Λεπτομέρειες...">
+<!ENTITY smaug.encrypt.label "Κρυπτογράφηση">
+<!ENTITY smaug.cardDetails.login.label "Φόρτωση δεδομένων">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Όχι, θέλω να δημιουργήσω κανόνες ανά χρήστη για τα μηνύματα που θα πρέπει να υπογραφούν">
+<!ENTITY smaug.about.title "Σχετικά με το Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Δημιουργία κανόνα Smaug από τη διεύθυνση...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "φ">
+<!ENTITY smaug.detailsHdrButton.label "Λεπτομέρειες">
+<!ENTITY smaug.keyTrust.trustKey.label "Κλειδί για ορισμό εμπιστοσύνης:">
+<!ENTITY smaug.setupWiz.pgInstall.title "Απαιτείται το GnuPG">
+<!ENTITY smaug.action.label "Ενέργεια">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "ε">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Δημιουργία κλειδιού">
+<!ENTITY smaug.autoKeyRetrieve2.label "από τον ακόλουθο εξυπηρετητή κλειδιών:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Θα πρέπει να δώσετε το δημόσιο κλειδί σας σε οποιονδήποτε θα χρειαστεί να επαληθεύσει την υπογραφή σας, ή να σας στείλει κρυπτογραφημένο μήνυμα. Ταυτόχρονα θα πρέπει να κρατήσετε μυστικό το ιδιωτικό κλειδί σας. Με αυτό μπορείτε να διαβάσετε τα κρυπτογραφημένα μηνύματα που σας στέλνουν και να κρυπτογραφήσετε μηνύματα με το όνομά σας. Επειδή είναι ιδιωτικό, προστατεύεται με μια φράση πρόσβασης...">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Προσθήκη ID χρήστη">
+<!ENTITY smaug.keyDetails.keyType.label "Τύπος">
+<!ENTITY smaug.keyGen.years.label "χρόνια">
+<!ENTITY smaug.edit.accesskey "Τ">
+<!ENTITY smaug.keyExpiry.title "Smaug - Αλλαγή ημ/νίας λήξης">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Ρυθμίσεις παραληπτών">
+<!ENTITY smaug.setupWiz.pgSign.desc "Το Smaug σας επιτρέπει να υπογράφετε ψηφιακά τα μηνύματά σας. Αυτή είναι η ηλεκτρονική                                                              εκδοχή της υπογραφής ενός γράμματος, και με αυτόν τον τρόπο οι παραλήπτες των μηνυμάτων σας                                                           μπορούν να είναι σίγουροι ότι αυτά τα στείλατε πραγματικά εσείς. Είναι πολύ καλή πρακτική                                                          να υπογράφετε όλα τα εξερχόμενα μηνύματά σας.    ">
+<!ENTITY smaug.cardDetails.sigcount.label "Μετρητής υπογραφής">
+<!ENTITY smaug.addToRule.useRuleButton.label "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "Υπογραφή μηνύματος">
+<!ENTITY smaug.keyGen.noExpiry.label "Το κλειδί δε λήγει ποτέ">
+<!ENTITY smaug.keyPassphraseRepeat.label "Φράση πρόσβασης (επανάληψη)">
+<!ENTITY smaug.searchForKey.label "Αναζήτηση για κλειδί">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Οι ακόλουθες ρυθμίσεις τροποποιήθηκαν από αυτόν το Μάγο:">
+<!ENTITY smaug.revealAttachmentsButton.label "Τα ονόματα των επισυναπτόμενων αρχείων είναι κρυφά. Παρακαλώ πατήστε το κουμπί «Αποκάλυψη» για να δείτε τα ονόματα.">
+<!ENTITY smaug.always.label "Πάντα">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "Α">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Εξαγωγή κλειδιών σε αρχείο">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "σ">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Αντιγραφή δημόσιων κλειδιών στο πρόχειρο">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "O">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "Ι">
+<!ENTITY smaug.keyDetails.calcTrust.label "Εγκυρότητα κλειδιού">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "Επιλογές OpenPGP">
+<!ENTITY smaug.progressText.label "Πρόοδος:">
+<!ENTITY smaug.sepratationDesc.label "(Χωρίστε τις διευθύνσεις με κενό)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Θέλω το Smaug να χρησιμοποιήσει μόνο τις ακόλουθες ταυτότητες:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Αφαίρεση του κουμπιού S/MIME από το παράθυρο σύνταξης μηνυμάτων">
+<!ENTITY smaug.keyMan.changeExpiry.label "Αλλαγή Ημερομηνίας Λήξης">
+<!ENTITY smaug.keyMan.setTrust.label "Ορισμός εμπιστοσύνης ιδιοκτήτη">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Προβολή κλειδιών από άλλα άτομα">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Αυτός ο Μάγος θα σας βοηθήσει να αρχίσετε να χρησιμοποιείτε το Smaug άμεσα. Θα σας κάνει                                                             κάποιες ερωτήσεις για να κάνει πλήρη ρύθμιση της εφαρμογής.    ">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "μία από τις παραπάνω διευθύνσεις">
+<!ENTITY smaug.keyMan.reload.label "Επαναφόρτωση λανθάνουσας μνήμης κλειδιών">
+<!ENTITY smaug.viewconsole.accesskey "μ">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "μ">
+<!ENTITY smaug.keyNoPassphrase.label "Χωρίς φράση πρόσβασης">
+<!ENTITY smaug.amPrefSelectKey.label "Επιλογή κλειδιού...">
+<!ENTITY smaug.moveUp.label "Μετακίνηση πάνω">
+<!ENTITY smaug.cardDetails.yes.label "Ναι">
+<!ENTITY smaug.testemail.label "Δοκιμαστικό μήνυμα">
+<!ENTITY smaug.composeOptionsMenu.label "Προκαθορισμένες επιλογές σύνταξης">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label "Δημιουργία νέου κανόνα">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Σχεδόν τελειώσατε! Αν κάνετε κλικ στο κουμπί 'Επόμενο', ο Μάγος θα εκτελέσει τις ακόλουθες ενέργειες:">
+<!ENTITY smaug.clearSearch.label "Καθαρισμός">
+<!ENTITY smaug.signedsend.key "Υ">
+<!ENTITY smaug.keyMan.delKey.label "Διαγραφή κλειδιού">
+<!ENTITY smaug.keyMan.viewPhoto.label "ID φωτογραφίας">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "Δ">
+<!ENTITY smaug.viewdebuglog.label "Εμφάνιση αρχείου καταγραφής">
+<!ENTITY smaug.manageUidDlg.title "Αλλαγή του κύριου ID χρήστη">
+<!ENTITY smaug.useKeys.label "Χρήση των ακόλουθων κλειδιών OpenPGP:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Χρήση κωδικοποίησης 8-bit για την αποστολή μηνυμάτων">
+<!ENTITY smaug.sendersKeyMenu.accesskey "Κ">
+<!ENTITY smaug.keyMan.sign.accesskey "Υ">
+<!ENTITY smaug.trustSenderKey.label "Ορισμός εμπιστοσύνης ιδιοκτήτη...">
+<!ENTITY smaug.delete.accesskey "Δ">
+<!ENTITY smaug.encryptedsend.accesskey "Κ">
+<!ENTITY smaug.encryptedsend.key "Κ">
+<!ENTITY smaug.keyMan.changePwd.accesskey "λ">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Παρακαλώ περιμένετε όσο φορτώνονται τα κλειδιά...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Κανένα κλειδί δεν ταιριάζει στους όρους αναζήτησης">
+<!ENTITY smaug.importpublickey.label "Εισαγωγή δημόσιου κλειδιού">
+<!ENTITY smaug.matchDescStart.label "Εφαρμογή κανόνα αν ο παραλήπτης">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Όχι, ευχαριστώ. Προτιμώ να κάνω τις ρυθμίσεις χειροκίνητα">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Πατήστε το αν θέλετε να δείτε μενού και επιλογές για προχωρημένους χρήστες.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Εμπιστοσύνη ιδιοκτήτη">
+<!ENTITY smaug.cardDetails.closeWindow.label "Κλείσιμο">
+<!ENTITY smaug.keyTrust.trustLevel.label "Πόσο εμπιστεύεστε αυτό το κλειδί;">
+<!ENTITY smaug.cardDetails.title "Λεπτομέρειες OpenPGP SmartCard">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Αναζήτηση για κλειδιά">
+<!ENTITY smaug.amPrefUseFromAddr.label "Χρήση των διευθύνσεων αλληλογραφίας αυτής της ταυτότητας για τον ορισμό κλειδιού OpenPGP">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Καθορίστε επιλογές που θα χρησιμοποιηθούν από το GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Κλείσιμο παραθύρου">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "δ">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Ψηφιακή υπογραφή των εξερχομένων μηνυμάτων σας">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Εύρεση κλειδιών όλων των επαφών">
+<!ENTITY smaug.amPrefEnablePgp.label "Ενεργοποίηση υποστήριξης OpenPGP (Smaug) για αυτήν την ταυτότητα">
+<!ENTITY smaug.keyMan.exportToFile.label "Εξαγωγή κλειδιών σε αρχείο">
+<!ENTITY smaug.cardPin.unblockPin.label "Επανενεργοποίηση PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Επεξεργασία">
+<!ENTITY smaug.encDlgPgpMime.accesskey "Χ">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Επιλέξτε τους λογαριασμούς ή τις ταυτότητες που θα χρησιμοποιεί το Smaug">
+<!ENTITY smaug.useGpgAgent.tooltip "Χρήση του gpg-agent (περιλαμβάνεται στο GnuPG 2) για την είσοδο όλων των φράσεων πρόσβασης">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Θέλετε να αλλάξουν μερικές από τις προκαθορισμένες σας ρυθμίσεις ώστε το Smaug να λειτουργεί καλύτερα στο μηχάνημά σας;">
+<!ENTITY smaug.cardDetails.forcepin.label "Εξαναγκασμός υπογραφής PIN">
+<!ENTITY smaug.rulesEditor.label "Smaug - Επεξεργασία κανόνων ανά παραλήπτη">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Βρέθηκαν κλειδιά - Επιλέξτε ποια θα εισαχθούν">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "I">
+<!ENTITY smaug.resetPrefsButton.label "Μηδενισμός">
+<!ENTITY smaug.valid.label "Έγκυρο">
+<!ENTITY smaug.keyUserId.label "Λογαριασμός / ID χρήστη">
+<!ENTITY smaug.cancelKey.label "Ακύρωση">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Θέλω να δημιουργήσω ένα νέο ζεύγος κλειδιών για την υπογραφή και κρυπτογράφηση της αλληλογραφίας μου">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "Βρέθηκε έγκυρη εγκατάσταση GnuPG">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Παράβλεψη των κανόνων ανά χρήστη">
+<!ENTITY smaug.basic.label "Βασικές">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "η">
+<!ENTITY smaug.setupWiz.pgComplete.title "Ευχαριστούμε">
+<!ENTITY smaug.displayKeyProperties.label "Προβολή ιδιωτήτων κλειδιού">
+<!ENTITY smaug.agentAdditionalParam.label "Επιπρόσθετες παράμετροι για το GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Το κλειδί δημιουργείται τώρα">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Προσθήκη σε κανόνα παραλήπτη">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Για προχωρημένους">
+<!ENTITY smaug.nextRule.label "Συνέχιση με τον επόμενο κανόνα για τη διεύθυνση">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Κλειδί για υπογραφή:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Θέλω να εισάγω υπάρχοντα δημόσια και ιδιωτικά κλειδιά">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Παρακαλώ επαληθεύστε τη φράση πρόσβασης πληκτρολογώντας την ξανά">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Αποτύπωμα:">
+<!ENTITY smaug.keyMan.keyProps.label "Ιδιότητες κλειδιού">
+<!ENTITY smaug.keyMan.setTrust.accesskey "Ο">
+<!ENTITY smaug.keyMan.editMenu.accesskey "Ε">
+<!ENTITY smaug.attachmykey.label "Επισύναψη του δημόσιου κλειδιού μου">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "Δημιουργήθηκε">
+<!ENTITY smaug.cardDetails.pinretry.label "Μετρητής προσπάθειας PIN">
+<!ENTITY smaug.ctxDecryptOpen.label "Αποκρυπτογράφηση και άνοιγμα">
+<!ENTITY smaug.setupWiz.label "Μάγος ρύθμισης">
+<!ENTITY smaug.genCardKey.backupKey.label "Αποθήκευση αντιγράφου του κλειδιού εκτός κάρτας">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Χρήση του κλειδιού για την επιλεγμένη ταυτότητα">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Ιδιότητες κλειδιού">
+<!ENTITY smaug.amPrefUseKeyId.label "Χρήση καθορισμένου ID κλειδιού OpenPGP (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Αποστολή δημόσιων κλειδιών με μήνυμα αλληλογραφίας">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Βασικές ρυθμίσεις">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Για προχωρημένους ...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Το εμπιστεύομαι απόλυτα">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Αποτύπωμα">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "Φ">
+<!ENTITY smaug.setupWiz.pgInstall.desc "Για να χρησιμοποιήσετε το Smaug, απαιτείται να είναι εγκατεστημένο το GnuPG για τις λειτουργίες κρυπτογράφησης. Το GnuPG δεν βρέθηκε.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "Εμφάνιση ID φωτογραφίας OpenPGP">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Χρήση του gpg-agent για τις φράσεις πρόσβασης">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Δημιουργία κανόνων ανά χρήστη">
+<!ENTITY smaug.sendOptionsMenu.label "Επιλογές αποστολής...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Δεν μπορέσαμε να βρούμε κλειδί OpenPGP">
+<!ENTITY smaug.keyMan.stopTransfer.label "Σταμάτημα μεταφοράς">
+<!ENTITY smaug.refreshKeys.label "Ανανέωση λίστας κλειδιών">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "Εύρεση ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Κρυπτογράφηση/υπογραφή απαντήσεων σε κρυπτογραφημένα/υπογεγραμμένα μηνήματα">
+<!ENTITY smaug.addPhoto.question.label "Θέλετε να προσθέσετε την παρακάτω εικόνα στο παρακάτω κλειδί;">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Όταν είναι δυνατό, να κρυπτογραφούνται/υπογράφονται οι απαντήσεις σε κρυπτογραφημένα ή υπογεγραμμένα emails">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Ανανέωση όλων των δημόσιων κλειδιών">
+<!ENTITY smaug.cardDetails.authKey.label "Κλειδί πιστοποίησης">
+<!ENTITY smaug.viewKeySigDlg.title "Λίστα υπογραφών">
+<!ENTITY smaug.cardDetails.vendor.label "Κατασκευαστής">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Αποστολή URL για λήψη του κλειδιού:">
+<!ENTITY smaug.encryptionDlg.label "Ρυθμίσεις κρυπτογράφησης &amp; υπογραφής Smaug">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "Α">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "Ναι, αν επιλεγεί στη σύνταξη μηνύματος">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Το εμπιστεύομαι οριακά">
+<!ENTITY smaug.prefs.pathsTitle.label "Αρχεία και κατάλογοι">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Σημείωση:</a> Το Smaug θα επαληθεύει πάντα τις υπογραφές των                                                             μηνυμάτων όλων των λογαριασμών και ταυτοτήτων, ανεξάρτητα αν είναι ενεργοποιημένο για αυτές ή                                                          όχι">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "π">
+<!ENTITY smaug.addUidDlg.comment.label "Σχόλιο (προαιρετικό)">
+<!ENTITY smaug.setupWiz.no "Όχι, ευχαριστώ">
+<!ENTITY smaug.alwaysTrustSend.label "Να θεωρούνται έμπιστα όλα τα κλειδιά">
+<!ENTITY smaug.keyMan.viewSig.accesskey "Υ">
+<!ENTITY smaug.changePasswd.newPasswd.label "Νέα φράση πρόσβασης">
+<!ENTITY smaug.undoencryption.label "Αφαίρεση κρυπτογράφησης">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Δημιουργία &amp; αποθήκευση πιστοποιητικού ανάκλησης">
+<!ENTITY smaug.cardDetails.reset.label "Μηδενισμός">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Εμφάνιση υπογραφών">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Επιλογές υπογραφής/κρυπτογράφησης...">
+<!ENTITY smaug.reload.label "Επαναφόρτωση μηνύματος">
+<!ENTITY smaug.browse.label "Αναζήτηση...">
+<!ENTITY smaug.passwordSettings.label "Ρυθμίσεις φράσης πρόσβασης">
+<!ENTITY smaug.keyDetails.algorithm.label "Αλγόριθμος">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "ν">
+<!ENTITY smaug.cardDetails.keyCreated.label "Δημιουργήθηκε">
+<!ENTITY smaug.autoDecrypt.label "Αυτόματη αποκρυπτογράφηση/επαλήθευση μηνυμάτων">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Εισαγωγή κλειδιών OpenPGP">
+<!ENTITY smaug.keyservers.label "Ορίστε τους εξυπηρετητές κλειδιών σας">
+<!ENTITY smaug.encDlgIgnoreRules.label "Αγνόηση κανόνων παραλήπτη">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Διαθέσιμα ID χρηστών:">
+<!ENTITY smaug.add.accesskey "Π">
+<!ENTITY smaug.refreshKeys.accesskey "ν">
+<!ENTITY smaug.signSenderKey.label "Υπογραφή κλειδιού...">
+<!ENTITY smaug.searchKeyDlg.label "Λήψη κλειδιών OpenPGP">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "Δ">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Επιλέξατε να χρησιμοποιήσετε το Μάγο για τη ρύθμιση του Smaug.                                                             <html:br></html:br><html:br></html:br>Ευχαριστούμε που χρησιμοποιείτε το Smaug.">
+<!ENTITY smaug.signedsend.accesskey "Υ">
+<!ENTITY smaug.keyGen.console.label "Κονσόλα δημιουργίας κλειδιού">
+<!ENTITY smaug.signSenderKeyPopup.label "Υπογραφή του κλειδιού του αποστολέα...">
+<!ENTITY smaug.cardDetails.url.label "URL του δημόσιου κλειδιού">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Οι ρυθμίσεις του Smaug σχετίζονται με λογαριασμούς και ταυτότητες. Το Smaug θα ρυθμιστεί                                                           ώστε να χρησιμοποιεί όλους τους λογαριασμούς σας και τις ταυτότητές σας. Αν δεν το θέλετε αυτό,                                                        επιλέξτε παρακάτω τους λογαριασμούς ή τις ταυτότητες τις οποίες θέλετε να χρησιμοποιήσει.">
+<!ENTITY smaug.resetRememberedValues.label "Επαναφορά προειδοποιήσεων">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Δεν βρέθηκε κλειδί OpenPGP">
+<!ENTITY smaug.cardDetails.save.label "Αποθήκευση">
+<!ENTITY smaug.prefs.overrideGpg.label "Χρήση του">
+<!ENTITY smaug.logdirectory.label "Κατάλογος καταγραφής">
+<!ENTITY smaug.setupWiz.pgSummary.title "Περίληψη">
+<!ENTITY smaug.ruleEmail.label "Ορισμός κανόνων Smaug για">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Επιβεβαιώστε ότι ο Μάγος δε θα αποθηκεύσει τώρα αυτές τις αλλαγές">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Εμφάνιση του σώματος του μηνύματος ως απλό κείμενο">
+<!ENTITY smaug.debugMenu.label "Επιλογές αποσφαλμάτωσης">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Ανανέωση δημόσιων κλειδιών από εξυπηρετητή κλειδιών">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Δημιουργία ενός κλειδιού για την υπογραφή και κρυπτογράφηση μηνυμάτων">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Να μη ζητείται καμία φράση πρόσβασης">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Κλειδί που θα αλλαχτεί:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Προκαθορισμένες επιλογές σύνταξης μηνύματος">
+<!ENTITY smaug.sendersKeyMenu.label "Κλειδί αποστολέα">
+<!ENTITY smaug.preferences.label "Προτιμήσεις του Smaug">
+<!ENTITY smaug.clearPassphrase.label "Εκκαθάριση αποθηκευμένης φράσης πρόσβασης">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Πρέπει να έχετε ένα 'ζεύγος κλειδιών' για να υπογράφετε μηνύματα που είναι κρυπτογραφημένα. Το ζεύγος κλειδιών έχει ένα δημόσιο και ένα ιδιωτικό κλειδί.">
+<!ENTITY smaug.selKeysButton.accesskey "Ε">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Διαπιστώθηκε ότι έχετε ήδη ένα κλειδί OpenPGP.  Μπορείτε να χρησιμοποιήσετε ένα από τα υπάρχοντα κλειδιά σας για υπογραφή, κρυπτογράφηση και αποκρυπτογράφηση αλληλογραφίας, ή να δημιουργήσετε ένα νέο ζεύγος κλειδιών.">
+<!ENTITY smaug.noHushMailSupport.label "Χρήση των '&lt;' και '&gt;' στις διευθύνσεις email">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Παρακαλώ ορίστε τα αρχεία των δημόσιων και ιδιωτικών κλειδιών προς εισαγωγή. Το πεδίο για τα ιδιωτικά κλειδιά μπορεί να είναι κενό αν το πρώτο αρχείο περιέχει ταυτόχρονα δημόσια και ιδιωτικά κλειδιά.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "ημέρες">
+<!ENTITY smaug.disableRules.accesskey "Π">
+<!ENTITY smaug.setupWiz.pgSettings.title "Προτιμήσεις">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "ν">
+<!ENTITY smaug.keyMan.generate.label "Νέο ζεύγος κλειδιών">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Προσάρτηση του δημόσιου κλειδιού μου στα μηνύματα">
+<!ENTITY smaug.encDlgPgpMime.label "Χρήση PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Επιλογή όλων των κλειδιών">
+<!ENTITY smaug.keyComment.label "Σχόλιο">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Δεν το έλεγξα καθόλου">
+<!ENTITY smaug.keyDetails.usage.label "Χρήση">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "ι">
+<!ENTITY smaug.addUidDlg.email.label "Διεύθυνση αλληλογραφίας">
+<!ENTITY smaug.openPgpSecurity.label "Ασφάλεια OpenPGP">
+<!ENTITY smaug.nextAddress.label "Να μη γίνει έλεγχος άλλων κανόνων για τη διεύθυνση">
+<!ENTITY smaug.setupWiz.details.subtitle "Τροποποίηση των ρυθμίσεων της εφαρμογής">
+<!ENTITY smaug.keyMan.uploadToServer.label "Αποστολή δημόσιων κλειδιών">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Συμπληρώστε μόνο διευθύνσεις αλληλογραφίας, όχι τα ονόματα των παραληπτών Π.χ. το 'Κάποιο Όνομα &lt;some.name@address.net&gt;' δεν είναι έγκυρο">
+<!ENTITY smaug.setupWiz.details.title "Ρυθμίσεις">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "Β">
+<!ENTITY smaug.email.label "Διεύθυνση αλληλογραφίας">
+<!ENTITY smaug.attachkey.label "Επισύναψη δημόσιου κλειδιού...">
+<!ENTITY smaug.not.label "δεν">
+<!ENTITY smaug.keyExpiry.label "Λήψη">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "Α">
+<!ENTITY smaug.keyMan.userId.label "Όνομα">
+<!ENTITY smaug.keyMan.manageUid.label "Διαχείριση ID χρηστών">
+<!ENTITY smaug.defaultEncryption.label "Εξ ορισμού κρυπτογράφηση μηνυμάτων">
+<!ENTITY smaug.never.label "Ποτέ">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "Α">
+<!ENTITY smaug.cardDetails.genCardKey.label "Δημιουργία κλειδιού">
+<!ENTITY smaug.editRules.accesskey "ξ">
+<!ENTITY smaug.prefs.accesskey "Π">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "είναι ακριβώς">
+<!ENTITY smaug.searchRule.label "Εμφάνιση κανόνων με διευθύνσεις αλληλογραφίας που περιέχουν:">

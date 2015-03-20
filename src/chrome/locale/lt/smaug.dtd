@@ -1,0 +1,645 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Rakto tinkamumas">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Parašo tipas">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Pakeiskite savo el. pašto nustatymus, kad Smaug dirbtų patikimiau">
+<!ENTITY smaug.pgpAccountSettings.accesskey "k">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "šifruoti/pasirašyti laišką kaip visą ir išsiųsti naudojant PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Taip, norėčiau, kad vedlys padėtų man pradėti">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Pasitikėjimas savininku">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Pasirinktą metodą naudoti visiems būsimiems priedams">
+<!ENTITY smaug.ctxImportKey.label "Importuoti OpenPGP raktą">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Uždrausti judantį tekstą (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Ką norite daryti">
+<!ENTITY smaug.addToRule.title "Pridėti raktą į kiekvienam-gavėjui taisyklę">
+<!ENTITY smaug.reload.accesskey "I">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Įkelti viešus raktus į raktų serverį">
+<!ENTITY smaug.about.label "Apie Smaug">
+<!ENTITY smaug.keyGen.months.label "mėnesių">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Nurodykite failus importavimui">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "U">
+<!ENTITY smaug.ctxVerifyAtt.label "Tikrinti parašą">
+<!ENTITY smaug.progress.label "Progresas">
+<!ENTITY smaug.adminSmartCard.accesskey "T">
+<!ENTITY smaug.debugMenu.accesskey "m">
+<!ENTITY smaug.sending.label "Siuntimas">
+<!ENTITY smaug.clearSearch.accesskey "I">
+<!ENTITY smaug.keyPassphrase.label "Slaptafrazė">
+<!ENTITY smaug.finallySignEncrypted.label "pasirašyti šifruotus laiškus">
+<!ENTITY smaug.cardPin.changePin.label "Keisti PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label "Šifruoti kiekvieną priedą atskirai ir siųsti laišką naudojant inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Ieškoti:">
+<!ENTITY smaug.keyMan.importFromFile.label "Importuoti raktus iš failo">
+<!ENTITY smaug.seeAccountSettings.label "Taipogi pažiūrėkite konkrečius Smaug nustatymus (Paskyrų nustatymai -&gt; OpenPGP nustatymai)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label "Visada">
+<!ENTITY smaug.keyMan.sign.label "Pasirašyti raktą">
+<!ENTITY smaug.revealAttachments.button "Atskleisti">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Taip, noriu pasirašyti visus laiškus">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Atšaukti">
+<!ENTITY smaug.cancelKey.tooltip "Atšaukti rakto generavimą">
+<!ENTITY smaug.finalEncryptDefault.label "Šifravimui naudoti numatytąsias taisykles ir nustatymus">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Ar norite dabar pasinaudoti vedliu?">
+<!ENTITY smaug.importMissingKeys.tooltip "Bandyti importuoti trūkstamus raktus iš raktų serverio">
+<!ENTITY smaug.keyTrust.dontKnow.label "Nežinau">
+<!ENTITY smaug.cardPin.newAdminPin.label "Naujas admin PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Peržiūrėti nuotraukos ID">
+<!ENTITY smaug.keyDetails.expiry.label "Galiojimo laikas">
+<!ENTITY smaug.keyMan.keyType.label "Tipas">
+<!ENTITY smaug.created.label "Sukurtas">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Uždrausti IMAP dalių įkrovimą pagal pareikalavimą">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel "Paleidžiama diegyklė. Sekite GnuPG diegimo vedlį.">
+<!ENTITY smaug.keySel.label "Rakto parinkimas">
+<!ENTITY smaug.sendPGPMime.label "šiam laiškui naudoti PGP/MIME">
+<!ENTITY smaug.savedecrypted.label "Išsaugoti iššifruotą laišką">
+<!ENTITY smaug.userSelectionList.label "Smaug rakto pasirinkimas">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Daugmaž patikrinau">
+<!ENTITY smaug.edit.label "Keisti">
+<!ENTITY smaug.keyMan.createMail.accesskey "u">
+<!ENTITY smaug.keyMan.generateMenu.label "Generuoti">
+<!ENTITY smaug.setupWiz.pgSign.signMsg "Kurį bendrą režimą naudosite laiškų siuntimui?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Pertvarkyti tekstą, užtikrinti jog parašas sveikas.">
+<!ENTITY smaug.decryptverify.label "Iššifruoti/Patikrinti">
+<!ENTITY smaug.encDlgEncrypt.accesskey "f">
+<!ENTITY smaug.prefs.label "Nustatymai">
+<!ENTITY smaug.keyMan.changePwd.label "Keisti slaptafrazę">
+<!ENTITY smaug.finalSignNo.label "Priverstinai nepasirašyti">
+<!ENTITY smaug.keyMan.selectAll.accesskey "v">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey "g">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label "Jei pasikeitė taisyklės atstatyti šifravimo nustatymą">
+<!ENTITY smaug.keyGen.expire.label "Rakto galiojimas baigsis po">
+<!ENTITY smaug.encryption.label "Šifravimui">
+<!ENTITY smaug.keyTrust.fullTrust.label "Pilnai pasitikiu">
+<!ENTITY smaug.addUidDlg.name.label "Vardas">
+<!ENTITY smaug.userSelSendSigned.accesskey "S">
+<!ENTITY smaug.matchEnd.label "Baigiasi">
+<!ENTITY smaug.pgpKeys.label "OpenPGP raktas(-ai)">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Siųsti OpenPGP rakto ID">
+<!ENTITY smaug.assignKeysByRules.label "Pagal kiekvieno gavėjo taisykles">
+<!ENTITY smaug.moveUp.accesskey "A">
+<!ENTITY smaug.keyGen.keySize.label "Rakto dydis">
+<!ENTITY smaug.basicUser.tooltip "Paspauskite jei nenorite matyti meniu ir parinkčių skirtų pažengusiems naudotojams.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Šis vedlys gali pakeisti el. pašto nustatymus ir užtikrinti jog 
+nebus bėdų pasirašant ar šifruojant laiškus. šie nustatymai 
+tai tik techniniai dalykai kurių nepastebėsite, bet 
+vienas svarbus dalykas yra tai jog el. paštas pagal nutylėjimą 
+bus kuriamas kaip paprastas tekstas.">
+<!ENTITY smaug.cardDetails.male.label "Vyras">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label "Šifruoti ir pasirašyti laiško tekstą, bet ne priedus">
+<!ENTITY smaug.encDlgSign.accesskey "s">
+<!ENTITY smaug.assignKeysByRules.tooltip "Priskirti raktus pagal kiekvieno gavėjo taisykles. Priverstinai prašyti sukurti naujas taisykles jei tai vienintelė pasirinktis.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(Pastaba: jei kils nesuderinamumų, bus naudojama „Niekada“, o ne „Visada“)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Privatus rakto failas">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug saugumo informacija...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Prieš siunčiant NEŠIFRUOTĄ laišką rodyti informaciją apie pasirašymą/šifravimą">
+<!ENTITY smaug.afterDefaultsAndRules.label "Po programos numatytųjų nustatymų ir taisyklių:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Jūs turėtumėte išjungti jei gaunate PGP/MIME laiškus į IMAP aplankus.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Nustatyti pasitikėjimą savininku siuntėjo raktui...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Parašai raktui:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Rakto pasirašymas">
+<!ENTITY smaug.confirmBeforeSendingOption.label "Klausti prieš siunčiant">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>PASTABA: Rakto generavimas gali užtrukti kelias minutes.</a> Neuždarykite programos kol generuojamas raktas. Jums bus pranešta kai raktas bus sugeneruotas.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Papildomas naudotojo ID">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label "Priverstinai pasirašyti">
+<!ENTITY smaug.keyMan.addPhoto.label "Pridėti nuotrauką">
+<!ENTITY smaug.cardDetails.female.label "Moteris">
+<!ENTITY smaug.sendPGPMime.accesskey "G">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Importuoti raktus iš iškarpinės">
+<!ENTITY smaug.setDefaultsFor.label "Numatytosios nuostatos skirtos...">
+<!ENTITY smaug.changePasswd.title "Keisti OpenPGP slaptafrazę">
+<!ENTITY smaug.keyMan.viewSig.label "Parašai">
+<!ENTITY smaug.autoKeyRetrieve.label "Automatiškai parsiųsti raktus parašo patikrinimui">
+<!ENTITY smaug.matchBegin.label "Prasideda">
+<!ENTITY smaug.selKeysButton.label "Pasirinkti raktą(-us)...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Siųsti „OpenPGP“ antraštę">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Pakartoti naują PIN">
+<!ENTITY smaug.signedsend.label "Pasirašyti laišką">
+<!ENTITY smaug.cardDetails.lang.label "Kalba">
+<!ENTITY smaug.messengermenu.accesskey "o">
+<!ENTITY smaug.keyDetails.size.label "Dydis">
+<!ENTITY smaug.userSelSendEncrypted.label "Siųsti šifruotą">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Prieš siunčiant pasirašytą, HTML tekstą, per naują laužyti eilutes">
+<!ENTITY smaug.genCardKey.title "Generuoti OpenPGP raktą">
+<!ENTITY smaug.ctxDecryptSave.accesskey "f">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes "Pagal nutylėjimą šifruoti visus mano laiškus, nes man privatumas svarbiausia">
+<!ENTITY smaug.cardPin.currAdmPin.label "Dabartinis Admin PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel "Atsiunčiama GnuPG...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey "P">
+<!ENTITY smaug.photoViewer.title "OpenPGP nuotraukų peržiūros programa">
+<!ENTITY smaug.cardPin.newPin.label "Naujas PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "šifruoti/pasirašyti kiekvieną priedą atskirai ir siųsti laišką naudojant inline PGP">
+<!ENTITY smaug.moveDown.accesskey "e">
+<!ENTITY smaug.keyservers.sample "Pavyzdys: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "f">
+<!ENTITY smaug.userNoPassphrase.tooltip "Aktyvuokite jei OpenPGP raktas neapsaugotas slaptafraze.">
+<!ENTITY smaug.usePGPMimeAlways.label "Pagal nutylėjimą naudoti PGP/MIME">
+<!ENTITY smaug.addPhoto.title "Pridėti nuotrauką prie rakto">
+<!ENTITY smaug.resetPrefs.tooltip "Nustatyti visus Smaug nustatymus į jų numatytąsias reikšmes.">
+<!ENTITY smaug.cardDetails.editData.label "Keisti kortelės duomenis">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "e">
+<!ENTITY smaug.sendOptionsMenu.accesskey "r">
+<!ENTITY smaug.sKeyDlg.signKey.label "Raktas kuris bus pasirašytas:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Ar norite nustatyti Smaug visom tapatybėm?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle "Pasirašyti siunčiamus laiškus">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Piršto atspaudas">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label "Jei nešifruotas">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Atnaujinti pasirinktus viešus raktus">
+<!ENTITY smaug.delete.label "Ištrinti">
+<!ENTITY smaug.keyId.label "Rakto ID">
+<!ENTITY smaug.moreOptions.label "Daugiau pasirinkčių">
+<!ENTITY smaug.keySearch.selectAll.key "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Aš labai atidžiai patikrinau">
+<!ENTITY smaug.test.label "Bandymas">
+<!ENTITY smaug.debug.label "Derinimas">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Sukurti raktą kuriuo bus pasirašomi ir šifruojami laiškai">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "Turi">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Įveskite paieškos kriterijus, langelyje aukščiau">
+<!ENTITY smaug.cardDetails.encKey.label "Šifravimo raktas">
+<!ENTITY smaug.noHushMailSupport.tooltip "Naudoti „&lt;“ ir „&gt;“ simbolius nurodyti el. pašto adresą skirtą GnuPG. Išjungti jei gavėjai turi senus „Hushmail“ raktus.">
+<!ENTITY smaug.keyDetails.selAction.label "Pasirinkite veiksmą..">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Nustatyti pagrindiniu">
+<!ENTITY smaug.setupWiz.accesskey "n">
+<!ENTITY smaug.userSelSendEncrypted.accesskey "i">
+<!ENTITY smaug.setupWiz.title "Smaug nustatymo vedlys">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label "Jei trūksta raktų, rankiniu būdu">
+<!ENTITY smaug.keyDetails.userId.label "Pagrindinis naudotojo ID">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "P">
+<!ENTITY smaug.advancedIdentityDlg.title "Papildomi Smaug tapatybės nustatymai">
+<!ENTITY smaug.keyMan.genRevoke.label "Atšaukimo sertifikatą">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "I">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Sukurti raktą">
+<!ENTITY smaug.savedecrypted.accesskey "I">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Ilgiausias PIN">
+<!ENTITY smaug.decryptbutton.tip "Iššifruoti ar patikrinti laišką naudojant Smaug">
+<!ENTITY smaug.assignKeysByEmailAddr.label "Pagal el. pašto adresą, pagal Raktų tvarkyklę">
+<!ENTITY smaug.cardDetails.no.label "Ne">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "l">
+<!ENTITY smaug.keyGen.keyType.label "Rakto tipas">
+<!ENTITY smaug.autoEncryptDrafts.label "Išsaugant šifruoti juodraščio laiškus">
+<!ENTITY smaug.setupWiz.pgSign.title "Pasirašoma">
+<!ENTITY smaug.encryptionModelManually.label "Rankiniai šifravimo nustatymai">
+<!ENTITY smaug.setupWiz.pgInstall.installButton "Įdiegti...">
+<!ENTITY smaug.expertUserMenus.label "Rodyti ekspertų nustatymus ir meniu">
+<!ENTITY smaug.keyDetails.keyId.label "Rakto ID">
+<!ENTITY smaug.keyMan.viewMenu.label "Rodymas">
+<!ENTITY smaug.attachmykey.accesskey "m">
+<!ENTITY smaug.cardDetails.adminPin.label "Keisti PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Mes neradome jokio OpenPGP rakto. Pasirinkite jei norite 
+sukurti naują raktų porą arba norite importuoti turimą raktą.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Vėl rodyti visus įspėjimo dialogus ir klausimus, kurie anksčiau buvo paslėpti.">
+<!ENTITY smaug.msgViewColumn.tooltip "Rikiuoti pagal OpenPGP būseną">
+<!ENTITY smaug.setupWiz.yes "Taip">
+<!ENTITY smaug.sign.label "Pasirašyti">
+<!ENTITY smaug.keyMan.createMail.label "Sukurti laišką pasirinktiems raktams">
+<!ENTITY smaug.changePasswd.currPasswd.label "Dabartinė slaptafrazė">
+<!ENTITY smaug.keyManWindow.accesskey "R">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Saugoti slaptafrazę atmintyje ribotą laiko tarpą.">
+<!ENTITY smaug.generateKey.label "Generuoti raktą">
+<!ENTITY smaug.composeOptionsMenu.accesskey "t">
+<!ENTITY smaug.cardPin.pinRepeat.label "Pakartokite naują PIN">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc "Smaug galit parsiųsti GnuPG ir paleisti diegyklę.
+Jei norite tai padaryti, paspauskite „diegti“ mygtuką ir parsiųsim bei įdiegsim GnuPG.">
+<!ENTITY smaug.cardDetails.editData.accesskey "K">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Rodyti nepatikimus raktus">
+<!ENTITY smaug.generateKey.tooltip "Generuoti naują OpenPGP patvirtintą raktą šifravimui ar/ir pasirašymui">
+<!ENTITY smaug.keyserverDlg.label "Pasirinkite raktų serverį">
+<!ENTITY smaug.acceptedKeysOption.label "Norint siųsti šifruotai, priimti">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Vietinis parašas (negali būti eksportuotas)">
+<!ENTITY smaug.clearPassphrase.accesskey "I">
+<!ENTITY smaug.recipientsSelectionOption.label "Kaip turėtume pasirinkti raktus?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Raktų serveris">
+<!ENTITY smaug.smgAttachNoneEncrypt.label "Šifruoti laiško tekstą, bet ne priedus">
+<!ENTITY smaug.editRules.label "Keisti kiekvienam-gavėjui taisykles">
+<!ENTITY smaug.keyDetails.keyPart.label "Rakto dalis">
+<!ENTITY smaug.copySecurityInfo.label "Kopijuoti Smaug saugumo informaciją">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "y">
+<!ENTITY smaug.keyMan.fileMenu.label "Failas">
+<!ENTITY smaug.maxIdleMinutesTail.label "neveiklumo minutes">
+<!ENTITY smaug.confirmBeforeSendingNever.label "Niekada">
+<!ENTITY smaug.keyMan.generate.accesskey "r">
+<!ENTITY smaug.moveDown.label "Žemyn">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Išvis nepasirašinėti ir nešifruoti laiškų">
+<!ENTITY smaug.cardDetails.serial.label "Serijinis numeris">
+<!ENTITY smaug.ctxDecryptSave.label "Iššifruoti ir išsaugoti kaip...">
+<!ENTITY smaug.acceptedKeysValid.label "Raktus kuriais aš visiškai pasitikiu">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "Raktų tvarkyklė">
+<!ENTITY smaug.keyTrust.noTrust.label "NEpasitikiu">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Noriu pasirinkti vieną iš žemiau esančių raktų laiškų pasirašymui ir šifravimui:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip "Automatiškai nesiųsti šifruotų laiškų, nebent tai išskirtinai nurodyta kiekvieno gavėjo nustatymuose">
+<!ENTITY smaug.keySelection.label "Pasirinktas">
+<!ENTITY smaug.help.label "Žinynas">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>PASTABA: Rakto generavimas gali užtrukti kelias minutes.</a> Neuždarykite programos kol vyksta rakto generavimas. Aktyviai naršant ar atliekant operacijas kurios reikalauja intensyvaus disko naudojimo, rakto generavimo metu padės sukurti atsitiktinesnį raktą ir pagreitins procesą. Jūs būsite įspėtas kai rakto generavimas bus baigtas.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Smaug saugumo nustatymai">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Nekurti HTML laiškų">
+<!ENTITY smaug.maxIdleMinutesHead.label "Prisiminti slaptafrazę">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label "Šifruoti laišką kaip visą ir išsiųsti naudojant PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "šifruoti laišką">
+<!ENTITY smaug.finalEncryptYes.label "Priverstinai šifruoti">
+<!ENTITY smaug.cardPin.currPin.label "Dabartinis PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Neatsakysiu">
+<!ENTITY smaug.defineRules.label "Keisti taisykles...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "y">
+<!ENTITY smaug.keyMan.showAllKeys.label "Pagal nutylėjimą rodyti visus raktus">
+<!ENTITY smaug.keyMan.title "Smaug raktų tvarkymas">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "t">
+<!ENTITY smaug.finalEncryptNo.label "Priverstinai nešifruoti">
+<!ENTITY smaug.add.label "Pridėti">
+<!ENTITY smaug.SendingPrefs.label "Bendri siuntimo nustatymai">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Paspauskite norėdami nurodyti GnuPG vietą">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Pasirinkite tapatybes">
+<!ENTITY smaug.cardDetails.sigKey.label "Parašo raktas">
+<!ENTITY smaug.cardDetails.sex.label "Lytis">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Keisti Admin PIN">
+<!ENTITY smaug.keyserver.label "Raktų serveris">
+<!ENTITY smaug.encDlgEncrypt.label "šifruoti laišką">
+<!ENTITY smaug.send.label "Siųsti">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Atšaukti vedlį">
+<!ENTITY smaug.defaultKeySelOpts.label "Rakto pasirinkimo parinktys">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Rakto pasirinkimas">
+<!ENTITY smaug.amPrefDesc.label "Palaikymą OpenPGP šifravimui ir pasirašymui teikia Smaug. Jūs turite turėti įdiegtą GnuPG (gpg) norėdami naudotis šia galimybe.">
+<!ENTITY smaug.smaugAttachDesc.label "šiame laiške yra priedų. Kaip norėsite juos šifruoti/pasirašyti?">
+<!ENTITY smaug.keyExpiry.expiryKey.label "Raktai kurių galiojimo laiką keisti:">
+<!ENTITY smaug.adminSmartCard.label "Tvarkyti SmartCard...">
+<!ENTITY smaug.importMissingKeys.accesskey "a">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug paruošta.<html:br/><html:br/>Dėkui jog naudojate Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Pirmas vardas, vardas">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Pašalinti">
+<!ENTITY smaug.usersNotFound.label "Gavėjai netinkami, nepatikimi ar nerasti">
+<!ENTITY smaug.manageUidDlg.addUid.label "Pridėti">
+<!ENTITY smaug.keyMan.reload.accesskey "k">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc "Pasirinkite GnuPG naudodamiesi naršymo mygtuku.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label "Išvis nepasirašinėti/nešifruoti laiškų">
+<!ENTITY smaug.importMissingKeys.label "Parsiųsti trūkstamus raktus">
+<!ENTITY smaug.keyMan.keyDetails.key "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Viešas rakto failas">
+<!ENTITY smaug.decryptbutton.label "Iššifruoti">
+<!ENTITY smaug.signing.label "Pasirašymui">
+<!ENTITY smaug.keygenTitle.label "Generuoti OpenPGP raktą">
+<!ENTITY smaug.smgEncryptAttachNone.label "Tiesiog šifruoti/pasirašyti laiško tekstą, bet ne priedus">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Pakartoti slaptafrazę">
+<!ENTITY smaug.keyMan.viewSig.key "S">
+<!ENTITY smaug.doubleDashSeparator.label "„--“ yra parašo skirtukas">
+<!ENTITY smaug.cardPin.title "Keisti SmartCard PIN">
+<!ENTITY smaug.keyTrust.title "Smaug - pasitikėjimas savininku">
+<!ENTITY smaug.viewconsole.label "Peržiūrėti konsolę">
+<!ENTITY smaug.tempTrustAllKeys.label "Pasitikėti visų gavėjų raktais">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Nenaudoti „Web of Trust“ nustatyti ar raktai tinkami">
+<!ENTITY smaug.useNonDefaultComment.label "Pridėti Smaug komentarą OpenPGP paraše">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Ar norite pagal nutylėjimą pasirašyti visus jūsų išeinančius laiškus?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Kopijuoti vešus raktus į iškarpinę">
+<!ENTITY smaug.about.accesskey "p">
+<!ENTITY smaug.mime_parts_on_demand.label "Priedus parsiųsti kai atidaroma (tik IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Du brūkšniai ant linijos nurodys parašo bloką">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label "Jei šifruotas">
+<!ENTITY smaug.displayNoLonger.label "Daugiau nerodyti šio dialogo, jei šifravimas neįmanomas">
+<!ENTITY smaug.setupWiz.pgInstall.installDone "Diegimas baigtas. Norėdami tęsti diegimą, pereikite prie kito puslapio .">
+<!ENTITY smaug.keyMan.revokeKey.label "Atšaukti raktą">
+<!ENTITY smaug.sKeyDlg.checked.label "Ar jūs įsitikinę, jog raktas kurį netrukus pasirašysite, tikrai priklauso asmeniui kuris minimas aukščiau?">
+<!ENTITY smaug.keyGen.expiry.title "Rakto galiojimas">
+<!ENTITY smaug.undoencryption.accesskey "u">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Rodyti netinkamus raktus">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Detalės...">
+<!ENTITY smaug.encrypt.label "Šifruoti">
+<!ENTITY smaug.cardDetails.login.label "Prisijungimo duomenys">
+<!ENTITY smaug.autoSendEncryptedNever.label "Niekada">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Ne, noriu sukurti kiekvienam-gavėjui skirtas taisykles ir nustatyti kurie laiškai turi būti pasirašomi">
+<!ENTITY smaug.about.title "Apie Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Sukurti Smaug taisyklę iš adreso...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "n">
+<!ENTITY smaug.viewdebuglog.accesskey "o">
+<!ENTITY smaug.detailsHdrButton.label "Detalės">
+<!ENTITY smaug.keyTrust.trustKey.label "Raktas kuriuo pasitikėti:">
+<!ENTITY smaug.setupWiz.pgInstall.title "Būtina GnuPG ">
+<!ENTITY smaug.action.label "Veiksmai">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "m">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Rakto kūrimas">
+<!ENTITY smaug.autoKeyRetrieve2.label "iš šio raktų serverio:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip "Priskirti raktus pagal raktus susietus su el. pašto adresu, raktų tvarkyklėje.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Turite duoti savo viešą raktą visiems kurie yra jūsų kontaktų sąraše, 
+šie žmonės galės patikrinti jūsų parašą ar užšifruoti laišką skirtą jums. 
+Tuo tarpu privatų raktą turite laikyti slaptai. Negalite jo niekam atiduoti 
+ar palikti viešai. Su juo galima skaityti visus 
+jums atsiųstus šifruotus laiškus. Taip pat su juo galima pasirašyti laiškus jūsų vardu. 
+Jis slaptas todėl yra apsaugotas slaptafraze.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label "Šifruoti ir pasirašyti kiekvieną priedą atskirai ir siųsti laišką naudojant inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - pridėti naudotojo ID">
+<!ENTITY smaug.keyDetails.keyType.label "Tipas">
+<!ENTITY smaug.keyGen.years.label "metų">
+<!ENTITY smaug.edit.accesskey "K">
+<!ENTITY smaug.keyExpiry.title "Smaug - keisti galiojimo laiką">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - gavėjų nustatymai">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug leidžia jums skaitmeniškai pasirašyti jūsų laiškus. Tai yra lyg 
+elektroninė pasirašyto laiško(popierinio) versija ir ji suteikia galimybę būti tikram 
+jog laiškas tikrai iš jūsų.  Patartina pasirašyti visus 
+išeinančius laiškus.">
+<!ENTITY smaug.cardDetails.sigcount.label "Parašų skaitiklis">
+<!ENTITY smaug.addToRule.useRuleButton.label "Pridėti raktą į pasirinktą taisyklę">
+<!ENTITY smaug.encDlgSign.label "Pasirašyti laišką">
+<!ENTITY smaug.keyGen.noExpiry.label "Raktas neturi galiojimo laiko">
+<!ENTITY smaug.keyPassphraseRepeat.label "Slaptafrazė (pakartoti)">
+<!ENTITY smaug.searchForKey.label "Ieškoti rakto">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Šis vedlys pakeitė šiuos nustatymus:">
+<!ENTITY smaug.revealAttachmentsButton.label "Pridėtų failų vardai paslėpti. Paspauskite „Parodyti“ mygtuką norėdami gauti originalius failų vardus.">
+<!ENTITY smaug.always.label "Visada">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Eksportuoti raktus į failą">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Kopijuoti viešus raktus į iškarpinę">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Šifruoti ir pasirašyti laišką kaip vientisą ir siųsti naudojant PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label "Išvis nepasirašinėti laiškų">
+<!ENTITY smaug.ctxImportKey.accesskey "t">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "Rakto tinkamumas">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip "Prieš siunčiant ŠIFRUOTĄ laišką rodyti informaciją apie pasirašymą/šifravimą">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP parinktys">
+<!ENTITY smaug.progressText.label "Progresas:">
+<!ENTITY smaug.sepratationDesc.label "(Atskirkite kelis adresus tarpu)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Norėčiau nustatyti Smaug šioms tapatybėms:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Pašalinti S/MIME mygtuką iš laiško kūrimo lango įrankių juostos">
+<!ENTITY smaug.keyMan.changeExpiry.label "Keisti galiojimo datą">
+<!ENTITY smaug.keyMan.setTrust.label "Nustatyti pasitikėjimą savininku">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Rodyti raktus iš kitų žmonių">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Šis vedlys jums pradėti naudotis Smaug nedelsiant. Keliuose sekančiuose 
+languose jums bus uždauoti keli klausimai, kurie padės viską nustatyti.">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip "Prieš siunčiant laišką visada rodyti informaciją apie pasirašymą/šifravimą">
+<!ENTITY smaug.matchDescEnd.label "vienas iš šių adresų">
+<!ENTITY smaug.keyMan.reload.label "Iš naujo įkrauti raktų podėlį">
+<!ENTITY smaug.viewconsole.accesskey "k">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "R">
+<!ENTITY smaug.keyNoPassphrase.label "Nėra slaptafrazės">
+<!ENTITY smaug.amPrefSelectKey.label "Pasirinkti raktą...">
+<!ENTITY smaug.moveUp.label "Aukštyn">
+<!ENTITY smaug.cardDetails.yes.label "Taip">
+<!ENTITY smaug.testemail.label "Bandymų el. paštas">
+<!ENTITY smaug.composeOptionsMenu.label "Numatosios kūrimo pasirinktys">
+<!ENTITY smaug.finallySignNotEncrypted.label "pasirašyti ne šifruotus laiškus">
+<!ENTITY smaug.addToRule.newRuleButton.label "Sukurti naują taisyklę">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Jūs beveik baigėte! Jei paspausite „Toliau“ mygtuką, vedlys atliks šiuos veiksmus:">
+<!ENTITY smaug.clearSearch.label "Išvalyti">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Pašalinti raktą">
+<!ENTITY smaug.keyMan.viewPhoto.label "Nuotraukos ID">
+<!ENTITY smaug.smgAttachInlineSign.label "Pasirašyti kiekvieną priedą atskirai ir siųsti laišką naudojant inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "P">
+<!ENTITY smaug.viewdebuglog.label "Peržiūrėti žurnalo failą">
+<!ENTITY smaug.manageUidDlg.title "Pakeisti pagrindinį naudotojo ID">
+<!ENTITY smaug.useKeys.label "Naudoti šiuos OpenPGP raktus:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Laiško siuntimui naudoti 8 bitų kodavimą">
+<!ENTITY smaug.sendersKeyMenu.accesskey "r">
+<!ENTITY smaug.keyMan.sign.accesskey "k">
+<!ENTITY smaug.trustSenderKey.label "Nustatyti pasitikėjimą savininku...">
+<!ENTITY smaug.delete.accesskey "I">
+<!ENTITY smaug.encryptedsend.accesskey "i">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "s">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Palaukite kol raktai bus įkrauti...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip "Prieš siunčiant laišką nerodyti informacijos apie pasirašymą/šifravimą">
+<!ENTITY smaug.autoSendEncryptedOption.label "Automatiškai siųsti šifruotai">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Nei vienas raktas neatitiko jūsų paieškos kriterijų">
+<!ENTITY smaug.importpublickey.label "Importuoti viešą raktą">
+<!ENTITY smaug.matchDescStart.label "Pritaikyti taisyklę jei gavėjas">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Ne, dėkui. Aš pats nusistatysiu">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "u">
+<!ENTITY smaug.expertUser.tooltip "Paspauskite jei norite pamatyti meniu ir parinktis skirtas pažengusiems naudotojams.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Pasitikėjimas savininku">
+<!ENTITY smaug.cardDetails.closeWindow.label "Užverti">
+<!ENTITY smaug.keyTrust.trustLevel.label "Ar labai pasitikite raktu?">
+<!ENTITY smaug.cardDetails.title "OpenPGP SmartCard detalės">
+<!ENTITY smaug.openpgpPrefsButton.label "Smaug nustatymai...">
+<!ENTITY smaug.keyMan.importFromServer.label "Ieškoti raktų">
+<!ENTITY smaug.amPrefUseFromAddr.label "Naudoti šio el. pašto adreso tapatybę atpažįstant OpenPGP raktą">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Nurodytos parinktys bus naudojamos GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Užverti langą">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "u">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Pasirašyti išeinančius laiškus">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Rasti raktus visiems adresatams">
+<!ENTITY smaug.amPrefEnablePgp.label "šiai tapatybei įjungti OpenPGP palaikymą (Smaug)">
+<!ENTITY smaug.keyMan.exportToFile.label "Eksportuoti raktus į failą">
+<!ENTITY smaug.cardPin.unblockPin.label "Atblokuoti PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Taisa">
+<!ENTITY smaug.encDlgPgpMime.accesskey "o">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Pasirinkite paskyras ar tapatybes su kuriomis dirbs Smaug">
+<!ENTITY smaug.useGpgAgent.tooltip "Įvesti visas slaptafrazes naudojant gpg-agent (GnuPG 2 dalis)">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Ar norite pakeisti kelis numatytus nustatymus ir priversti Smaug veikti dar geriau 
+jūsų sistemoje?">
+<!ENTITY smaug.cardDetails.forcepin.label "Priverstinis parašo PIN">
+<!ENTITY smaug.rulesEditor.label "Smaug - kiekvienam-gavėjui taisyklių tvarkyklė">
+<!ENTITY smaug.searchKeyDlgSelAll.label "Pasirinkti/Nepasirinkti visus">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatiškai siųsti šifruotai kai kiekvieno gavėjo bent vienas raktas yra žinomas ir priimtas (žiūrėti aukščiau) ir gavėjo taisyklė verčia nešifruoti.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Rasti raktai - pasirinkite importavimui">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "Atstatyti">
+<!ENTITY smaug.valid.label "Tinkamas">
+<!ENTITY smaug.keyUserId.label "Paskyra / Naudotojo ID">
+<!ENTITY smaug.cancelKey.label "Atšaukti">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label "Jei įmanoma">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Noriu sukurti naują raktų porą laiškų pasirašymui ir šifravimui">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound "Rasta tinkama GnuPG.">
+<!ENTITY smaug.finalPGPMimeNo.label "Priverstinai „Inline PGP“">
+<!ENTITY smaug.setupWiz.pgEncConv.desc "Smaug leidžia jums šifruoti jūsų laiškus ir priedus. 
+Šifravimas tai tas pasts kas laiško įdėjimas į voką, tai paverčia dalykus 
+privačiais.  Tai nėra vien „slaptiem“ laiškam, bet ir 
+viskam ko nesiųstumėte atvirlaiškiu.">
+<!ENTITY smaug.disableRules.label "Nepaisyti kiekvienam-gavėjui taisyklių">
+<!ENTITY smaug.basic.label "Bendri">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label "Išvis nešifruoti laiškų">
+<!ENTITY smaug.attachkey.accesskey "P">
+<!ENTITY smaug.setupWiz.pgComplete.title "Dėkui">
+<!ENTITY smaug.displayKeyProperties.label "Peržiūrėti rakto savybes">
+<!ENTITY smaug.agentAdditionalParam.label "Papildomi GnuPG parametrai">
+<!ENTITY smaug.assignKeysManuallyAlways.label "Visada (taipogi) rankiniu būdu">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Jūsų raktas sugeneruotas">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip "Jei jūsų „kiekvieno gavėjo“ šifravimo nustatymai pasiketiė, prieš siunčiant rodyti šifravimo/pasirašymo informaciją">
+<!ENTITY smaug.keyMan.addToPRRule.label "Pridėti prie kiekvienam-gavėjui taisyklės">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Papildomi">
+<!ENTITY smaug.nextRule.label "Tęsti su kita taisykle, atitinkamiem adresam">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Raktas pasirašymui:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Aš turiu viešą ir privatų raktus, kuriuos norėčiau importuoti">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Patvirtinkite savo slaptafrazę įvesdami ją dar kartą">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Piršto atspaudas:">
+<!ENTITY smaug.keyMan.keyProps.label "Rakto savybės">
+<!ENTITY smaug.keyMan.setTrust.accesskey "s">
+<!ENTITY smaug.keyMan.editMenu.accesskey "T">
+<!ENTITY smaug.attachmykey.label "Prisegti mano viešąjį raktą">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "R">
+<!ENTITY smaug.keyDetails.created.label "Sukurtas">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN kartojimų skaitiklis">
+<!ENTITY smaug.ctxDecryptOpen.label "Iššifruoti ir atverti">
+<!ENTITY smaug.setupWiz.label "Nustatymo vedlys">
+<!ENTITY smaug.genCardKey.backupKey.label "Išsaugokite atsarginę kopiją ne kortelėje">
+<!ENTITY smaug.finalPGPMimeYes.label "Priverstinai naudoti PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Pasirinktai tapatybei naudoti sugeneruotą raktą">
+<!ENTITY smaug.smgAttachNoneSign.label "Pasirašyti laiško tekstą, bet ne priedus">
+<!ENTITY smaug.keyDetails.title "Rakto savybės">
+<!ENTITY smaug.amPrefUseKeyId.label "Naudoti konkretų OpenPGP rakto ID (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Siųsti viešus raktus el. paštu">
+<!ENTITY smaug.smgAttachPgpMimeSign.label "Pasirašyti laišką kaip visą ir išsiųsti naudojant PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Bendrieji nustatymai">
+<!ENTITY smaug.acceptedKeysValid.tooltip "Priimti tik tuos raktus kurie yra pasirašyti jūsų arba žmonių kuriais pasitikite. Iš esmės jūs priimate tik šifravimui „tinkamus“ raktus.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Papildomi...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Visiškai pasitikiu">
+<!ENTITY smaug.defaultSigning.label "Pagal nutylėjimą pasirašyti">
+<!ENTITY smaug.keyDetails.fingerprint.label "Piršto atspaudas">
+<!ENTITY smaug.finalPGPMimeDefault.label "PGP formatui naudoti numatytuosius nustatymus ir taisykles">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.desc "Norint naudoti Smaug, reikia GnuPG kriptografiniam darbui atlikti. 
+Vedlys ieškojo GnuPG, bet nerado.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Tinkami šifravimo nustatymai">
+<!ENTITY smaug.showPhoto.label "Peržiūrėti OpenPGP nuotraukos ID">
+<!ENTITY smaug.setupWiz.pgEncConv.title "Šifravimas">
+<!ENTITY smaug.useGpgAgent.label "Slaptafrazėm įvesti naudoti gpg-agent">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg "Kurį bendrą režimą naudosite šifruotų laiškų siuntimui?">
+<!ENTITY smaug.perRecipientsOption.label "Sukurti kiekvienam-gavėjui taisykles">
+<!ENTITY smaug.sendOptionsMenu.label "Siuntimo parinktys...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Neradome jokių OpenPGP raktų">
+<!ENTITY smaug.keyMan.stopTransfer.label "Sustabdyti perdavimą">
+<!ENTITY smaug.refreshKeys.label "Atnaujinti raktų sąrašą">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton "Naršyti...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "šifruoti/pasirašyti atsakymus į šifruotą/pasirašytą laišką">
+<!ENTITY smaug.addPhoto.question.label "Ar norite pridėti šį paveikslėlį prie šio rakto?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Jei įmanoma, šifruoti/pasirašyti atsakymus į šifruotą/pasirašytą laišką">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Atnaujinti visus viešus raktus">
+<!ENTITY smaug.cardDetails.authKey.label "Tapatybės patvirtinimo raktas">
+<!ENTITY smaug.viewKeySigDlg.title "Parašų sąrašas">
+<!ENTITY smaug.cardDetails.vendor.label "Gamintojas">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Siųsti URL rakto gavimui:">
+<!ENTITY smaug.encryptionDlg.label "Smaug šifravimo ir pasirašymo nustatymai">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "o">
+<!ENTITY smaug.decryptverify.accesskey "I">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "d">
+<!ENTITY smaug.maybe.label "Taip, jei pasirinkta laiško kūrimo lange">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Pasitikiu iš dalies">
+<!ENTITY smaug.prefs.pathsTitle.label "Failai ir aplankai">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo "Pagal nutylėjimą nešifruoti išsiunčiamų laiškų">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Pastaba:</a> Smaug visada patikrins visų paskyrų ir tapatybių parašus 
+nepaisant ar įjungta ar išjungta">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "k">
+<!ENTITY smaug.addUidDlg.comment.label "Komentaras (neprivalomas)">
+<!ENTITY smaug.setupWiz.no "Ne, dėkui">
+<!ENTITY smaug.alwaysTrustSend.label "Visada pasitikėti žmonių raktais">
+<!ENTITY smaug.keyMan.viewSig.accesskey "a">
+<!ENTITY smaug.changePasswd.newPasswd.label "Nauja slaptafrazė">
+<!ENTITY smaug.undoencryption.label "Atšaukti šifravimą">
+<!ENTITY smaug.uidValidity.label "Galiojimas">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Generuoti ir išsaugoti naują atšaukimo sertifikatą">
+<!ENTITY smaug.cardDetails.reset.label "Atstatyti">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Peržiūrėti parašus">
+<!ENTITY smaug.acceptedKeysAll.tooltip "Priimti visus raktus kurie nėra jūsų išjungti ar savininko atšaukti. Iš esmės naudojama GPG parinktis „--trust-model always“.">
+<!ENTITY smaug.pgpAccountSettings.label "Pasirašymo/šifravimo parinktys...">
+<!ENTITY smaug.reload.label "Iš naujo įkrauti laiškus">
+<!ENTITY smaug.browse.label "Naršyti...">
+<!ENTITY smaug.passwordSettings.label "Slaptafrazės nustatymai">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritmas">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "k">
+<!ENTITY smaug.cardDetails.keyCreated.label "Sukurtas">
+<!ENTITY smaug.autoDecrypt.label "Automatiškai iššifruoti/patikrinti laiškus">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Importuoti OpenPGP raktus">
+<!ENTITY smaug.keyservers.label "Nurodykite savo raktų serverį(-ius)">
+<!ENTITY smaug.encDlgIgnoreRules.label "Nepaisyti kiekvienam-gavėjui taisyklių">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "o">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Prieinami naudotojų ID:">
+<!ENTITY smaug.add.accesskey "P">
+<!ENTITY smaug.refreshKeys.accesskey "t">
+<!ENTITY smaug.signSenderKey.label "Pasirašyti raktą...">
+<!ENTITY smaug.searchKeyDlg.label "Parsiųsti OpenPGP raktus">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Jūs pasirinkote nenaudoti konfigūracijos vedlio Smaug. 
+<html:br/><html:br/>Dėkui jog naudojate Smaug.">
+<!ENTITY smaug.signedsend.accesskey "s">
+<!ENTITY smaug.keyGen.console.label "Rakto generavimo konsolė">
+<!ENTITY smaug.signSenderKeyPopup.label "Pasirašyti siuntėjo raktą...">
+<!ENTITY smaug.cardDetails.url.label "Viešo rakto URL">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug nustatymai skirti konkrečiai paskyrai ir tapatybei. Pagal nutylėjimą 
+Smaug nusistatys darbui su visomis jūsų paskyromis 
+ir tapatybėmis.  Jei norite ne to, pasirinkite konkrečią 
+paskyrą ar tapatybę su kuria Smaug turėtų dirbti.">
+<!ENTITY smaug.resetRememberedValues.label "Atstatyti įspėjimus">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "OpenPGP raktas nerastas">
+<!ENTITY smaug.cardDetails.save.label "Įrašyti">
+<!ENTITY smaug.prefs.overrideGpg.label "Naudoti">
+<!ENTITY smaug.logdirectory.label "Žurnalo aplankas">
+<!ENTITY smaug.setupWiz.pgSummary.title "Santrauka">
+<!ENTITY smaug.ruleEmail.label "Nustatyti Smaug taisykles skirtas">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Patvirtinkite jog vedlys atliks šiuos keitimus">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Peržiūrėti laiško turinį kaip paprastą tekstą">
+<!ENTITY smaug.debugMenu.label "Derinimo parinktys">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Atnaujinti viešus raktus iš raktų serverio">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Sukurti raktą su kuriuo bus pasirašomi ir šifruojami laiškai">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Niekada neklausti slaptafrazės">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Raktas kurį keisti:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Numatytieji laiško kūrimo nustatymai">
+<!ENTITY smaug.sendersKeyMenu.label "Siuntėjo raktas">
+<!ENTITY smaug.preferences.label "Smaug nustatymai">
+<!ENTITY smaug.clearPassphrase.label "Išvalyti išsaugotas slaptafrazes">
+<!ENTITY smaug.setupWiz.pgSign.signYes "Pagal nutylėjimą pasirašyti visus laiškus">
+<!ENTITY smaug.setupWiz.pgSign.signNo "Pagal nutylėjimą nepasirašyti laiškų">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Norint pasirašyti ir šifruoti ar skaityti šifruotus laiškus 
+jūs turite turėti „raktų porą“. Raktų pora turi du raktus, viešą ir 
+privatų.">
+<!ENTITY smaug.selKeysButton.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Nustatėme jog jūs jau turite OpenPGP raktą. Pasirašymui, šifravimui 
+ir iššifravimui galite naudoti turimą raktą, 
+bet galite susikurti ir naują raktų porą.">
+<!ENTITY smaug.noHushMailSupport.label "Naudoti „&lt;“ ir „&gt;“ nurodant el. pašto adresą">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Nurodykite failus kuriuose yra viešas ir privatus raktai kuriuos reikia 
+importuoti. Įvestis privačiam raktui gali būti palikta tuščia jei  pirmam faile 
+yra privatus ir viešas raktai.">
+<!ENTITY smaug.basicUserMenus.label "Slėpti ekspertų nustatymus ir meniu">
+<!ENTITY smaug.finalSignDefault.label "Pasirašymui naudoti numatytąsias taisykles">
+<!ENTITY smaug.keyMan.refreshKey.key "R">
+<!ENTITY smaug.keyGen.days.label "dienų">
+<!ENTITY smaug.disableRules.accesskey "e">
+<!ENTITY smaug.setupWiz.pgSettings.title "Nustatymai">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "i">
+<!ENTITY smaug.keyMan.generate.label "Naują raktų porą">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Susieti mano viešą raktą su laiškais">
+<!ENTITY smaug.encDlgPgpMime.label "Naudoti PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Pasirinkti visus raktus">
+<!ENTITY smaug.keyComment.label "Komentaras">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Netikrinau">
+<!ENTITY smaug.keyDetails.usage.label "Naudojimas">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Jei trūksta rakto, rankiniu būdu atverti susiejimo dialogą.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "m">
+<!ENTITY smaug.addUidDlg.email.label "El. paštas">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP saugumas...">
+<!ENTITY smaug.nextAddress.label "Sekančių taisyklių netikrinti atitinkamiems adresams">
+<!ENTITY smaug.setupWiz.details.subtitle "Keisti programos nustatymus">
+<!ENTITY smaug.keyMan.uploadToServer.label "Įkelti viešus raktus">
+<!ENTITY smaug.userSelSendSigned.label "Siųsti pasirašytą">
+<!ENTITY smaug.ruleEmail.tooltip "Užpildyti tik el. pašto adresus, nenurodyti gavėjų vardų  pvz. „Vardenis Pavardenis  &lt;vardenis.pavardenis@adresas.lt&gt;“ yra netinkamas">
+<!ENTITY smaug.setupWiz.details.title "Nustatymai">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes "Tinkamas automatinis šifravimas">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip "Visada galiausia atverti dialogą, rankiniam raktų susiejimui.">
+<!ENTITY smaug.help.accesskey "i">
+<!ENTITY smaug.email.label "El. paštas">
+<!ENTITY smaug.attachkey.label "Prisegti viešąjį raktą...">
+<!ENTITY smaug.not.label "Ne">
+<!ENTITY smaug.keyExpiry.label "Besibaigiantis">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "p">
+<!ENTITY smaug.keyMan.userId.label "Vardas">
+<!ENTITY smaug.keyMan.manageUid.label "Tvarkyti naudotojų ID">
+<!ENTITY smaug.defaultEncryption.label "šifruoti išsiunčiamus laiškus pagal nutylėjimą">
+<!ENTITY smaug.never.label "Niekada">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "Generuoti raktą">
+<!ENTITY smaug.editRules.accesskey "g">
+<!ENTITY smaug.prefs.accesskey "N">
+<!ENTITY smaug.keyDetails.selAction.accesskey "a">
+<!ENTITY smaug.acceptedKeysAll.label "Visus raktus kurie yra tinkami">
+<!ENTITY smaug.matchExact.label "Yra">
+<!ENTITY smaug.searchRule.label "Peržiūrėti taisykles kuriose yra el. pašto adresas:">

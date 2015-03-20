@@ -1,0 +1,655 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Hiệu lực của Khóa">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Kiểu ký">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Thay đổi Thiết lập Thư điện tử Của bạn Để Làm cho Smaug Làm việc Đáng tin Hơn">
+<!ENTITY smaug.pgpAccountSettings.accesskey "M">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Mã hóa/ký tên tin nhắn toàn bộ và gửi nó đi bằng PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Vâng, tôi muốn trợ lý giúp tôi khởi chạy">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Tin tưởng cho Người chủ">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Xử dụng phương pháp được chọn cho tất cả các đính kèm trong tương lai">
+<!ENTITY smaug.ctxImportKey.label "Nhập Khóa của OpenPGP vào">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Tắt luồng văn bản (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Bạn muốn làm gì">
+<!ENTITY smaug.addToRule.title                    "Add Key to Per-Recipient Rule">
+<!ENTITY smaug.reload.accesskey "ả">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Tải Khóa Công lên máy phục vụ Khóa">
+<!ENTITY smaug.about.label "Về Smaug">
+<!ENTITY smaug.keyGen.months.label "tháng">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle      "Specify the files to import">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "Đ">
+<!ENTITY smaug.ctxVerifyAtt.label                "Verify signature">
+<!ENTITY smaug.progress.label "Tiến triển">
+<!ENTITY smaug.adminSmartCard.accesskey "Q">
+<!ENTITY smaug.debugMenu.accesskey "ỗ">
+<!ENTITY smaug.sending.label "Đang gửi">
+<!ENTITY smaug.clearSearch.accesskey "X">
+<!ENTITY smaug.keyPassphrase.label "Cụm từ mật khẩu">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "Thay đổi PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Tìm kiếm:">
+<!ENTITY smaug.keyMan.importFromFile.label "Nhập Khóa vào từ Tập tin">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Ký tên Khóa">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Vâng, tôi muốn ký tên tất cả thư điện tử của tôi">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Thu hồi">
+<!ENTITY smaug.cancelKey.tooltip "Bãi bỏ Tạo ra Khóa">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Bạn có muốn dùng trợ lý ngay bây giờ không?">
+<!ENTITY smaug.importMissingKeys.tooltip "Thử nhập các khóa bị thiếu vào từ một máy phục vụ khóa">
+<!ENTITY smaug.keyTrust.dontKnow.label "Tôi không biết">
+<!ENTITY smaug.cardPin.newAdminPin.label "PIN quản trị mới">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Xem ID Hình">
+<!ENTITY smaug.keyDetails.expiry.label "Hết hạn">
+<!ENTITY smaug.keyMan.keyType.label "Kiểu">
+<!ENTITY smaug.created.label "Tạo ra">
+<!ENTITY smaug.importpublickey.accesskey "N">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Tắt nạp các bộ phận IMAP khi yêu cầu">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Chọn lọc Khóa">
+<!ENTITY smaug.sendPGPMime.label "Xử dụng PGP/MIME cho Tin nhắn Này">
+<!ENTITY smaug.savedecrypted.label "Lưu Tin nhắn Giải mã">
+<!ENTITY smaug.userSelectionList.label "Chọn Khóa Smaug">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Tôi có kiểm soát sơ sơ">
+<!ENTITY smaug.edit.label "Sửa đổi">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Tạo ra">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Sắp đặt lại văn bản để bảo đảm là chữ ký sẽ được giữ nguyên.">
+<!ENTITY smaug.decryptverify.label "Giải mã/Kiểm chứng">
+<!ENTITY smaug.encDlgEncrypt.accesskey "M">
+<!ENTITY smaug.prefs.label "Tùy thích">
+<!ENTITY smaug.keyMan.changePwd.label "Thay đổi Cụm từ mật khẩu">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "t">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Khóa hết hạn trong">
+<!ENTITY smaug.encryption.label "Mã hóa">
+<!ENTITY smaug.keyTrust.fullTrust.label "Tôi tin tưởng đầy đủ">
+<!ENTITY smaug.addUidDlg.name.label "Tên">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "Chấm dứt với">
+<!ENTITY smaug.pgpKeys.label "(Các) Khóa của OpenPGP">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Gửi ID Khóa của 'OpenPGP'">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "L">
+<!ENTITY smaug.keyGen.keySize.label "Kích cỡ khóa">
+<!ENTITY smaug.basicUser.tooltip "Bấm nếu bạn không muốn thấy những mục trình đơn và tùy chọn cho người dùng cấp cao.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Trợ lý này có thể thay đổi thiết lập thư điện tử của bạn để bảo đảm là không 
+có vấn đề gì với việc ký tên và mã hóa thư đìện tử trong máy của bạn. Những 
+thay đổi thiết lập này đa số là chuyện kỹ thuật mà bạn sẽ không nhận ra, tuy nhiên 
+có một chuyện quan trọng là thư điện tử sẽ được soạn bằng nhập thô theo mặc định.">
+<!ENTITY smaug.cardDetails.male.label "Nam">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "K">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "X">
+<!ENTITY smaug.singleRcptSettings.desc "(Lưu ý: trong trường hợp có xung đột, 'Không bao giờ' gạt bỏ 'Luôn luôn')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile    "Private key file">
+<!ENTITY smaug.pgpSecurityInfo.label "Tin tức Bảo mật của Smaug ...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Bạn không nên tắt cái này nếu bạn đang nhận thư PGP/MIME trong thư mục IMAP.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Đặt Sự tin tưởng vào Khóa của Người Gửi cho Người chủ ">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Chữ ký cho Khóa:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Ký tên Khóa">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>LƯU Ý: Có thể mất mấy phút để hoàn tất việc tạo ra khóa.</a> Đừng ra khỏi ứng dụng trong khi việc tạo ra khóa đang tiến triển. Bạn sẽ được báo cho biết khi việc tạo ra khóa được hoàn tất.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Thêm ID Nguời dùng">
+<!ENTITY smaug.cardDetails.cardMenu.label         "SmartCard">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label            "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "Nữ">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Nhập Khóa vào từ Bảng nháp">
+<!ENTITY smaug.setDefaultsFor.label "Những mặc định cho ...">
+<!ENTITY smaug.changePasswd.title "Thay đổi Cụm từ mật khẩu cho OpenPGP">
+<!ENTITY smaug.keyMan.viewSig.label "Chữ ký">
+<!ENTITY smaug.autoKeyRetrieve.label "Tự động tải khóa xuống cho việc nhận diện chữ ký">
+<!ENTITY smaug.matchBegin.label "Bắt đầu với">
+<!ENTITY smaug.selKeysButton.label "Chọn (các) Khóa...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Gửi Phần đầu của 'OpenPGP'">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Lặp lại PIN mới">
+<!ENTITY smaug.signedsend.label "Ký tên Tin nhắn">
+<!ENTITY smaug.cardDetails.lang.label "Ngôn ngữ">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "Kích cỡ">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Cuộn lại văn bản HTML đã được ký trước khi gửi">
+<!ENTITY smaug.genCardKey.title "Tạo ra Khóa OpenPGP">
+<!ENTITY smaug.ctxDecryptSave.accesskey "ả">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "PIN QUẢN TRỊ Hiện thời">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title                "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "PIN mới">
+<!ENTITY smaug.smgEncryptAttachInline.label "Mã hóa/ký tên mỗi đính kèm riêng biệt và gửi tin nhắn đi bằng PGP trực tiếp">
+<!ENTITY smaug.moveDown.accesskey "X">
+<!ENTITY smaug.keyservers.sample "Thí dụ: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "C">
+<!ENTITY smaug.userNoPassphrase.tooltip "Kích hoạt nếu khóa OpenPGP của bạn không được bảo vệ bởi một cụm từ mật khẩu.">
+<!ENTITY smaug.usePGPMimeAlways.label "Xử dụng PGP/MIME theo mặc định">
+<!ENTITY smaug.addPhoto.title                     "Add Photo to Key">
+<!ENTITY smaug.resetPrefs.tooltip "Đặt tất cả các tùy thích của OpenGPG trở ngược lại giá trị mặc định của chúng.">
+<!ENTITY smaug.cardDetails.editData.label "Chỉnh sửa Dữ liệu của Thẻ">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "C">
+<!ENTITY smaug.sendOptionsMenu.accesskey "G">
+<!ENTITY smaug.sKeyDlg.signKey.label "Khóa để ký tên:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Bạn có muốn thiết lập Smaug cho tất cả các danh tính không?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Dấu tay">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Cập nhật các Khóa Công được Chọn">
+<!ENTITY smaug.delete.label "Xóa">
+<!ENTITY smaug.keyId.label "ID Khóa">
+<!ENTITY smaug.moreOptions.label "Thêm tùy chọn">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Tôi có kiểm soát rất cẩn thận">
+<!ENTITY smaug.test.label "Thử tra">
+<!ENTITY smaug.debug.label "Gỡ lỗi">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Tạo Một Khóa Để Ký tên Và Mã hóa Thư điện tử">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "Chứa">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Nhập điều kiện tìm kiếm vào hộp bên trên">
+<!ENTITY smaug.cardDetails.encKey.label "Khóa mã hóa">
+<!ENTITY smaug.noHushMailSupport.tooltip "Xử dụng ký tự '&lt;' và '&gt;' để điền rõ các địa chỉ thư điện tử cho GnuPG. Tắt nếu người nhận có khóa Hushmail cũ.">
+<!ENTITY smaug.keyDetails.selAction.label "Chọn hành động...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Đặt chủ yếu">
+<!ENTITY smaug.setupWiz.accesskey "T">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Trợ lý Thiết lập cho Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "ID Nguời dùng Chính">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey  "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Thiết lập cho Danh tính Cấp cao của Smaug">
+<!ENTITY smaug.keyMan.genRevoke.label "Chứng nhận Thu hồi">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "G">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Tạo ra Khóa">
+<!ENTITY smaug.savedecrypted.accesskey "L">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Chiều dài tối đa của PIN">
+<!ENTITY smaug.decryptbutton.tip "Giải mã hoặc kiểm chứng thư với Smaug">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Không">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "H">
+<!ENTITY smaug.keyGen.keyType.label "Kiểu khóa">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Ký tên">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "ID của Khóa">
+<!ENTITY smaug.keyMan.viewMenu.label "Xem">
+<!ENTITY smaug.attachmykey.accesskey "C">
+<!ENTITY smaug.cardDetails.adminPin.label "Thay đổi PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc         "We could not find any OpenPGP key. Please select below if you want to
+                                                      create a new key pair or if you want to import an existing key.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Hiển thị lại tất cả các hộp thoại cảnh báo và câu hỏi mà bạn đã từng giấu trong quá khứ">
+<!ENTITY smaug.msgViewColumn.tooltip              "Sort by the OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "Có">
+<!ENTITY smaug.sign.label "Ký tên">
+<!ENTITY smaug.keyMan.createMail.label          "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "Cụm từ mật khẩu hiện tại">
+<!ENTITY smaug.keyManWindow.accesskey "ó">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Nhớ tạm cụm từ mật khẩu trong bộ nhớ chính cho một thời gian giới hạn.">
+<!ENTITY smaug.generateKey.label "Tạo ra khóa">
+<!ENTITY smaug.composeOptionsMenu.accesskey "M">
+<!ENTITY smaug.cardPin.pinRepeat.label "Lặp lại PIN mới">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "C">
+<!ENTITY smaug.autoDecrypt.accesskey "T">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label   "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "Tạo ra một khóa OpenGPG tương thích mới cho việc mã hóa và/hoặc ký kết">
+<!ENTITY smaug.keyserverDlg.label "Chọn Máy phục vụ khóa">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Chữ ký cục bộ (không thể xuất ra được)">
+<!ENTITY smaug.clearPassphrase.accesskey "ó">
+<!ENTITY smaug.recipientsSelectionOption.label "Chúng tôi nên chọn các khóa như thế nào?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "máy phục vụ Khóa">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Chỉnh sửa Từng-Quy tắc Người nhận">
+<!ENTITY smaug.keyDetails.keyPart.label "Bộ phận của Khóa">
+<!ENTITY smaug.copySecurityInfo.label "Chép Tin tức Bảo mật của Smaug">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Tập tin">
+<!ENTITY smaug.maxIdleMinutesTail.label "số phút của thời giờ để không">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "Chuyển Xuống">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Số sản xuất">
+<!ENTITY smaug.ctxDecryptSave.label "Giải mã và Lưu Dạng...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "T">
+<!ENTITY smaug.keyManWindow.label "Quản lý Khóa">
+<!ENTITY smaug.keyTrust.noTrust.label "Tôi KHÔNG tin tưởng">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Tôi muốn chọn một trong các khóa bên dưới cho việc ký tên và mã hóa thư điện tử của tôi:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Chọn lựa">
+<!ENTITY smaug.help.label "Trợ giúp">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>LƯU Ý: Có thể mất mấy phút để hoàn tất việc tạo ra khóa.</a> Đừng ra khỏi ứng dụng trong khi việc tạo ra khóa đang tiến triển. Duyệt hoặc thực hiện những thao tác xử dụng dĩa rất nhiều một cách tích cực trong lúc khóa đang được tạo ra sẽ bổ sung 'Gộp bừa' và làm cho tiến trình nhanh hơn. Bạn sẽ được báo cho biết khi việc tạo ra khóa được hoàn tất.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Thiết lập bảo mật của Smaug">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Đừng soạn tin nhắn dạng HTML">
+<!ENTITY smaug.maxIdleMinutesHead.label "Nhớ cụm từ mật khẩu cho">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Mã hóa Tin nhắn">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "PIN Hiện thời">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Tôi sẽ không trả lời">
+<!ENTITY smaug.defineRules.label "Chỉnh sửa các Quy tắc ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "Q">
+<!ENTITY smaug.keyMan.showAllKeys.label "Hiển thị Tất cả các Khóa theo Mặc định">
+<!ENTITY smaug.keyMan.title "Quản lý Khóa của Smaug">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "m">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Thêm">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Nhấn để điền rõ một vị trí cho GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Chọn Danh tính">
+<!ENTITY smaug.cardDetails.sigKey.label "Khóa chữ ký">
+<!ENTITY smaug.cardDetails.sex.label "Phái">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Thay đổi PIN Quản trị">
+<!ENTITY smaug.keyserver.label "Máy phục vụ khóa">
+<!ENTITY smaug.encDlgEncrypt.label "Mã hóa Tin nhắn">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Bãi bỏ Trợ lý">
+<!ENTITY smaug.defaultKeySelOpts.label "Tùy chọn Lựa chọn Khóa...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Chọn lựa Khóa">
+<!ENTITY smaug.amPrefDesc.label "Hỗ trợ cho việc mã hóa và ký tên tin nhắn kiểu OpenPGP được cung cấp bởi Smaug. Bạn cần có GnuPG (gpg) thiết lập để dùng tính năng này.">
+<!ENTITY smaug.smaugAttachDesc.label "Tin nhắn này có chứa các đính kèm. Bạn muốn mã hóa/ký tên chúng như thế nào? ">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "Quản lý SmartCard ...">
+<!ENTITY smaug.importMissingKeys.accesskey "T">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug bây giờ sẵn sàng để dùng.<html:br></html:br><html:br></html:br>Cám ơn bạn đã xử dụng Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Tên, Họ">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Xóa">
+<!ENTITY smaug.usersNotFound.label "Nguời nhận không hợp lệ, không tin được hoặc không tìm được">
+<!ENTITY smaug.manageUidDlg.addUid.label "Thêm">
+<!ENTITY smaug.keyMan.reload.accesskey "N">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Tải khóa các khóa bị thiếu xuống">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile    "Public key file">
+<!ENTITY smaug.decryptbutton.label "Giải mã">
+<!ENTITY smaug.signing.label "Ký tên">
+<!ENTITY smaug.keygenTitle.label "Tạo ra Khóa OpenPGP">
+<!ENTITY smaug.smgEncryptAttachNone.label "Chỉ mã hóa/ký tên tin nhắn, nhưng đừng làm cho các đính kèm">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Lặp lại Cụm từ mật khẩu">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' là một dấu tách chữ ký">
+<!ENTITY smaug.cardPin.title "Thay đổi PIN SmartCard">
+<!ENTITY smaug.keyTrust.title "Smaug - Đặt Sự tin tưởng cho Người chủ">
+<!ENTITY smaug.viewconsole.label "Xem Dàn điều khiển">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Đừng xử dụng Web of Trust để xác định sự hợp lệ của các khóa">
+<!ENTITY smaug.useNonDefaultComment.label "Thêm ghi chú của Smaug trong chữ ký của OpenPGP">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Bạn có muốn ký tên tất cả các thư điện tử gửi đi theo mặc định không?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Chép Khóa Công vào Bản nháp">
+<!ENTITY smaug.about.accesskey "ề">
+<!ENTITY smaug.mime_parts_on_demand.label "Chỉ tải các đính kèm xuống khi được mở (chỉ có IMAP)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Hai dấu gạch một mình chúng trên một đường có nghĩa là một khối chữ ký">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Đừng hiển thị hộp thoại này nữa nếu không mã hóa được">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "Thu hồi Khóa">
+<!ENTITY smaug.sKeyDlg.checked.label "Bạn đã nhận diện cẩn thận cỡ nào về khóa mà bạn sắp ký là thuộc về (những) người có tên bên trên?">
+<!ENTITY smaug.keyGen.expiry.title "Khóa hết hạn">
+<!ENTITY smaug.undoencryption.accesskey "H">
+<!ENTITY smaug.keyMan.showInvalidKeys.label     "Display invalid keys">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Chi tiết...">
+<!ENTITY smaug.encrypt.label "Mã hóa">
+<!ENTITY smaug.cardDetails.login.label "Dữ liệu đăng nhập">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Không, tôi muốn tạo quy tắc từng-người nhận cho những thư điện tử cần được ký tên">
+<!ENTITY smaug.about.title "Về Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Tạo Quy tắc của Smaug từ Địa chỉ...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey            "V">
+<!ENTITY smaug.viewdebuglog.accesskey "t">
+<!ENTITY smaug.detailsHdrButton.label "Chi tiết">
+<!ENTITY smaug.keyTrust.trustKey.label "Khóa Để Tin tưởng:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "Hành động">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Tạo Khóa">
+<!ENTITY smaug.autoKeyRetrieve2.label "từ những máy phục vụ khóa sau đây:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Bạn cần đưa khóa công của bạn cho tất cả những người trong danh sách liên lạc của bạn mà 
+muốn kiểm chứng chữ ký của bạn, hoặc muốn mã hóa thư điện tử gửi cho bạn. 
+Trong khi đó, bạn cần giữ kín khóa tư của bạn. Bạn không được cho nó đi 
+hay không bảo vệ nó. Nó có thể đọc tất cả các thư điện tử mà người khác 
+mã hóa và gửi cho bạn. Nó cũng có thể mã hóa thư điện tử dùng tên bạn. 
+Vì là bí mật, nó được bảo vệ bởi một cụm từ mật khẩu.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Thêm ID Nguời dùng">
+<!ENTITY smaug.keyDetails.keyType.label "Kiểu">
+<!ENTITY smaug.keyGen.years.label "năm">
+<!ENTITY smaug.edit.accesskey "S">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Thiết lập cho Người nhận">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug cho phép bạn ký thuật số các thư điện tử của bạn. Chuyện này giống như 
+ký tên vào thư kiểu điện tử, và nó cho phép người khác biết chắc 
+rằng bạn đúng là người gửi thư điện tử. Ký tên tất cả các thư gửi đi là 
+một thói quen bảo mật tốt. 
+">
+<!ENTITY smaug.cardDetails.sigcount.label "Bộ đếm chữ ký">
+<!ENTITY smaug.addToRule.useRuleButton.label      "Add Key to Selected Rule">
+<!ENTITY smaug.encDlgSign.label "Ký tên Tin nhắn">
+<!ENTITY smaug.keyGen.noExpiry.label "Khóa không có hạn">
+<!ENTITY smaug.keyPassphraseRepeat.label "Cụm từ mật khẩu (lặp lại)">
+<!ENTITY smaug.searchForKey.label "Tìm kiếm khóa">
+<!ENTITY smaug.setupWiz.details.changingPrefs "Những tùy thích sau đây được sửa đổi bởi Trợ lý này:">
+<!ENTITY smaug.revealAttachmentsButton.label     "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "Luôn luôn">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "G">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Xuất Khóa ra Tập tin">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "N">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Chép Khóa Công vào Bản nháp">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "N">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "Hiệu lực của khóa">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "Các tùy chọn của OpenPGP">
+<!ENTITY smaug.progressText.label "Tiến triển:">
+<!ENTITY smaug.sepratationDesc.label "(Phân biệt nhiều địa chỉ thư điện tử với dấu cách)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Tôi muốn thiết lập Smaug chỉ cho những danh tính sau đây:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Bỏ nút S/MIME ra khỏi thanh công cụ cửa sổ soạn tin nhắn">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "Đặt Sự tin tưởng cho Người chủ">
+<!ENTITY smaug.keyMan.showOthersKeys.label      "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Trrọ lý này giúp bạn bắt đầu dùng Smaug ngay lập tức. Trong vài màn hình 
+sắp tới chúng tôi sẽ hỏi bạn một vài câu hỏi để thiết lập mọi thứ. 
+">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "một trong những địa chỉ bên trên">
+<!ENTITY smaug.keyMan.reload.label "Nạp lại Bộ nhớ tạm của Khóa">
+<!ENTITY smaug.viewconsole.accesskey "D">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "X">
+<!ENTITY smaug.keyNoPassphrase.label "Không có cụm từ mật khẩu">
+<!ENTITY smaug.amPrefSelectKey.label "Chọn Khóa ...">
+<!ENTITY smaug.moveUp.label "Chuyển Lên">
+<!ENTITY smaug.cardDetails.yes.label "Có">
+<!ENTITY smaug.testemail.label "Thử tra thư điện tử">
+<!ENTITY smaug.composeOptionsMenu.label "Tùy chọn Mặc định của Soạn tin">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label      "Create New Rule">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Bạn hầu như đã hoàn tất. Nếu bạn nhấn lên nút 'Kế thì trợ lý sẽ thực hiện những hành động sau đây:">
+<!ENTITY smaug.clearSearch.label "Xóa">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Xóa Khóa">
+<!ENTITY smaug.keyMan.viewPhoto.label "ID Hình">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "X">
+<!ENTITY smaug.viewdebuglog.label "Xem Tập tin ghi lưu">
+<!ENTITY smaug.manageUidDlg.title "Thay đổi ID Nguời dùng Chính ">
+<!ENTITY smaug.useKeys.label "Xử dụng các khóa OpenPGP sau đây:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Xử dụng mã hóa 8-bit để gửi tin nhắn">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "K">
+<!ENTITY smaug.trustSenderKey.label "Đặt Sự tin tưởng cho Người chủ ...">
+<!ENTITY smaug.delete.accesskey "ó">
+<!ENTITY smaug.encryptedsend.accesskey "M">
+<!ENTITY smaug.encryptedsend.key "E">
+<!ENTITY smaug.keyMan.changePwd.accesskey "C">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Vui lòng chờ trong khi khóa đang được nạp ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "Không có khóa nào trùng hợp với điều kiện tìm kiếm của bạn">
+<!ENTITY smaug.importpublickey.label "Nhập Khóa Công vào">
+<!ENTITY smaug.matchDescStart.label "Áp dụng quy tắc nếu người nhận">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Không, cám ơn. Tôi thích cấu hình mọi chuyện bằng tay">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey  "N">
+<!ENTITY smaug.expertUser.tooltip "Bấm nếu bạn muốn thấy những mục trình đơn và tùy chọn cho người dùng cấp cao.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Tin tưởng cho Người chủ">
+<!ENTITY smaug.cardDetails.closeWindow.label "Đóng">
+<!ENTITY smaug.keyTrust.trustLevel.label "Bạn tin vào khóa nhiều cỡ nào?">
+<!ENTITY smaug.cardDetails.title "Chi tiết OpenGPG SmartCard">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Tìm kiếm Khóa">
+<!ENTITY smaug.amPrefUseFromAddr.label "Xử dụng địa chỉ thư đìện tử của danh tính này để nhận diện khóa OpenPGP">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Điền rõ các tùy chọn sẽ được dùng bởi GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Đóng Cửa sổ">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "T">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Ký Thuật số các Thư điện tử Gửi đi của Bạn">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "Bật hỗ trợ của OpenPGP (Smaug) cho danh tính này">
+<!ENTITY smaug.keyMan.exportToFile.label "Xuất Khóa ra Tập tin">
+<!ENTITY smaug.cardPin.unblockPin.label "Không chặn cản PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Chỉnh sửa">
+<!ENTITY smaug.encDlgPgpMime.accesskey "X">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Chọn các tài khoản hoặc danh tính bạn muốn Smaug làm việc với">
+<!ENTITY smaug.useGpgAgent.tooltip "Xử dụng gpg-agent (một phần của GnuPG 2) cho tất cả các cụm từ mật khẩu được nhập vào">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Bạn có muốn thay đổi một vài thiết lập mặc định để làm cho Smaug làm việc tốt hơn 
+trong máy của bạn không?">
+<!ENTITY smaug.cardDetails.forcepin.label "PIN chữ ký bắt buộc">
+<!ENTITY smaug.rulesEditor.label "Smaug - Chỉnh sửa Quy tắc Từng-Người nhận">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Tìm được Khóa - Chọn để Nhập vào">
+<!ENTITY smaug.keyMan.showPhoto.accesskey         "P">
+<!ENTITY smaug.resetPrefsButton.label "Đặt lại">
+<!ENTITY smaug.valid.label "Hiệu lực">
+<!ENTITY smaug.keyUserId.label "Tài khoản / Tên Người dùng">
+<!ENTITY smaug.cancelKey.label "Bãi bỏ">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Tôi muốn tạo một cặp khóa mới cho việc ký tên và mã hóa thư điện tử của tôi">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Bỏ qua Quy tắc Từng-Người nhận">
+<!ENTITY smaug.basic.label "Căn bản">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "Đ">
+<!ENTITY smaug.setupWiz.pgComplete.title "Cám ơn bạn">
+<!ENTITY smaug.displayKeyProperties.label       "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "Thêm các tham số cho GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Khóa của bạn đang được tạo ra">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label         "Add to Per-Recipient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Nâng cao">
+<!ENTITY smaug.nextRule.label "Tiếp tục với quy tắc kế tiếp cho địa chỉ trùng hợp">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Khóa cho việc ký tên:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey    "I have existing public and private keys that I would like to import">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Vui lòng xác nhận cụm từ mật khẩu của bạn bằng cách gõ nó lại">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Dấu tay:">
+<!ENTITY smaug.keyMan.keyProps.label "Thuộc tính của Khóa">
+<!ENTITY smaug.keyMan.setTrust.accesskey "S">
+<!ENTITY smaug.keyMan.editMenu.accesskey "C">
+<!ENTITY smaug.attachmykey.label "Đính kèm Khóa Công Của tôi">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey   "D">
+<!ENTITY smaug.keyDetails.created.label "Tạo ra">
+<!ENTITY smaug.cardDetails.pinretry.label "Bộ đếm thử lại PIN">
+<!ENTITY smaug.ctxDecryptOpen.label "Giải mã và Mở ra">
+<!ENTITY smaug.setupWiz.label "Trợ lý Thiết lập">
+<!ENTITY smaug.genCardKey.backupKey.label "Lưu bản sao của khóa bên ngoài thẻ">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Xử dụng khóa được tạo ra cho danh tính được chọn">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Thuộc tính của Khóa">
+<!ENTITY smaug.amPrefUseKeyId.label "Xử dụng ID của khóa OpenPGP riêng (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Gửi Khóa Công bằng Thư điện tử">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Thiết lập Căn bản">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Nâng cao...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Sau cùng tôi tin tưởng">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Dấu tay">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "Xem ID Hình của OpenPGP">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Xử dụng gpg-agent cho các cụm từ mật khẩu">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Tạo (các) quy tắc cho từng-người nhận">
+<!ENTITY smaug.sendOptionsMenu.label "Tùy chọn Gửi...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle     "We could not find any OpenPGP Key">
+<!ENTITY smaug.keyMan.stopTransfer.label "Ngưng chuyển">
+<!ENTITY smaug.refreshKeys.label "Cập nhật Danh sách Khóa">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label   "Encrypt/sign replies to encrypted/signed messages">
+<!ENTITY smaug.addPhoto.question.label            "Do you want to add the following picture to the following key?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "When possible, encrypt/sign responses to encrypted/signed email">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Cập nhật Tất cả các Khóa Công">
+<!ENTITY smaug.cardDetails.authKey.label "Khóa xác thực">
+<!ENTITY smaug.viewKeySigDlg.title "Danh sách chữ ký">
+<!ENTITY smaug.cardDetails.vendor.label "Nhà sản xuất">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Gửi URL để lấy khóa:">
+<!ENTITY smaug.encryptionDlg.label "Mã hóa &amp; kiểu Smaug; Các Thiết lập cho việc Ký tên">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey    "O">
+<!ENTITY smaug.decryptverify.accesskey "G">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "Vâng, nếu được chọn trong Soạn Tin nhắn">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Tôi tin tưởng chút ít">
+<!ENTITY smaug.prefs.pathsTitle.label "Các tập tin và thư mục">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Lưu ý:</a> Smaug sẽ luôn luôn kiểm chứng chữ ký 
+trên thư điện tử cho tất cả các tài khoản hoặc danh tính, bất kể là nó có được bật hay không">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "T">
+<!ENTITY smaug.addUidDlg.comment.label "Ghi chú (tùy chọn)">
+<!ENTITY smaug.setupWiz.no "Không, cám ơn">
+<!ENTITY smaug.alwaysTrustSend.label "Luôn luôn tin tưởng khóa của người ta">
+<!ENTITY smaug.keyMan.viewSig.accesskey "C">
+<!ENTITY smaug.changePasswd.newPasswd.label "Cụm từ mật khẩu mới">
+<!ENTITY smaug.undoencryption.label "Hủy bước Mã hóa">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Tạo ra &amp; Lưu Chứng nhận Thu hồi">
+<!ENTITY smaug.cardDetails.reset.label "Đặt lại">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Xem Chữ ký">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Các Tùy thích cho Ký tên/Mã hóa...">
+<!ENTITY smaug.reload.label "Tải Tin nhắn lại">
+<!ENTITY smaug.browse.label "Duyệt...">
+<!ENTITY smaug.passwordSettings.label "Thiết lập cụm từ mật khẩu">
+<!ENTITY smaug.keyDetails.algorithm.label "Thuật toán">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "T">
+<!ENTITY smaug.cardDetails.keyCreated.label "Tạo ra">
+<!ENTITY smaug.autoDecrypt.label "Giải mã/Kiểm chứng Tin nhắn Tự động">
+<!ENTITY smaug.setupWiz.pgKeyImport.title         "Import OpenPGP Keys">
+<!ENTITY smaug.keyservers.label "Điền rõ (các) máy phục vụ khóa của bạn">
+<!ENTITY smaug.encDlgIgnoreRules.label           "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey          "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "ID nguời dùng có sẵn:">
+<!ENTITY smaug.add.accesskey "T">
+<!ENTITY smaug.refreshKeys.accesskey "C">
+<!ENTITY smaug.signSenderKey.label "Ký tên Khóa ...">
+<!ENTITY smaug.searchKeyDlg.label "Tải Khóa của OpenPGP xuống">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "T">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Bạn đã chọn không dùng Trợ lý để cấu hình Smaug. 
+<html:br></html:br><html:br></html:br>Cám ơn bạn đã xử dụng Smaug.">
+<!ENTITY smaug.signedsend.accesskey "K">
+<!ENTITY smaug.keyGen.console.label "Dàn điều khiển Tạo ra Khóa">
+<!ENTITY smaug.signSenderKeyPopup.label "Ký tên Khóa của Người gửi ...">
+<!ENTITY smaug.cardDetails.url.label "URL của khóa công">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Những thiết lập của Smaug dành riêng cho các tài khoản hoặc danh tính. Theo mặc định 
+Smaug sẽ cấu hình nó để làm việc với tất cả các tài khoản và danh tính 
+của bạn. Nếu đó không phải là những gì bạn muốn, xin vui lòng chọn tài khoản 
+hoặc danh tính riêng bên dưới mà bạn muốn Smaug làm việc với.">
+<!ENTITY smaug.resetRememberedValues.label "Đặt lại cảnh báo">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title        "No OpenPGP Key Found">
+<!ENTITY smaug.cardDetails.save.label "Lưu">
+<!ENTITY smaug.prefs.overrideGpg.label "Ghi đè lên với">
+<!ENTITY smaug.logdirectory.label "Thư mục bản ghi">
+<!ENTITY smaug.setupWiz.pgSummary.title "Tóm tắt">
+<!ENTITY smaug.ruleEmail.label "Đặt Quy tắc của Smaug cho">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Xác nhận là trợ lý bây giờ sẽ ghi chép những thay đổi này">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Xem thân của tin nhắn bằng dạng nhập thô">
+<!ENTITY smaug.debugMenu.label "Tùy chọn Gỡ lỗi">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Cập nhật Các Khóa Công Từ máy phục vụ Khóa">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Tạo Một Khóa Để Ký tên Và Mã hóa Thư điện tử">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Đừng bao giờ hỏi về cụm từ mật khẩu">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Khóa để thay đổi:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Tùy chọn Mặc định của Soạn Tin nhắn">
+<!ENTITY smaug.sendersKeyMenu.label "Khóa của Người gửi">
+<!ENTITY smaug.preferences.label "Tùy thích của Smaug">
+<!ENTITY smaug.clearPassphrase.label "Xóa Cụm từ mật khẩu được Lưu">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Bạn cần có một 'cặp khóa' để ký tên và mã hóa thư điện tử, hoặc để đọc 
+những thư điện tử đã được mã hóa. Một cặp khóa có hai khóa, một cái công và một 
+cái tư.">
+<!ENTITY smaug.selKeysButton.accesskey "C">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Chúng tôi phát hiện là bạn đã có sẵn một khóa cho OpenPGP. Bạn có thể 
+dùng một trong các khóa đã có của bạn để ký tên, mã hóa và giải mã thư điện tử, hoặc 
+bạn có thể tạo một cặp khóa mới.">
+<!ENTITY smaug.noHushMailSupport.label "Xử dụng '&lt;' và '&gt;' để điền rõ các địa chỉ thư điện tử">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc          "Please specify the files containing the public and the private keys to
+                                                      import. The entry for private keys can be left empty if the first file
+                                                      contains both private and public keys.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "ngày">
+<!ENTITY smaug.disableRules.accesskey "B">
+<!ENTITY smaug.setupWiz.pgSettings.title "Tùy thích">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "T">
+<!ENTITY smaug.keyMan.generate.label "Cặp Khóa mới">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Đính kèm khóa công của tôi vào các tin nhắn">
+<!ENTITY smaug.encDlgPgpMime.label "Xử dụng PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Chọn tất cả các Khóa">
+<!ENTITY smaug.keyComment.label "Ghi chú">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Tôi không có kiểm soát gì cả">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "N">
+<!ENTITY smaug.addUidDlg.email.label "Thư điện tử">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP Bảo mật">
+<!ENTITY smaug.nextAddress.label "Đừng kiểm soát thêm quy tắc nữa cho địa chỉ trùng hợp">
+<!ENTITY smaug.setupWiz.details.subtitle "Sửa đổi Thiết lập cho Ứng dụng">
+<!ENTITY smaug.keyMan.uploadToServer.label "Tải Khóa Công lên">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Chỉ điền địa chỉ thư điện tử, ĐỪNG đặt tên của người nhận Thí dụ 'Tên Họ &lt;tên.họ@address.net&gt;' là không hợp lệ">
+<!ENTITY smaug.setupWiz.details.title "Tùy thích">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "T">
+<!ENTITY smaug.email.label "Thư điện tử">
+<!ENTITY smaug.attachkey.label "Đính kèm Khóa Công ...">
+<!ENTITY smaug.not.label "Không">
+<!ENTITY smaug.keyExpiry.label "Hết hạn">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "Tên">
+<!ENTITY smaug.keyMan.manageUid.label "Quản lý ID Nguời dùng">
+<!ENTITY smaug.defaultEncryption.label "Mã hóa các tin nhắn theo mặc định">
+<!ENTITY smaug.never.label "Không bao giờ">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "T">
+<!ENTITY smaug.cardDetails.genCardKey.label "Tạo ra Khóa">
+<!ENTITY smaug.editRules.accesskey "N">
+<!ENTITY smaug.prefs.accesskey "T">
+<!ENTITY smaug.keyDetails.selAction.accesskey "C">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "Chính xác là">
+<!ENTITY smaug.searchRule.label "Xem quy tắc với địa chỉ thư điện tử có chứa:">

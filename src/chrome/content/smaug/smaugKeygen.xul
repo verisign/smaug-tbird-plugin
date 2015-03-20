@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 1.1 (the "MPL"); you may not use this file
+ * except in compliance with the MPL. You may obtain a copy of
+ * the MPL at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the MPL is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the MPL for the specific language governing
+ * rights and limitations under the MPL.
+ *
+ * The Original Code is Enigmail.
+ *
+ * The Initial Developer of the Original Code is Ramalingam Saravanan.
+ * Portions created by Ramalingam Saravanan <svn@xmlterm.org> are
+ * Copyright (C) 2002 Ramalingam Saravanan. All Rights Reserved.
+ *
+ * Contributor(s):
+ * Patrick Brunschwig <patrick@enigmail.net>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ * ***** END LICENSE BLOCK ***** *
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://smaug/skin/smaug.css" type="text/css"?>
+
+<?xul-overlay href="chrome://global/content/dialogOverlay.xul"?>
+
+<!DOCTYPE window SYSTEM "chrome://smaug/locale/smaug.dtd" >
+
+<window
+     id="smaugKeygen"
+     title="&smaug.keygenTitle.label;"
+     windowtype="smaug:keygen"
+     width="600" height="480"
+     orient="vertical"
+     onload="smaugKeygenLoad()"
+     onclose="return smaugOnClose();"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://global/content/dialogOverlay.js" />
+
+<script type="application/x-javascript" src="chrome://smaug/content/smaugCommon.js"/>
+<script type="application/x-javascript" src="chrome://smaug/content/smaugKeygen.js"/>
+
+<popupset id="aTooltipSet"/>
+
+<groupbox id="userIdBox" orient="vertical">
+
+  <hbox orient="horizontal" align="center">
+    <label value="&smaug.keyUserId.label;" control="userIdentity"/>
+    <menulist id="userIdentity" label="..." flex="1">
+      <menupopup id="userIdentityPopup"/>
+    </menulist>
+  </hbox>
+
+  <checkbox id="useForSigning"
+            label="&smaug.useForSigning.label;"
+            checked="true" />
+
+</groupbox>
+
+<checkbox id="noPassphrase"
+          label="&smaug.keyNoPassphrase.label;"
+          oncommand="smaugKeygenUpdate(false, false);" />
+
+<grid>
+  <columns>
+    <column />
+    <column flex="1"/>
+  </columns>
+
+  <rows>
+    <row>
+      <hbox id="passphraseBox" align="center">
+        <label control="passphrase" value="&smaug.keyPassphrase.label;" />
+      </hbox>
+      <hbox align="center">
+        <textbox id="passphrase" type="password" />
+        <label control="passphraseRepeat" value="&smaug.keyPassphraseRepeat.label;" />
+        <textbox id="passphraseRepeat" type="password" />
+      </hbox>
+    </row>
+
+    <row>
+      <hbox align="center">
+        <label control="keyComment" value="&smaug.keyComment.label;" />
+      </hbox>
+      <textbox id="keyComment" />
+    </row>
+  </rows>
+</grid>
+
+<tabbox flex="1">
+  <tabs id="settingsTabBox">
+    <tab id="basicTab"    label="&smaug.keyGen.expiry.title;"/>
+    <tab id="advancedTab" label="&smaug.advancedPrefsButton.label;"/>
+  </tabs>
+
+  <tabpanels flex="1">
+
+    <hbox> <!-- Basic Tab -->
+      <hbox align="center">
+        <label value="&smaug.keyGen.expire.label;" control="expireInput"/>
+      </hbox>
+      <hbox align="center">
+        <textbox id="expireInput" size="5" maxlength="5" value="5"/>
+        <menulist id="timeScale" label="&smaug.keyGen.years.label;" value="365">
+          <menupopup id="timeScalePopup">
+            <menuitem id="years" value="365" label="&smaug.keyGen.years.label;" selected="true"/>
+            <menuitem id="months" value="30" label="&smaug.keyGen.months.label;"/>
+            <menuitem id="days" value="1" label="&smaug.keyGen.days.label;"/>
+          </menupopup>
+        </menulist>
+        <checkbox label="&smaug.keyGen.noExpiry.label;"
+                  id="noExpiry" oncommand="onNoExpiry()"/>
+      </hbox>
+    </hbox>
+
+    <vbox> <!-- Advanced Tab -->
+      <grid>
+        <columns>
+          <column/>
+          <column flex="1"/>
+        </columns>
+
+        <rows>
+          <row>
+            <hbox align="center">
+              <label value="&smaug.keyGen.keySize.label;" control="keySize"/>
+            </hbox>
+            <hbox flex="0">
+              <menulist id="keySize" label="4096" value="4096" >
+                <menupopup id="keySizePopup">
+                  <menuitem id="keySize_1024" value="1024" label="1024"/>
+                  <menuitem id="keySize_2048" value="2048" label="2048"/>
+                  <menuitem id="keySize_4096" value="4096" label="4096" selected="true"/>
+                </menupopup>
+              </menulist>
+            </hbox>
+          </row>
+          <row>
+            <hbox align="center">
+              <label value="&smaug.keyGen.keyType.label;" control="keyType"/>
+            </hbox>
+            <hbox flex="0">
+              <menulist id="keyType" label="&smaug.keyGen.keyType.dsa;" value="1" >
+                <menupopup id="keyTypePopup">
+                  <menuitem id="keySize_rsa" value="2" label="&smaug.keyGen.keyType.rsa;" selected="true"/>
+                  <menuitem id="keyType_dsa" value="1" label="&smaug.keyGen.keyType.dsa;"/>
+                </menupopup>
+              </menulist>
+            </hbox>
+          </row>
+        </rows>
+      </grid>
+  </vbox>
+  </tabpanels>
+</tabbox>
+
+<separator/>
+
+<hbox autostretch="never">
+  <button label="&smaug.generateKey.label;"
+          class="dialog"
+          tooltip="aTooltip"
+          tooltiptext="&smaug.generateKey.tooltip;"
+          oncommand="smaugKeygenStart();" />
+
+  <button label="&smaug.cancelKey.label;"
+          class="dialog"
+          tooltip="aTooltip"
+          tooltiptext="&smaug.cancelKey.tooltip;"
+          oncommand="smaugKeygenCancel();" />
+</hbox>
+
+<separator/>
+
+<groupbox id="keygenConsoleBox" orient="vertical" flex="1">
+
+  <caption label="&smaug.keyGen.console.label;"/>
+
+  <description>&smaug.keygen.desc;</description>
+
+  <groupbox>
+    <progressmeter id="keygenProgress" mode="determined" value="0"/>
+  </groupbox>
+
+</groupbox>
+
+</window>

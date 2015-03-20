@@ -1,0 +1,628 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Nøkkelvaliditet">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Signaturtype">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "Endre dine epostinstillinger for å gjøre Smaug mer kompatibel">
+<!ENTITY smaug.pgpAccountSettings.accesskey "E">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Krypter/Signer hele meldingen ved å benytte PGP/MIME">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Ja, Jeg vil bruke hjelperen for å komme i gang">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Eierpålitelighet">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Bruk den valgte metoden for alle fremtidige vedlegg">
+<!ENTITY smaug.ctxImportKey.label "Importer OpenPGP Nøkkel">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Deaktiver flytende tekst (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Hva ønsker du å gjøre?">
+<!ENTITY smaug.addToRule.title "Legg til nøkkel til mottageravhengig regel">
+<!ENTITY smaug.reload.accesskey "E">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Last opp offentlige nøkler til nøkkeltjener">
+<!ENTITY smaug.about.label "Om Smaug">
+<!ENTITY smaug.keyGen.months.label "måneder">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Velg filer å importere">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "C">
+<!ENTITY smaug.ctxVerifyAtt.label "Verifiser signatur">
+<!ENTITY smaug.progress.label "Fremgang">
+<!ENTITY smaug.adminSmartCard.accesskey "M">
+<!ENTITY smaug.debugMenu.accesskey "G">
+<!ENTITY smaug.sending.label "Sender">
+<!ENTITY smaug.clearSearch.accesskey "C">
+<!ENTITY smaug.keyPassphrase.label "Passord">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "Endre PIN">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Filter med brukerid eller nøkkelid som inneholder:">
+<!ENTITY smaug.keyMan.importFromFile.label "Importer nøkler fra fil">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Signer nøkkel">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Ja, jeg ønsker å signere all utgående epost">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Trekk tilbake">
+<!ENTITY smaug.cancelKey.tooltip "Avbryt nøkkelgenerering">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "Ønsker du å benytte deg av hjelperen nå?">
+<!ENTITY smaug.importMissingKeys.tooltip "Prøv å importer manglende nøkler fra en nøkkeltjener">
+<!ENTITY smaug.keyTrust.dontKnow.label "Jeg vet ikke">
+<!ENTITY smaug.cardPin.newAdminPin.label "Ny Admin-PIN">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Vis FotoID">
+<!ENTITY smaug.keyDetails.expiry.label "Utløp">
+<!ENTITY smaug.keyMan.keyType.label "Type">
+<!ENTITY smaug.created.label "Laget">
+<!ENTITY smaug.importpublickey.accesskey "I">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Deaktiver lasting av IMAP-deler ved behov">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Nøkkelvalg">
+<!ENTITY smaug.sendPGPMime.label "Bruk PGP/MIME med denne meldingen">
+<!ENTITY smaug.savedecrypted.label "Lagre dekryptert melding">
+<!ENTITY smaug.userSelectionList.label "Smaug nøkkelvalg">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Jeg har sjekket overflødig">
+<!ENTITY smaug.edit.label "Endre">
+<!ENTITY smaug.keyMan.createMail.accesskey "C">
+<!ENTITY smaug.keyMan.generateMenu.label "Generer">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Rediger teksten for å sikre at signaturen vil forbli intakt.">
+<!ENTITY smaug.decryptverify.label "Dekrypter/Verifiser">
+<!ENTITY smaug.encDlgEncrypt.accesskey "E">
+<!ENTITY smaug.prefs.label "Instillinger">
+<!ENTITY smaug.keyMan.changePwd.label "Endre passord">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "A">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "Nøkkel utløper om">
+<!ENTITY smaug.encryption.label "Kryptering">
+<!ENTITY smaug.keyTrust.fullTrust.label "Jeg stoler helt på denne nøkkelen">
+<!ENTITY smaug.addUidDlg.name.label "Navn">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "Avslutter med">
+<!ENTITY smaug.pgpKeys.label "OpenPGP Nøkler">
+<!ENTITY smaug.amPrefPgpHeader.id.label "Send OpenPGP NøkkelID">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "U">
+<!ENTITY smaug.keyGen.keySize.label "Nøkkelstørrelse">
+<!ENTITY smaug.basicUser.tooltip "Velg om du ikke ønsker å se elementer og valg for avanserte brukere">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Denne hjelperen kan endre dine epostinstillinger for å sørge for at der ikke er noen problemer med å signere og kryptere eposter på din maskin. Instillingene er hovedsakelig tekniske som du ikke vil merke, bortsett fra instillingen om å skrive meldinger i ren tekst som standard.">
+<!ENTITY smaug.cardDetails.male.label "Mann">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "S">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "E">
+<!ENTITY smaug.singleRcptSettings.desc "(MERK: Om konflikt gjelder 'Aldri' over 'Alltid')">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Fil for private nøkler">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug Sikkerhetsinformasjon ...">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Du bør skru denne av om du motter OpenPGP/MIME meldinger i IMAP-mapper.">
+<!ENTITY smaug.trustSenderKeyPopup.label "Sett senderens nøkkelpålitelighet ...">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Signaturer for nøkkel:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Signer nøkkel">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>MERK: Nøkkelgenerering kan ta flere minutter, ikke avslutt programmet, du vil få beskjed når det er fullført.">
+<!ENTITY smaug.keyDetails.additionalUid.label "Additional User ID">
+<!ENTITY smaug.cardDetails.cardMenu.label "SmartCard">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Add Photo">
+<!ENTITY smaug.cardDetails.female.label "Kvinne">
+<!ENTITY smaug.sendPGPMime.accesskey "P">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Importer nøkler fra utklippstavle">
+<!ENTITY smaug.setDefaultsFor.label "Vanlige instillinger for ...">
+<!ENTITY smaug.changePasswd.title "Endre OpenPGP passord">
+<!ENTITY smaug.keyMan.viewSig.label "Signaturer">
+<!ENTITY smaug.autoKeyRetrieve.label "Last ned nøkler fra server automatisk for signaturvalidering">
+<!ENTITY smaug.matchBegin.label "Begynner med">
+<!ENTITY smaug.selKeysButton.label "Velg nøkkel/nøkler...">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "Send 'OpenPGP' meldingstopp">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Gjenta ny PIN">
+<!ENTITY smaug.signedsend.label "Signer melding">
+<!ENTITY smaug.cardDetails.lang.label "Språk">
+<!ENTITY smaug.messengermenu.accesskey "n">
+<!ENTITY smaug.keyDetails.size.label "Størrelse">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Pakk om signert HTML før sending">
+<!ENTITY smaug.genCardKey.title "Generer OpenPGP Nøkkel">
+<!ENTITY smaug.ctxDecryptSave.accesskey "C">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Nåværende Admin-PIN">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP Photo Viewer">
+<!ENTITY smaug.cardPin.newPin.label "Ny PIN">
+<!ENTITY smaug.smgEncryptAttachInline.label "Krypter hvert vedlegg for seg selv, og send meldingen ved hjelp av innsidig PGP">
+<!ENTITY smaug.moveDown.accesskey "D">
+<!ENTITY smaug.keyservers.sample "Eksempel: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "R">
+<!ENTITY smaug.userNoPassphrase.tooltip "Marker denne om din OpenPGP-nøkkel ikke er passordbeskyttet.">
+<!ENTITY smaug.usePGPMimeAlways.label "Bruk alltid PGP/MIME">
+<!ENTITY smaug.addPhoto.title "Legg til bilde til nøkkel">
+<!ENTITY smaug.resetPrefs.tooltip "Sett alle valgene tilbake til standardinnstillingene.">
+<!ENTITY smaug.cardDetails.editData.label "Endre kortdata">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "R">
+<!ENTITY smaug.sendOptionsMenu.accesskey "S">
+<!ENTITY smaug.sKeyDlg.signKey.label "Nøkkel som skal signeres:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Jeg ønsker å sette opp Smaug for alle identiteter">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA &amp; El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Fingeravtrykk">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Oppdater valgte offentlige nøkler">
+<!ENTITY smaug.delete.label "Slett">
+<!ENTITY smaug.keyId.label "NøkkelID">
+<!ENTITY smaug.moreOptions.label "Flere valg">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Jeg har sjekket svært grundig">
+<!ENTITY smaug.test.label "Test">
+<!ENTITY smaug.debug.label "Feilsøking">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Lag en nøkkel for å signere og kryptere eposter">
+<!ENTITY smaug.keyDetails.ID.label "ID">
+<!ENTITY smaug.matchContains.label "Inneholder">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Enter search terms in the box above">
+<!ENTITY smaug.cardDetails.encKey.label "Krypteringsnøkkel">
+<!ENTITY smaug.noHushMailSupport.tooltip "Bruk tegnene '&lt;' og '&gt;' for å spesifsere epostadresser GnuPG. Deaktver om mottagerne bruker gamle Hushmail nøkler.">
+<!ENTITY smaug.keyDetails.selAction.label "Select action ...">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Sett som standard">
+<!ENTITY smaug.setupWiz.accesskey "S">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Kom igjang med Smaug">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Primær nøkkelid">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "A">
+<!ENTITY smaug.advancedIdentityDlg.title "Avanserte Smaug identitets-innstillinger">
+<!ENTITY smaug.keyMan.genRevoke.label "Sertifikat for tilbaketrekning">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "D">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Lag nøkkel">
+<!ENTITY smaug.savedecrypted.accesskey "S">
+<!ENTITY smaug.cardDetails.maxpinlen.label "Maks PIN-lengde">
+<!ENTITY smaug.decryptbutton.tip "Dekrypter eller verifiser meldingen med OpenPGP(Smaug)">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Nei">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "D">
+<!ENTITY smaug.keyGen.keyType.label "Nøkkeltype">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Signering">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "NøkkelID">
+<!ENTITY smaug.keyMan.viewMenu.label "Vis">
+<!ENTITY smaug.attachmykey.accesskey "M">
+<!ENTITY smaug.cardDetails.adminPin.label "Endre PIN">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Vi kunne ikke finne noen OpenPGP-nøkkel; Vennligst velg nedenfor om du ønsker å lage et nytt nøkkelpar eller om du ønsker å importere en eksisterende nøkkel">
+<!ENTITY smaug.resetRememberedValues.tooltip "Vis alle advarsler og spørsmål du har gjemt tidligere.">
+<!ENTITY smaug.msgViewColumn.tooltip "Sorter etter OpenPGP status">
+<!ENTITY smaug.setupWiz.yes "ja">
+<!ENTITY smaug.sign.label "Signer">
+<!ENTITY smaug.keyMan.createMail.label "Compose Mail to Selected Keys">
+<!ENTITY smaug.changePasswd.currPasswd.label "Nåværende passord">
+<!ENTITY smaug.keyManWindow.accesskey "y">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Lagre passordet i minnet for en begrenset periode.">
+<!ENTITY smaug.generateKey.label "Generer nøkkel">
+<!ENTITY smaug.composeOptionsMenu.accesskey "D">
+<!ENTITY smaug.cardPin.pinRepeat.label "Gjenta ny PIN">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "E">
+<!ENTITY smaug.autoDecrypt.accesskey "A">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Display untrusted keys">
+<!ENTITY smaug.generateKey.tooltip "Generer en ny OpenPGP-kompatibel nøkkel for kryptering og/eller signering">
+<!ENTITY smaug.keyserverDlg.label "Velg nøkkeltjener">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Lokal signatur (kan ikke eksporteres)">
+<!ENTITY smaug.clearPassphrase.accesskey "l">
+<!ENTITY smaug.recipientsSelectionOption.label "Hvordan skal vi velge nøkler?">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Nøkkeltjener">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Endre mottakerbestemte regler">
+<!ENTITY smaug.keyDetails.keyPart.label "Key Part">
+<!ENTITY smaug.copySecurityInfo.label "Kopier Smaug Sikkerhetsinformasjon">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "I">
+<!ENTITY smaug.keyMan.fileMenu.label "Fil">
+<!ENTITY smaug.maxIdleMinutesTail.label "minutter med inaktivitet">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "K">
+<!ENTITY smaug.moveDown.label "Flytt ned">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Serienummer">
+<!ENTITY smaug.ctxDecryptSave.label "Dekrypter og lagre som...">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "G">
+<!ENTITY smaug.keyManWindow.label "OpenPGP nøkkelstyring">
+<!ENTITY smaug.keyTrust.noTrust.label "Jeg stoler IKKE på denne nøkkelen">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Jeg ønsker å velge en av de følgende nøklene for å signere og kryptere epostene:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Valg">
+<!ENTITY smaug.help.label "Hjelp">
+<!ENTITY smaug.keygen.desc "<a class='smaugStrong'>MERK: Nøkkelgenerering kan ta intill flere minutter å gjennomføre.</a> Ikke avbryt programmet mens høkkelgenerering pågår. Gjennomføring av harddisk-insentive oppgavevr mens nøkkelgenrerering pågår vil gjøre prosessen hurtigere. Du vil få beskjed når nøkkelgenerering er fullført.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "B">
+<!ENTITY smaug.securitybutton.tip "Smaug sikkerhetsinstillinger">
+<!ENTITY smaug.composemenu.accesskey "n">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Ikke lag HTML meldinger">
+<!ENTITY smaug.maxIdleMinutesHead.label "Husk passordet i">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Krypter melding">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "Nåværende PIN">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Jeg vil ikke svare">
+<!ENTITY smaug.defineRules.label "Endre regler ...">
+<!ENTITY smaug.keyMan.manageUid.accesskey "M">
+<!ENTITY smaug.keyMan.showAllKeys.label "Display All Keys by Default">
+<!ENTITY smaug.keyMan.title "Smaug Nøkkelstyring">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "K">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Legg til">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "Klikk for å spesifisere en plassering av GnuPG">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Velg identitet">
+<!ENTITY smaug.cardDetails.sigKey.label "Signeringsnøkkel">
+<!ENTITY smaug.cardDetails.sex.label "Kjønn">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Endre Admin-PIN">
+<!ENTITY smaug.keyserver.label "Nøkkeltjener">
+<!ENTITY smaug.encDlgEncrypt.label "Krypter melding">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Avbryt hjelper">
+<!ENTITY smaug.defaultKeySelOpts.label "Nøkkelvalg...">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Nøkkelvalg">
+<!ENTITY smaug.amPrefDesc.label "Støtte for OpenPGP kryptering og signering av meldinger er gitt av Smaug. Du trenger GnuPG(gpg) for å benytte denne funksjonen.">
+<!ENTITY smaug.smaugAttachDesc.label "Denne meldingen inneholder vedlegg. Hvordan vil du kryptere/signere dem?">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "Håndter SmartCard ...">
+<!ENTITY smaug.importMissingKeys.accesskey "I">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Smaug nå klar til å bli brukt.<html:br></html:br><html:br></html:br>Takk for at du bruker Smaug.">
+<!ENTITY smaug.cardDetails.name.label "Fornavn, Navn">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Slett">
+<!ENTITY smaug.usersNotFound.label "Mottaker ikke godkjent, ikke funnet, eller ikke til å stole på">
+<!ENTITY smaug.manageUidDlg.addUid.label "Legg til">
+<!ENTITY smaug.keyMan.reload.accesskey "R">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Last ned manglende nøkler">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Fil for offentlige nøkler">
+<!ENTITY smaug.decryptbutton.label "Dekrypter">
+<!ENTITY smaug.signing.label "Signering">
+<!ENTITY smaug.keygenTitle.label "Generer en OpenPGP nøkkel">
+<!ENTITY smaug.smgEncryptAttachNone.label "Bare krypter/signer meldignsteksten, men ikke vedleggene">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Gjenta passord">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "'--' er en signaturseparator">
+<!ENTITY smaug.cardPin.title "Endre SmartCard PIN">
+<!ENTITY smaug.keyTrust.title "Smaug - Sett nøkkelpålitelighet">
+<!ENTITY smaug.viewconsole.label "Vis konsoll">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Ikke bruk Web of Trust (WoT) for å bestemme validiteten av en nøkkel">
+<!ENTITY smaug.useNonDefaultComment.label "Legg til Smaug-kommentar i OpenPGP-signaturen">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Ønsker du å signere all utgående epost som standard?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Kopier offentlige nøkler til utklippstavle">
+<!ENTITY smaug.about.accesskey "b">
+<!ENTITY smaug.mime_parts_on_demand.label "Load MIME parts on demand (IMAP folders)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "To sterker for seg selv denoterer en signaturblokk.">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Ikke vis denne dialogen igjen om kryptering ikke kan gjennomføres">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "Trekk tilbake nøkkel">
+<!ENTITY smaug.sKeyDlg.checked.label "Hvor grundig har du verifisert at nøkkelen du er i gang med å signere tilhører den personen(e) nevnt ovenfor?">
+<!ENTITY smaug.keyGen.expiry.title "Nøkkel utløper">
+<!ENTITY smaug.undoencryption.accesskey "U">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Display invalid keys">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Detaljer ...">
+<!ENTITY smaug.encrypt.label "Krypter">
+<!ENTITY smaug.cardDetails.login.label "Påloggingsinformasjon">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Nei, jeg ønsker å lage mottakerbestemte regler som bestemmer om eposten skal signeres">
+<!ENTITY smaug.about.title "Om Smaug">
+<!ENTITY smaug.createRuleFromAddr.label "Lag Smaug regel fra addresse...">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "V">
+<!ENTITY smaug.viewdebuglog.accesskey "g">
+<!ENTITY smaug.detailsHdrButton.label "Details">
+<!ENTITY smaug.keyTrust.trustKey.label "Nøkkel å stole på:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "Gjerning">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "K">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Nøkkelgenerering">
+<!ENTITY smaug.autoKeyRetrieve2.label "fra følgende nøkkeltjenere:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Du trenger å gi din offentlige nøkkel til alle du har tenkt å kommunisere med som skal verifisere din signatur eller kryptere eposter de sender til deg. Du må holde den private nøkkelen for deg selv og den må ikke holdes ubeskyttet. Med den kan du lese alle eposter som blir sent til deg, og du kan signere eposter i ditt navn. Fordi den er privat er den passordbeskyttet.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Legg til BrukerID">
+<!ENTITY smaug.keyDetails.keyType.label "Type">
+<!ENTITY smaug.keyGen.years.label "år">
+<!ENTITY smaug.edit.accesskey "M">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Mottakerinstillinger">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug lar deg digitalt signere dine eposter. Dette er som en elektronisk versjon av å signere et brev, og det gjør det mulig for folk å bekrefte at eposten kommer fra deg. Det er en god sikkerhetsordning å signere alle utgående eposter. <html:br/><html:br/>For å kunne bekrefte din signerte epost trenger folk en Smaug-kompatibel klient. Om de ikke har en kompatibel klient vil de likevel kunne lese eposten, men signaturen vil vises som et vedlegg.">
+<!ENTITY smaug.cardDetails.sigcount.label "Signaturteller">
+<!ENTITY smaug.addToRule.useRuleButton.label "Legg til nøkkel til valgt regel">
+<!ENTITY smaug.encDlgSign.label "Signer melding">
+<!ENTITY smaug.keyGen.noExpiry.label "Nøkkelen utløper ikke">
+<!ENTITY smaug.keyPassphraseRepeat.label "Passord (gjentakelse)">
+<!ENTITY smaug.searchForKey.label "Søk etter nøkkel">
+<!ENTITY smaug.setupWiz.details.changingPrefs "De følgende instillingene vil bli endret av denne hjelperen:">
+<!ENTITY smaug.revealAttachmentsButton.label "The names of the files attached are hidden. Press the 'Reveal' button to retrieve the original file names.">
+<!ENTITY smaug.always.label "Alltid">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "S">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Eksporter nøkler til fil">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "I">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Kopier offentlige nøkler til utklippstavle">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "I">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "K">
+<!ENTITY smaug.keyDetails.calcTrust.label "Nøkkelvaliditet">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP Valg">
+<!ENTITY smaug.progressText.label "Fremgang:">
+<!ENTITY smaug.sepratationDesc.label "(Separer flere eposter med mellomrom)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Jeg ønsker å sette opp Smaug bare for de følgende identiteter:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Ta vekk S/MIME knappen fra vinduet for meldingsskrivng">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "Sett nøkkelpålitelighet">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Display keys from other people">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "Denne hjelperen vil hjelpe deg med å komme i gang med Smaug med en gang. Over de neste stegene vil vi spørre deg noen spørsmål for å få alt ordnet. <html:br/><html:br/> For å gjøre ting enkelt vil vi gjøre noen forutsetninger angående instillingene. Disse forutsetningen prøver å gjøre en høy grad av sikkerhet tilgjengelig for en gjennomsnittlig bruker uten å gjøre ting vanskelig. Du kan endre alle disse instillingene etter hjelperen er ferdig. Du kan finne ut mer om Smaug funksjonene i Hjelp-menyen eller på <a class='smaugLink'><html:a href='http://smaug.mozdev.org/'>Smaug websiden</html:a></a>.<html:br/><html:br/>Denne hjelperen er bare tilgjengelig første gang du installerer Smaug.<html:br/><html:br/>Takk for at du valgte Smaug Smaug!">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "en av adressene over">
+<!ENTITY smaug.keyMan.reload.label "Oppdater nøkkellager">
+<!ENTITY smaug.viewconsole.accesskey "c">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "V">
+<!ENTITY smaug.keyNoPassphrase.label "Ingen passord">
+<!ENTITY smaug.amPrefSelectKey.label "Velg nøkkel ...">
+<!ENTITY smaug.moveUp.label "Flytt opp">
+<!ENTITY smaug.cardDetails.yes.label "Ja">
+<!ENTITY smaug.testemail.label "Test epost">
+<!ENTITY smaug.composeOptionsMenu.label "Standard skrive-valg">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label "Lag en ny regel">
+<!ENTITY smaug.setupWiz.pgSummary.desc "Du er nesten ferdig! Om du trykker 'Neste' vil hjelperen gjøre følgende:">
+<!ENTITY smaug.clearSearch.label "Tøm">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Slett nøkkel">
+<!ENTITY smaug.keyMan.viewPhoto.label "FotoID">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "D">
+<!ENTITY smaug.viewdebuglog.label "Vis loggfil">
+<!ENTITY smaug.manageUidDlg.title "Skift primær brukerid">
+<!ENTITY smaug.useKeys.label "Bruk følgende OpenPGP-nøkler:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding "Bruk 8-bits koding ved nøkkelsending">
+<!ENTITY smaug.sendersKeyMenu.accesskey "K">
+<!ENTITY smaug.keyMan.sign.accesskey "S">
+<!ENTITY smaug.trustSenderKey.label "Sett nøkkelpålitelighet ...">
+<!ENTITY smaug.delete.accesskey "E">
+<!ENTITY smaug.encryptedsend.accesskey "E">
+<!ENTITY smaug.encryptedsend.key "P">
+<!ENTITY smaug.keyMan.changePwd.accesskey "P">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Please wait while keys are being loaded ...">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "No keys match your search terms">
+<!ENTITY smaug.importpublickey.label "Importer offentlig nøkkel">
+<!ENTITY smaug.matchDescStart.label "Gjør regel gjeldende om mottaker">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Nei, jeg ønsker å gjøre det selv">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "N">
+<!ENTITY smaug.expertUser.tooltip "Aktiver denne om du vil se menyelementer og valg for mer avanserte brukere.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Eierpålitelighet">
+<!ENTITY smaug.cardDetails.closeWindow.label "Avslutt">
+<!ENTITY smaug.keyTrust.trustLevel.label "Hvor mye stoler du på denne nøkkelen?">
+<!ENTITY smaug.cardDetails.title "OpenPGP SmartCard Detaljer">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Søk etter nøkler">
+<!ENTITY smaug.amPrefUseFromAddr.label "Bruk epostadressen til denne identiteten for å velge OpenPGP-nøkkel">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Spesifiser valg som vil bli brukt av GnuPG.">
+<!ENTITY smaug.keyMan.close.label "Avslutt vindu">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "A">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Digitalt signer dine utgående eposter">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "Aktiver støtte for OpenPGP (Smaug) for denne identiteten">
+<!ENTITY smaug.keyMan.exportToFile.label "Eksporter nøkler til fil">
+<!ENTITY smaug.cardPin.unblockPin.label "låse opp PIN">
+<!ENTITY smaug.keyMan.editMenu.label "Endre">
+<!ENTITY smaug.encDlgPgpMime.accesskey "U">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Velg kontoene eller identitetene du ønsker at Smaug skal virke med">
+<!ENTITY smaug.useGpgAgent.tooltip "Bruk gpg-agent (del av GnuPG 2) for all passordhåndtering.">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Ønsker du å endre en del standardinstillinger for at Smaug skal fungere bedre på din maskin?">
+<!ENTITY smaug.cardDetails.forcepin.label "Krev signatur-PIN-kode">
+<!ENTITY smaug.rulesEditor.label "Smaug - editor for mottakerbestemte regler">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Funnet nøkler - Velg for å importere">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "P">
+<!ENTITY smaug.resetPrefsButton.label "Standardinstillinger">
+<!ENTITY smaug.valid.label "Gyldig">
+<!ENTITY smaug.keyUserId.label "Konto / BrukerID">
+<!ENTITY smaug.cancelKey.label "Avbryt">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Jeg ønsker å lage et nytt nøkkelpar for å signere og kryptere eposter">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Overse mottakerbestemte regler">
+<!ENTITY smaug.basic.label "Grunnleggende">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "A">
+<!ENTITY smaug.setupWiz.pgComplete.title "Takk">
+<!ENTITY smaug.displayKeyProperties.label "View Key Properties">
+<!ENTITY smaug.agentAdditionalParam.label "Ekstra parametre for GnuPG">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "Din nøkkel blir nå laget">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Add to Per-Recpient Rule">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Avansert">
+<!ENTITY smaug.nextRule.label "Fortsett med neste regel for den gjeldende adressen">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Nøkkel å signere med:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Jeg har eksisterende offentlige og private nøkler jeg ønsker å importere">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Vennligst bekreft passordet ved å skrive det en gang til">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Fingeravtrykk:">
+<!ENTITY smaug.keyMan.keyProps.label "Nøkkelinstillinger">
+<!ENTITY smaug.keyMan.setTrust.accesskey "T">
+<!ENTITY smaug.keyMan.editMenu.accesskey "E">
+<!ENTITY smaug.attachmykey.label "Legg ved min offentlige nøkkel">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "D">
+<!ENTITY smaug.keyDetails.created.label "Laget">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN forsøksteller">
+<!ENTITY smaug.ctxDecryptOpen.label "Dekrypter og åpne">
+<!ENTITY smaug.setupWiz.label           "Setup Wizard">
+<!ENTITY smaug.genCardKey.backupKey.label "Lagre backup utenfor smartcard">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Bruk den genererte nøkkelen for den valgte identiteten">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Nøkkelinnstillinger">
+<!ENTITY smaug.amPrefUseKeyId.label "Bruk en spesifisert OpenPGP nøkkel (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Send offentlig nøkkel via epost">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Grunnleggende instillinger">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Avansert...">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Jeg stoler fult og helt på denne nøkkelen">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Fingeravtrykk">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "S">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "Vis OpenPGP FotoID">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Bruk gpg-agent for passordhåndtering">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Lag mottakerbestemte regler">
+<!ENTITY smaug.sendOptionsMenu.label "Sendingsvalg...">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Vi kunne ikke finne noen OpenPGP nøkkel">
+<!ENTITY smaug.keyMan.stopTransfer.label "Stopp overføring">
+<!ENTITY smaug.refreshKeys.label "Oppdater nøkkelliste">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Krypter/signer svar til krypterte/signerte meldinger">
+<!ENTITY smaug.addPhoto.question.label "Ønsker du å legge til følgende bilde til følgende nøkkel?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Når mulig; krypter/signer svar til krypterte/signerte meldinger">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Oppdater alle offentlige nøkler">
+<!ENTITY smaug.cardDetails.authKey.label "Bekreftelsesnøkkel">
+<!ENTITY smaug.viewKeySigDlg.title "Signaturliste">
+<!ENTITY smaug.cardDetails.vendor.label "Produsent">
+<!ENTITY smaug.amPrefPgpHeader.url.label "Send URL for nøkkelhenting:">
+<!ENTITY smaug.encryptionDlg.label "Smaug kryptering og signeringsalternativer">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "O">
+<!ENTITY smaug.decryptverify.accesskey "D">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "U">
+<!ENTITY smaug.maybe.label "Ja, om valgt i skrive-vindu">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Jeg stoler marginalt på denne nøkkelen">
+<!ENTITY smaug.prefs.pathsTitle.label "Filer og mapper">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>MER:</a> Smaug vil alltid prøve å bekrefte signaturer i eposter, om den er aktivert for en konto eller ikke">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "U">
+<!ENTITY smaug.addUidDlg.comment.label "Kommentar (valgfritt)">
+<!ENTITY smaug.setupWiz.no "Nei takk">
+<!ENTITY smaug.alwaysTrustSend.label "Stol alltid på brukeres nøkkel">
+<!ENTITY smaug.keyMan.viewSig.accesskey "S">
+<!ENTITY smaug.changePasswd.newPasswd.label "Nytt passord">
+<!ENTITY smaug.undoencryption.label "Ta bort kryptering">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Generer og lagre sertifikat for tilbaketrekning">
+<!ENTITY smaug.cardDetails.reset.label "Begynn på nytt">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Vis signaturer">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Signering og Krypteringsvalg...">
+<!ENTITY smaug.reload.label "Last melding om igjen">
+<!ENTITY smaug.browse.label "Bla igjennom...">
+<!ENTITY smaug.passwordSettings.label "Passordinstillinger">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritme">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "S">
+<!ENTITY smaug.cardDetails.keyCreated.label "Laget">
+<!ENTITY smaug.autoDecrypt.label "Dekrypter/verifiser meldinger automatisk">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "Importer OpenPGP-nøkler">
+<!ENTITY smaug.keyservers.label "Spesifiser ønskede nøkkeltjener(e)">
+<!ENTITY smaug.encDlgIgnoreRules.label "Ignore Per-Recipient Rules">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "P">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Tilgjengelige NøkkelIDer:">
+<!ENTITY smaug.add.accesskey "A">
+<!ENTITY smaug.refreshKeys.accesskey "R">
+<!ENTITY smaug.signSenderKey.label "Signer nøkkel ...">
+<!ENTITY smaug.searchKeyDlg.label "Last ned OpenPGP-nøkler">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "G">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Du har valgt å ikke bruke hjelperen for å konfigurere Smaug<html:br></html:br><html:br></html:br>Takk for at du bruker Smaug.">
+<!ENTITY smaug.signedsend.accesskey "S">
+<!ENTITY smaug.keyGen.console.label "Nøkkelgenereringskonsoll">
+<!ENTITY smaug.signSenderKeyPopup.label "Signer senders nøkkel ...">
+<!ENTITY smaug.cardDetails.url.label "URL til offentlig nøkkel">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Smaug instillinger er spesifikke for kontoer og identiteter.  Som standard vil Smaug konfigurere seg selv for alle kontoer og identiteter. Om dette ikke er det du ønsker, vennligst velg den spesifikke kontoen eller identiten du vil Smaug skal fungere med.">
+<!ENTITY smaug.resetRememberedValues.label "Nullstill advarsler">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Ingen OpenPGP-nøkkel funnet">
+<!ENTITY smaug.cardDetails.save.label "Lagre">
+<!ENTITY smaug.prefs.overrideGpg.label "Overstyr med">
+<!ENTITY smaug.logdirectory.label "Loggmappe">
+<!ENTITY smaug.setupWiz.pgSummary.title "Sammendrag">
+<!ENTITY smaug.ruleEmail.label "Sett Smaug-regel for">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Bekreft at hjelperen skal foreta disse endringene">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Vis meldingen som ren tekst">
+<!ENTITY smaug.debugMenu.label "Feilsøk Smaug">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Oppdater offentlige nøkler fra nøkkeltjener">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Lag en nøkkel for å signere og kryptere eposter">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Spør aldri etter noe passord">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Nøkkel som skal forandres:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Meldingsskrivings standardinstillinger">
+<!ENTITY smaug.sendersKeyMenu.label "Senders nøkkel">
+<!ENTITY smaug.preferences.label "Smaug Instillinger">
+<!ENTITY smaug.clearPassphrase.label "Tøm lagret passord">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Du trenger et nøkkelpar for å signere og kryptere eposter, eller for å lese eposter som har blitt kryptert. Et nøkkelpar har to nøkler, en privat og en offentlig.">
+<!ENTITY smaug.selKeysButton.accesskey "S">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "Vi har oppdaget at du allerede har en OpenPGP nøkkel. Du kan enten bruke en av de eksisterende nøklene for å signere, kryptere og dekryptere eposter, eller du kan lage en til.">
+<!ENTITY smaug.noHushMailSupport.label "Bruk '&lt;' og '&gt;' for å spesifisere epostadresser">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Vennligst spesifiser filer som inneholder offentlige og private nøkler for import. Valget for private nøkler kan være tomt om første fil inneholder både private og offentlige nøkler">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "dager">
+<!ENTITY smaug.disableRules.accesskey "I">
+<!ENTITY smaug.setupWiz.pgSettings.title "Instillinger">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "R">
+<!ENTITY smaug.keyMan.generate.label "Nytt nøkkelpar">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Legg til min offentlige nøkkel som vedlegg til meldinger">
+<!ENTITY smaug.encDlgPgpMime.label "Bruk PGP/MIME">
+<!ENTITY smaug.keyMan.selectAll.label "Velg alle nøkler">
+<!ENTITY smaug.keyComment.label "Kommentar">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Jeg har ikke sjekket i det hele tatt">
+<!ENTITY smaug.keyDetails.usage.label             "Usage">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "I">
+<!ENTITY smaug.addUidDlg.email.label "Epost">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP Sikkerhet">
+<!ENTITY smaug.nextAddress.label "Ikke se etter andre regler for den gjeldende adressen">
+<!ENTITY smaug.setupWiz.details.subtitle "Endre programinstillinger">
+<!ENTITY smaug.keyMan.uploadToServer.label "Last opp offentlig nøkkel">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Skriv bare inn epostadresse For eksempel 'Some Name &lt;some.name@address.net&gt;' er ugyldig">
+<!ENTITY smaug.setupWiz.details.title "Instillinger">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "H">
+<!ENTITY smaug.email.label "Epost">
+<!ENTITY smaug.attachkey.label "Legg ved offentlig nøkkel ...">
+<!ENTITY smaug.not.label "Ikke">
+<!ENTITY smaug.keyExpiry.label "Utløp">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "C">
+<!ENTITY smaug.keyMan.userId.label "Name">
+<!ENTITY smaug.keyMan.manageUid.label "Håndter brukerider">
+<!ENTITY smaug.defaultEncryption.label "Krypter meldinger til vanlig">
+<!ENTITY smaug.never.label "Aldri">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "Generer nøkkel">
+<!ENTITY smaug.editRules.accesskey "R">
+<!ENTITY smaug.prefs.accesskey "P">
+<!ENTITY smaug.keyDetails.selAction.accesskey "S">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "Er akkurat">
+<!ENTITY smaug.searchRule.label "Vis regler der epostadressen inneholder:">

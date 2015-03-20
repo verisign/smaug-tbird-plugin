@@ -1,0 +1,108 @@
+content       smaug                jar:chrome/smaug.jar!/content/smaug/
+locale        smaug    en-US       jar:chrome/smaug.jar!/locale/en-US/
+
+# Skin for TBird Mac OS X
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-mac/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=Darwin
+# Skin for TBird Windows
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/classic/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=WINNT osversion<6
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/aero/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=WINNT osversion>=6
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/classic/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=OS2
+# Skin for TBird other OS (e.g. Linux)
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=Linux
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=SunOS
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=FreeBSD
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=OpenBSD
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=NetBSD
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=AIX
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=HP-UX
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/tb-linux/smaug/ application!={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} os=DragonFly
+# Skin for SeaMonkey
+skin          smaug    classic/1.0 jar:chrome/smaug.jar!/skin/classic-seamonkey/smaug/ application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+skin          smaug    modern/1.0 jar:chrome/smaug.jar!/skin/modern/smaug/
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://smaug/content/smaugCheckLanguage.xul
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://smaug/content/smaugMsgComposeOverlay.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://smaug/content/smaugCheckLanguage.xul
+overlay chrome://messenger/content/messenger.xul chrome://smaug/content/columnOverlay.xul
+overlay chrome://messenger/content/csMailWindowOverlay.xul chrome://smaug/content/smaugCheckLanguage.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://smaug/content/smaugMessengerOverlay.xul
+overlay chrome://messenger/content/csMailWindowOverlay.xul chrome://smaug/content/smaugMessengerOverlay.xul
+overlay chrome://messenger/content/msgHdrViewOverlay.xul chrome://smaug/content/smaugMsgHdrViewOverlay.xul
+overlay chrome://messenger/content/msgPrintEngine.xul chrome://smaug/content/smaugMsgPrintOverlay.xul
+overlay chrome://messenger/content/am-identity-edit.xul chrome://smaug/content/smaugAmIdEditOverlay.xul
+overlay chrome://messenger/content/am-identity-edit.xul chrome://smaug/content/smaugEditIdentity.xul
+overlay chrome://messenger/content/addressbook/addressbook.xul chrome://smaug/content/smaugAbCardViewOverlay.xul
+overlay chrome://messenger/content/addressbook/csContactsOverlay.xul chrome://smaug/content/smaugAbCardViewOverlay.xul
+overlay chrome://messenger/content/addressbook/abContactsPanel.xul chrome://smaug/content/smaugAbContactsPanel.xul
+overlay chrome://global/content/customizeToolbar.xul chrome://smaug/content/smaugCustToolOverlay.xul
+overlay chrome://smaug/content/am-smgprefs.xul chrome://smaug/content/smaugEditIdentity.xul
+overlay chrome://smaug/content/am-smgprefs-edit.xul chrome://smaug/content/smaugEditIdentity.xul
+
+# Resource module registration
+resource smaug modules/
+
+## Gecko 2.0 JavaScript component registration
+# Smaug
+component {847b3a01-7ab1-11d4-8f02-006008948af5} components/smaug.js
+contract @mozdev.org/smaug/smaug;1 {847b3a01-7ab1-11d4-8f02-006008948af5}
+
+# SmaugProtocolHandler
+component {847b3a11-7ab1-11d4-8f02-006008948af5} components/smaug.js
+contract @mozilla.org/network/protocol;1?name=smaug {847b3a11-7ab1-11d4-8f02-006008948af5}
+
+# Command line service
+component {847b3ab1-7ab1-11d4-8f02-006008948af5} components/smaug.js
+contract @mozilla.org/smaug/cline-handler;1 {847b3ab1-7ab1-11d4-8f02-006008948af5}
+category command-line-handler cline-smaug @mozilla.org/smaug/cline-handler;1
+
+# SmgMsgCompFields
+component {847b3a30-7ab1-11d4-8f02-006008948af5} components/smgMsgCompFields.js
+contract @mozdev.org/smaug/composefields;1 {847b3a30-7ab1-11d4-8f02-006008948af5}
+
+# PgpMimeDecrypt
+component {7514cbeb-2bfd-4b2c-829b-1a4691fa0ac8} components/mimeDecrypt.js
+contract @mozilla.org/mime/pgp-mime-js-decrypt;1 {7514cbeb-2bfd-4b2c-829b-1a4691fa0ac8}
+
+# PgpMimeEncrypt
+component {1b040e64-e704-42b9-b05a-942e569afffc} components/mimeEncrypt.js  platformversion<19.0a1
+contract @smaug.net/smaug/newcomposesecure;1 {1b040e64-e704-42b9-b05a-942e569afffc} platformversion<19.0a1
+
+component {1b040e64-e704-42b9-b05a-942e569afffc} components/mimeEncrypt.js   platformversion>=19.0a1
+contract @mozilla.org/messengercompose/composesecure;1 {1b040e64-e704-42b9-b05a-942e569afffc} platformversion>=19.0a1
+
+# Preference Service
+component {847b3ab0-7ab1-11d4-8f02-006008948af5} components/smgprefs-service.js
+contract @mozilla.org/accountmanager/extension;1?name=smgprefs {847b3ab0-7ab1-11d4-8f02-006008948af5}
+category mailnews-accountmanager-extensions smaug-account-manager-extension @mozilla.org/accountmanager/extension;1?name=smgprefs
+
+## interface specifiacations
+interfaces  components/smaug.xpt
+
+# Additional languages
+locale        smaug    ar       jar:chrome/smaug.jar!/locale/ar/
+locale        smaug    bg-BG       jar:chrome/smaug.jar!/locale/bg-BG/
+locale        smaug    ca       jar:chrome/smaug.jar!/locale/ca/
+locale        smaug    cs-CZ       jar:chrome/smaug.jar!/locale/cs-CZ/
+locale        smaug    de       jar:chrome/smaug.jar!/locale/de/
+locale        smaug    el       jar:chrome/smaug.jar!/locale/el/
+locale        smaug    es-ES       jar:chrome/smaug.jar!/locale/es-ES/
+locale        smaug    fi-FI       jar:chrome/smaug.jar!/locale/fi-FI/
+locale        smaug    fr       jar:chrome/smaug.jar!/locale/fr/
+locale        smaug    gl-ES       jar:chrome/smaug.jar!/locale/gl-ES/
+locale        smaug    hu-HU       jar:chrome/smaug.jar!/locale/hu-HU/
+locale        smaug    it-IT       jar:chrome/smaug.jar!/locale/it-IT/
+locale        smaug    ja-JP       jar:chrome/smaug.jar!/locale/ja-JP/
+locale        smaug    ko-KR       jar:chrome/smaug.jar!/locale/ko-KR/
+locale        smaug    lt       jar:chrome/smaug.jar!/locale/lt/
+locale        smaug    nb-NO       jar:chrome/smaug.jar!/locale/nb-NO/
+locale        smaug    nl       jar:chrome/smaug.jar!/locale/nl/
+locale        smaug    pl       jar:chrome/smaug.jar!/locale/pl/
+locale        smaug    pt-BR       jar:chrome/smaug.jar!/locale/pt-BR/
+locale        smaug    pt-PT       jar:chrome/smaug.jar!/locale/pt-PT/
+locale        smaug    ru-RU       jar:chrome/smaug.jar!/locale/ru-RU/
+locale        smaug    sk-SK       jar:chrome/smaug.jar!/locale/sk-SK/
+locale        smaug    sl-SI       jar:chrome/smaug.jar!/locale/sl-SI/
+locale        smaug    sv-SE       jar:chrome/smaug.jar!/locale/sv-SE/
+locale        smaug    tr       jar:chrome/smaug.jar!/locale/tr/
+locale        smaug    vi       jar:chrome/smaug.jar!/locale/vi/
+locale        smaug    zh-CN       jar:chrome/smaug.jar!/locale/zh-CN/
+locale        smaug    zh-TW       jar:chrome/smaug.jar!/locale/zh-TW/

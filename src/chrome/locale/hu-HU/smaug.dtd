@@ -1,0 +1,629 @@
+<!ENTITY smaug.keyMan.calcTrust.label "Kulcs megbízhatóság">
+<!ENTITY smaug.viewKeySigDlg.sigType.label "Aláírás típusa">
+<!ENTITY smaug.setupWiz.pgSettings.subtitle "E-mail beállítások megváltoztatása az Smaug megbízhatóbb működésének érdekében">
+<!ENTITY smaug.pgpAccountSettings.accesskey "t">
+<!ENTITY smaug.smgEncryptAttachPgpMime.label "Az egész üzenet titkosításra/aláírásra, és PGP/MIME formátumban küldése">
+<!ENTITY smaug.setupWiz.pgWelcome.yes "Igen, szeretném ha a Tündér segítene a beállításokban">
+<!ENTITY smaug.keyDetails.ownerTrust.label "Kulcsmegbízhatóság">
+<!ENTITY smaug.encryptAttachSkipDlg.label "Ezentúl a kiválasztott művelet legyen alkalmazva a mellékletekre.">
+<!ENTITY smaug.ctxImportKey.label "OpenPGP-kulcs importálása">
+<!ENTITY smaug.setupWiz.details.noFlowedMsg "Folyószöveg letiltása (RFC 2646)">
+<!ENTITY smaug.cardPin.action.label "Mit kíván tenni?">
+<!ENTITY smaug.addToRule.title "Kulcs hozzáadása címzett szerinti szabályhoz">
+<!ENTITY smaug.reload.accesskey "r">
+<!ENTITY smaug.keyMan.ctxUploadToServer.label "Nyilvános kulcsok feltöltése a kulcskiszolgálóra">
+<!ENTITY smaug.about.label "Az Smaug névjegye">
+<!ENTITY smaug.keyGen.months.label "hónap">
+<!ENTITY smaug.setupWiz.pgKeyImport.subtitle "Adja meg az importálni kívánt fájlokat">
+<!ENTITY smaug.msgViewColumn.label "OpenPGP">
+<!ENTITY smaug.keyMan.close.accesskey "b">
+<!ENTITY smaug.ctxVerifyAtt.label "Aláírás ellenőrzése">
+<!ENTITY smaug.progress.label "Készültségi fok">
+<!ENTITY smaug.adminSmartCard.accesskey "t">
+<!ENTITY smaug.debugMenu.accesskey "b">
+<!ENTITY smaug.sending.label "Küldés">
+<!ENTITY smaug.clearSearch.accesskey "T">
+<!ENTITY smaug.keyPassphrase.label "Jelmondat">
+<!ENTITY smaug.finallySignEncrypted.label      "sign encrypted messages">
+<!ENTITY smaug.cardPin.changePin.label "PIN-kód megváltoztatása">
+<!ENTITY smaug.smgAttachInlineEncrypt.label         "Encrypt each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.filter.label "Keresés:">
+<!ENTITY smaug.keyMan.importFromFile.label "Kulcs importálása fájlból">
+<!ENTITY smaug.seeAccountSettings.label        "See also account specific Smaug settings (see Account Settings -> OpenPGP Security)">
+<!ENTITY smaug.confirmBeforeSendingAlways.label           "Always">
+<!ENTITY smaug.keyMan.sign.label "Kulcs aláírása…">
+<!ENTITY smaug.revealAttachments.button          "Reveal">
+<!ENTITY smaug.setupWiz.pgSign.yesSign "Igen, az összes kimenő üzenet aláírása">
+<!ENTITY smaug.manageUidDlg.revokeUid.label "Visszavonás">
+<!ENTITY smaug.cancelKey.tooltip "Kilépés a kulcskészítőből">
+<!ENTITY smaug.finalEncryptDefault.label    "Use Defaults and Rules for Encryption">
+<!ENTITY smaug.setupWiz.pgWelcome.startNow "El kívánja indítani a Beállítás Tündért?">
+<!ENTITY smaug.importMissingKeys.tooltip "A program megpróbálja a hiányzó kulcsokat a kulcskiszolgálóról letölteni.">
+<!ENTITY smaug.keyTrust.dontKnow.label "Nem tudom">
+<!ENTITY smaug.cardPin.newAdminPin.label "Új Adminisztrátori PIN-kód">
+<!ENTITY smaug.keyMan.ctxViewPhoto.label "Fotó azonosító megjelenítése">
+<!ENTITY smaug.keyDetails.expiry.label "Lejárat">
+<!ENTITY smaug.keyMan.keyType.label "Típus">
+<!ENTITY smaug.created.label "Létrehozva">
+<!ENTITY smaug.importpublickey.accesskey "N">
+<!ENTITY smaug.setupWiz.details.imapOnDemand "Az IMAP levélrészek igény szerinti letöltésének tiltása">
+<!ENTITY smaug.setupWiz.pgInstall.installLabel    "Starting the installer. Please follow the steps of the GnuPG installer wizard.">
+<!ENTITY smaug.keySel.label "Kulcsválasztás">
+<!ENTITY smaug.sendPGPMime.label "PGP/MIME e-mail formátum használata a levélben">
+<!ENTITY smaug.savedecrypted.label "Visszafejtett üzenet mentése">
+<!ENTITY smaug.userSelectionList.label "PGP-kulcsválasztás">
+<!ENTITY smaug.sKeyDlg.casualCheck.label "Lezseren ellenőriztem">
+<!ENTITY smaug.edit.label "Szerkesztés">
+<!ENTITY smaug.keyMan.createMail.accesskey "c">
+<!ENTITY smaug.keyMan.generateMenu.label "Létrehozás">
+<!ENTITY smaug.setupWiz.pgSign.signMsg            "Which general mode do you prefer to sign outgoing emails?">
+<!ENTITY smaug.wrapHtmlBeforeSend.tooltip "Szöveg újrarendezése, annak érdekében, hogy az aláírás érintetlen maradjon.">
+<!ENTITY smaug.decryptverify.label "Visszafejtés/ellenőrzés">
+<!ENTITY smaug.encDlgEncrypt.accesskey "t">
+<!ENTITY smaug.prefs.label "Beállítások">
+<!ENTITY smaug.keyMan.changePwd.label "Jelmondat megváltoztatása">
+<!ENTITY smaug.finalSignNo.label            "Force Not to Sign">
+<!ENTITY smaug.keyMan.selectAll.accesskey "a">
+<!ENTITY smaug.keyMan.changeExpiry.accesskey      "E">
+<!ENTITY smaug.confirmBeforeSendingIfRules.label          "If rules changed the default encryption setting">
+<!ENTITY smaug.keyGen.expire.label "A kulcs lejár">
+<!ENTITY smaug.encryption.label "Titkosítás">
+<!ENTITY smaug.keyTrust.fullTrust.label "Teljesen megbízató">
+<!ENTITY smaug.addUidDlg.name.label "Név">
+<!ENTITY smaug.userSelSendSigned.accesskey       "S">
+<!ENTITY smaug.matchEnd.label "azonosan végződik">
+<!ENTITY smaug.pgpKeys.label "PGP-kulcs(ok)">
+<!ENTITY smaug.amPrefPgpHeader.id.label "OpenPGP-kulcs azonosító küldés">
+<!ENTITY smaug.assignKeysByRules.label             "By Per-Recipient Rules">
+<!ENTITY smaug.moveUp.accesskey "F">
+<!ENTITY smaug.keyGen.keySize.label "Kulcsméret">
+<!ENTITY smaug.basicUser.tooltip "A tapasztalt felhasználóknak szánt menüelemek és beállítások elrejtése.">
+<!ENTITY smaug.setupWiz.pgSettings.desc "Ez a Tündér megváltoztathatja a postafiók beállításait. Kérem bizonyosodjon meg róla, hogy az e-mail üzenetek aláírása és titkosítása jól működik ezen a számítógépen. Az alkalmazandó beállítások elsősorban technikai jellegűek, az egyetlen észrevehető változás, hogy az üzenetírás alapértelmezett formátuma sima szöveg lesz.">
+<!ENTITY smaug.cardDetails.male.label "Férfi">
+<!ENTITY smaug.smgAttachNoneEncryptAndSign.label    "Encrypt and sign the message text, but not the attachments">
+<!ENTITY smaug.encDlgSign.accesskey "a">
+<!ENTITY smaug.assignKeysByRules.tooltip           "Assign keys according to per-recipient rules. Force to prompt for creating new rules if this is the only selected option.">
+<!ENTITY smaug.keyMan.exportToFile.accesskey "e">
+<!ENTITY smaug.singleRcptSettings.desc "(Megjegyzés: többszörös egyezés esetén a „Soha” felülbírálja a „Mindig”-et)">
+<!ENTITY smaug.setupWiz.pgKeyImport.seckeyFile "Titkos kulcs fájl">
+<!ENTITY smaug.pgpSecurityInfo.label "Smaug biztonsági adatok…">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.tooltip "Display information dialog about signing/encryption before sending an UNENCRYPTED message">
+<!ENTITY smaug.afterDefaultsAndRules.label     "After application of defaults and rules:">
+<!ENTITY smaug.mime_parts_on_demand.tooltip "Ki kell kapcsolni, ha PGP/MIME formátumú üzenetek is érkezhetnek az IMAP-mappákba.">
+<!ENTITY smaug.trustSenderKeyPopup.label "A feladó kulcsának kulcsmegbízhatóság beállítása…">
+<!ENTITY smaug.viewKeySigDlg.sigForKey.label "Kulcs aláírásai:">
+<!ENTITY smaug.sKeyDlg.title "Smaug - Kulcsaláírás">
+<!ENTITY smaug.confirmBeforeSendingOption.label           "Confirm before sending">
+<!ENTITY smaug.genCardKey.desc "<a class='smaugStrong'>MEGJEGYZÉS: A kulcskészítés több percet is igénybe vehet.</a> Ne lépjen ki az alkalmazásból a kulcskészítés alatt. A kulcspár elkészültekor egy tájékoztató ablak fog megjelenni a képernyőn.">
+<!ENTITY smaug.keyDetails.additionalUid.label "További felhasználói azonosító">
+<!ENTITY smaug.cardDetails.cardMenu.label "Intelligens kártya">
+<!ENTITY smaug.finalSignYes.label           "Force Signing">
+<!ENTITY smaug.keyMan.addPhoto.label "Fotó hozzáadása">
+<!ENTITY smaug.cardDetails.female.label "Nő">
+<!ENTITY smaug.sendPGPMime.accesskey "h">
+<!ENTITY smaug.keyMan.importFromClipbrd.label "Kulcs importálása vágólapról">
+<!ENTITY smaug.setDefaultsFor.label "Alapértelmezett…">
+<!ENTITY smaug.changePasswd.title "OpenPGP jelmondat megváltoztatása">
+<!ENTITY smaug.keyMan.viewSig.label "Aláírások megtekintése">
+<!ENTITY smaug.autoKeyRetrieve.label "Kulcsok automatikus letöltése az aláírások ellenőrzésére">
+<!ENTITY smaug.matchBegin.label "azonosan kezdődik">
+<!ENTITY smaug.selKeysButton.label "Kulcs kiválasztása…">
+<!ENTITY smaug.keyGen.keyType.rsa "RSA">
+<!ENTITY smaug.amPrefPgpHeader.label "„OpenPGP” fejléc küldése">
+<!ENTITY smaug.cardPin.adminPinRepeat.label "Új PIN-kód ismét">
+<!ENTITY smaug.signedsend.label "Üzenet aláírása">
+<!ENTITY smaug.cardDetails.lang.label "Nyelv">
+<!ENTITY smaug.messengermenu.accesskey "O">
+<!ENTITY smaug.keyDetails.size.label "Méret">
+<!ENTITY smaug.userSelSendEncrypted.label        "Send encrypted">
+<!ENTITY smaug.wrapHtmlBeforeSend.label "Aláírt HTML-üzenet küldés előtti újratördelése">
+<!ENTITY smaug.genCardKey.title "Smaug - OpenPGP-kulcs létrehozása">
+<!ENTITY smaug.ctxDecryptSave.accesskey "M">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncYes      "Encrypt all of my messages by default, because privacy is critical to me">
+<!ENTITY smaug.cardPin.currAdmPin.label "Aktuális Adminisztrátori PIN-kód">
+<!ENTITY smaug.setupWiz.pgInstall.downloadLabel   "Downloading GnuPG ...">
+<!ENTITY smaug.tempTrustAllKeys.accesskey   "T">
+<!ENTITY smaug.photoViewer.title "OpenPGP Fotónéző">
+<!ENTITY smaug.cardPin.newPin.label "Új PIN-kód">
+<!ENTITY smaug.smgEncryptAttachInline.label "A mellékleteket egyenként titkosítása, majd az üzenetet beágyazott PGP-vel küldése">
+<!ENTITY smaug.moveDown.accesskey "L">
+<!ENTITY smaug.keyservers.sample "Például: sks.dnsalias.net, pgp.mit.edu, ldap://certserver.pgp.com">
+<!ENTITY smaug.keyMan.genRevoke.accesskey "v">
+<!ENTITY smaug.userNoPassphrase.tooltip "Kapcsolja be, ha az OpenPGP-kulcs nincs jelmondattal védve.">
+<!ENTITY smaug.usePGPMimeAlways.label "Mindig használjon PGP/MIME-ot">
+<!ENTITY smaug.addPhoto.title "Fénykép hozzáadása a kulcshoz">
+<!ENTITY smaug.resetPrefs.tooltip "Az összes Smaug beállítás visszaállítása az alaphelyzetre.">
+<!ENTITY smaug.cardDetails.editData.label "Névjegy adatok szerkesztése">
+<!ENTITY smaug.keyMan.refreshSelKeys.accesskey "v">
+<!ENTITY smaug.sendOptionsMenu.accesskey "K">
+<!ENTITY smaug.sKeyDlg.signKey.label "Kulcsaláírás:">
+<!ENTITY smaug.setupWiz.pgSelectId.allIds "Be kívánja állítani az Smaug-t az összes postafiókhoz?">
+<!ENTITY smaug.setupWiz.pgEncConv.subtitle        "Encrypt Your Outgoing Emails">
+<!ENTITY smaug.keyGen.keyType.dsa "DSA és El Gamal">
+<!ENTITY smaug.keyMan.fingerprint.label "Ujjlenyomat">
+<!ENTITY smaug.confirmBeforeSendingIfNotEncrypted.label   "If unencrypted">
+<!ENTITY smaug.keyMan.refreshSelKeys.label "Kiválasztott nyilvános kulcsok frissítése">
+<!ENTITY smaug.delete.label "Törlés">
+<!ENTITY smaug.keyId.label "Kulcsazonosító">
+<!ENTITY smaug.moreOptions.label "További lehetőségek">
+<!ENTITY smaug.keySearch.selectAll.key            "A">
+<!ENTITY smaug.sKeyDlg.carefulCheck.label "Nagyon körültekintően ellenőriztem">
+<!ENTITY smaug.test.label "Teszt">
+<!ENTITY smaug.debug.label "Hibakeresés">
+<!ENTITY smaug.setupWiz.pgKeySel.subtitle "Kulcs létrehozása e-mail üzenetek aláírásához és titkosításához">
+<!ENTITY smaug.keyDetails.ID.label "Azonosító">
+<!ENTITY smaug.matchContains.label "részben megegyezik">
+<!ENTITY smaug.keyMan.emptyTree.tooltip "Írjon be keresési kifejezést a mezőbe">
+<!ENTITY smaug.cardDetails.encKey.label "Titkosító kulcs">
+<!ENTITY smaug.noHushMailSupport.tooltip "Használja a „&lt;” és a „&gt;” karaktereket az e-mail címek megadásához a GnuPG számára. Tiltsa le ezt a beállítást, ha régi Hushmail kulcsokat használ.">
+<!ENTITY smaug.keyDetails.selAction.label "Művelet kiválasztása…">
+<!ENTITY smaug.manageUidDlg.setPrimary.label "Elsődlegesre állít">
+<!ENTITY smaug.setupWiz.accesskey "s">
+<!ENTITY smaug.userSelSendEncrypted.accesskey    "E">
+<!ENTITY smaug.setupWiz.title "Smaug Beállítás Tündér">
+<!ENTITY smaug.assignKeysManuallyIfMissing.label   "Manually if Keys are Missing">
+<!ENTITY smaug.keyDetails.userId.label "Elsődleges felhasználói azonosító">
+<!ENTITY smaug.addToRule.useRuleButton.accesskey "a">
+<!ENTITY smaug.advancedIdentityDlg.title "Haladó Smaug postafiók beállítások">
+<!ENTITY smaug.keyMan.genRevoke.label "Tanúsítvány visszavonás">
+<!ENTITY smaug.ctxDecryptOpen.accesskey "V">
+<!ENTITY smaug.setupWiz.pgKeyCreate.title "Kulcs létrehozása">
+<!ENTITY smaug.savedecrypted.accesskey "m">
+<!ENTITY smaug.cardDetails.maxpinlen.label "PIN-kód maximális hossza">
+<!ENTITY smaug.decryptbutton.tip "Üzenet visszafejtése vagy az aláírás ellenőrzése OpenPGP-vel (Smaug)">
+<!ENTITY smaug.assignKeysByEmailAddr.label         "By Email Addresses according to the key manager">
+<!ENTITY smaug.cardDetails.no.label "Nem">
+<!ENTITY smaug.keyMan.showAllKeys.accesskey "m">
+<!ENTITY smaug.keyGen.keyType.label "Kulcstípus">
+<!ENTITY smaug.autoEncryptDrafts.label         "Encrypt draft messages on saving">
+<!ENTITY smaug.setupWiz.pgSign.title "Aláírás">
+<!ENTITY smaug.encryptionModelManually.label   "Manual encryption settings">
+<!ENTITY smaug.setupWiz.pgInstall.installButton   "Install ...">
+<!ENTITY smaug.expertUserMenus.label    "Display Expert Settings and Menus">
+<!ENTITY smaug.keyDetails.keyId.label "Kulcsazonosító">
+<!ENTITY smaug.keyMan.viewMenu.label "Nézet">
+<!ENTITY smaug.attachmykey.accesskey "t">
+<!ENTITY smaug.cardDetails.adminPin.label "PIN-kód megváltoztatása">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.desc "Nem található egyetlen OpenPGP-kulcs sem. Válassza ki, hogy új kulcspárt szeretne készíteni, vagy egy meglévő kulcsot szeretne importálni.">
+<!ENTITY smaug.resetRememberedValues.tooltip "Az összes figyelmeztető és kérdező ablak megjelenítése, amelyeket már elrejtett a múltban.">
+<!ENTITY smaug.msgViewColumn.tooltip "Rendezés OpenPGP állapot szerint">
+<!ENTITY smaug.setupWiz.yes "Igen">
+<!ENTITY smaug.sign.label "Aláírás">
+<!ENTITY smaug.keyMan.createMail.label "Üzenet írása a kiválasztott kulcsokkal">
+<!ENTITY smaug.changePasswd.currPasswd.label "Aktuális jelmondat">
+<!ENTITY smaug.keyManWindow.accesskey "K">
+<!ENTITY smaug.maxIdleMinutes.tooltip "Jelmondat tárolása a memóriában meghatározott ideig.">
+<!ENTITY smaug.generateKey.label "Kulcskészítés">
+<!ENTITY smaug.composeOptionsMenu.accesskey "a">
+<!ENTITY smaug.cardPin.pinRepeat.label "Új PIN-kód ismét">
+<!ENTITY smaug.setupWiz.pgInstall.installDesc     "Smaug can download GnuPG and launch the installer for you.
+                                                      If you wish to do so, click on the 'Install' button to download and install GnuPG.
+                                                      <html:br/><html:br/>
+                                                      Alternatively, if you already installed GnuPG, use the 'Browse' button to locate GnuPG for the wizard.">
+<!ENTITY smaug.cardDetails.editData.accesskey "e">
+<!ENTITY smaug.autoDecrypt.accesskey "a">
+<!ENTITY smaug.keyMan.showUntrustedKeys.label "Megbízhatatlan kulcsok megjelenítése">
+<!ENTITY smaug.generateKey.tooltip "Új PGP-kulcs készítése titkosításhoz és/vagy aláíráshoz">
+<!ENTITY smaug.keyserverDlg.label "Válasszon kulcskiszolgálót">
+<!ENTITY smaug.acceptedKeysOption.label    "To send encrypted, accept">
+<!ENTITY smaug.sKeyDlg.createLocal.label "Helyi (nem-exportálható)">
+<!ENTITY smaug.clearPassphrase.accesskey "T">
+<!ENTITY smaug.recipientsSelectionOption.label "Címzettekhez tartozó kulcsok kiválasztás üzenetküldéskor">
+<!ENTITY smaug.keyMan.keyserverMenu.label "Kulcskiszolgáló">
+<!ENTITY smaug.smgAttachNoneEncrypt.label           "Encrypt the message text, but not the attachments">
+<!ENTITY smaug.editRules.label "Címzettenkénti szabályok szerkesztése">
+<!ENTITY smaug.keyDetails.keyPart.label "Kulcsrész">
+<!ENTITY smaug.copySecurityInfo.label "Smaug biztonsági adatok Másolása">
+<!ENTITY smaug.encDlgIgnoreRules.accesskey "f">
+<!ENTITY smaug.keyMan.fileMenu.label "Fájl">
+<!ENTITY smaug.maxIdleMinutesTail.label "percig, ha a gép nincs használva">
+<!ENTITY smaug.confirmBeforeSendingNever.label            "Never">
+<!ENTITY smaug.keyMan.generate.accesskey "k">
+<!ENTITY smaug.moveDown.label "Le">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncryptAndSign.label "Don't encrypt and sign the message at all">
+<!ENTITY smaug.cardDetails.serial.label "Sorozatszám">
+<!ENTITY smaug.ctxDecryptSave.label "Visszafejtés majd Mentés mint…">
+<!ENTITY smaug.acceptedKeysValid.label     "Only keys I explicitly trust">
+<!ENTITY smaug.cardDetails.genCardKey.accesskey "K">
+<!ENTITY smaug.keyManWindow.label "OpenPGP Kulcskezelő">
+<!ENTITY smaug.keyTrust.noTrust.label "Nem megbízható">
+<!ENTITY smaug.cardDetails.adminPin.accesskey "P">
+<!ENTITY smaug.setupWiz.pgKeySel.useExistingKey "Szeretnék kiválasztani egy kulcsot az alábbiak közül az e-mail üzenetek aláírásához és titkosításához:">
+<!ENTITY smaug.pgpMime.label "PGP/MIME">
+<!ENTITY smaug.autoSendEncryptedNever.tooltip  "Don't automatically send encrypted except explicitly triggered by per-recipient rules">
+<!ENTITY smaug.keySelection.label "Kiválasztás">
+<!ENTITY smaug.help.label "Súgó">
+<!ENTITY smaug.keygen.desc "MEGJEGYZÉS: Kulcskészítés hosszabb ideig is eltarthat. Ne lépjen ki a levelezőből, amíg a kulcskészítés folyamatban van. Ha aktívan használja a számítógépet a kulcskészítés közben, a szükséges véletlenszerű adatok gyorsabban keletkeznek, így a folyamat gyorsul. A program értesítést ad a kulcs elkészültéről.">
+<!ENTITY smaug.keyMan.enableKey.accesskey "K">
+<!ENTITY smaug.securitybutton.tip "Smaug biztonsági beállításai">
+<!ENTITY smaug.composemenu.accesskey "O">
+<!ENTITY smaug.setupWiz.details.noComposeHTML "Ne hozzon létre HTML üzeneteket">
+<!ENTITY smaug.maxIdleMinutesHead.label "Jelmondat megjegyzése">
+<!ENTITY smaug.smgAttachPgpMimeEncrypt.label        "Encrypt the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.encryptedsend.label "Üzenet titkosítása">
+<!ENTITY smaug.finalEncryptYes.label        "Force Encryption">
+<!ENTITY smaug.cardPin.currPin.label "Aktuális PIN-kód">
+<!ENTITY smaug.sKeyDlg.noAnswer.label "Nem kívánok válaszolni">
+<!ENTITY smaug.defineRules.label "Szabályok megadása…">
+<!ENTITY smaug.keyMan.manageUid.accesskey "t">
+<!ENTITY smaug.keyMan.showAllKeys.label "Alapértelmezés szerint az összes kulcs megjelenítése">
+<!ENTITY smaug.keyMan.title "Smaug Kulcskezelő">
+<!ENTITY smaug.keyMan.keyserverMenu.accesskey "i">
+<!ENTITY smaug.finalEncryptNo.label         "Force Not to Encrypt">
+<!ENTITY smaug.add.label "Hozzáadás">
+<!ENTITY smaug.SendingPrefs.label              "General Preferences for Sending">
+<!ENTITY smaug.prefs.overrideGpg.tooltip "A GnuPG elérési útjának megadása">
+<!ENTITY smaug.setupWiz.pgSelectId.title "Postafiók kiválasztása">
+<!ENTITY smaug.cardDetails.sigKey.label "Aláírókulcs">
+<!ENTITY smaug.cardDetails.sex.label "Neme">
+<!ENTITY smaug.cardPin.changeAdmPin.label "Adminisztrátori PIN-kód megváltoztatása">
+<!ENTITY smaug.keyserver.label "Kulcskiszolgáló">
+<!ENTITY smaug.encDlgEncrypt.label "Üzenet titkosítása">
+<!ENTITY smaug.send.label                        "Send">
+<!ENTITY smaug.setupWiz.pgNoStart.title "Kilépés">
+<!ENTITY smaug.defaultKeySelOpts.label "Kulcsválasztás beállításai…">
+<!ENTITY smaug.setupWiz.pgKeySel.title "Kulcsválasztás">
+<!ENTITY smaug.amPrefDesc.label "Az OpenPGP titkosítási és aláírási funkcióit az Smaug biztosítja. A használatához szükséges, hogy telepítve legyen a GnuPG (gpg).">
+<!ENTITY smaug.smaugAttachDesc.label "Az üzenet mellékleteket tartalmaz. Hogyan szeretné titkosítani/aláírni?">
+<!ENTITY smaug.keyExpiry.expiryKey.label         "Keys to change expiration date:">
+<!ENTITY smaug.adminSmartCard.label "Intelligens kártya kezelő…">
+<!ENTITY smaug.importMissingKeys.accesskey "l">
+<!ENTITY smaug.setupWiz.pgComplete.desc "Az Smaug most már használatra kész.<html:br/><html:br/>Köszönjük, hogy az Smaug programot használja.">
+<!ENTITY smaug.cardDetails.name.label "Keresztnév, név">
+<!ENTITY smaug.manageUidDlg.deleteUid.label "Törlés">
+<!ENTITY smaug.usersNotFound.label "Címzett nem érvényes, megbízható vagy nem található">
+<!ENTITY smaug.manageUidDlg.addUid.label "Hozzáadás">
+<!ENTITY smaug.keyMan.reload.accesskey "r">
+<!ENTITY smaug.setupWiz.pgInstall.locateDesc      "Please locate GnuPG using the Browse button.">
+<!ENTITY smaug.smgEncryptAttachDontEncryptMsg.label        "Don't encrypt/sign the message at all">
+<!ENTITY smaug.importMissingKeys.label "Hiányzó kulcsok importálása">
+<!ENTITY smaug.keyMan.keyDetails.key              "I">
+<!ENTITY smaug.setupWiz.pgKeyImport.pubkeyFile "Nyilvános kulcs fájl">
+<!ENTITY smaug.decryptbutton.label "Visszafejtés">
+<!ENTITY smaug.signing.label "Aláírás">
+<!ENTITY smaug.keygenTitle.label "Smaug – PGP-kulcs készítése">
+<!ENTITY smaug.smgEncryptAttachNone.label "Üzenettörzs titkosítása/aláírása, de a mellékleteké nem">
+<!ENTITY smaug.changePasswd.repeatPasswd.label "Jelmondat ismét">
+<!ENTITY smaug.keyMan.viewSig.key                 "S">
+<!ENTITY smaug.doubleDashSeparator.label "Dupla mínusz „--” jel használata az aláírás elválasztásához">
+<!ENTITY smaug.cardPin.title "Intelligens kártya PIN-kódjának megváltoztatása">
+<!ENTITY smaug.keyTrust.title "Smaug - Kulcsmegbízhatóság beállítása">
+<!ENTITY smaug.viewconsole.label "Konzol megtekintése">
+<!ENTITY smaug.tempTrustAllKeys.label       "Trust the keys of all recipients">
+<!ENTITY smaug.alwaysTrustSend.tooltip "Ne használja a Web of Trust szolgáltatást a kulcsok érvényességének meghatározásához">
+<!ENTITY smaug.useNonDefaultComment.label "Smaug megjegyzés hozzáfűzése az OpenPGP aláíráshoz">
+<!ENTITY smaug.setupWiz.pgSign.signAllMsg "Kéri a kimenő üzenetek alapértelmezés szerinti aláírását?">
+<!ENTITY smaug.keyMan.ctxCopyToClipbrd.label "Nyilvános kulcsok másolása a vágólapra">
+<!ENTITY smaug.about.accesskey "n">
+<!ENTITY smaug.mime_parts_on_demand.label "Mellékletek letöltése csak megnyitáskor (IMAP-mappáknál)">
+<!ENTITY smaug.doubleDashSeparator.tooltip "Két önmagában álló mínusz jel „--” választja el az aláírást">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.label      "If encrypted">
+<!ENTITY smaug.displayNoLonger.label "Ne jelenjen meg ez az ablak ismét, ha a titkosítás nem lehetséges">
+<!ENTITY smaug.setupWiz.pgInstall.installDone     "Installation complete. Please proceed to the next page of the wizard to continue the setup process.">
+<!ENTITY smaug.keyMan.revokeKey.label "Kulcs visszavonás">
+<!ENTITY smaug.sKeyDlg.checked.label "Hogyan ellenőrizte az aláírandó kulcshoz alább megadott személyt?">
+<!ENTITY smaug.keyGen.expiry.title "Kulcslejárat">
+<!ENTITY smaug.undoencryption.accesskey "v">
+<!ENTITY smaug.keyMan.showInvalidKeys.label "Érvénytelen kulcsok megjelenítése">
+<!ENTITY smaug.openpgp.label "OpenPGP">
+<!ENTITY smaug.setupWiz.pgSettings.details "Részletek…">
+<!ENTITY smaug.encrypt.label "Titkosítás">
+<!ENTITY smaug.cardDetails.login.label "Bejelentkezési adatok">
+<!ENTITY smaug.autoSendEncryptedNever.label    "Never">
+<!ENTITY smaug.setupWiz.pgSign.noSign "Nem, címzettek szerinti szabályokat készít azoknak, akiknek szóló üzeneteket alá kell írni">
+<!ENTITY smaug.about.title "Az Smaug névjegye">
+<!ENTITY smaug.createRuleFromAddr.label "Smaug-szabályok létrehozása címekhez…">
+<!ENTITY smaug.ctxVerifyAtt.accesskey "A">
+<!ENTITY smaug.viewdebuglog.accesskey "N">
+<!ENTITY smaug.detailsHdrButton.label "Részletek">
+<!ENTITY smaug.keyTrust.trustKey.label "Kulcs a megbízhatósághoz:">
+<!ENTITY smaug.setupWiz.pgInstall.title           "GnuPG Required">
+<!ENTITY smaug.action.label "Művelet">
+<!ENTITY smaug.defaultKeySelOpts.accesskey "u">
+<!ENTITY smaug.setupWiz.pgKeygen.title "Kulcs létrehozása">
+<!ENTITY smaug.autoKeyRetrieve2.label "a következő kulcskiszolgálóról:">
+<!ENTITY smaug.assignKeysByEmailAddr.tooltip       "Assign keys according to keys associated with the email addresses in the key manager.">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc2 "Adja oda a nyilvános kulcsát minden partnerének, akik az aláírását ellenőrizhetik, vagy titkosított e-mail üzenetet küldhetnek Önnek. A titkos kulcsot tartsa biztonságban. Soha ne adja oda senkinek a titkos kulcsát, és soha ne hagyja védtelenül. Segítségével az összes Önnek küldött titkosított e-mail olvashatóvá válik. Ráadásul az Ön nevében titkosított e-maileket készíthetnek. A titkos kulcs – mivel ez egy titok – egy jelmondat védi.">
+<!ENTITY smaug.smgAttachInlineEncryptAndSign.label  "Encrypt and sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.addUidDlg.title "Smaug - Felhasználói azonosító hozzáadása">
+<!ENTITY smaug.keyDetails.keyType.label "Típus">
+<!ENTITY smaug.keyGen.years.label "év">
+<!ENTITY smaug.edit.accesskey "t">
+<!ENTITY smaug.keyExpiry.title                   "Smaug - Change Expiration Date">
+<!ENTITY smaug.singleRcptSettings.label "Smaug - Címzett beállításai">
+<!ENTITY smaug.setupWiz.pgSign.desc "Smaug lehetőséget biztosít a levelek digitális aláírására. Ez ahhoz hasonló, mint amikor egy levelet aláírunk, csak itt digitális formában történik. Ez alapján ellenőrizhető, hogy a levél valóban a feladótól érkezett-e. Biztonsági szempontból ajánlott bekapcsolni, hogy minden kimenő levél aláírásra kerüljön.">
+<!ENTITY smaug.cardDetails.sigcount.label "Aláírás számláló">
+<!ENTITY smaug.addToRule.useRuleButton.label "Kulcs hozzáadása a kiválasztott szabályhoz">
+<!ENTITY smaug.encDlgSign.label "Üzenet aláírása">
+<!ENTITY smaug.keyGen.noExpiry.label "A kulcs soha nem jár le">
+<!ENTITY smaug.keyPassphraseRepeat.label "Jelmondat (ismét)">
+<!ENTITY smaug.searchForKey.label "Kulcs keresése">
+<!ENTITY smaug.setupWiz.details.changingPrefs "A Tündér a következő változtatásokat végezte el:">
+<!ENTITY smaug.revealAttachmentsButton.label "A mellékelt fájlok nevei el vannak rejtve. Nyomja meg a „Megjelenítés” gombot a fájlnevek megjelenítéséhez.">
+<!ENTITY smaug.always.label "Mindig">
+<!ENTITY smaug.keyMan.sendKeys.accesskey "m">
+<!ENTITY smaug.keyMan.ctxExportToFile.label "Kulcs exportálása fájlba">
+<!ENTITY smaug.keyMan.importFromFile.accesskey "i">
+<!ENTITY smaug.keyMan.copyToClipbrd.label "Nyilvános kulcsok másolása a vágólapra">
+<!ENTITY smaug.smgAttachPgpMimeEncryptAndSign.label "Encrypt and sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.smgAttachDontEncryptMsgSign.label           "Don't sign the message at all">
+<!ENTITY smaug.ctxImportKey.accesskey "i">
+<!ENTITY smaug.keyMan.keyDetails.accesskey "I">
+<!ENTITY smaug.keyDetails.calcTrust.label "Kulcs érvényesség">
+<!ENTITY smaug.confirmBeforeSendingIfEncrypted.tooltip    "Display information dialog about signing/encryption before sending an ENCRYPTED message">
+<!ENTITY smaug.amPrefTitle.label "OpenPGP beállításai">
+<!ENTITY smaug.progressText.label "Feldolgozás:">
+<!ENTITY smaug.sepratationDesc.label "(Több e-mail címet szóközökkel válassza el.)">
+<!ENTITY smaug.setupWiz.pgSelectId.selectIds "Csak a következő postafiókokhoz állítom be az Smaug-t:">
+<!ENTITY smaug.disableSMIMEui.tooltip "Az S/MIME gomb eltávolítása az üzenetszerkesztő ablak eszköztáráról.">
+<!ENTITY smaug.keyMan.changeExpiry.label        "Change Expiration Date">
+<!ENTITY smaug.keyMan.setTrust.label "Kulcsmegbízhatóság beállítása…">
+<!ENTITY smaug.keyMan.showOthersKeys.label "Más emberektől származó kulcsok megjelenítése">
+<!ENTITY smaug.setupWiz.pgWelcome.desc "A következő néhány lépés a kezdő Smaug használók számára nyújt segítséget az első lépésekben, illetve a kezdeti beállításoknál. A képernyőn kérdések jelennek meg, amelyek megválaszolását követően, a beállítások automatikusan végrehajtódnak.">
+<!ENTITY smaug.confirmBeforeSendingAlways.tooltip         "Always display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.matchDescEnd.label "a fenti címek valamelyikével">
+<!ENTITY smaug.keyMan.reload.label "Kulcstároló újratöltése">
+<!ENTITY smaug.viewconsole.accesskey "K">
+<!ENTITY smaug.keyMan.viewMenu.accesskey "N">
+<!ENTITY smaug.keyNoPassphrase.label "Nincs jelmondat">
+<!ENTITY smaug.amPrefSelectKey.label "Kulcs kiválasztása…">
+<!ENTITY smaug.moveUp.label "Fel">
+<!ENTITY smaug.cardDetails.yes.label "Igen">
+<!ENTITY smaug.testemail.label "Tesztlevél">
+<!ENTITY smaug.composeOptionsMenu.label "Levélírás alapvető beállításai">
+<!ENTITY smaug.finallySignNotEncrypted.label   "sign non-encrypted messages">
+<!ENTITY smaug.addToRule.newRuleButton.label "Új szabály létrehozása">
+<!ENTITY smaug.setupWiz.pgSummary.desc "A szükséges beállítások elkészültek. A „Tovább” gombra kattintva a Tündér a következő teendőket fogja végrehajtani:">
+<!ENTITY smaug.clearSearch.label "Törlés">
+<!ENTITY smaug.signedsend.key "S">
+<!ENTITY smaug.keyMan.delKey.label "Kulcs törlés">
+<!ENTITY smaug.keyMan.viewPhoto.label "Fotó azonosító">
+<!ENTITY smaug.smgAttachInlineSign.label            "Sign each attachment separately and send the message using inline PGP">
+<!ENTITY smaug.keyMan.delKey.accesskey "t">
+<!ENTITY smaug.viewdebuglog.label "Napló megtekintése">
+<!ENTITY smaug.manageUidDlg.title "Elsődleges felhasználói azonosító megváltoztatása">
+<!ENTITY smaug.useKeys.label "A következő OpenPGP-kulcsok használata:">
+<!ENTITY smaug.setupWiz.details.8bitEncoding " 8 bites karakterkódolás használata az üzenetek küldéséhez">
+<!ENTITY smaug.sendersKeyMenu.accesskey "k">
+<!ENTITY smaug.keyMan.sign.accesskey "s">
+<!ENTITY smaug.trustSenderKey.label "Kulcsmegbízhatóság beállítása…">
+<!ENTITY smaug.delete.accesskey "T">
+<!ENTITY smaug.encryptedsend.accesskey "t">
+<!ENTITY smaug.encryptedsend.key "P">
+<!ENTITY smaug.keyMan.changePwd.accesskey "o">
+<!ENTITY smaug.keyMan.pleaseWait.tooltip "Kérem várjon, amíg a kulcsok betöltődnek…">
+<!ENTITY smaug.confirmBeforeSendingNever.tooltip          "Don't display information dialog about signing/encryption before sending a message">
+<!ENTITY smaug.autoSendEncryptedOption.label   "Automatically send encrypted">
+<!ENTITY smaug.keyMan.nothingFound.tooltip "A keresési kifejezésnek egyetlen kulcs sem felel meg">
+<!ENTITY smaug.importpublickey.label "Nyilvános kulcs importálása">
+<!ENTITY smaug.matchDescStart.label "Szabály alkalmazása, ha a címzett címe">
+<!ENTITY smaug.setupWiz.pgWelcome.no "Nem, inkább saját magam állítom be a programot">
+<!ENTITY smaug.addToRule.newRuleButton.accesskey "j">
+<!ENTITY smaug.expertUser.tooltip "A tapasztalt felhasználóknak szánt menüelemek és beállítások megjelenítése.">
+<!ENTITY smaug.keyMan.ownerTrust.label "Saját megbízhatóság">
+<!ENTITY smaug.cardDetails.closeWindow.label "Bezárás">
+<!ENTITY smaug.keyTrust.trustLevel.label "Mennyire megbízható a kulcs?">
+<!ENTITY smaug.cardDetails.title "OpenPGP intelligens kártya részletek">
+<!ENTITY smaug.openpgpPrefsButton.label        "Smaug Preferences...">
+<!ENTITY smaug.keyMan.importFromServer.label "Kulcs keresése">
+<!ENTITY smaug.amPrefUseFromAddr.label "A postafiók e-mail címét használja PGP-kulcs azonosítójaként">
+<!ENTITY smaug.agentAdditionalParam.tooltip "Adja meg a GnuPG beállításait.">
+<!ENTITY smaug.keyMan.close.label "Ablak bezárása">
+<!ENTITY smaug.keyMan.refreshAllKeys.accesskey "f">
+<!ENTITY smaug.setupWiz.pgSign.subtitle "Kimenő üzenetek aláírása">
+<!ENTITY smaug.keyMan.downloadContactKeys.label "Find keys for all contacts">
+<!ENTITY smaug.amPrefEnablePgp.label "OpenPGP engedélyezése a postafiókhoz">
+<!ENTITY smaug.keyMan.exportToFile.label "Kulcs exportálása fájlba">
+<!ENTITY smaug.cardPin.unblockPin.label "PIN-kód feloldása">
+<!ENTITY smaug.keyMan.editMenu.label "Szerkesztés">
+<!ENTITY smaug.encDlgPgpMime.accesskey "P">
+<!ENTITY smaug.setupWiz.pgSelectId.subtitle "Válassza ki azokat a postafiókokat, amelyeket az Smaug-vel szeretne használni">
+<!ENTITY smaug.useGpgAgent.tooltip "A gpg-agent használata (amely a GnuPG 2 része) a jelmondatok beviteléhez">
+<!ENTITY smaug.setupWiz.pgSettings.changePref "Szeretne változtatni néhány alapértelmezett beállításon, hogy az Smaug megbízhatóbban működjön a számítógépén?">
+<!ENTITY smaug.cardDetails.forcepin.label "Aláírás PIN-kód erőltetése">
+<!ENTITY smaug.rulesEditor.label "Smaug - szabályszerkesztő a címzettekhez">
+<!ENTITY smaug.searchKeyDlgSelAll.label         "Select/Deselect all">
+<!ENTITY smaug.autoSendEncryptedIfKeys.tooltip "Automatically send encrypted when for each recipient at least one keys is known and accepted (see above) and no recipient rule forces not to encrypt.">
+<!ENTITY smaug.searchKeyDlgCapt.label "Talált kulcsok - Válassza ki az importálandót">
+<!ENTITY smaug.keyMan.showPhoto.accesskey "O">
+<!ENTITY smaug.resetPrefsButton.label "Alaphelyzet">
+<!ENTITY smaug.valid.label "Érvényes">
+<!ENTITY smaug.keyUserId.label "Postafiók / Felhasználói azonosító">
+<!ENTITY smaug.cancelKey.label "Mégse">
+<!ENTITY smaug.autoSendEncryptedIfKeys.label   "If possible">
+<!ENTITY smaug.setupWiz.pgKeySel.newKey "Szeretnék készíteni egy új kulcspárt az e-mail üzenetek aláírásához és titkosításához">
+<!ENTITY smaug.setupWiz.pgInstall.gnupgFound      "Valid GnuPG installation found.">
+<!ENTITY smaug.finalPGPMimeNo.label         "Force Inline PGP">
+<!ENTITY smaug.setupWiz.pgEncConv.desc            "Smaug allows you to encrypt your email messages and any attachments.
+                                                      Encryption is like putting a letter in an envelope. It makes things
+                                                      private.  It's not just for &quot;secret&quot; messages, but for
+                                                      everything that you would not send on a postcard.
+                                                      <html:br/><html:br/>
+                                                      To be able to send encrypted emails you need the key of each recipient.
+                                                      However, because OpenPGP is not common everywhere, it is typical
+                                                      that you only have the keys of <html:i>some</html:i> recipients.
+                                                      To support this situation, Smaug provides a convenient encryption mode,
+                                                      which automatically encrypts emails whenever possible.
+                                                      For each email you can still explicitly choose whether or not to encrypt.">
+<!ENTITY smaug.disableRules.label "Címzettenkénti szabályok figyelmen kívül hagyása">
+<!ENTITY smaug.basic.label "Alap">
+<!ENTITY smaug.smgAttachDontEncryptMsgEncrypt.label        "Don't encrypt the message at all">
+<!ENTITY smaug.attachkey.accesskey "a">
+<!ENTITY smaug.setupWiz.pgComplete.title "Köszönjük">
+<!ENTITY smaug.displayKeyProperties.label "Kulcs tulajdonságainak megjelenítése">
+<!ENTITY smaug.agentAdditionalParam.label "A GnuPG további paraméterei">
+<!ENTITY smaug.assignKeysManuallyAlways.label      "Always (also) Manually">
+<!ENTITY smaug.setupWiz.pgKeygen.subtitle "A kulcspár készítése folyamatban">
+<!ENTITY smaug.confirmBeforeSendingIfRules.tooltip        "Display information dialog about signing/encryption before sending, if your preference regarding encryption was changed by a per-recipient rule or auto encryption">
+<!ENTITY smaug.keyMan.addToPRRule.label "Címzett szerinti szabály hozzáadása">
+<!ENTITY smaug.label "Smaug">
+<!ENTITY smaug.advanced.label "Speciális">
+<!ENTITY smaug.nextRule.label "A cím egyezéséig folytatás a következő szabállyal">
+<!ENTITY smaug.sKeyDlg.signWithKey.label "Kulcs az aláíráshoz:">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.importKey "Importálni kívánok egy – már létező – nyilvános és titkos kulcspárt">
+<!ENTITY smaug.setupWiz.pgKeyCreate.passRepeat "Írja be ismét a most megadott jelmondatot">
+<!ENTITY smaug.sKeyDlg.fingerprint.label "Ujjlenyomat:">
+<!ENTITY smaug.keyMan.keyProps.label "Kulcs tulajdonságai">
+<!ENTITY smaug.keyMan.setTrust.accesskey "m">
+<!ENTITY smaug.keyMan.editMenu.accesskey "e">
+<!ENTITY smaug.attachmykey.label "Saját nyilvános kulcs csatolása…">
+<!ENTITY smaug.keyMan.showInvalidKeys.accesskey "e">
+<!ENTITY smaug.keyDetails.created.label "Létrehozva">
+<!ENTITY smaug.cardDetails.pinretry.label "PIN-kód próbálkozás számláló">
+<!ENTITY smaug.ctxDecryptOpen.label "Visszafejtés és megnyitás">
+<!ENTITY smaug.setupWiz.label "Beállítás Tündér">
+<!ENTITY smaug.genCardKey.backupKey.label "Kulcs másolatának mentése a névjegyen kívül">
+<!ENTITY smaug.finalPGPMimeYes.label        "Force PGP/MIME">
+<!ENTITY smaug.useForSigning.label "Előállított kulcs használata a kijelölt személyazonossághoz">
+<!ENTITY smaug.smgAttachNoneSign.label              "Sign the message text, but not the attachments">
+<!ENTITY smaug.keyDetails.title "Kulcs tulajdonságai">
+<!ENTITY smaug.amPrefUseKeyId.label "Egyedi PGP-kulcsazonosító használata (0x1234ABCD):">
+<!ENTITY smaug.keyMan.sendKeys.label "Nyilvános kulcs küldése e-mailben">
+<!ENTITY smaug.smgAttachPgpMimeSign.label           "Sign the message as a whole and send it using PGP/MIME">
+<!ENTITY smaug.basicPrefs.label "Alapvető beállítások">
+<!ENTITY smaug.acceptedKeysValid.tooltip   "Accept only keys that are signed by yourself or by other people you trust. Technically, you only accept keys 'valid' for encryption.">
+<!ENTITY smaug.securitybutton.label "Smaug">
+<!ENTITY smaug.advancedPrefsButton.label "Speciális">
+<!ENTITY smaug.keyTrust.ultimateTrust.label "Véglegesen megbízható">
+<!ENTITY smaug.defaultSigning.label            "Sign messages by default">
+<!ENTITY smaug.keyDetails.fingerprint.label "Ujjlenyomat">
+<!ENTITY smaug.finalPGPMimeDefault.label    "Use Defaults and Rules for PGP format">
+<!ENTITY smaug.keyMan.downloadContactKeys.accesskey "F">
+<!ENTITY smaug.setupWiz.pgInstall.desc            "In order to use Smaug, GnuPG is required as additional component for doing the cryptographic work.
+                                                      The wizard tried to locate GnuPG, but it could not be found.">
+<!ENTITY smaug.cardDetails.cardMenu.accesskey "I">
+<!ENTITY smaug.encryptionModelConvenient.label "Convenient encryption settings">
+<!ENTITY smaug.showPhoto.label "PGP-fényképazonosító megtekintése">
+<!ENTITY smaug.setupWiz.pgEncConv.title           "Encryption">
+<!ENTITY smaug.useGpgAgent.label "Használja a gpg-agent programot a jelmondatok kezeléséhez">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncMsg      "Which general mode do you prefer to encrypt outgoing emails?">
+<!ENTITY smaug.perRecipientsOption.label "Szabályok létrehozása a címzettekhez">
+<!ENTITY smaug.sendOptionsMenu.label "Küldés beállításai…">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.subtitle "Nem található egyetlen OpenPGP-kulcs sem.">
+<!ENTITY smaug.keyMan.stopTransfer.label "Adatátvitel leállítása">
+<!ENTITY smaug.refreshKeys.label "Kulcslista frissítése">
+<!ENTITY smaug.setupWiz.pgInstall.locateButton    "Browse ...">
+<!ENTITY smaug.keepCryptoSettingsForReply.label "Titkosított, illetve aláírt válasz küldése titkosított, illetve aláírt üzenetre">
+<!ENTITY smaug.addPhoto.question.label "Hozzá kívánja adni a következő képet a kiválasztott kulcshoz?">
+<!ENTITY smaug.keepCryptoSettingsForReply.tooltip "Ha lehetséges küldjön titkosított, illetve aláírt választ a titkosított, illetve aláírt üzenetre">
+<!ENTITY smaug.keyMan.refreshAllKeys.label "Összes nyilvános kulcs frissítése">
+<!ENTITY smaug.cardDetails.authKey.label "Hitelesítő kulcs">
+<!ENTITY smaug.viewKeySigDlg.title "Aláíráslista">
+<!ENTITY smaug.cardDetails.vendor.label "Gyártó">
+<!ENTITY smaug.amPrefPgpHeader.url.label "URL küldése a kulcs letöltéséhez:">
+<!ENTITY smaug.encryptionDlg.label "Smaug titkosítási és aláírási beállításai">
+<!ENTITY smaug.keyMan.showOthersKeys.accesskey "o">
+<!ENTITY smaug.decryptverify.accesskey "V">
+<!ENTITY smaug.keyMan.showUntrustedKeys.accesskey "u">
+<!ENTITY smaug.maybe.label "Igen, ha ki van választva az üzenetszerkesztőben">
+<!ENTITY smaug.keyTrust.marginalTrust.label "Csak részben megbízható">
+<!ENTITY smaug.prefs.pathsTitle.label "Fájlok és könyvtárak">
+<!ENTITY smaug.setupWiz.pgEncConv.convEncNo       "Don't encrypt my messages by default">
+<!ENTITY smaug.setupWiz.pgSelectId.note "<a class='smaugStrong'>Megjegyzés:</a> Az Smaug minden e-mail esetén ellenőrzi az aláírást, figyelmen kívül hagyva a postafiókok és azonosítók beállításait.">
+<!ENTITY smaug.keyMan.uploadToServer.accesskey "v">
+<!ENTITY smaug.addUidDlg.comment.label "Megjegyzés (nem kötelező)">
+<!ENTITY smaug.setupWiz.no "Köszönöm, nem kérem">
+<!ENTITY smaug.alwaysTrustSend.label "Mindig bízzon meg a felhasználó kulcsában">
+<!ENTITY smaug.keyMan.viewSig.accesskey "m">
+<!ENTITY smaug.changePasswd.newPasswd.label "Új jelmondat">
+<!ENTITY smaug.undoencryption.label "Titkosítás visszavonása">
+<!ENTITY smaug.uidValidity.label                 "Validity">
+<!ENTITY smaug.keyMan.ctxGenRevoke.label "Tanúsítvány visszavonás készítése és mentése">
+<!ENTITY smaug.cardDetails.reset.label "Alaphelyzet">
+<!ENTITY smaug.keyMan.ctxViewSig.label "Aláírások megjelenítése">
+<!ENTITY smaug.acceptedKeysAll.tooltip     "Accept all keys that are neither disabled by you nor revoked/expired by the owner. Technically, this uses the GPG option '--trust-model always'.">
+<!ENTITY smaug.pgpAccountSettings.label "Aláírás/titkosítás beállításai…">
+<!ENTITY smaug.reload.label "Üzenet újratöltése">
+<!ENTITY smaug.browse.label "Tallózás…">
+<!ENTITY smaug.passwordSettings.label "Jelszóbeállítások">
+<!ENTITY smaug.keyDetails.algorithm.label "Algoritmus">
+<!ENTITY smaug.keyMan.importFromServer.accesskey "K">
+<!ENTITY smaug.cardDetails.keyCreated.label "Létrehozva">
+<!ENTITY smaug.autoDecrypt.label "Üzenetek automatikus visszafejtése/ellenőrzése">
+<!ENTITY smaug.setupWiz.pgKeyImport.title "OpenPGP-kulcsok importálása">
+<!ENTITY smaug.keyservers.label "Adja meg a kulcskiszolgálókat">
+<!ENTITY smaug.encDlgIgnoreRules.label "Címzett szerinti szabályok figyelmen kívül hagyása">
+<!ENTITY smaug.keyMan.addPhoto.accesskey "F">
+<!ENTITY smaug.manageUidDlg.availableUid.label "Elérhető felhasználói azonosítók:">
+<!ENTITY smaug.add.accesskey "a">
+<!ENTITY smaug.refreshKeys.accesskey "K">
+<!ENTITY smaug.signSenderKey.label "Kulcs aláírása…">
+<!ENTITY smaug.searchKeyDlg.label "OpenPGP-kulcsok letöltése">
+<!ENTITY smaug.keyMan.generateMenu.accesskey "o">
+<!ENTITY smaug.setupWiz.pgNoStart.desc "Úgy döntött, hogy nem veszi igénybe az Smaug Beállítás Tündért. <html:br></html:br><html:br></html:br>Köszönjük, hogy az Smaug programot használja.">
+<!ENTITY smaug.signedsend.accesskey "a">
+<!ENTITY smaug.keyGen.console.label "Kulcskészítő konzol">
+<!ENTITY smaug.signSenderKeyPopup.label "Feladó kulcsának aláírása…">
+<!ENTITY smaug.cardDetails.url.label "Nyilvános kulcs URL-címe">
+<!ENTITY smaug.setupWiz.pgSelectId.desc "Az Smaug postafiókokon és azonosítókon működik. Alapesetben az Smaug úgy állítja be önmagát, hogy minden postafiókon és azonosítón működjön. Ha mégsem így szeretné, kérem válassza ki, hogy az Smaug mely postafiókokon (vagy azonosítókon) működjön.">
+<!ENTITY smaug.resetRememberedValues.label "Figyelmeztetések alaphelyzetbe állítása">
+<!ENTITY smaug.setupWiz.pgNoKeyFound.title "Nem található OpenPGP-kulcs">
+<!ENTITY smaug.cardDetails.save.label "Mentés">
+<!ENTITY smaug.prefs.overrideGpg.label "Felülbírálás">
+<!ENTITY smaug.logdirectory.label "Naplózás könyvtára">
+<!ENTITY smaug.setupWiz.pgSummary.title "Összegzés">
+<!ENTITY smaug.ruleEmail.label "PGP-szabály alkalmazása a következőre">
+<!ENTITY smaug.setupWiz.pgSummary.subtitle "Hagyja jóvá a változtatásokat">
+<!ENTITY smaug.setupWiz.details.viewAsPlain "Üzenettörzs megjelenítése sima szövegként">
+<!ENTITY smaug.debugMenu.label "Hibakeresési beállítások">
+<!ENTITY smaug.keyMan.ctxRefreshKey.label "Nyilvános kulcsok frissítése a kulcskiszolgálóról">
+<!ENTITY smaug.setupWiz.pgKeyCreate.subtitle "Kulcs létrehozása e-mail üzenetek aláírásához és titkosításához">
+<!ENTITY smaug.keyMan.selectAll.key "A">
+<!ENTITY smaug.userNoPassphrase.label "Ne kérjen jelmondatot">
+<!ENTITY smaug.manageUidDlg.affectedKey.label "Megváltoztatandó kulcs:">
+<!ENTITY smaug.amPrefDefaultEncrypt.label "Levélírás alapvető beállításai">
+<!ENTITY smaug.sendersKeyMenu.label "Feladó kulcsa">
+<!ENTITY smaug.preferences.label "Smaug beállításai">
+<!ENTITY smaug.clearPassphrase.label "Tárolt jelmondat törlése">
+<!ENTITY smaug.setupWiz.pgSign.signYes            "Sign all of my messages by default">
+<!ENTITY smaug.setupWiz.pgSign.signNo             "Don't sign my messages by default">
+<!ENTITY smaug.setupWiz.pgKeyCreate.desc1 "Létre kell hoznia egy „kulcspárt” az e-mailek aláírásához és titkosításához, valamint a titkosított e-mailek olvasásához. A kulcspár két kulcsból áll, egy nyilvános kulcsból és titkos kulcsból.">
+<!ENTITY smaug.selKeysButton.accesskey "v">
+<!ENTITY smaug.setupWiz.pgKeySel.desc "OpenPGP-kulcs található a számítógépen. Ön használhatja aláírásra, titkosításra és visszafejtésre ezt a kulcsot, vagy létrehozhat egy új kulcspárt.">
+<!ENTITY smaug.noHushMailSupport.label "Használja a „&lt;” és a „&gt;” karaktereket az e-mail címek megadásához">
+<!ENTITY smaug.setupWiz.pgKeyImport.desc "Adja meg az importálni kívánt nyilvános és titkos kulcsokat tartalmazó fájlokat. A nyilvános kulcs megadására szolgáló mezőt üresen is hagyhatja, ha az első fájl már tartalmazza a titkos és a nyilvános kulcsot is.">
+<!ENTITY smaug.basicUserMenus.label     "Hide Expert Settings and Menus">
+<!ENTITY smaug.finalSignDefault.label       "Use Defaults and Rules for Signing">
+<!ENTITY smaug.keyMan.refreshKey.key              "R">
+<!ENTITY smaug.keyGen.days.label "nap">
+<!ENTITY smaug.disableRules.accesskey "i">
+<!ENTITY smaug.setupWiz.pgSettings.title "Beállítások">
+<!ENTITY smaug.keyMan.revokeKey.accesskey "v">
+<!ENTITY smaug.keyMan.generate.label "Új kulcspár létrehozása">
+<!ENTITY smaug.amPrefPgp.sendKeyWithMsg.label "Nyilvános kulcs csatolása az üzenetekhez">
+<!ENTITY smaug.encDlgPgpMime.label "PGP/MIME használata">
+<!ENTITY smaug.keyMan.selectAll.label "Összes kulcs kiválasztása">
+<!ENTITY smaug.keyComment.label "Megjegyzés">
+<!ENTITY smaug.sKeyDlg.notChecked.label "Nem ellenőriztem">
+<!ENTITY smaug.keyDetails.usage.label "Használat">
+<!ENTITY smaug.assignKeysManuallyIfMissing.tooltip "Open dialog to manually assign keys if keys are missing.">
+<!ENTITY smaug.keyMan.importFromClipbrd.accesskey "i">
+<!ENTITY smaug.addUidDlg.email.label "E-mail">
+<!ENTITY smaug.openPgpSecurity.label "OpenPGP biztonság">
+<!ENTITY smaug.nextAddress.label "A további szabályok figyelmen kívül hagyása">
+<!ENTITY smaug.setupWiz.details.subtitle "Alkalmazás beállításainak megváltoztatása">
+<!ENTITY smaug.keyMan.uploadToServer.label "Feltöltés kulcsszerverre">
+<!ENTITY smaug.userSelSendSigned.label           "Send signed">
+<!ENTITY smaug.ruleEmail.tooltip "Csak az e-mail címet szabad beírni, NE állítsa be címzett nevét.
+Például: „Senki Alfonz alfonz.senki@cime.net” formátum helytelen.">
+<!ENTITY smaug.setupWiz.details.title "Beállítások">
+<!ENTITY smaug.setupWiz.pgEncConv.convYes         "Convenient auto encryption">
+<!ENTITY smaug.assignKeysManuallyAlways.tooltip    "Always finally open the dialog to manually assign keys.">
+<!ENTITY smaug.help.accesskey "S">
+<!ENTITY smaug.email.label "E-mail">
+<!ENTITY smaug.attachkey.label "Nyilvános kulcs csatolása…">
+<!ENTITY smaug.not.label "Nem">
+<!ENTITY smaug.keyExpiry.label "Lejárat">
+<!ENTITY smaug.keyMan.copyToClipbrd.accesskey "N">
+<!ENTITY smaug.keyMan.userId.label "Név">
+<!ENTITY smaug.keyMan.manageUid.label "Felhasználói azonosítók kezelése">
+<!ENTITY smaug.defaultEncryption.label "Levelek automatikus titkosítása">
+<!ENTITY smaug.never.label "Soha">
+<!ENTITY smaug.keyMan.fileMenu.accesskey "F">
+<!ENTITY smaug.cardDetails.genCardKey.label "Kulcskészítés">
+<!ENTITY smaug.editRules.accesskey "z">
+<!ENTITY smaug.prefs.accesskey "B">
+<!ENTITY smaug.keyDetails.selAction.accesskey "s">
+<!ENTITY smaug.acceptedKeysAll.label       "All valid keys I have">
+<!ENTITY smaug.matchExact.label "pontosan megegyezik">
+<!ENTITY smaug.searchRule.label "Szabályok mutatása e-mail címekkel:">
