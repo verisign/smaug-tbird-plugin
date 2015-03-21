@@ -19,9 +19,13 @@ Authored by Eric Osterweil eosterweil@verisign.com
 Compiling
 ===========
 
-smaug.xpi
+```
+git clone https://github.com/verisign/smaug-tbird-plugin.git
+cd smaug-tbird-plugin
+make
+```
 
-This is the Thunderbird extension.
+This will build the Add-on file ``smaug.xpi``
 
 
 Thunderbird Extension Installation
@@ -30,19 +34,15 @@ Dependency: the Smaug reference library must be installed ( https://github.com/v
 Dependency: Thunderbird 31 (version tested)
 
 * Install libsmaug
-* Checkout the full smaug Thunderbird repository
-* Compile
-* Create (or reuse) an X.509 S/MIME certificate
-* Install in Thunderbird
-* Configure the Smaug plugin with your personal S/MIME certificate
+* Follow the above compiling instructions for this add-on
+* Create (or reuse) an X.509 S/MIME certificate (a helper script for this is in the Smaug repo  
+( https://github.com/verisign/smaug )
+* Install this add-on in Thunderbird
+* Configure the Smaug add-on with your personal S/MIME certificate
 
-For example, after installing libsmaug (described in the project's README):
+For example, install libsmaug (described in that project's README, https://github.com/verisign/smaug )
 
-```
-git clone "this repository"
-cd smaug-tbird-plugin
-make
-```
+Next, compile this Add-on (described above)
 
 Then, open Thunderbird, navigate to the "Tools -> Add-ons" menu.
 <br/>
@@ -55,3 +55,19 @@ directory of the "smaug-tbird-plugin" repo.
 <br/>
 After installation (and relaunching Thunderbird), choose "Key Management" from the "Smaug" menu, and select your
 S/MIME certificate.
+
+Provisioning Your Zone With Your S/MIME Certificate(s)
+=====================================================
+
+Provision your zone is how Mail User Agents (MUAs), like Thunderbird, will be able to securely learn your signing
+and encryption keys.  Online portals like the one listed here "" help offload the management details and access
+complexities of provisioning and maintaining S/MIME certificates in DNS zones.  If, on the other hand, you prefer
+to manage the material in your own zone, this is how to do it:
+
+* Make sure your zone is DNSSEC enabled (from the root zone, to your TLD, and all the way to your zone).
+* Use the tool ``smimeagen`` (installed with libsmaug, https://github.com/verisign/smaug ) to convert your S/MIME
+certificate into SMIMEA records.
+* Copy-and-paste the output of ``smimeagen`` into your DNS zone file, re-sign your zone, and reload it.
+* Whenever you change your S/MIME certificate(s), be sure you update your DNS zone.
+
+
