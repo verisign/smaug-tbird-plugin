@@ -79,8 +79,7 @@ To get going using S/MIME and DANE, follow these steps:
   * ```autoreconf -i
 ./configure
 make
-sudo make install
-```
+sudo make install```
 * Compile Smaug Add-on (see &quot;Compiling&quot; Section, above):
   * ``make``
 * Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
