@@ -59,10 +59,10 @@ S/MIME certificate.
 Provisioning Your Zone With Your S/MIME Certificate(s)
 =====================================================
 
-Provision your zone is how Mail User Agents (MUAs), like Thunderbird, will be able to securely learn your signing
-and encryption keys.  Online portals like the one listed here "" help offload the management details and access
-complexities of provisioning and maintaining S/MIME certificates in DNS zones.  If, on the other hand, you prefer
-to manage the material in your own zone, this is how to do it:
+Provisioning your zone is how Mail User Agents (MUAs), like Thunderbird, will be able to securely learn your 
+signing and encryption keys.  Online portals like the one listed here &lt;TBD&gt; help offload the management 
+details and access complexities of provisioning and maintaining S/MIME certificates in DNS zones.  If, on 
+the other hand, you prefer to manage the material in your own zone, this is how to do it:
 
 * Make sure your zone is DNSSEC enabled (from the root zone, to your TLD, and all the way to your zone).
 * Use the tool ``smimeagen`` (installed with libsmaug, https://github.com/verisign/smaug ) to convert your S/MIME
