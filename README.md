@@ -76,10 +76,7 @@ Quick Start Guide
 To get going using S/MIME and DANE, follow these steps:
 
 * Install libsmaug ( https://github.com/verisign/smaug ):
-  * ```autoreconf -i
-./configure
-make
-sudo make install```
+  * ```autoreconf -i && ./configure && make && sudo make install```
 * Compile Smaug Add-on (see &quot;Compiling&quot; Section, above):
   * ``make``
 * Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
