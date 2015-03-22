@@ -70,4 +70,26 @@ certificate into SMIMEA records.
 * Copy-and-paste the output of ``smimeagen`` into your DNS zone file, re-sign your zone, and reload it.
 * Whenever you change your S/MIME certificate(s), be sure you update your DNS zone.
 
+Quick Start Guide
+=================
 
+To get going using S/MIME and DANE, follow these steps:
+
+* Install libsmaug ( https://github.com/verisign/smaug ):
+  * ```autoreconf -i
+./configure
+make
+sudo make install
+```
+* Compile Smaug Add-on (see &quot;Compiling&quot; Section, above):
+  * ``make``
+* Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
+  * Generate an S/MIME cert (if you don't have one already): $(libsmaug_dir)/scripts/smime-gen.sh
+  * Open Thunderbird
+  * "Tools -> Add-ons"
+  * "Tools for all add-ons" button 
+  * "Install add-on from file..." -> choose "smaug.xpi"
+  * "Smaug" -> "Key Management" menu, choose your S/MIME cert (from above)
+* Encode your S/MIME cert into DANE SMIMEA resource records (RRs):
+  * smimeagen &lt;your email address&gt; 3 0 0 &lt;your S/MIME cert file&gt;
+* Copy-and-paste the RRs into your zone.
