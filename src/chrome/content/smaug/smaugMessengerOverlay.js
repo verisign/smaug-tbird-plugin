@@ -1006,7 +1006,10 @@ Smaug.msg = {
       var headIdx = plainText.indexOf(boundaryMarker, boundaryIndex + boundaryMarker.length);
       headIdx += boundaryMarker.length;
       var tailIdx = plainText.indexOf(boundaryMarker, headIdx);
-      plainText = plainText.substring(headIdx, tailIdx)
+      if (boundaryIndex >= 0)
+      {
+        plainText = plainText.substring(headIdx, tailIdx)
+      }
       SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParseCallback: boundaryMarker = '"+boundaryMarker+"'\n");
       SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParseCallback: boundaryIdx, headIdx, tailIdx = "+boundaryIndex+", "+headIdx+", "+tailIdx+"\n");
       // </EMO>
