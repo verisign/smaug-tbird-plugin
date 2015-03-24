@@ -1376,7 +1376,14 @@ Smaug.prototype = {
 
 
   // <EMO>
-  smgEncryptMessage: function (parent, plainText, fromMailAddr, toMailAddr, bccMailAddr, exitCodeObj, errorMsgObj)
+  smgEncryptMessage: function (parent, 
+                               plainText, 
+                               fromMailAddr, 
+                               toMailAddr, 
+                               bccMailAddr, 
+                               sendFlags,
+                               exitCodeObj, 
+                               errorMsgObj)
   {
     Ec.DEBUG_LOG("smaug.js: Smaug.smgEncryptMessage: "+plainText.length+" bytes from "+fromMailAddr+" to "+toMailAddr+"\n");
 
@@ -1395,6 +1402,10 @@ Smaug.prototype = {
     }
     else
     {
+      var defaultSend = sendFlags & nsIEnigmail.SEND_DEFAULT;
+      var signMsg     = sendFlags & nsIEnigmail.SEND_SIGNED;
+      var encryptMsg  = sendFlags & nsIEnigmail.SEND_ENCRYPTED;
+
       // First convert all linebreaks to newlines
       plainText = plainText.replace(/\r\n/g, "\n");
       plainText = plainText.replace(/\r/g,   "\n");
@@ -1404,24 +1415,28 @@ Smaug.prototype = {
 
       Ec.DEBUG_LOG("smaug.js: SmaugsmgEencryptMessage: plainText='"+plainText+"', "+plainText.length+" bytes\n"); 
       let ptr = new ctypes.char.ptr();
-      var success = this.libsmaug.sign("local@local", plainText, ptr.address());
+
+      // If we're told to sign, try it.
+      var success = (signMsg) ? this.libsmaug.sign("local@local", plainText, ptr.address()) : 1;
+
       if (0 == success)
       {
         Ec.ERROR_LOG("smaug.js: Smaug.smgEncryptMessage: no signed data returned.\n");
       }
       else
       {
-        var signed = ptr.readString();
-        // ret = this.libsmaug.encrypt(toMailAddr, getUnicodeData(signed));
+        var signed = (signMsg) ? ptr.readString() : plainText;
         ptr = new ctypes.char.ptr();
-        success = this.libsmaug.encrypt(toMailAddr, signed, ptr.address());
+
+        // If we were told to encypt, try it
+        success = (encryptMsg) ? this.libsmaug.encrypt(toMailAddr, signed, ptr.address()) : 1;
         if (0 == success)
         {
           Ec.ERROR_LOG("smaug.js: Smaug.smgEncryptMessage: no encrypted data returned.\n");
         }
         else
         {
-          ret = ptr.readString();
+          ret = (encryptMsg) ? ptr.readString() : signed;
           // ret = getUnicodeData(ret);
           exitCodeObj.value = 0;
         }
@@ -1694,9 +1709,9 @@ Smaug.prototype = {
     errorMsgObj.value    = "";
 
     if (!cipherText) {
-      Ec.DEBUG_LOG("smaug.js: Smaug.smgDecryptMessage: NO ENCRYPTION!\n");
+      Ec.DEBUG_LOG("smaug.js: Smaug.smgDecryptMessage: NO message\n");
       exitCodeObj.value = 0;
-      ret = plainText;
+      ret = cipherText;
       statusFlags.value |= nsIEnigmail.NODATA;
     }
     else if (!this.initialized) {
@@ -1706,23 +1721,40 @@ Smaug.prototype = {
     }
     else
     {
-      var ptr = new ctypes.char.ptr();
-      var success = this.libsmaug.decrypt("local@local", cipherText, ptr.address());
-      if (0 == success)
+      var clearText = cipherText;
+      ret = clearText;
+      var success = 0;
+      var cipherRegEx = new RegExp("Content-Type:[^\n\r]*application\/x-pkcs7-mime");
+      var sigRegEx = new RegExp("Content-Type:[^\n\r]*protocol=\"application\/pkcs7-signature\"")
+      // Is this an encrypted messages
+      // if (cipherText.search(/Content-Type:[^\n\r]*application\/x-pkcs7-mime/))
+      if (cipherRegEx.test(cipherText))
       {
-        Ec.ERROR_LOG("smaug.js: Smaug.smgDecryptMessage: unable to decrypt.\n");
-        statusFlags.value |= nsIEnigmail.BAD_SIGNATURE | nsIEnigmail.DECRYPTION_FAILED;
+        var ptr = new ctypes.char.ptr();
+        success = this.libsmaug.decrypt("local@local", cipherText, ptr.address());
+        if (0 == success)
+        {
+          Ec.ERROR_LOG("smaug.js: Smaug.smgDecryptMessage: unable to decrypt.\n");
+          statusFlags.value |= nsIEnigmail.BAD_SIGNATURE | nsIEnigmail.DECRYPTION_FAILED;
+        }
+        else
+        {
+          clearText = ptr.readString();
+          ret = clearText;
+          statusFlags.value |= nsIEnigmail.DECRYPTION_OKAY;
+          Ec.DEBUG_LOG("smaug.js: Smaug.smgDecryptMessage: decrypted to "+ret+"\n");
+          success = 1;
+          exitCodeObj.value = 0;
+        }
       }
-      else
+
+      // if (clearText.search(/Content-Type:[^\n\r]*protocol="application\/pkcs7-signature"/))
+      if (sigRegEx.test(clearText))
       {
-        var clearText = ptr.readString();
-        ret = clearText;
-        statusFlags.value |= nsIEnigmail.DECRYPTION_OKAY;
-        // Check sigs in the future (gotta plumb getting the from addr to here). . .
-Ec.DEBUG_LOG("smaug.js: Smaug.smgDecryptMessage: decrypted to "+ret+"\n");
         var validSig = this.libsmaug.verify(fromAddr, clearText);
         if (0 == validSig)
         {
+Ec.ERROR_LOG("smaug.js: Smaug.smgDecryptMessage: Message is: "+clearText+"\n");
           Ec.ERROR_LOG("smaug.js: Smaug.smgDecryptMessage: signature not valid.\n");
           statusFlags.value |= nsIEnigmail.BAD_SIGNATURE;
         }

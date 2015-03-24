@@ -2844,6 +2844,7 @@ Smaug.msg = {
                                                   sendInfo.fromAddr, 
                                                   sendInfo.toAddr,
                                                   sendInfo.bccAddr, 
+                                                  sendInfo.sendFlags,
                                                   exitCodeObj,
                                                   errorMsgObj);
       // </EMO>

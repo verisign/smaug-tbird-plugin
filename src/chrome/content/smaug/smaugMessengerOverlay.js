@@ -875,13 +875,15 @@ Smaug.msg = {
     // extract text preceeding and/or following armored block
     var head="";
     var tail="";
+    msgText = (null == msgText) ? "" : msgText;
     // <EMO>
     var boundaryIndex = msgText.indexOf("boundary=\"");
-    var boundarRegEx = /boundary=\"(.*)\"$/gm;
-    var boundaryMarker = boundarRegEx.exec(msgText);
+    var boundarRegEx = new RegExp(/boundary=\"(.*)\"$/gm);
+    var boundaryMarkerResp = boundarRegEx.exec(msgText);
+    var boundaryMarker = (null == boundaryMarkerResp) ? "" : boundaryMarkerResp[1];
     var headIdx = msgText.indexOf(boundaryMarker, boundaryIndex + 1);
     var tailIdx = msgText.lastIndexOf(boundaryMarker);
-    SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParse: boundarIdx="+boundaryIndex+" headIdx="+headIdx+" tailIdx="+tailIdx+"\n");
+    SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParse: boundaryMarker='"+boundaryMarker+"' boundarIdx="+boundaryIndex+" headIdx="+headIdx+" tailIdx="+tailIdx+"\n");
     if (findStr) {
       head=msgText.substring(0,msgText.indexOf(findStr)).replace(/^[\n\r\s]*/,"");
       // head=msgText.substring(0,headIdx).replace(/^[\n\r\s]*/,"");
@@ -996,9 +998,11 @@ Smaug.msg = {
                                              exitCodeObj, 
                                              errorMsgObj);
 
+      plainText = (null == plainText) ? "" : plainText;
       var boundaryIndex = plainText.indexOf("boundary=\"");
-      var boundarRegEx = /boundary=\"(.*)\"$/gm;
-      var boundaryMarker = boundarRegEx.exec(plainText)[1];
+      var boundarRegEx = new RegExp(/boundary=\"(.*)\"$/gm);
+      var boundaryMarkerRes = boundarRegEx.exec(plainText);
+      var boundaryMarker = (null == boundaryMarkerRes) ? "" : boundaryMarkerRes[1];
       var headIdx = plainText.indexOf(boundaryMarker, boundaryIndex + boundaryMarker.length);
       headIdx += boundaryMarker.length;
       var tailIdx = plainText.indexOf(boundaryMarker, headIdx);
@@ -1059,16 +1063,28 @@ Smaug.msg = {
         return;
       }
       else if (retry == 2) {
+        // <EMO>
+        msgText = msgText.replace(/^\s$/g, "");
+    SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParseCallback: Retry 2\n");
+        Smaug.msg.messageParseCallback(msgText, contentEncoding, charset,
+                                          interactive, importOnly, messageUrl,
+                                          signature, retry + 1,
+                                          head, tail, msgUriSpec);
+        /*
         // Try to verify signature by accessing raw message text directly
         // (avoid recursion by setting retry parameter to false on callback)
         newSignature = "";
+    SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParseCallback: HER HERE HERE\n");
         Smaug.msg.msgDirectDecrypt(interactive, importOnly, contentEncoding, charset,
                                       newSignature, 0, head, tail, msgUriSpec,
                                       Smaug.msg.messageParseCallback);
+        */
+        // </EMO>
         return;
       }
       else if (retry == 3) {
         msgText = SmaugCommon.convertToUnicode(msgText, "UTF-8");
+    SmaugCommon.DEBUG_LOG("smaugMessengerOverlay.js: messageParseCallback: Retry 3\n");
         Smaug.msg.messageParseCallback(msgText, contentEncoding, charset, interactive,
                                           importOnly, messageUrl, null, retry + 1,
                                           head, tail, msgUriSpec);
