@@ -41,7 +41,7 @@ To get going using S/MIME and DANE, follow these steps:
 * Install libsmaug ( https://github.com/verisign/smaug ):
   * ```autoreconf -i && ./configure && make && sudo make install```
 * Compile Smaug Add-on (see &quot;Compiling&quot; Section, below):
-  * ``make``
+  * ``git clone https://github.com/verisign/smaug-tbird-plugin.git && cd smaug-tbird-plugin&& make``
 * Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
   * If you don't have an S/MIME certificate already, you can generate one using a script from libsmaug's
 installation: smime-gen.sh
