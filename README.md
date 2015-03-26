@@ -31,7 +31,7 @@ The origin of the work draws from the DANE working group in the IETF
 
   https://datatracker.ietf.org/wg/dane/charter/
 
-Authored by Eric Osterweil eosterweil@verisign.com
+Authored by Eric Osterweil eosterweil@verisign.com and Glen Wiley gwiley@verisign.com
 
 Quick Start Guide
 =================
