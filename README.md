@@ -43,7 +43,7 @@ to troubleshoot you will want to look at the smaug repo or elsewhere in this rep
   * ```autoreconf -i && ./configure && make && sudo make install```
 * Compile Smaug Add-on (see &quot;Compiling&quot; Section, below):
   * ``git clone https://github.com/verisign/smaug-tbird-plugin.git && cd smaug-tbird-plugin&& make``
-* Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
+* Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, below):
   * If you don't have an S/MIME certificate already, you can generate one using a script from libsmaug's
 installation: smime-gen.sh
   * Open Thunderbird
@@ -55,7 +55,11 @@ installation: smime-gen.sh
   * From the menu bar select "Smaug" -> "Key Management" menu, choose your S/MIME cert (~/sssmime/*-combined.pem by default)
   * Close the empty window that appears
 * Encode your S/MIME cert into DANE SMIMEA resource records (RRs):
-  * smimeagen &lt;your email address&gt; 3 0 0 &lt;your S/MIME cert file&gt; # (~/sssmime/*-combined.pem by default)
+  * ``smimeagen user@example.com 3 0 0 ~/sssmime/*-combined.pem``
+    * Replace &quot;user@example.com&quot; with your email address, and 
+if you already have an S/MIME cert elswhere that you would rather use, replace 
+&quot;~/sssmime/*-combined.pem&quot; with your certificate's path (this value
+is just the default location of S/MIME certificates that are generated when smime-gen.sh is used). 
 
 * Copy-and-paste the RRs into your zone.
 
