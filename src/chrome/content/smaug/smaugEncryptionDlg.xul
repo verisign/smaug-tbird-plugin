@@ -114,32 +114,11 @@
    </groupbox>
 
    <groupbox>
-     <caption label="&smaug.pgpMime.label;"/>
-     <radiogroup id="smaug_compose_popup_pgpmime">
-       <!-- SMG_UNDEF : 1 -->
-       <radio id="smaug_final_pgpmimeDefault"
-              value="1"
-              label="&smaug.finalPGPMimeDefault.label;"/>
-       <!-- SMG_ALWAYS : 2 -->
-       <radio id="smaug_final_pgpmimeYes"
-              value="2"
-              label="&smaug.finalPGPMimeYes.label;"/>
-       <!-- SMG_NEVER : 0 -->
-       <radio id="smaug_final_pgpmimeNo"
-              value="0"
-              label="&smaug.finalPGPMimeNo.label;"/>
-     </radiogroup>
-
-   </groupbox>
-
-   <groupbox>
      <caption label="&smaug.afterDefaultsAndRules.label;"/>
      <label id="smaug_compose_popup_encrypt_label"
               value="???"/>
      <label id="smaug_compose_popup_sign_label"
               value="???"/>
-     <label id="smaug_compose_popup_pgpmime_label"
-        value="???"/>
    </groupbox>
   </vbox>
 </dialog>

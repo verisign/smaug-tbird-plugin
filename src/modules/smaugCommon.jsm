@@ -3300,7 +3300,7 @@ function ConfigureSmaug(window, startingPreferences) {
   try {
     SmaugCommon.initPrefService();
     var vc = Cc["@mozilla.org/xpcom/version-comparator;1"].getService(Ci.nsIVersionComparator);
-    if (oldVer == "") {
+    if (oldVer == "-1") {
       SmaugCommon.openSetupWizard();
     }
     else {
