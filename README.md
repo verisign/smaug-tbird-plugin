@@ -40,7 +40,7 @@ To get going using S/MIME and DANE, follow these steps.  If you need
 to troubleshoot you will want to look at the smaug repo or elsewhere in this repo for more information:
 
 * Install libsmaug ( https://github.com/verisign/smaug ):
-  * ```autoreconf -i && ./configure && make && sudo make install```
+  * ```autoreconf -ivf && ./configure && make && sudo make install```
 * Compile Smaug Add-on (see &quot;Compiling&quot; Section, below):
   * ``git clone https://github.com/verisign/smaug-tbird-plugin.git && cd smaug-tbird-plugin&& make``
 * Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, below):
