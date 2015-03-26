@@ -36,7 +36,8 @@ Authored by Eric Osterweil eosterweil@verisign.com
 Quick Start Guide
 =================
 
-To get going using S/MIME and DANE, follow these steps:
+To get going using S/MIME and DANE, follow these steps.  If you need 
+to troubleshoot you will want to look at the smaug repo or elsewhere in this repo for more information:
 
 * Install libsmaug ( https://github.com/verisign/smaug ):
   * ```autoreconf -i && ./configure && make && sudo make install```
@@ -52,9 +53,10 @@ installation: smime-gen.sh
   * Restart Thunderbird
   * If the setup wizard appears close the wizard
   * From the menu bar select "Smaug" -> "Key Management" menu, choose your S/MIME cert (~/sssmime/*-combined.pem by default)
-  * Close the stupid empty window that appears
+  * Close the empty window that appears
 * Encode your S/MIME cert into DANE SMIMEA resource records (RRs):
-  * smimeagen &lt;your email address&gt; 3 0 0 &lt;your S/MIME cert file&gt;
+  * smimeagen &lt;your email address&gt; 3 0 0 &lt;your S/MIME cert file&gt; # (~/sssmime/*-combined.pem by default)
+
 * Copy-and-paste the RRs into your zone.
 
 Compiling
