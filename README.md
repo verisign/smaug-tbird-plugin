@@ -1,5 +1,22 @@
-The software and code contained herein has absolutely no guarantee written or implied.
-USE AT YOUR OWN RISK !!!
+TRUE INTERNET-SCALE OBJECT SECURITY
+===========
+
+We have a problem with security in the Internet today, and it's not new.  Before we can encrypt data or 
+verify signatures, we need a way for someone bootstrap and learn what cryptographic keys are needed.
+Our security protocols have not formally specified a standardized way to securely bootstrap protocols, until
+now.
+
+Recently, however, a simple observation has sparked a flurry of innovation: for those protocols that use DNS,
+secure key learning can be accomplished from DNS itself, and verified by the DNS Security Extensions
+(DNSSEC).
+The IETF has started standardizing a suite of protocols called DNS-based Authentication of Named Entities
+[DANE](https://datatracker.ietf.org/wg/dane/charter/) to do secure key learning in a general way for 
+Internet services.  
+
+Among the things that DANE gives us is the ability to do true inter-organizational secure email (encrypting
+email to anyone, verifying signatures without heavy managed PKIs, etc.).  This code offers a plugin to
+Thunderbird to let users actually get true inter-organizational secure S/MIME email.
+
 
 SMAUG Thunderbird Plugin
 ==========
@@ -80,7 +97,8 @@ To get going using S/MIME and DANE, follow these steps:
 * Compile Smaug Add-on (see &quot;Compiling&quot; Section, above):
   * ``make``
 * Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
-  * Generate an S/MIME cert (if you don't have one already): $(libsmaug_dir)/scripts/smime-gen.sh
+  * If you don't have an S/MIME certificate already, you can generate one using a script from libsmaug's
+installation: smime-gen.sh
   * Open Thunderbird
   * "Tools -> Add-ons"
   * "Tools for all add-ons" button 
