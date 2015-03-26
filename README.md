@@ -33,6 +33,27 @@ The origin of the work draws from the DANE working group in the IETF
 
 Authored by Eric Osterweil eosterweil@verisign.com
 
+Quick Start Guide
+=================
+
+To get going using S/MIME and DANE, follow these steps:
+
+* Install libsmaug ( https://github.com/verisign/smaug ):
+  * ```autoreconf -i && ./configure && make && sudo make install```
+* Compile Smaug Add-on (see &quot;Compiling&quot; Section, below):
+  * ``make``
+* Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
+  * If you don't have an S/MIME certificate already, you can generate one using a script from libsmaug's
+installation: smime-gen.sh
+  * Open Thunderbird
+  * "Tools -> Add-ons"
+  * "Tools for all add-ons" button 
+  * "Install add-on from file..." -> choose "smaug.xpi"
+  * "Smaug" -> "Key Management" menu, choose your S/MIME cert (from above)
+* Encode your S/MIME cert into DANE SMIMEA resource records (RRs):
+  * smimeagen &lt;your email address&gt; 3 0 0 &lt;your S/MIME cert file&gt;
+* Copy-and-paste the RRs into your zone.
+
 Compiling
 ===========
 
@@ -86,24 +107,3 @@ the other hand, you prefer to manage the material in your own zone, this is how 
 certificate into SMIMEA records.
 * Copy-and-paste the output of ``smimeagen`` into your DNS zone file, re-sign your zone, and reload it.
 * Whenever you change your S/MIME certificate(s), be sure you update your DNS zone.
-
-Quick Start Guide
-=================
-
-To get going using S/MIME and DANE, follow these steps:
-
-* Install libsmaug ( https://github.com/verisign/smaug ):
-  * ```autoreconf -i && ./configure && make && sudo make install```
-* Compile Smaug Add-on (see &quot;Compiling&quot; Section, above):
-  * ``make``
-* Install Add-on (see &quot;Thunderbird Extension Installation&quot; Section, above):
-  * If you don't have an S/MIME certificate already, you can generate one using a script from libsmaug's
-installation: smime-gen.sh
-  * Open Thunderbird
-  * "Tools -> Add-ons"
-  * "Tools for all add-ons" button 
-  * "Install add-on from file..." -> choose "smaug.xpi"
-  * "Smaug" -> "Key Management" menu, choose your S/MIME cert (from above)
-* Encode your S/MIME cert into DANE SMIMEA resource records (RRs):
-  * smimeagen &lt;your email address&gt; 3 0 0 &lt;your S/MIME cert file&gt;
-* Copy-and-paste the RRs into your zone.
