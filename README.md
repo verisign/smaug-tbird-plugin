@@ -6,7 +6,14 @@ verify signatures, we need a way for someone bootstrap and learn what cryptograp
 Our security protocols have not formally specified a standardized way to securely bootstrap protocols, until
 now.
 
-Recently, however, a simple observation has sparked a flurry of innovation: for those protocols that use DNS,
+What does that mean?  Do you want anyone, anywhere, to be able to send you encrypted email (even if you've
+never met them, have never done a key signing ceremony with them, etc)?  Automatically get encrypted 
+emails that only _you_ can decrypt, which are not stored on the server as anything other than cipher 
+text?  Do you want anyone to unambiguously be able to verify signatures on your emails (so they know 
+they came from you and were not tampered with or modified)?  How about all of this _for free_?!?
+
+That is the spirit behind DANE and this open source code!
+Recently, a simple observation has sparked a flurry of innovation: for those protocols that use DNS,
 secure key learning can be accomplished from DNS itself, and verified by the DNS Security Extensions
 (DNSSEC).
 The IETF has started standardizing a suite of protocols called DNS-based Authentication of Named Entities
@@ -16,6 +23,7 @@ Internet services.
 Among the things that DANE gives us is the ability to do true inter-organizational secure email (encrypting
 email to anyone, verifying signatures without heavy managed PKIs, etc.).  This code offers a plugin to
 Thunderbird to let users actually get true inter-organizational secure S/MIME email.
+
 
 
 SMAUG Thunderbird Plugin
