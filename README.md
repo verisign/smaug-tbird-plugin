@@ -1,4 +1,4 @@
-TRUE INTERNET-SCALE OBJECT SECURITY
+TRUE INTERNET-SCALE EMAIL SECURITY
 ===========
 
 We have a problem with security in the Internet today, and it's not new.  Before we can encrypt data or 
