@@ -141,8 +141,15 @@ var Libsmaug = {
 
   init: function() {
     try
-    {
-      libsmaug = ctypes.open("libsmaug.dylib");
+      {
+	  try {
+	      /* Mac OS X */
+	      libsmaug = ctypes.open("libsmaug.dylib");
+	  } catch (e) {
+	      /* Linux */
+	      libsmaug = ctypes.open("libsmaug.so");
+	      
+	  }
 
       // declare functions
       prime = libsmaug.declare("smg_init",
